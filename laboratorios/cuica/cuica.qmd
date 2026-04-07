@@ -1,0 +1,12 @@
+---
+title: "CUÍCA"
+categories: ["Computational Complexity", "Sheaf Theory"]
+---
+
+CUÍCA é um laboratório situado no Instituto de Matemática, Estatística e Ciência da Computação (IME) da Universidade de São Paulo (USP).
+
+## Link para o site
+...
+
+## Email
+...

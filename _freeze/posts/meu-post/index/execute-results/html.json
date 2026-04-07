@@ -1,0 +1,12 @@
+{
+  "hash": "78e9304b92bde52774a0d2a5420700e6",
+  "result": {
+    "engine": "julia",
+    "markdown": "---\ntitle: \"Pequeno teste\"\nauthor: \"Paulo Dias\"\ndate: \"2026-04-06\"\ncategories: [\"Introdução\"]\n---\n\nEste é um pequeno teste.\n\n\nVeja só o que a linguagem Julia processa enquanto esse site é construído:\n\n::: {#2 .cell execution_count=1}\n``` {.julia .cell-code}\nx = 5\ny = 10\nprintln(\"A multiplicação é: \", x * y)\n```\n\n::: {.cell-output .cell-output-stdout}\n```\nA multiplicação é: 50\n```\n:::\n:::\n\n\n\n[@exemplo]\n\n# Teste 1\n\n## Teste 2\n\n# Último teste\n\n",
+    "supporting": [
+      "index_files"
+    ],
+    "filters": [],
+    "includes": {}
+  }
+}

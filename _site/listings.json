@@ -1,0 +1,22 @@
+[
+  {
+    "listing": "/index.html",
+    "items": [
+      "/posts/meu-post/index.html",
+      "/posts/post-with-code/index.html",
+      "/posts/welcome/index.html"
+    ]
+  },
+  {
+    "listing": "/pesquisadores.html",
+    "items": [
+      "/pesquisadores/bumpus/bumpus.html"
+    ]
+  },
+  {
+    "listing": "/laboratorios.html",
+    "items": [
+      "/laboratorios/cuica/cuica.html"
+    ]
+  }
+]
