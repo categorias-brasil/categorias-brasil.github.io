@@ -1,0 +1,114 @@
+[
+  {
+    "objectID": "laboratorios/cuica/cuica.html",
+    "href": "laboratorios/cuica/cuica.html",
+    "title": "CUÍCA",
+    "section": "",
+    "text": "CUÍCA é um laboratório situado no Instituto de Matemática, Estatística e Ciência da Computação (IME) da Universidade de São Paulo (USP)."
+  },
+  {
+    "objectID": "laboratorios/cuica/cuica.html#link-para-o-site",
+    "href": "laboratorios/cuica/cuica.html#link-para-o-site",
+    "title": "CUÍCA",
+    "section": "Link para o site",
+    "text": "Link para o site\n…"
+  },
+  {
+    "objectID": "laboratorios/cuica/cuica.html#email",
+    "href": "laboratorios/cuica/cuica.html#email",
+    "title": "CUÍCA",
+    "section": "Email",
+    "text": "Email\n…"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Blog",
+    "section": "",
+    "text": "Pequeno teste\n\n\n\nIntrodução\n\n\n\n\n\n\n\n\n\nApr 6, 2026\n\n\nPaulo Dias\n\n\n\n\n\n\n\n\n\n\n\n\nPost With Code\n\n\n\nnews\n\ncode\n\nanalysis\n\n\n\n\n\n\n\n\n\nMar 23, 2023\n\n\nHarlow Malloc\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome To My Blog\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nMar 20, 2023\n\n\nTristan O’Malley\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "posts/post-with-code/index.html",
+    "href": "posts/post-with-code/index.html",
+    "title": "Post With Code",
+    "section": "",
+    "text": "This is a post with executable code."
+  },
+  {
+    "objectID": "posts/welcome/index.html",
+    "href": "posts/welcome/index.html",
+    "title": "Welcome To My Blog",
+    "section": "",
+    "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
+  },
+  {
+    "objectID": "laboratorios.html",
+    "href": "laboratorios.html",
+    "title": "Laboratórios",
+    "section": "",
+    "text": "Aqui estão os laboratórios que trabalham com Teoria das Categorias no Brasil:\n\n\n\n\n\n\n\n\n\n\n\n\nCUÍCA\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "pesquisadores.html",
+    "href": "pesquisadores.html",
+    "title": "Pesquisadores",
+    "section": "",
+    "text": "Aqui estão os pesquisadores que trabalham com Teoria das Categorias no Brasil:\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBenjamin Merlin Bumpus\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "posts/meu-post/index.html",
+    "href": "posts/meu-post/index.html",
+    "title": "Pequeno teste",
+    "section": "",
+    "text": "Este é um pequeno teste.\nVeja só o que a linguagem Julia processa enquanto esse site é construído:\nCódigo\nx = 5\ny = 10\nprintln(\"A multiplicação é: \", x * y)\n\n\nA multiplicação é: 50\n(Dias 2026)"
+  },
+  {
+    "objectID": "posts/meu-post/index.html#teste-2",
+    "href": "posts/meu-post/index.html#teste-2",
+    "title": "Pequeno teste",
+    "section": "Teste 2",
+    "text": "Teste 2"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this blog"
+  },
+  {
+    "objectID": "pesquisadores/bumpus/bumpus.html",
+    "href": "pesquisadores/bumpus/bumpus.html",
+    "title": "Benjamin Merlin Bumpus",
+    "section": "",
+    "text": "Benjamin Merlin Bumpus é um pesquisador."
+  },
+  {
+    "objectID": "pesquisadores/bumpus/bumpus.html#instituição",
+    "href": "pesquisadores/bumpus/bumpus.html#instituição",
+    "title": "Benjamin Merlin Bumpus",
+    "section": "Instituição",
+    "text": "Instituição\nUniversidade de São Paulo (USP)"
+  },
+  {
+    "objectID": "pesquisadores/bumpus/bumpus.html#formação-acadêmica",
+    "href": "pesquisadores/bumpus/bumpus.html#formação-acadêmica",
+    "title": "Benjamin Merlin Bumpus",
+    "section": "Formação Acadêmica",
+    "text": "Formação Acadêmica"
+  },
+  {
+    "objectID": "pesquisadores/bumpus/bumpus.html#link-para-o-site-pessoal",
+    "href": "pesquisadores/bumpus/bumpus.html#link-para-o-site-pessoal",
+    "title": "Benjamin Merlin Bumpus",
+    "section": "Link para o site pessoal",
+    "text": "Link para o site pessoal\nhttps://bmbumpus.com/about-me/"
+  },
+  {
+    "objectID": "pesquisadores/bumpus/bumpus.html#email",
+    "href": "pesquisadores/bumpus/bumpus.html#email",
+    "title": "Benjamin Merlin Bumpus",
+    "section": "Email",
+    "text": "Email\n…"
+  }
+]
