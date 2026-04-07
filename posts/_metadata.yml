@@ -1,0 +1,18 @@
+# options specified here will apply to all posts in this folder
+
+# freeze computational output
+# (see https://quarto.org/docs/projects/code-execution.html#freeze)
+freeze: true
+
+## General
+toc: true
+toc-title: On this page
+toc-location: right
+anchor-sections: true
+title-block-banner: false
+lang: pt-BR
+
+## Code
+code-fold: show
+code-line-numbers: true
+code-copy: true

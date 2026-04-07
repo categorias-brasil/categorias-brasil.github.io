@@ -1,0 +1,7 @@
+---
+title: "Laboratórios"
+listing:
+    contents: laboratorios
+    type: grid
+---
+Aqui estão os laboratórios que trabalham com Teoria das Categorias no Brasil:

@@ -1,0 +1,12 @@
+{
+  "hash": "c170f17fd623c67fbfc81f805a7c2977",
+  "result": {
+    "engine": "julia",
+    "markdown": "---\ntitle: \"Post With Code\"\nauthor: \"Harlow Malloc\"\ndate: \"2023-03-23\"\ncategories: [news, code, analysis]\nimage: \"image.jpg\"\nengine: julia\n---\n\nThis is a post with executable code.\n\n",
+    "supporting": [
+      "index_files"
+    ],
+    "filters": [],
+    "includes": {}
+  }
+}

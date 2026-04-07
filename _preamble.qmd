@@ -1,0 +1,74 @@
+:::{.hidden}
+$$
+<!-- Number systems -->
+\newcommand{\N}{\mathbb{N}}
+\newcommand{\Z}{\mathbb{Z}}
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\C}{\mathbb{C}}
+
+<!-- Categories -->
+\newcommand{\then}{\operatorname{⨟}}
+\newcommand{\cat}[1]{\mathsf{#1}}
+\newcommand{\CAT}[1]{\mathsf{#1}}
+\newcommand{\Sch}[1]{\mathsf{Sch}(#1)}
+\newcommand{\op}{\mathrm{op}}
+\newcommand{\Kl}{\operatorname{Kl}}
+\newcommand{\Set}{\CAT{Set}}
+\newcommand{\FinSet}{\CAT{FinSet}}
+\newcommand{\catSet}[1]{\cat{#1}\text{-}\Set}
+\newcommand{\Hom}{\operatorname{Hom}}
+\newcommand{\dom}{\operatorname{dom}}
+\newcommand{\codom}{\operatorname{codom}}
+\newcommand{\id}{\operatorname{id}}
+
+\newcommand{\Sub}{\operatorname{Sub}}
+\newcommand{\non}{\mathord{\sim}}
+
+<!-- Graphs -->
+\newcommand{\src}{\operatorname{src}}
+\newcommand{\tgt}{\operatorname{tgt}}
+\newcommand{\inv}{\operatorname{inv}}
+\newcommand{\refl}{\operatorname{refl}}
+\newcommand{\vert}{\operatorname{vert}}
+
+\newcommand{\Graph}{\CAT{Graph}}
+\newcommand{\SGraph}{\CAT{SGraph}}
+\newcommand{\RGraph}{\CAT{RGraph}}
+\newcommand{\HGraph}{\CAT{HGraph}}
+\newcommand{\RotSys}{\CAT{RotSys}}
+
+<!-- Double categories -->
+\newcommand{\dbl}[1]{\mathbb{#1}}
+\newcommand{\Prof}{\mathbb{P}\mathsf{rof}}
+\newcommand{\pto}{⇸}
+
+<!-- Acsets -->
+\newcommand{\Attr}{\operatorname{Attr}}
+\newcommand{\Arr}{\operatorname{Arr}}
+\newcommand{\edec}{\operatorname{edec}}
+\newcommand{\vdec}{\operatorname{vdec}}
+
+<!-- Wiring diagrams -->
+\newcommand{\PortGraph}{\cat{PortGraph}}
+\newcommand{\CPG}{\cat{CPG}}
+\newcommand{\SIPortGraph}{\cat{SIPortGraph}}
+\newcommand{\OpenCPG}{\cat{OpenCPG}}
+\newcommand{\DWD}{\cat{DWD}}
+\newcommand{\UWD}{\cat{UWD}}
+\newcommand{\WD}{\cat{WD}}
+\newcommand{\UPortGraph}{\cat{UPortGraph}}
+\newcommand{\Pin}{P_{\textrm{in}}}
+\newcommand{\Pout}{P_{\textrm{out}}}
+\newcommand{\Box}{\textrm{Box}}
+\newcommand{\inbox}{\operatorname{box_{in}}}
+\newcommand{\outbox}{\operatorname{box_{out}}}
+\newcommand{\wire}{\operatorname{wire}}
+
+\newcommand{\E}{\mathrm{Expr}}
+\newcommand{\catC}{\cat{C}}
+\newcommand{\catD}{\cat{D}}
+
+<!-- Dynamical systems -->
+\newcommand{\Arena}[2]{\begin{pmatrix}#2 \\ #1\end{pmatrix}}
+$$
+:::

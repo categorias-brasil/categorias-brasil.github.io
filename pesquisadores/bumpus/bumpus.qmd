@@ -1,0 +1,18 @@
+---
+title: "Benjamin Merlin Bumpus"
+image: "bumpus2.webp"
+categories: ["Professor Doutor", "Computational Complexity", "Sheaf Theory"]
+---
+
+Benjamin Merlin Bumpus é um pesquisador.
+
+## Instituição
+Universidade de São Paulo (USP)
+
+## Formação Acadêmica
+
+## Link para o site pessoal
+<https://bmbumpus.com/about-me/>
+
+## Email
+...

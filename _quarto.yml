@@ -1,0 +1,36 @@
+project:
+  type: website
+
+execute:
+  freeze: auto
+
+bibliography: bibliography.bib
+
+website:
+  title: Teoria das Categorias no Brasil
+  navbar:
+    background: primary
+    collapse-below: sm
+    right:
+      - about.qmd
+      - pesquisadores.qmd
+      - laboratorios.qmd
+      - text: "menu"
+        menu:
+          - text: "Github"
+            href: https://github.com/
+          - text: "LinkedIn"
+            href: https://linkedin.com/
+format:
+  html:
+    html-math-method: katex
+    theme:
+      light: flatly
+      dark: darkly
+    css: styles.css
+    monofont: JuliaMono-Regular
+
+from: markdown+tex_math_single_backslash
+
+filters:
+  - filters.lua
