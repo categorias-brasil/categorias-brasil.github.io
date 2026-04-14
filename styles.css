@@ -85,3 +85,25 @@ div.proof:after {
 .quarto-title-banner {
   background-color: var(--color-primary) !important;
 }
+
+.nav-footer {
+  background-color: var(--color-quaternary);
+  border-top: 1px solid var(--color-tertiary);
+  padding: 2rem 0;
+  font-size: 0.85rem;
+  color: #666;
+}
+
+.nav-footer-center {
+  font-weight: 600;
+  color: var(--color-primary);
+}
+
+.nav-footer a {
+  color: var(--color-secondary);
+  text-decoration: none;
+}
+
+.nav-footer a:hover {
+  text-decoration: underline;
+}

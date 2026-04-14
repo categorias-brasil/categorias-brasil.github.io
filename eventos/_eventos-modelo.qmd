@@ -1,0 +1,11 @@
+---
+title: "Nome do Evento"
+date: "YYYY-MM-DD"
+categories: ["Local/Modalidade", "Tema"]
+draft: true
+---
+
+Descreva o evento, a expectativa de público e a programação base.
+
+## Website Oficial
+<https://link-do-evento.com>

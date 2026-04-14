@@ -1,0 +1,12 @@
+{
+  "hash": "89dcd043debe183f321d8f6c041c3bf9",
+  "result": {
+    "engine": "julia",
+    "markdown": "---\nauthor: Paulo Dias\ncategories:\n- Introdução\ndate: 2026-04-06\ndraft: true\nengine: julia\ntitle: Pequeno teste\n---\n\nSince this post doesn't specify an explicit `image`, the first image in the post\nwill be used in the listing page of posts.\n\n``` julia\nx = 5\ny = 10\nprintln(\"A multiplicação é: \", x * y)\n```\n\n[@exemplo]\n\n",
+    "supporting": [
+      "index_files"
+    ],
+    "filters": [],
+    "includes": {}
+  }
+}

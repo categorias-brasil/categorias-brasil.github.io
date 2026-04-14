@@ -1,0 +1,20 @@
+---
+title: "Nome do Pesquisador(a)"
+image: "sua_imagem.jpg"
+categories: ["Grau ou Cargo", "Área de Pesquisa", "Estado ou Localidade"]
+draft: true
+---
+
+Breve descrição ou biografia resumida.
+
+## Instituição
+Nome da Instituição à qual o pesquisador está vinculado
+
+## Formação Acadêmica
+Lista da formação principal
+
+## Link para o site pessoal
+<https://seusite.com>
+
+## Email
+seu_email@exibir.aqui

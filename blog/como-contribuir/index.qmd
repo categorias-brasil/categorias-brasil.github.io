@@ -1,0 +1,42 @@
+---
+author: Paulo Dias
+categories:
+- Tutorial
+date: 2026-04-13
+title: Como contribuir com o site
+---
+
+## Repositório
+
+Toda a infraestrutura do site está hospedada publicamente em:
+<https://github.com/categorias-brasil/categorias-brasil.github.io>
+
+## Como Contribuir
+
+Existem várias formas de ajudar a melhorar esta plataforma:
+
+### 1. Correções e Sugestões
+
+Se você encontrar erros de digitação, links quebrados ou informações
+desatualizadas, você pode:
+
+- Abrir um **Issue** no GitHub descrevendo o problema;
+- Fazer a correção diretamente via **Pull Request**.
+
+### 2. Melhorias Técnicas
+
+O site é construído utilizando [Quarto](https://quarto.org/). Se você tem
+conhecimentos em Markdown/Quarto e CSS, sinta-se à vontade para propor melhorias
+estruturais que tornem a experiência do usuário mais agradável.
+
+### 3. Conteúdo Científico
+
+Você também pode incluir novos materiais no Acervo, divulgar novos eventos, ou
+realizar postagens no Blog. A estrutura é baseada em arquivos Markdown simples,
+facilitando a adição de novos conteúdos.
+
+## Licença
+
+Ao contribuir, você aceita que seu trabalho será disponibilizado sob a licença
+MIT, permitindo que a comunidade continue a utilizar e melhorar o site de forma
+livre e aberta.

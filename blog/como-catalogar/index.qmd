@@ -1,0 +1,59 @@
+---
+author: Paulo Dias
+categories:
+- Tutorial
+date: 2026-04-13
+title: Como catalogar pesquisadores e laboratórios
+---
+
+## Por que se catalogar?
+
+Ao fazer parte deste site, você aumenta a visibilidade do seu trabalho e
+facilita que novos estudantes e colaboradores encontrem seu trabalho ou grupo de
+pesquisa, fortalecendo a área no Brasil. Veja como pode nos ajudar a manter este
+catálogo atualizado.
+
+## Formas de Participar
+
+Existem duas maneiras principais de catalogar suas informações: via **GitHub**
+(para quem prefere lidar diretamente com o código) ou via **E-mail** (para quem
+busca praticidade).
+
+### 1. Via GitHub
+
+Nosso site é de código aberto e utiliza o Quarto. Se você tem familiaridade com
+Git e GitHub, siga estes passos:
+
+1.  Acesse nosso repositório:
+    [categorias-brasil/categorias-brasil.github.io](https://github.com/categorias-brasil/categorias-brasil.github.io){target="_blank"}.
+2.  Faça um **Fork** do projeto.
+3.  Crie um diretório com o seu nome (ou nome do laboratório) e adicione um
+    arquivo `.qmd` com esse mesmo nome dentro dele:
+    - Para pesquisadores: `pesquisadores/seu-nome/seu-nome.qmd`
+    - Para laboratórios: `laboratorios/nome-do-lab/nome-do-lab.qmd`
+    - *Dica: Ao criar um diretório próprio, você pode colocar sua foto ou logo
+      na mesma pasta, o que facilita a organização.*
+4.  Use os modelos existentes como base para preencher seus dados:
+    - Modelo para pessoas: `pesquisadores/_pesquisadores-modelo.qmd`
+    - Modelo para laboratórios: `laboratorios/_laboratorios-modelo.qmd`
+5.  Envie um **Pull Request**.
+6.  No nosso **[README no
+    GitHub](https://github.com/categorias-brasil/categorias-brasil.github.io#como-contribuir){target="_blank"}**,
+    você encontra um guia ainda mais detalhado com todos os comandos de Git
+    necessários.
+
+### 2. Via E-mail
+
+Se preferir, você pode enviar os dados diretamente para a nossa equipe. Basta
+enviar um e-mail para:
+
+**<categoriasbrasil@gmail.com>**
+
+No e-mail, inclua as seguintes informações:
+
+- Nome completo ou nome do laboratório;
+- Afiliação institucional (universidade, instituto, etc.);
+- Link para Currículo Lattes e/ou site pessoal;
+- Principais áreas de pesquisa em Teoria das Categorias;
+- Opcional: Uma foto de perfil ou logo do laboratório;
+- Opcional: Qualquer outra informação extra que julgar relevante.

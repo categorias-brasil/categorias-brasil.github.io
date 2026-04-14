@@ -1,10 +1,9 @@
 project:
   type: website
 
-execute:
-  freeze: auto
+lang: pt-BR
 
-bibliography: bibliography.bib
+bibliography: bibliografia.bib
 
 website:
   title: Teoria das Categorias no Brasil
@@ -12,15 +11,18 @@ website:
     background: primary
     collapse-below: sm
     right:
-      - about.qmd
+      - blog.qmd
       - pesquisadores.qmd
       - laboratorios.qmd
-      - text: "menu"
-        menu:
-          - text: "Github"
-            href: https://github.com/
-          - text: "LinkedIn"
-            href: https://linkedin.com/
+      - eventos.qmd
+      - acervo.qmd
+  page-footer:
+    left: "Sugestões ou dúvidas? [categoriasbrasil@gmail.com](mailto:categoriasbrasil@gmail.com)"
+    center: "Teoria das Categorias no Brasil"
+    right: 
+      - text: "Este site é código aberto"
+      - icon: github
+        href: https://github.com/categorias-brasil/categorias-brasil.github.io
 format:
   html:
     html-math-method: katex

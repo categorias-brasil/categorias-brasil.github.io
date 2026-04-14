@@ -1,7 +1,16 @@
 ---
-title: "Pesquisadores"
 listing:
-    contents: pesquisadores
-    type: grid
+  categories: true
+  contents: pesquisadores
+  filter-ui: true
+  sort-ui: false
+  type: grid
+page-layout: full
+title: Pesquisadores
+title-block-banner: true
 ---
-Aqui estão os pesquisadores que trabalham com Teoria das Categorias no Brasil:
+
+Aqui estão os pesquisadores que trabalham com Teoria das Categorias no Brasil.
+Você pode usar a busca ou o painel de categorias ao lado para filtrar por cargo,
+área ou localização.
+

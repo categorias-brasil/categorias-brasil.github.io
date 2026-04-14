@@ -1,0 +1,16 @@
+---
+title: "Nome do Laboratório ou Grupo de Pesquisa"
+categories: ["Área de Atuação", "Local ou Instituição"]
+draft: true
+---
+
+Descrição breve do laboratório/grupo e sua área englobada.
+
+## Localização
+(Ex: IME-USP)
+
+## Link para o site
+<https://link-do-lab.br>
+
+## Email
+email_do_lab@exibir.aqui

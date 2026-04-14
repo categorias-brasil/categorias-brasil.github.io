@@ -1,0 +1,13 @@
+---
+listing:
+  categories: true
+  contents: eventos
+  filter-ui: true
+  sort: date desc
+  sort-ui: true
+  type: default
+page-layout: full
+title: Eventos
+title-block-banner: true
+---
+

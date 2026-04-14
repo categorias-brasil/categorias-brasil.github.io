@@ -1,7 +1,14 @@
 ---
 title: "Laboratórios"
 listing:
-    contents: laboratorios
-    type: grid
+  contents: laboratorios
+  type: grid
+  categories: true
+  filter-ui: true
+  sort-ui: false
+page-layout: full
+title-block-banner: true
 ---
-Aqui estão os laboratórios que trabalham com Teoria das Categorias no Brasil:
+
+Aqui estão os laboratórios que trabalham com Teoria das Categorias no Brasil.
+Você pode filtrar através das categorias ao lado.

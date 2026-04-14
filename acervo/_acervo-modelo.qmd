@@ -1,0 +1,14 @@
+---
+author: Autor
+categories:
+- Tipo de Material
+date: YYYY-MM-DD
+draft: true
+title: Título do Material do Acervo
+---
+
+Descreva o material presente no acervo.
+
+## Acesso e Localização
+
+<https://link-ou-local-fisico.com>

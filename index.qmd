@@ -1,14 +1,50 @@
 ---
-title: "Blog"
-listing:
-  contents: posts
-  sort: "date desc"
-  type: default
-  categories: true
-  sort-ui: false
-  filter-ui: false
 page-layout: full
 title-block-banner: true
 ---
 
+# Nosso Objetivo
 
+Este site é dedicado à **divulgação científica da Teoria das Categorias no
+Brasil**. Nosso objetivo é fortalecer a comunidade nacional ao reunir
+pesquisadores, laboratórios, eventos e materiais de referência em um único local
+acessível.
+
+A Teoria das Categorias desempenha um papel fundamental na matemática moderna e
+na ciência da computação, servindo como uma linguagem multidisciplinar. Através
+desta plataforma, buscamos ampliar a visibilidade dessa área no cenário
+acadêmico brasileiro.
+
+## Como Participar
+
+Queremos que este catálogo seja o mais completo possível! Você pode participar
+ativamente da construção deste ecossistema:
+
+- **Seja Catalogado:** Se você é um pesquisador ou faz parte de um laboratório
+  na área, veja [como se incluir no site](blog/como-catalogar/index.qmd).
+
+::: {.callout-tip title="Contato Direto"}
+Prefere algo mais simples? Caso não queira realizar um Pull Request, você pode
+enviar suas informações diretamente para
+[**categoriasbrasil@gmail.com**](mailto:categoriasbrasil@gmail.com).
+:::
+
+- **Contribua com o Site:** Sendo um projeto de código aberto, aceitamos
+  melhorias no código e no conteúdo. Veja [como contribuir com o
+  site](blog/como-contribuir/index.qmd).
+
+## Objetivo do Projeto
+
+Buscamos centralizar informações essenciais que facilitam a colaboração entre
+pesquisadores e incentivam o interesse de estudantes pela Teoria das Categorias.
+Aqui você encontrará:
+
+- [**Pesquisadores:**](pesquisadores.qmd) Uma lista de acadêmicos atuantes no
+  país ou brasileiros no exterior.
+
+- [**Laboratórios:**](laboratorios.qmd) Grupos e centros de pesquisa dedicados
+  ao tema.
+
+- [**Eventos:**](eventos.qmd) Conferências, workshops e seminários.
+
+- [**Acervo:**](acervo.qmd) Referências bibliográficas e materiais úteis.

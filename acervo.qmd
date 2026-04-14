@@ -1,0 +1,9 @@
+---
+listing:
+  contents: acervo
+  type: grid
+page-layout: full
+title: Acervo
+title-block-banner: true
+---
+

@@ -1,0 +1,9 @@
+---
+title: "Título da Postagem Modelo"
+author: "Nome do Autor"
+date: "YYYY-MM-DD"
+categories: ["Sua Categoria"]
+draft: true
+---
+
+Insira o conteúdo da sua postagem aqui. Use as facilidades de formatação Markdown.
