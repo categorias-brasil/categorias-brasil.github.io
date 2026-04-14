@@ -1,16 +1,19 @@
 [
   {
+    "listing": "/eventos.html",
+    "items": []
+  },
+  {
     "listing": "/laboratorios.html",
     "items": [
       "/laboratorios/cuica/cuica.html"
     ]
   },
   {
-    "listing": "/index.html",
+    "listing": "/blog.html",
     "items": [
-      "/posts/meu-post/index.html",
-      "/posts/post-with-code/index.html",
-      "/posts/welcome/index.html"
+      "/blog/como-catalogar/index.html",
+      "/blog/como-contribuir/index.html"
     ]
   },
   {
@@ -18,5 +21,9 @@
     "items": [
       "/pesquisadores/bumpus/bumpus.html"
     ]
+  },
+  {
+    "listing": "/acervo.html",
+    "items": []
   }
 ]

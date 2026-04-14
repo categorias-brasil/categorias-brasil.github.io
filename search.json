@@ -1,17 +1,38 @@
 [
   {
-    "objectID": "posts/welcome/index.html",
-    "href": "posts/welcome/index.html",
-    "title": "Welcome To My Blog",
+    "objectID": "eventos.html",
+    "href": "eventos.html",
+    "title": "Eventos",
     "section": "",
-    "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
+    "text": "Sem itens correspondentes"
   },
   {
-    "objectID": "posts/post-with-code/index.html",
-    "href": "posts/post-with-code/index.html",
-    "title": "Post With Code",
+    "objectID": "blog/como-contribuir/index.html",
+    "href": "blog/como-contribuir/index.html",
+    "title": "Como contribuir com o site",
     "section": "",
-    "text": "This is a post with executable code."
+    "text": "Toda a infraestrutura do site está hospedada publicamente em: https://github.com/categorias-brasil/categorias-brasil.github.io"
+  },
+  {
+    "objectID": "blog/como-contribuir/index.html#repositório",
+    "href": "blog/como-contribuir/index.html#repositório",
+    "title": "Como contribuir com o site",
+    "section": "",
+    "text": "Toda a infraestrutura do site está hospedada publicamente em: https://github.com/categorias-brasil/categorias-brasil.github.io"
+  },
+  {
+    "objectID": "blog/como-contribuir/index.html#como-contribuir",
+    "href": "blog/como-contribuir/index.html#como-contribuir",
+    "title": "Como contribuir com o site",
+    "section": "Como Contribuir",
+    "text": "Como Contribuir\nExistem várias formas de ajudar a melhorar esta plataforma:\n\n1. Correções e Sugestões\nSe você encontrar erros de digitação, links quebrados ou informações desatualizadas, você pode:\n\nAbrir um Issue no GitHub descrevendo o problema;\nFazer a correção diretamente via Pull Request.\n\n\n\n2. Melhorias Técnicas\nO site é construído utilizando Quarto. Se você tem conhecimentos em Markdown/Quarto e CSS, sinta-se à vontade para propor melhorias estruturais que tornem a experiência do usuário mais agradável.\n\n\n3. Conteúdo Científico\nVocê também pode incluir novos materiais no Acervo, divulgar novos eventos, ou realizar postagens no Blog. A estrutura é baseada em arquivos Markdown simples, facilitando a adição de novos conteúdos."
+  },
+  {
+    "objectID": "blog/como-contribuir/index.html#licença",
+    "href": "blog/como-contribuir/index.html#licença",
+    "title": "Como contribuir com o site",
+    "section": "Licença",
+    "text": "Licença\nAo contribuir, você aceita que seu trabalho será disponibilizado sob a licença MIT, permitindo que a comunidade continue a utilizar e melhorar o site de forma livre e aberta."
   },
   {
     "objectID": "pesquisadores/bumpus/bumpus.html",
@@ -42,18 +63,25 @@
     "text": "Link para o site pessoal\nhttps://bmbumpus.com/about-me/"
   },
   {
-    "objectID": "pesquisadores/bumpus/bumpus.html#email",
-    "href": "pesquisadores/bumpus/bumpus.html#email",
+    "objectID": "pesquisadores/bumpus/bumpus.html#email-de-contato",
+    "href": "pesquisadores/bumpus/bumpus.html#email-de-contato",
     "title": "Benjamin Merlin Bumpus",
-    "section": "Email",
-    "text": "Email\n…"
+    "section": "Email de contato",
+    "text": "Email de contato\n…"
   },
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
+    "objectID": "laboratorios.html",
+    "href": "laboratorios.html",
+    "title": "Laboratórios",
     "section": "",
-    "text": "About this blog"
+    "text": "Aqui estão os laboratórios que trabalham com Teoria das Categorias no Brasil. Você pode filtrar através das categorias ao lado.\n\n\n\n\n\n\n    \n      \n      \n    \n\n\n\n\n\n\n\n\nCUÍCA\n\n\n\nComputational Complexity\n\nSheaf Theory\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSem itens correspondentes"
+  },
+  {
+    "objectID": "blog.html",
+    "href": "blog.html",
+    "title": "Blog",
+    "section": "",
+    "text": "Como catalogar pesquisadores e laboratórios\n\n\n\nTutorial\n\n\n\n\n\n\n\n\n\n13 de abr. de 2026\n\n\nPaulo Dias\n\n\n\n\n\n\n\n\n\n\n\n\nComo contribuir com o site\n\n\n\nTutorial\n\n\n\n\n\n\n\n\n\n13 de abr. de 2026\n\n\nPaulo Dias\n\n\n\n\n\nSem itens correspondentes"
   },
   {
     "objectID": "laboratorios/cuica/cuica.html",
@@ -77,38 +105,59 @@
     "text": "Email\n…"
   },
   {
-    "objectID": "laboratorios.html",
-    "href": "laboratorios.html",
-    "title": "Laboratórios",
-    "section": "",
-    "text": "Aqui estão os laboratórios que trabalham com Teoria das Categorias no Brasil:\n\n\n\n\n\n\n\n\n\n\n\n\nCUÍCA\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Blog",
-    "section": "",
-    "text": "Pequeno teste\n\n\n\nIntrodução\n\n\n\n\n\n\n\n\n\nApr 6, 2026\n\n\nPaulo Dias\n\n\n\n\n\n\n\n\n\n\n\n\nPost With Code\n\n\n\nnews\n\ncode\n\nanalysis\n\n\n\n\n\n\n\n\n\nMar 23, 2023\n\n\nHarlow Malloc\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome To My Blog\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nMar 20, 2023\n\n\nTristan O’Malley\n\n\n\n\n\nNo matching items"
-  },
-  {
     "objectID": "pesquisadores.html",
     "href": "pesquisadores.html",
     "title": "Pesquisadores",
     "section": "",
-    "text": "Aqui estão os pesquisadores que trabalham com Teoria das Categorias no Brasil:\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBenjamin Merlin Bumpus\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Aqui estão os pesquisadores que trabalham com Teoria das Categorias no Brasil. Você pode usar a busca ou o painel de categorias ao lado para filtrar por cargo, área ou localização.\n\n\n\n\n\n\n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nBenjamin Merlin Bumpus\n\n\n\nProfessor Doutor\n\nComputational Complexity\n\nSheaf Theory\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSem itens correspondentes"
   },
   {
-    "objectID": "posts/meu-post/index.html",
-    "href": "posts/meu-post/index.html",
-    "title": "Pequeno teste",
+    "objectID": "acervo.html",
+    "href": "acervo.html",
+    "title": "Acervo",
     "section": "",
-    "text": "Este é um pequeno teste.\nVeja só o que a linguagem Julia processa enquanto esse site é construído:\nCódigo\nx = 5\ny = 10\nprintln(\"A multiplicação é: \", x * y)\n\n\nA multiplicação é: 50\n(Dias 2026)"
+    "text": "Sem itens correspondentes"
   },
   {
-    "objectID": "posts/meu-post/index.html#teste-2",
-    "href": "posts/meu-post/index.html#teste-2",
-    "title": "Pequeno teste",
-    "section": "Teste 2",
-    "text": "Teste 2"
+    "objectID": "blog/como-catalogar/index.html",
+    "href": "blog/como-catalogar/index.html",
+    "title": "Como catalogar pesquisadores e laboratórios",
+    "section": "",
+    "text": "Ao fazer parte deste site, você aumenta a visibilidade do seu trabalho e facilita que novos estudantes e colaboradores encontrem seu trabalho ou grupo de pesquisa, fortalecendo a área no Brasil. Veja como pode nos ajudar a manter este catálogo atualizado."
+  },
+  {
+    "objectID": "blog/como-catalogar/index.html#por-que-se-catalogar",
+    "href": "blog/como-catalogar/index.html#por-que-se-catalogar",
+    "title": "Como catalogar pesquisadores e laboratórios",
+    "section": "",
+    "text": "Ao fazer parte deste site, você aumenta a visibilidade do seu trabalho e facilita que novos estudantes e colaboradores encontrem seu trabalho ou grupo de pesquisa, fortalecendo a área no Brasil. Veja como pode nos ajudar a manter este catálogo atualizado."
+  },
+  {
+    "objectID": "blog/como-catalogar/index.html#formas-de-participar",
+    "href": "blog/como-catalogar/index.html#formas-de-participar",
+    "title": "Como catalogar pesquisadores e laboratórios",
+    "section": "Formas de Participar",
+    "text": "Formas de Participar\nExistem duas maneiras principais de catalogar suas informações: via GitHub (para quem prefere lidar diretamente com o código) ou via E-mail (para quem busca praticidade).\n\n1. Via GitHub\nNosso site é de código aberto e utiliza o Quarto. Se você tem familiaridade com Git e GitHub, siga estes passos:\n\nAcesse nosso repositório: categorias-brasil/categorias-brasil.github.io.\nFaça um Fork do projeto.\nCrie um diretório com o seu nome (ou nome do laboratório) e adicione um arquivo .qmd com esse mesmo nome dentro dele:\n\nPara pesquisadores: pesquisadores/seu-nome/seu-nome.qmd\nPara laboratórios: laboratorios/nome-do-lab/nome-do-lab.qmd\nDica: Ao criar um diretório próprio, você pode colocar sua foto ou logo na mesma pasta, o que facilita a organização.\n\nUse os modelos existentes como base para preencher seus dados:\n\nModelo para pessoas: pesquisadores/_pesquisadores-modelo.qmd\nModelo para laboratórios: laboratorios/_laboratorios-modelo.qmd\n\nEnvie um Pull Request.\nNo nosso README no GitHub, você encontra um guia ainda mais detalhado com todos os comandos de Git necessários.\n\n\n\n2. Via E-mail\nSe preferir, você pode enviar os dados diretamente para a nossa equipe. Basta enviar um e-mail para:\ncategoriasbrasil@gmail.com\nNo e-mail, inclua as seguintes informações:\n\nNome completo ou nome do laboratório;\nAfiliação institucional (universidade, instituto, etc.);\nLink para Currículo Lattes e/ou site pessoal;\nPrincipais áreas de pesquisa em Teoria das Categorias;\nOpcional: Uma foto de perfil ou logo do laboratório;\nOpcional: Qualquer outra informação extra que julgar relevante."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Nosso Objetivo",
+    "section": "",
+    "text": "Este site é dedicado à divulgação científica da Teoria das Categorias no Brasil. Nosso objetivo é fortalecer a comunidade nacional ao reunir pesquisadores, laboratórios, eventos e materiais de referência em um único local acessível.\nA Teoria das Categorias desempenha um papel fundamental na matemática moderna e na ciência da computação, servindo como uma linguagem multidisciplinar. Através desta plataforma, buscamos ampliar a visibilidade dessa área no cenário acadêmico brasileiro.\n\n\nQueremos que este catálogo seja o mais completo possível! Você pode participar ativamente da construção deste ecossistema:\n\nSeja Catalogado: Se você é um pesquisador ou faz parte de um laboratório na área, veja como se incluir no site.\n\n\n\n\n\n\n\nDicaContato Direto\n\n\n\nPrefere algo mais simples? Caso não queira realizar um Pull Request, você pode enviar suas informações diretamente para categoriasbrasil@gmail.com.\n\n\n\nContribua com o Site: Sendo um projeto de código aberto, aceitamos melhorias no código e no conteúdo. Veja como contribuir com o site.\n\n\n\n\nBuscamos centralizar informações essenciais que facilitam a colaboração entre pesquisadores e incentivam o interesse de estudantes pela Teoria das Categorias. Aqui você encontrará:\n\nPesquisadores: Uma lista de acadêmicos atuantes no país ou brasileiros no exterior.\nLaboratórios: Grupos e centros de pesquisa dedicados ao tema.\nEventos: Conferências, workshops e seminários.\nAcervo: Referências bibliográficas e materiais úteis."
+  },
+  {
+    "objectID": "index.html#como-participar",
+    "href": "index.html#como-participar",
+    "title": "Nosso Objetivo",
+    "section": "",
+    "text": "Queremos que este catálogo seja o mais completo possível! Você pode participar ativamente da construção deste ecossistema:\n\nSeja Catalogado: Se você é um pesquisador ou faz parte de um laboratório na área, veja como se incluir no site.\n\n\n\n\n\n\n\nDicaContato Direto\n\n\n\nPrefere algo mais simples? Caso não queira realizar um Pull Request, você pode enviar suas informações diretamente para categoriasbrasil@gmail.com.\n\n\n\nContribua com o Site: Sendo um projeto de código aberto, aceitamos melhorias no código e no conteúdo. Veja como contribuir com o site."
+  },
+  {
+    "objectID": "index.html#objetivo-do-projeto",
+    "href": "index.html#objetivo-do-projeto",
+    "title": "Nosso Objetivo",
+    "section": "",
+    "text": "Buscamos centralizar informações essenciais que facilitam a colaboração entre pesquisadores e incentivam o interesse de estudantes pela Teoria das Categorias. Aqui você encontrará:\n\nPesquisadores: Uma lista de acadêmicos atuantes no país ou brasileiros no exterior.\nLaboratórios: Grupos e centros de pesquisa dedicados ao tema.\nEventos: Conferências, workshops e seminários.\nAcervo: Referências bibliográficas e materiais úteis."
   }
 ]

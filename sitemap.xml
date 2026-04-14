@@ -1,39 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://categorias-brasil.github.io/posts/welcome/index.html</loc>
-    <lastmod>2026-04-07T23:48:01.102Z</lastmod>
+    <loc>https://categorias-brasil.github.io/eventos.html</loc>
+    <lastmod>2026-04-14T01:37:36.739Z</lastmod>
   </url>
   <url>
-    <loc>https://categorias-brasil.github.io/posts/post-with-code/index.html</loc>
-    <lastmod>2026-04-07T23:48:01.102Z</lastmod>
+    <loc>https://categorias-brasil.github.io/blog/como-contribuir/index.html</loc>
+    <lastmod>2026-04-14T01:37:36.738Z</lastmod>
   </url>
   <url>
     <loc>https://categorias-brasil.github.io/pesquisadores/bumpus/bumpus.html</loc>
-    <lastmod>2026-04-07T23:48:01.102Z</lastmod>
-  </url>
-  <url>
-    <loc>https://categorias-brasil.github.io/about.html</loc>
-    <lastmod>2026-04-07T23:48:01.101Z</lastmod>
-  </url>
-  <url>
-    <loc>https://categorias-brasil.github.io/laboratorios/cuica/cuica.html</loc>
-    <lastmod>2026-04-07T23:48:01.102Z</lastmod>
+    <lastmod>2026-04-14T01:37:36.739Z</lastmod>
   </url>
   <url>
     <loc>https://categorias-brasil.github.io/laboratorios.html</loc>
-    <lastmod>2026-04-07T23:48:01.101Z</lastmod>
+    <lastmod>2026-04-14T01:37:36.739Z</lastmod>
   </url>
   <url>
-    <loc>https://categorias-brasil.github.io/index.html</loc>
-    <lastmod>2026-04-07T23:48:01.101Z</lastmod>
+    <loc>https://categorias-brasil.github.io/blog.html</loc>
+    <lastmod>2026-04-14T01:37:36.738Z</lastmod>
+  </url>
+  <url>
+    <loc>https://categorias-brasil.github.io/laboratorios/cuica/cuica.html</loc>
+    <lastmod>2026-04-14T01:37:36.739Z</lastmod>
   </url>
   <url>
     <loc>https://categorias-brasil.github.io/pesquisadores.html</loc>
-    <lastmod>2026-04-07T23:48:01.102Z</lastmod>
+    <lastmod>2026-04-14T01:37:36.739Z</lastmod>
   </url>
   <url>
-    <loc>https://categorias-brasil.github.io/posts/meu-post/index.html</loc>
-    <lastmod>2026-04-07T23:48:01.102Z</lastmod>
+    <loc>https://categorias-brasil.github.io/acervo.html</loc>
+    <lastmod>2026-04-14T01:37:36.738Z</lastmod>
+  </url>
+  <url>
+    <loc>https://categorias-brasil.github.io/blog/como-catalogar/index.html</loc>
+    <lastmod>2026-04-14T01:37:36.738Z</lastmod>
+  </url>
+  <url>
+    <loc>https://categorias-brasil.github.io/index.html</loc>
+    <lastmod>2026-04-14T01:37:36.739Z</lastmod>
   </url>
 </urlset>
