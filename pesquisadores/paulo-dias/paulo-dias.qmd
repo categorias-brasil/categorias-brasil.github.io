@@ -7,7 +7,7 @@ categories:
 title: Paulo Dias
 ---
 
-`<img src="paulo-dias.jpg" alt="Foto de Paulo Dias" size="400">`{=html}
+`<img src="paulo-dias.jpg" alt="Foto de Paulo Dias" width="400" style="max-width: 400px;">`{=html}
 
 Sou um estudante de graduação e faço iniciação científica em Teoria Aplicada das
 Categorias.

@@ -9,7 +9,7 @@ title: Karina Sakurai
 ---
 
 <!-- Substitua na linha abaixo o nome do arquivo da sua imagem:
-<img src="sua_imagem.jpg" alt="Foto de Karina Sakurai" size="400"> -->
+<img src="sua_imagem.jpg" alt="Foto de Karina Sakurai" width="400" style="max-width: 400px;"> -->
 
 Breve descrição ou biografia resumida.
 

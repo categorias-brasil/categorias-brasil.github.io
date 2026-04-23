@@ -5,7 +5,7 @@ draft: true
 ---
 
 <!-- Substitua na linha abaixo o nome do arquivo da sua imagem:
-<img src="sua_imagem.jpg" alt="Logo ou foto do laboratório" size="400"> -->
+<img src="sua_imagem.jpg" alt="Logo ou foto do laboratório" width="400" style="max-width: 400px;"> -->
 
 Descrição breve do laboratório/grupo e sua área englobada.
 

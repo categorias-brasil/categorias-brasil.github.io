@@ -6,7 +6,7 @@ title: CUÍCA
 ---
 
 <!-- Substitua na linha abaixo o nome do arquivo da sua imagem:
-<img src="sua_imagem.jpg" alt="Logo do CUÍCA" size="400"> -->
+<img src="sua_imagem.jpg" alt="Logo do CUÍCA" width="400" style="max-width: 400px;"> -->
 
 CUÍCA (Categorical Understanding Ín Computation & Algorithms) é um laboratório
 situado no Instituto de Matemática, Estatística e Ciência da Computação (IME) da

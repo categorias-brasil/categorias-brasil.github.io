@@ -9,7 +9,7 @@ title: Ana Luiza Tenório
 ---
 
 <!-- Substitua a linha abaixo pela sua imagem:
-<img src="sua_imagem.jpg" alt="Foto de Ana Tenório" size="400"> -->
+<img src="sua_imagem.jpg" alt="Foto de Ana Tenório" width="400" style="max-width: 400px;"> -->
 
 Breve descrição ou biografia resumida.
 
