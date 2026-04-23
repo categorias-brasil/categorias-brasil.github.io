@@ -1,0 +1,39 @@
+---
+categories:
+- Mestrado
+- Teoria dos Feixes
+- Complexidade Computacional
+- Topologia Geral
+- São Paulo
+title: Anny Beatriz Azevedo
+---
+
+`<img src="azevedo.webp" alt="Foto de Anny Beatriz Azevedo" size="400">`{=html}
+
+Faço mestrado no IME-USP, trabalhando sob a supervisão do Professor [Benjamin
+Merlin Bumpus](../benjamin-bumpus/benjamin-bumpus.qmd). Durante minha graduação,
+estudei Teoria dos Modelos e lógica interna de topos. Agora, no mestrado,
+direcionei meu foco para aplicações da Teoria das Categorias em Ciência da
+Computação. Atualmente, estou interessada em usar a Teoria dos Feixes para
+descrever problemas computacionais.
+
+## Instituição
+
+Instituto de Matemática, Estatística e Ciência da Computação (IME) da
+Universidade de São Paulo (USP).
+
+## Formação Acadêmica
+
+2020-2024: Bacharelado em Matemática, Universidade de São Paulo (USP), São
+Paulo, Brasil
+
+2024-Agora: Mestrado em Matemática, Universidade de São Paulo (USP), São Paulo,
+Brasil, sob a supervisão do Professor Benjamin M. Bumpus
+
+## Link para o site pessoal
+
+<https://annyb-azevedo.com/>
+
+## Email
+
+annyb.azevedo (at) ime.usp.br

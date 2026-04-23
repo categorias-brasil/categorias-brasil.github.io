@@ -1,0 +1,31 @@
+---
+categories:
+- Doutorado
+- Complexidade Parametrizada
+- Teoria dos Grafos
+- São Paulo
+draft: true
+title: Karina Sakurai
+---
+
+<!-- Substitua na linha abaixo o nome do arquivo da sua imagem:
+<img src="sua_imagem.jpg" alt="Foto de Karina Sakurai" size="400"> -->
+
+Breve descrição ou biografia resumida.
+
+## Instituição
+
+Instituto de Matemática, Estatística e Ciência da Computação (IME) da
+Universidade de São Paulo (USP).
+
+## Formação Acadêmica
+
+Lista da formação principal
+
+## Link para o site pessoal
+
+<https://yukimikarinas.github.io/karina-sakurai/>
+
+## Email
+
+...

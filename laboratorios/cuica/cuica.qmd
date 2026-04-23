@@ -1,12 +1,46 @@
 ---
-title: "CUÍCA"
-categories: ["Computational Complexity", "Sheaf Theory"]
+categories:
+- Computational Complexity
+- Sheaf Theory
+title: CUÍCA
 ---
 
-CUÍCA é um laboratório situado no Instituto de Matemática, Estatística e Ciência da Computação (IME) da Universidade de São Paulo (USP).
+<!-- Substitua na linha abaixo o nome do arquivo da sua imagem:
+<img src="sua_imagem.jpg" alt="Logo do CUÍCA" size="400"> -->
 
-## Link para o site
+CUÍCA (Categorical Understanding Ín Computation & Algorithms) é um laboratório
+situado no Instituto de Matemática, Estatística e Ciência da Computação (IME) da
+Universidade de São Paulo (USP).
+
+## Coordenação
+
+- [Benjamin Merlin
+  Bumpus](../../pesquisadores/benjamin-bumpus/benjamin-bumpus.qmd)
+
+## Membros
+
+- [Anny Beatriz Azevedo](../../pesquisadores/anny-azevedo/anny-azevedo.qmd)
+- [Caio Morais](../../pesquisadores/caio-morais/caio-morais.qmd)
+- [Daniel Ferreira
+  Betoret](../../pesquisadores/daniel-betoret/daniel-betoret.qmd)
+- [Gustavo Freire](../../pesquisadores/gustavo-freire/gustavo-freire.qmd)
+- Jackson Cook
+- Jana Nickel
+- [Karina Sakurai](../../pesquisadores/karina-sakurai/karina-sakurai.qmd)
+- [Laura Larios-Jones](https://www.gla.ac.uk/pgrs/lauralarios-jones/)
+- [Lucas Francesco
+  Gesteira](../../pesquisadores/lucas-gesteira/lucas-gesteira.qmd)
+- [Paulo Dias](../../pesquisadores/paulo-dias/paulo-dias.qmd)
+- [Will Turner](https://wjturner.co.uk/)
+
+## Localização
+
 ...
 
-## Email
+## Link para o site
+
+...
+
+## Email de contato
+
 ...

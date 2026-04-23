@@ -1,0 +1,30 @@
+---
+categories:
+- Pós-Doc
+- Teoria dos Feixes
+- Machine Learning
+- Estado ou Localidade
+draft: true
+title: Ana Luiza Tenório
+---
+
+<!-- Substitua a linha abaixo pela sua imagem:
+<img src="sua_imagem.jpg" alt="Foto de Ana Tenório" size="400"> -->
+
+Breve descrição ou biografia resumida.
+
+## Instituição
+
+Nome da Instituição à qual o pesquisador está vinculado
+
+## Formação Acadêmica
+
+Lista da formação principal
+
+## Link para o site pessoal
+
+<https://sites.google.com/ime.usp.br/analuizatenorio>
+
+## Email
+
+...

@@ -1,22 +1,29 @@
 ---
-title: "Nome do Pesquisador(a)"
-categories: ["Grau ou Cargo", "Área de Pesquisa", "Estado ou Localidade"]
+categories:
+- Grau ou Cargo
+- Área de Pesquisa
+- Estado ou Localidade
 draft: true
+title: Caio Morais
 ---
 
 <!-- Substitua na linha abaixo o nome do arquivo da sua imagem:
-<img src="sua_imagem.jpg" alt="Foto do pesquisador(a)" size="400"> -->
+<img src="sua_imagem.jpg" alt="Foto de Caio Morais" size="400"> -->
 
 Breve descrição ou biografia resumida.
 
 ## Instituição
+
 Nome da Instituição à qual o pesquisador está vinculado
 
 ## Formação Acadêmica
+
 Lista da formação principal
 
 ## Link para o site pessoal
+
 <https://seusite.com>
 
 ## Email
-seu_email@exibir.aqui
+
+...

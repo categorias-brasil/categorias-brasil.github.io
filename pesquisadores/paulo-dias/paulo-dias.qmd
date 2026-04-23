@@ -1,0 +1,33 @@
+---
+categories:
+- IC
+- Complexidade Computacional
+- Algoritmos em Grafos
+- São Paulo
+title: Paulo Dias
+---
+
+`<img src="paulo-dias.jpg" alt="Foto de Paulo Dias" size="400">`{=html}
+
+Sou um estudante de graduação e faço iniciação científica em Teoria Aplicada das
+Categorias.
+
+## Instituição
+
+Instituto de Matemática, Estatística e Ciência da Computação (IME) da
+Universidade de São Paulo (USP).
+
+## Formação Acadêmica
+
+(2024 - 2027) Bacharelado em Ciência da Computação.
+
+      Instituto de Matemática, Estatística e Ciência da Computação (IME)
+      Universidade de São Paulo (USP)
+
+## Link para o site pessoal
+
+<https://skchima.github.io>
+
+## Email
+
+<paulomd@usp.br>

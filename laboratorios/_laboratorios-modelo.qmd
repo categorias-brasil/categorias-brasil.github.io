@@ -4,13 +4,28 @@ categories: ["Área de Atuação", "Local ou Instituição"]
 draft: true
 ---
 
+<!-- Substitua na linha abaixo o nome do arquivo da sua imagem:
+<img src="sua_imagem.jpg" alt="Logo ou foto do laboratório" size="400"> -->
+
 Descrição breve do laboratório/grupo e sua área englobada.
 
+## Coordenação
+- [Nome do Coordenador](../../pesquisadores/nome-sobrenome/nome-sobrenome.qmd)
+
+## Membros
+<!-- Para membros com página no site, use link interno: -->
+- [Nome do Membro](../../pesquisadores/nome-sobrenome/nome-sobrenome.qmd)
+<!-- Para membros sem página no site, use link externo: -->
+- [Nome do Membro](https://site-pessoal.com){target="_blank"}
+
 ## Localização
-(Ex: IME-USP)
+
+...
 
 ## Link para o site
-<https://link-do-lab.br>
+
+...
 
 ## Email
-email_do_lab@exibir.aqui
+
+...

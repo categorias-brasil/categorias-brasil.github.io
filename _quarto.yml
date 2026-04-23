@@ -20,7 +20,7 @@ website:
     left: "Sugestões ou dúvidas? [categoriasbrasil@gmail.com](mailto:categoriasbrasil@gmail.com)"
     center: "Teoria das Categorias no Brasil"
     right: 
-      - text: "Este site é código aberto"
+      - text: "Este é um site de código aberto"
       - icon: github
         href: https://github.com/categorias-brasil/categorias-brasil.github.io
 format:

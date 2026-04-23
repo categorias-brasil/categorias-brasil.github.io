@@ -5,10 +5,9 @@ title-block-banner: true
 
 # Nosso Objetivo
 
-Este site é dedicado à **divulgação científica da Teoria das Categorias no
-Brasil**. Nosso objetivo é fortalecer a comunidade nacional ao reunir
-pesquisadores, laboratórios, eventos e materiais de referência em um único local
-acessível.
+Este site é dedicado à divulgação científica da Teoria das Categorias no Brasil.
+Nosso objetivo é fortalecer a comunidade nacional ao reunir pesquisadores,
+laboratórios, eventos e materiais de referência em um único local acessível.
 
 A Teoria das Categorias desempenha um papel fundamental na matemática moderna e
 na ciência da computação, servindo como uma linguagem multidisciplinar. Através

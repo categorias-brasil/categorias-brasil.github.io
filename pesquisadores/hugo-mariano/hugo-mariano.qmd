@@ -1,0 +1,55 @@
+---
+categories:
+- Professor Associado
+- Lógica e Conjuntos
+- Topologia Geral
+- Combinatória
+- São Paulo
+title: Hugo Luiz Mariano
+---
+
+<!-- Substitua a linha abaixo pela sua imagem:
+<img src="sua_imagem.jpg" alt="Foto de Hugo Mariano" size="400"> -->
+
+Tem experiência na área de Matemática, com ênfase em teoria dos grupos
+especiais, lógica matemática e teoria das categorias, atuando principalmente nos
+seguintes temas: princípios locais-globais na teoria algébrica de formas
+quadráticas, envoltória profinita de grupos especiais, feixes espectrais de
+anéis e de grupos especias, representação de grupos especiais, aspectos
+topológicos e categoriais da teoria dos modelos, esboços e categorias
+acessíveis, categorias de lógicas, algebrização de Blok-Pigozzi.
+
+## Instituição
+
+Instituto de Matemática, Estatística e Ciência da Computação (IME) da
+Universidade de São Paulo (USP).
+
+## Formação Acadêmica
+
+(2007) Pós-Doutorado
+
+       Universidade Paris-Diderot (Paris 7)
+
+(2008) Pós-Doutorado
+
+       Universidade Estadual de Campinas (UNICAMP)
+
+(2009) Doutorado em Matemática
+
+       Universidade de São Paulo (USP)
+
+(2010) Mestrado em Matemática
+
+       Universidade de São Paulo (USP)
+
+(2011) Bacharelado em Física
+
+       Universidade de São Paulo (USP)
+
+## Link para o site pessoal
+
+<https://www.ime.usp.br/hugomar/>
+
+## Email
+
+hugomar (at) ime.usp.br
