@@ -4,9 +4,12 @@
     "items": []
   },
   {
-    "listing": "/laboratorios.html",
+    "listing": "/pesquisadores.html",
     "items": [
-      "/laboratorios/cuica/cuica.html"
+      "/pesquisadores/anny-azevedo/anny-azevedo.html",
+      "/pesquisadores/benjamin-bumpus/benjamin-bumpus.html",
+      "/pesquisadores/hugo-mariano/hugo-mariano.html",
+      "/pesquisadores/paulo-dias/paulo-dias.html"
     ]
   },
   {
@@ -17,9 +20,9 @@
     ]
   },
   {
-    "listing": "/pesquisadores.html",
+    "listing": "/laboratorios.html",
     "items": [
-      "/pesquisadores/bumpus/bumpus.html"
+      "/laboratorios/cuica/cuica.html"
     ]
   },
   {
