@@ -79,20 +79,76 @@ ul.task-list li input[type="checkbox"] {
 <script>
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
+    const listingTargetEl = window.document.querySelector('#listing-livros .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
       return; 
     }
 
     const options = {
-      valueNames: [{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-title','listing-author','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-title-sort'] },{ data: ['listing-date-sort'] }],
       
-      searchColumns: [],
+      searchColumns: ["listing-title","listing-author","listing-date","listing-categories","listing-description"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
+    window['quarto-listings']['listing-livros'] = new List('listing-livros', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-videos .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-title','listing-author','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-title-sort'] },{ data: ['listing-date-sort'] }],
+      
+      searchColumns: ["listing-title","listing-author","listing-date","listing-categories","listing-description"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-videos'] = new List('listing-videos', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-notas .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-title','listing-author','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-title-sort'] },{ data: ['listing-date-sort'] }],
+      
+      searchColumns: ["listing-title","listing-author","listing-date","listing-categories","listing-description"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-notas'] = new List('listing-notas', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -389,16 +445,386 @@ window.Quarto = {
 
 
 
-
-
-
-
-<div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
-<div class="list grid quarto-listing-cols-3">
-
+<p>Referências bibliográficas, vídeos, apostilas e materiais úteis para o estudo de Teoria das Categorias.</p>
+<section id="livros" class="level2">
+<h2 class="anchored" data-anchor-id="livros">Livros</h2>
+<div id="listing-livros" class="quarto-listing quarto-listing-container-table">
+<div class="listing-actions-group">
+   <div class="input-group input-group-sm quarto-listing-sort">
+    <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
+    <select id="listing-livros-sort" class="form-select" aria-label="Ordenar por" onchange="window['quarto-listings']['listing-livros'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
+      <option value="" disabled="" selected="" hidden="">Ordenar por</option>
+      <option value="index" data-direction="asc">Padrão</option>
+      <option value="listing-title-sort" data-direction="asc">
+        Título
+      </option>
+      <option value="listing-author" data-direction="asc">
+        Autor(a)
+      </option>
+      <option value="listing-categories" data-direction="asc">
+        Tags
+      </option>
+    </select>
+  </div>
+    <div class="input-group input-group-sm quarto-listing-filter">
+      <span class="input-group-text"><i class="bi bi-search"></i></span>
+      <input type="text" class="search form-control" placeholder="Filtro">
+    </div>
 </div>
+<table class="quarto-listing-table table table-hover">
+<thead>
+<tr>
+
+<th>
+<a class="sort" data-sort="listing-title-sort" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Título</a>
+</th>
+
+<th>
+<a class="sort" data-sort="listing-author" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Autor(a)</a>
+</th>
+
+<th>
+<a class="sort" data-sort="listing-categories" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Tags</a>
+</th>
+
+</tr>
+</thead>
+<tbody class="list">
+
+<tr data-index="0" data-categories="TGl2cm8lMkNJbnRyb2R1dCVDMyVCM3JpbyUyQ0luZ2wlQzMlQUFz" data-listing-date-sort="1546300800000" data-listing-title-sort="An Invitation to Applied Category Theory: Seven Sketches in Compositionality" onclick="href = this.querySelector('a').getAttribute('href');
+ if (href) { window.location=href ; return false; }">
+<td>
+<a href="https://arxiv.org/abs/1803.05316" class="title listing-title">An Invitation to Applied Category Theory: Seven Sketches in Compositionality</a>
+</td>
+<td>
+<span class="listing-author">Brendan Fong e David Spivak</span>
+</td>
+<td>
+<span class="listing-categories">Livro, Introdutório, Inglês</span>
+</td>
+
+</tr>
+
+<tr data-index="1" data-categories="TGl2cm8lMkNJbnRyb2R1dCVDMyVCM3JpbyUyQ0luZ2wlQzMlQUFz" data-listing-date-sort="1388534400000" data-listing-title-sort="Basic Category Theory" onclick="href = this.querySelector('a').getAttribute('href');
+ if (href) { window.location=href ; return false; }">
+<td>
+<a href="https://arxiv.org/abs/1612.09375" class="title listing-title">Basic Category Theory</a>
+</td>
+<td>
+<span class="listing-author">Tom Leinster</span>
+</td>
+<td>
+<span class="listing-categories">Livro, Introdutório, Inglês</span>
+</td>
+
+</tr>
+
+<tr data-index="2" data-categories="TGl2cm8lMkNBdmFuJUMzJUE3YWRvJTJDSW5nbCVDMyVBQXM=" data-listing-date-sort="31536000000" data-listing-title-sort="Categories for the Working Mathematician" onclick="href = this.querySelector('a').getAttribute('href');
+ if (href) { window.location=href ; return false; }">
+<td>
+<a href="https://link.springer.com/book/10.1007/978-1-4757-4721-8" class="title listing-title">Categories for the Working Mathematician</a>
+</td>
+<td>
+<span class="listing-author">Saunders Mac Lane</span>
+</td>
+<td>
+<span class="listing-categories">Livro, Avançado, Inglês</span>
+</td>
+
+</tr>
+
+<tr data-index="3" data-categories="TGl2cm8lMkNJbnRyb2R1dCVDMyVCM3JpbyUyQ0luZ2wlQzMlQUFz" data-listing-date-sort="1262304000000" data-listing-title-sort="Category Theory" onclick="href = this.querySelector('a').getAttribute('href');
+ if (href) { window.location=href ; return false; }">
+<td>
+<a href="https://books.google.com.br/books?id=UCgUDAAAQBAJ" class="title listing-title">Category Theory</a>
+</td>
+<td>
+<span class="listing-author">Steve Awodey</span>
+</td>
+<td>
+<span class="listing-categories">Livro, Introdutório, Inglês</span>
+</td>
+
+</tr>
+
+<tr data-index="4" data-categories="TGl2cm8lMkNJbnRlcm1lZGklQzMlQTFyaW8lMkNJbmdsJUMzJUFBcw==" data-listing-date-sort="1451606400000" data-listing-title-sort="Category Theory in Context" onclick="href = this.querySelector('a').getAttribute('href');
+ if (href) { window.location=href ; return false; }">
+<td>
+<a href="https://math.jhu.edu/~eriehl/context/" class="title listing-title">Category Theory in Context</a>
+</td>
+<td>
+<span class="listing-author">Emily Riehl</span>
+</td>
+<td>
+<span class="listing-categories">Livro, Intermediário, Inglês</span>
+</td>
+
+</tr>
+
+<tr data-index="5" data-categories="TGl2cm8lMkNBdmFuJUMzJUE3YWRvJTJDSW5nbCVDMyVBQXM=" data-listing-date-sort="1609459200000" data-listing-title-sort="Coend Calculus" onclick="href = this.querySelector('a').getAttribute('href');
+ if (href) { window.location=href ; return false; }">
+<td>
+<a href="https://arxiv.org/abs/1501.02503" class="title listing-title">Coend Calculus</a>
+</td>
+<td>
+<span class="listing-author">Fosco Loregian</span>
+</td>
+<td>
+<span class="listing-categories">Livro, Avançado, Inglês</span>
+</td>
+
+</tr>
+
+<tr data-index="6" data-categories="TGl2cm8lMkNJbnRyb2R1dCVDMyVCM3JpbyUyQ0VzcGFuaG9s" data-listing-date-sort="1577836800000" data-listing-title-sort="Cuadernos de Álgebra — Volumen 2" onclick="href = this.querySelector('a').getAttribute('href');
+ if (href) { window.location=href ; return false; }">
+<td>
+<a href="https://repositorio.unal.edu.co/items/6f5d4013-b087-4240-8614-3e2f15d1caa6" class="title listing-title">Cuadernos de Álgebra — Volumen 2</a>
+</td>
+<td>
+<span class="listing-author">Oswaldo Lezama Serrano</span>
+</td>
+<td>
+<span class="listing-categories">Livro, Introdutório, Espanhol</span>
+</td>
+
+</tr>
+
+<tr data-index="7" data-categories="TGl2cm8lMkNBdmFuJUMzJUE3YWRvJTJDSW5nbCVDMyVBQXM=" data-listing-date-sort="757382400000" data-listing-title-sort="Handbook of Categorical Algebra" onclick="href = this.querySelector('a').getAttribute('href');
+ if (href) { window.location=href ; return false; }">
+<td>
+<a href="https://www.cambridge.org/core/books/handbook-of-categorical-algebra/A0B8285BBA900AFE85EED8C971E0DE14" class="title listing-title">Handbook of Categorical Algebra</a>
+</td>
+<td>
+<span class="listing-author">Francis Borceux</span>
+</td>
+<td>
+<span class="listing-categories">Livro, Avançado, Inglês</span>
+</td>
+
+</tr>
+
+<tr data-index="8" data-categories="TGl2cm8lMkNBdmFuJUMzJUE3YWRvJTJDSW5nbCVDMyVBQXM=" data-listing-date-sort="757382400000" data-listing-title-sort="Locally Presentable and Accessible Categories" onclick="href = this.querySelector('a').getAttribute('href');
+ if (href) { window.location=href ; return false; }">
+<td>
+<a href="https://www.cambridge.org/core/books/locally-presentable-and-accessible-categories/94CB48295B6AF097FC232313A57BDE17" class="title listing-title">Locally Presentable and Accessible Categories</a>
+</td>
+<td>
+<span class="listing-author">Jiří Adámek e Jiří Rosický</span>
+</td>
+<td>
+<span class="listing-categories">Livro, Avançado, Inglês</span>
+</td>
+
+</tr>
+
+<tr data-index="9" data-categories="TGl2cm8lMkNBdmFuJUMzJUE3YWRvJTJDSW5nbCVDMyVBQXM=" data-listing-date-sort="694224000000" data-listing-title-sort="Sheaves in Geometry and Logic" onclick="href = this.querySelector('a').getAttribute('href');
+ if (href) { window.location=href ; return false; }">
+<td>
+<a href="https://link.springer.com/book/10.1007/978-1-4612-0927-0" class="title listing-title">Sheaves in Geometry and Logic</a>
+</td>
+<td>
+<span class="listing-author">Saunders Mac Lane e Ieke Moerdijk</span>
+</td>
+<td>
+<span class="listing-categories">Livro, Avançado, Inglês</span>
+</td>
+
+</tr>
+
+<tr data-index="10" data-categories="TGl2cm8lMkNJbnRyb2R1dCVDMyVCM3JpbyUyQ0luZ2wlQzMlQUFz" data-listing-date-sort="1640995200000" data-listing-title-sort="The Joy of Abstraction" onclick="href = this.querySelector('a').getAttribute('href');
+ if (href) { window.location=href ; return false; }">
+<td>
+<a href="https://www.cambridge.org/core/books/joy-of-abstraction/00D9AFD3046A406CB85D1AFF5450E657" class="title listing-title">The Joy of Abstraction</a>
+</td>
+<td>
+<span class="listing-author">Eugenia Cheng</span>
+</td>
+<td>
+<span class="listing-categories">Livro, Introdutório, Inglês</span>
+</td>
+
+</tr>
+
+<tr data-index="11" data-categories="TGl2cm8lMkNJbnRyb2R1dCVDMyVCM3JpbyUyQ0luZ2wlQzMlQUFz" data-listing-date-sort="283996800000" data-listing-title-sort="Topoi: The Categorial Analysis of Logic" onclick="href = this.querySelector('a').getAttribute('href');
+ if (href) { window.location=href ; return false; }">
+<td>
+<a href="https://projecteuclid.org/ebooks/books-by-independent-authors/Topoi-The-Categorial-Analysis-of-Logic/toc/bia/1403013939" class="title listing-title">Topoi: The Categorial Analysis of Logic</a>
+</td>
+<td>
+<span class="listing-author">Robert Goldblatt</span>
+</td>
+<td>
+<span class="listing-categories">Livro, Introdutório, Inglês</span>
+</td>
+
+</tr>
+
+</tbody>
+</table>
 <div class="listing-no-matching d-none">Sem itens correspondentes</div>
-</div></main> <!-- /main -->
+</div>
+</section>
+<section id="vídeos" class="level2">
+<h2 class="anchored" data-anchor-id="vídeos">Vídeos</h2>
+<div id="listing-videos" class="quarto-listing quarto-listing-container-table">
+<div class="listing-actions-group">
+   <div class="input-group input-group-sm quarto-listing-sort">
+    <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
+    <select id="listing-videos-sort" class="form-select" aria-label="Ordenar por" onchange="window['quarto-listings']['listing-videos'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
+      <option value="" disabled="" selected="" hidden="">Ordenar por</option>
+      <option value="index" data-direction="asc">Padrão</option>
+      <option value="listing-title-sort" data-direction="asc">
+        Título
+      </option>
+      <option value="listing-author" data-direction="asc">
+        Autor(a)
+      </option>
+      <option value="listing-categories" data-direction="asc">
+        Tags
+      </option>
+    </select>
+  </div>
+    <div class="input-group input-group-sm quarto-listing-filter">
+      <span class="input-group-text"><i class="bi bi-search"></i></span>
+      <input type="text" class="search form-control" placeholder="Filtro">
+    </div>
+</div>
+<table class="quarto-listing-table table table-hover">
+<thead>
+<tr>
+
+<th>
+<a class="sort" data-sort="listing-title-sort" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Título</a>
+</th>
+
+<th>
+<a class="sort" data-sort="listing-author" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Autor(a)</a>
+</th>
+
+<th>
+<a class="sort" data-sort="listing-categories" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Tags</a>
+</th>
+
+</tr>
+</thead>
+<tbody class="list">
+
+<tr data-index="0" data-categories="ViVDMyVBRGRlby1hdWxhJTJDSW50cm9kdXQlQzMlQjNyaW8lMkNJbmdsJUMzJUFBcw==" data-listing-date-sort="1451606400000" data-listing-title-sort="Category Theory for Programmers" onclick="href = this.querySelector('a').getAttribute('href');
+ if (href) { window.location=href ; return false; }">
+<td>
+<a href="https://www.youtube.com/playlist?list=PLbgaMIhjbmEnaH_LTkxLI7FMa2HsnawM_" class="title listing-title">Category Theory for Programmers</a>
+</td>
+<td>
+<span class="listing-author">Bartosz Milewski</span>
+</td>
+<td>
+<span class="listing-categories">Vídeo-aula, Introdutório, Inglês</span>
+</td>
+
+</tr>
+
+<tr data-index="1" data-categories="ViVDMyVBRGRlby1hdWxhJTJDSW50ZXJtZWRpJUMzJUExcmlvJTJDSW5nbCVDMyVBQXM=" data-listing-date-sort="1199145600000" data-listing-title-sort="The Catsters" onclick="href = this.querySelector('a').getAttribute('href');
+ if (href) { window.location=href ; return false; }">
+<td>
+<a href="https://www.youtube.com/user/TheCatsters" class="title listing-title">The Catsters</a>
+</td>
+<td>
+<span class="listing-author">Eugenia Cheng e Simon Willerton</span>
+</td>
+<td>
+<span class="listing-categories">Vídeo-aula, Intermediário, Inglês</span>
+</td>
+
+</tr>
+
+</tbody>
+</table>
+<div class="listing-no-matching d-none">Sem itens correspondentes</div>
+</div>
+</section>
+<section id="notas-de-aula" class="level2">
+<h2 class="anchored" data-anchor-id="notas-de-aula">Notas de Aula</h2>
+<div id="listing-notas" class="quarto-listing quarto-listing-container-table">
+<div class="listing-actions-group">
+   <div class="input-group input-group-sm quarto-listing-sort">
+    <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
+    <select id="listing-notas-sort" class="form-select" aria-label="Ordenar por" onchange="window['quarto-listings']['listing-notas'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
+      <option value="" disabled="" selected="" hidden="">Ordenar por</option>
+      <option value="index" data-direction="asc">Padrão</option>
+      <option value="listing-title-sort" data-direction="asc">
+        Título
+      </option>
+      <option value="listing-author" data-direction="asc">
+        Autor(a)
+      </option>
+      <option value="listing-categories" data-direction="asc">
+        Tags
+      </option>
+    </select>
+  </div>
+    <div class="input-group input-group-sm quarto-listing-filter">
+      <span class="input-group-text"><i class="bi bi-search"></i></span>
+      <input type="text" class="search form-control" placeholder="Filtro">
+    </div>
+</div>
+<table class="quarto-listing-table table table-hover">
+<thead>
+<tr>
+
+<th>
+<a class="sort" data-sort="listing-title-sort" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Título</a>
+</th>
+
+<th>
+<a class="sort" data-sort="listing-author" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Autor(a)</a>
+</th>
+
+<th>
+<a class="sort" data-sort="listing-categories" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Tags</a>
+</th>
+
+</tr>
+</thead>
+<tbody class="list">
+
+<tr data-index="0" data-categories="Tm90YXMlMjBkZSUyMEF1bGElMkNJbnRyb2R1dCVDMyVCM3JpbyUyQ0luZ2wlQzMlQUFz" data-listing-date-sort="1451606400000" data-listing-title-sort="Basic Category Theory and Topos Theory" onclick="href = this.querySelector('a').getAttribute('href');
+ if (href) { window.location=href ; return false; }">
+<td>
+<a href="https://webspace.science.uu.nl/~ooste110/syllabi/cattop16.pdf" class="title listing-title">Basic Category Theory and Topos Theory</a>
+</td>
+<td>
+<span class="listing-author">Jaap van Oosten</span>
+</td>
+<td>
+<span class="listing-categories">Notas de Aula, Introdutório, Inglês</span>
+</td>
+
+</tr>
+
+<tr data-index="1" data-categories="Tm90YXMlMjBkZSUyMEF1bGElMkNBdmFuJUMzJUE3YWRvJTJDSW5nbCVDMyVBQXM=" data-listing-date-sort="946684800000" data-listing-title-sort="Distributors at Work" onclick="href = this.querySelector('a').getAttribute('href');
+ if (href) { window.location=href ; return false; }">
+<td>
+<a href="https://www.mathematik.tu-darmstadt.de/~streicher/FIBR/DiWo.pdf" class="title listing-title">Distributors at Work</a>
+</td>
+<td>
+<span class="listing-author">Jean Bénabou (notas de Thomas Streicher)</span>
+</td>
+<td>
+<span class="listing-categories">Notas de Aula, Avançado, Inglês</span>
+</td>
+
+</tr>
+
+</tbody>
+</table>
+<div class="listing-no-matching d-none">Sem itens correspondentes</div>
+</div>
+
+
+
+</section>
+
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     // Ensure there is a toggle, if there isn't float one in the top right
