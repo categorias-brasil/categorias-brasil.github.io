@@ -18,14 +18,14 @@
     "href": "laboratorios.html",
     "title": "Laboratórios",
     "section": "",
-    "text": "Aqui estão os laboratórios que trabalham com Teoria das Categorias no Brasil. Você pode filtrar através das categorias ao lado.\n\n\n\n\n\n\n    \n      \n      \n    \n\n\n\n\n\n\n\n\nCUÍCA\n\n\n\nÁrea: Computational Complexity\n\nÁrea: Sheaf Theory\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSem itens correspondentes"
+    "text": "Aqui estão os laboratórios que trabalham com Teoria das Categorias no Brasil. Você pode filtrar através das categorias ao lado.\n\n\n\n\n\n\n    \n      \n      \n    \n\n\n\n\n\n\n\n\nCUÍCA\n\n\n\nÁrea: Complexidade Computacional\n\nÁrea: Teoria dos Feixes\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSem itens correspondentes"
   },
   {
     "objectID": "pesquisadores.html",
     "href": "pesquisadores.html",
     "title": "Pesquisadores",
     "section": "",
-    "text": "Aqui estão os pesquisadores que trabalham com Teoria das Categorias no Brasil. Você pode usar a busca ou o painel de categorias ao lado para filtrar por cargo, área ou localização.\n\n\n\n\n\n\n    \n      \n      \n    \n\n\n\n\n\n\n\n\nAna Luiza Tenório\n\n\n\nCargo: Pós-Doc\n\nÁrea: Teoria dos Feixes\n\nÁrea: Quantales\n\nÁrea: Redes Neurais em Grafos\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAnny Beatriz Azevedo\n\n\n\nCargo: Mestrado\n\nÁrea: Teoria dos Feixes\n\nÁrea: Complexidade Computacional\n\nÁrea: Topologia Geral\n\nLocal: São Paulo\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBenjamin Merlin Bumpus\n\n\n\nCargo: Professor Doutor\n\nÁrea: Complexidade Computacional\n\nÁrea: Teoria dos Feixes\n\nLocal: São Paulo\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nHugo Luiz Mariano\n\n\n\nCargo: Professor Associado\n\nÁrea: Lógica\n\nÁrea: Álgebra\n\nLocal: São Paulo\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nJoão Antonio Recio da Paixão\n\n\n\nCargo: Professor\n\nÁrea: Métodos Formais\n\nÁrea: Linguagens Diagramáticas\n\nÁrea: Teoria de Categorias Aplicada\n\nÁrea: Álgebra Linear Gráfica\n\nÁrea: Álgebra da Programação\n\nÁrea: String Diagrams\n\nÁrea: Álgebra Linear Computacional\n\nLocal: Rio de Janeiro\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPaulo Dias\n\n\n\nCargo: Iniciação Científica\n\nÁrea: Complexidade Computacional\n\nÁrea: Algoritmos em Grafos\n\nLocal: São Paulo\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSem itens correspondentes"
+    "text": "Aqui estão os pesquisadores que trabalham com Teoria das Categorias no Brasil. Você pode usar a busca ou o painel de categorias ao lado para filtrar por cargo, área ou localização.\n\n\n\n\n\n\n    \n      \n      \n    \n\n\n\n\n\n\n\n\nAna Luiza Tenório\n\n\n\nGrau: Pós-Doc\n\nÁrea: Teoria dos Feixes\n\nÁrea: Quantales\n\nÁrea: Redes Neurais em Grafos\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAnny Beatriz Azevedo\n\n\n\nGrau: Mestrado\n\nÁrea: Teoria dos Feixes\n\nÁrea: Complexidade Computacional\n\nÁrea: Topologia Geral\n\nLocal: São Paulo\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBenjamin Merlin Bumpus\n\n\n\nGrau: Professor Doutor\n\nÁrea: Complexidade Computacional\n\nÁrea: Teoria dos Feixes\n\nLocal: São Paulo\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nHugo Luiz Mariano\n\n\n\nGrau: Professor Associado\n\nÁrea: Lógica\n\nÁrea: Álgebra\n\nLocal: São Paulo\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nJoão Antonio Recio da Paixão\n\n\n\nGrau: Professor\n\nÁrea: Métodos Formais\n\nÁrea: Linguagens Diagramáticas\n\nÁrea: Teoria de Categorias Aplicada\n\nÁrea: Álgebra Linear Gráfica\n\nÁrea: Álgebra da Programação\n\nÁrea: String Diagrams\n\nÁrea: Álgebra Linear Computacional\n\nLocal: Rio de Janeiro\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPaulo Dias\n\n\n\nGrau: Iniciação Científica\n\nÁrea: Complexidade Computacional\n\nÁrea: Algoritmos em Grafos\n\nLocal: São Paulo\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSem itens correspondentes"
   },
   {
     "objectID": "index.html",
@@ -189,13 +189,6 @@
     "text": "Email\npaulomd@usp.br"
   },
   {
-    "objectID": "pesquisadores/benjamin-bumpus/benjamin-bumpus.html",
-    "href": "pesquisadores/benjamin-bumpus/benjamin-bumpus.html",
-    "title": "Benjamin Merlin Bumpus",
-    "section": "",
-    "text": "Benjamin Merlin Bumpus é um pesquisador."
-  },
-  {
     "objectID": "pesquisadores/benjamin-bumpus/benjamin-bumpus.html#instituição",
     "href": "pesquisadores/benjamin-bumpus/benjamin-bumpus.html#instituição",
     "title": "Benjamin Merlin Bumpus",
@@ -245,27 +238,6 @@
     "text": "Membros\n\nAnny Beatriz Azevedo\nCaio Morais\nDaniel Ferreira Betoret\nGustavo Freire\nJackson Cook\nJana Nickel\nKarina Sakurai\nLaura Larios-Jones\nLucas Francesco Gesteira\nPaulo Dias\nWill Turner"
   },
   {
-    "objectID": "laboratorios/cuica/cuica.html#localização",
-    "href": "laboratorios/cuica/cuica.html#localização",
-    "title": "CUÍCA",
-    "section": "Localização",
-    "text": "Localização\n…"
-  },
-  {
-    "objectID": "laboratorios/cuica/cuica.html#link-para-o-site",
-    "href": "laboratorios/cuica/cuica.html#link-para-o-site",
-    "title": "CUÍCA",
-    "section": "Link para o site",
-    "text": "Link para o site\n…"
-  },
-  {
-    "objectID": "laboratorios/cuica/cuica.html#email-de-contato",
-    "href": "laboratorios/cuica/cuica.html#email-de-contato",
-    "title": "CUÍCA",
-    "section": "Email de contato",
-    "text": "Email de contato\n…"
-  },
-  {
     "objectID": "blog/como-catalogar/index.html",
     "href": "blog/como-catalogar/index.html",
     "title": "Como catalogar pesquisadores e laboratórios",
@@ -308,11 +280,11 @@
     "text": "Como Contribuir\nExistem várias formas de ajudar a melhorar esta plataforma:\n\n1. Correções e Sugestões\nSe você encontrar erros de digitação, links quebrados ou informações desatualizadas, você pode:\n\nAbrir um Issue no GitHub descrevendo o problema;\nFazer a correção diretamente via Pull Request.\n\n\n\n2. Melhorias Técnicas\nO site é construído utilizando Quarto. Se você tem conhecimentos em Markdown/Quarto e CSS, sinta-se à vontade para propor melhorias estruturais que tornem a experiência do usuário mais agradável.\n\n\n3. Conteúdo Científico\nVocê também pode incluir novos materiais no Acervo, divulgar novos eventos, ou realizar postagens no Blog. A estrutura é baseada em arquivos Markdown simples, facilitando a adição de novos conteúdos."
   },
   {
-    "objectID": "blog/como-contribuir/index.html#licença",
-    "href": "blog/como-contribuir/index.html#licença",
+    "objectID": "blog/como-contribuir/index.html#licença-e-direitos-autorais",
+    "href": "blog/como-contribuir/index.html#licença-e-direitos-autorais",
     "title": "Como contribuir com o site",
-    "section": "Licença",
-    "text": "Licença\nAo contribuir, você aceita que seu trabalho será disponibilizado sob a licença MIT, permitindo que a comunidade continue a utilizar e melhorar o site de forma livre e aberta."
+    "section": "Licença e Direitos Autorais",
+    "text": "Licença e Direitos Autorais\nEste repositório utiliza duas licenças diferentes para separar o código-fonte estrutural do conteúdo original. Ao contribuir, você concorda que o seu trabalho será disponibilizado sob os seguintes termos:\n\nCódigo-fonte e Templates: O código estrutural, os estilos CSS e os templates Quarto baseados no projeto original estão licenciados sob a MIT License (Copyright 2020 AlgebraicJulia).\nConteúdo e Textos: Todos os artigos, posts de blog, dados de pesquisadores, tutoriais e demais conteúdos textuais criados pelo Categorias Brasil e seus contribuidores estão licenciados sob a Creative Commons Attribution 4.0 International (CC BY 4.0)."
   },
   {
     "objectID": "eventos.html",

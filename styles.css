@@ -111,3 +111,15 @@ div.proof:after {
 .nav-footer a:hover {
   text-decoration: underline;
 }
+
+@media (min-width: 992px) {
+  .quarto-margin-sidebar {
+    min-width: 300px !important;
+  }
+}
+
+.quarto-margin-sidebar .quarto-categories .category,
+.quarto-margin-sidebar .listing-category,
+.quarto-margin-sidebar .category {
+  white-space: nowrap !important;
+}
