@@ -1,11 +1,14 @@
 [
   {
-    "listing": "/acervo.html",
-    "items": []
+    "listing": "/laboratorios.html",
+    "items": [
+      "/laboratorios/cuica/cuica.html"
+    ]
   },
   {
     "listing": "/pesquisadores.html",
     "items": [
+      "/pesquisadores/ana-tenorio/ana-tenorio.html",
       "/pesquisadores/anny-azevedo/anny-azevedo.html",
       "/pesquisadores/benjamin-bumpus/benjamin-bumpus.html",
       "/pesquisadores/hugo-mariano/hugo-mariano.html",
@@ -21,15 +24,13 @@
     ]
   },
   {
-    "listing": "/laboratorios.html",
-    "items": [
-      "/laboratorios/cuica/cuica.html"
-    ]
-  },
-  {
     "listing": "/eventos.html",
     "items": [
       "/eventos/ebct3.html"
     ]
+  },
+  {
+    "listing": "/acervo.html",
+    "items": []
   }
 ]

@@ -14,6 +14,20 @@
     "text": "Site do Evento\nhttps://terceiro.encontrocategorico.mat.br"
   },
   {
+    "objectID": "laboratorios.html",
+    "href": "laboratorios.html",
+    "title": "Laboratórios",
+    "section": "",
+    "text": "Aqui estão os laboratórios que trabalham com Teoria das Categorias no Brasil. Você pode filtrar através das categorias ao lado.\n\n\n\n\n\n\n    \n      \n      \n    \n\n\n\n\n\n\n\n\nCUÍCA\n\n\n\nÁrea: Computational Complexity\n\nÁrea: Sheaf Theory\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSem itens correspondentes"
+  },
+  {
+    "objectID": "pesquisadores.html",
+    "href": "pesquisadores.html",
+    "title": "Pesquisadores",
+    "section": "",
+    "text": "Aqui estão os pesquisadores que trabalham com Teoria das Categorias no Brasil. Você pode usar a busca ou o painel de categorias ao lado para filtrar por cargo, área ou localização.\n\n\n\n\n\n\n    \n      \n      \n    \n\n\n\n\n\n\n\n\nAna Luiza Tenório\n\n\n\nCargo: Pós-Doc\n\nÁrea: Teoria dos Feixes\n\nÁrea: Quantales\n\nÁrea: Redes Neurais em Grafos\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAnny Beatriz Azevedo\n\n\n\nCargo: Mestrado\n\nÁrea: Teoria dos Feixes\n\nÁrea: Complexidade Computacional\n\nÁrea: Topologia Geral\n\nLocal: São Paulo\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBenjamin Merlin Bumpus\n\n\n\nCargo: Professor Doutor\n\nÁrea: Complexidade Computacional\n\nÁrea: Teoria dos Feixes\n\nLocal: São Paulo\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nHugo Luiz Mariano\n\n\n\nCargo: Professor Associado\n\nÁrea: Lógica\n\nÁrea: Álgebra\n\nLocal: São Paulo\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nJoão Antonio Recio da Paixão\n\n\n\nCargo: Professor\n\nÁrea: Métodos Formais\n\nÁrea: Linguagens Diagramáticas\n\nÁrea: Teoria de Categorias Aplicada\n\nÁrea: Álgebra Linear Gráfica\n\nÁrea: Álgebra da Programação\n\nÁrea: String Diagrams\n\nÁrea: Álgebra Linear Computacional\n\nLocal: Rio de Janeiro\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPaulo Dias\n\n\n\nCargo: Iniciação Científica\n\nÁrea: Complexidade Computacional\n\nÁrea: Algoritmos em Grafos\n\nLocal: São Paulo\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSem itens correspondentes"
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Nosso Objetivo",
@@ -35,186 +49,11 @@
     "text": "Buscamos centralizar informações essenciais que facilitam a colaboração entre pesquisadores e incentivam o interesse de estudantes pela Teoria das Categorias. Aqui você encontrará:\n\nPesquisadores: Uma lista de acadêmicos atuantes no país ou brasileiros no exterior.\nLaboratórios: Grupos e centros de pesquisa dedicados ao tema.\nEventos: Conferências, workshops e seminários.\nAcervo: Referências bibliográficas e materiais úteis."
   },
   {
-    "objectID": "blog/como-catalogar/index.html",
-    "href": "blog/como-catalogar/index.html",
-    "title": "Como catalogar pesquisadores e laboratórios",
-    "section": "",
-    "text": "Ao fazer parte deste site, você aumenta a visibilidade do seu trabalho e facilita que novos estudantes e colaboradores encontrem seu trabalho ou grupo de pesquisa, fortalecendo a área no Brasil. Veja como pode nos ajudar a manter este catálogo atualizado."
-  },
-  {
-    "objectID": "blog/como-catalogar/index.html#por-que-se-catalogar",
-    "href": "blog/como-catalogar/index.html#por-que-se-catalogar",
-    "title": "Como catalogar pesquisadores e laboratórios",
-    "section": "",
-    "text": "Ao fazer parte deste site, você aumenta a visibilidade do seu trabalho e facilita que novos estudantes e colaboradores encontrem seu trabalho ou grupo de pesquisa, fortalecendo a área no Brasil. Veja como pode nos ajudar a manter este catálogo atualizado."
-  },
-  {
-    "objectID": "blog/como-catalogar/index.html#formas-de-participar",
-    "href": "blog/como-catalogar/index.html#formas-de-participar",
-    "title": "Como catalogar pesquisadores e laboratórios",
-    "section": "Formas de Participar",
-    "text": "Formas de Participar\nExistem duas maneiras principais de catalogar suas informações: via GitHub (para quem prefere lidar diretamente com o código) ou via E-mail (para quem busca praticidade).\n\n1. Via GitHub\nNosso site é de código aberto e utiliza o Quarto. Se você tem familiaridade com Git e GitHub, siga estes passos:\n\nAcesse nosso repositório: categorias-brasil/categorias-brasil.github.io.\nFaça um Fork do projeto.\nCrie um diretório com o seu nome (ou nome do laboratório) e adicione um arquivo .qmd com esse mesmo nome dentro dele:\n\nPara pesquisadores: pesquisadores/seu-nome/seu-nome.qmd\nPara laboratórios: laboratorios/nome-do-lab/nome-do-lab.qmd\nDica: Ao criar um diretório próprio, você pode colocar sua foto ou logo na mesma pasta, o que facilita a organização.\n\nUse os modelos existentes como base para preencher seus dados:\n\nModelo para pessoas: pesquisadores/_pesquisadores-modelo.qmd\nModelo para laboratórios: laboratorios/_laboratorios-modelo.qmd\n\nEnvie um Pull Request.\nNo nosso README no GitHub, você encontra um guia ainda mais detalhado com todos os comandos de Git necessários.\n\n\n\n2. Via E-mail\nSe preferir, você pode enviar os dados diretamente para a nossa equipe. Basta enviar um e-mail para:\ncategoriasbrasil@gmail.com\nNo e-mail, inclua as seguintes informações:\n\nNome completo ou nome do laboratório;\nAfiliação institucional (universidade, instituto, etc.);\nLink para Currículo Lattes e/ou site pessoal;\nPrincipais áreas de pesquisa em Teoria das Categorias;\nOpcional: Uma foto de perfil ou logo do laboratório;\nOpcional: Qualquer outra informação extra que julgar relevante."
-  },
-  {
-    "objectID": "acervo.html",
-    "href": "acervo.html",
-    "title": "Acervo",
-    "section": "",
-    "text": "Referências bibliográficas, vídeos, apostilas e materiais úteis para o estudo de Teoria das Categorias."
-  },
-  {
-    "objectID": "acervo.html#livros",
-    "href": "acervo.html#livros",
-    "title": "Acervo",
-    "section": "Livros",
-    "text": "Livros\n\n\n   \n    \n    \n      Ordenar por\n      Padrão\n      \n        Título\n      \n      \n        Autor(a)\n      \n      \n        Tags\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\nTítulo\n\n\n\nAutor(a)\n\n\n\nTags\n\n\n\n\n\n\n\n\nAn Invitation to Applied Category Theory: Seven Sketches in Compositionality\n\n\nBrendan Fong e David Spivak\n\n\nLivro, Introdutório, Inglês\n\n\n\n\n\n\nBasic Category Theory\n\n\nTom Leinster\n\n\nLivro, Introdutório, Inglês\n\n\n\n\n\n\nCategories for the Working Mathematician\n\n\nSaunders Mac Lane\n\n\nLivro, Avançado, Inglês\n\n\n\n\n\n\nCategory Theory\n\n\nSteve Awodey\n\n\nLivro, Introdutório, Inglês\n\n\n\n\n\n\nCategory Theory in Context\n\n\nEmily Riehl\n\n\nLivro, Intermediário, Inglês\n\n\n\n\n\n\nCoend Calculus\n\n\nFosco Loregian\n\n\nLivro, Avançado, Inglês\n\n\n\n\n\n\nCuadernos de Álgebra — Volumen 2\n\n\nOswaldo Lezama Serrano\n\n\nLivro, Introdutório, Espanhol\n\n\n\n\n\n\nHandbook of Categorical Algebra\n\n\nFrancis Borceux\n\n\nLivro, Avançado, Inglês\n\n\n\n\n\n\nLocally Presentable and Accessible Categories\n\n\nJiří Adámek e Jiří Rosický\n\n\nLivro, Avançado, Inglês\n\n\n\n\n\n\nSheaves in Geometry and Logic\n\n\nSaunders Mac Lane e Ieke Moerdijk\n\n\nLivro, Avançado, Inglês\n\n\n\n\n\n\nThe Joy of Abstraction\n\n\nEugenia Cheng\n\n\nLivro, Introdutório, Inglês\n\n\n\n\n\n\nTopoi: The Categorial Analysis of Logic\n\n\nRobert Goldblatt\n\n\nLivro, Introdutório, Inglês\n\n\n\n\n\n\nSem itens correspondentes"
-  },
-  {
-    "objectID": "acervo.html#vídeos",
-    "href": "acervo.html#vídeos",
-    "title": "Acervo",
-    "section": "Vídeos",
-    "text": "Vídeos\n\n\n   \n    \n    \n      Ordenar por\n      Padrão\n      \n        Título\n      \n      \n        Autor(a)\n      \n      \n        Tags\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\nTítulo\n\n\n\nAutor(a)\n\n\n\nTags\n\n\n\n\n\n\n\n\nCategory Theory for Programmers\n\n\nBartosz Milewski\n\n\nVídeo-aula, Introdutório, Inglês\n\n\n\n\n\n\nThe Catsters\n\n\nEugenia Cheng e Simon Willerton\n\n\nVídeo-aula, Intermediário, Inglês\n\n\n\n\n\n\nSem itens correspondentes"
-  },
-  {
-    "objectID": "acervo.html#notas-de-aula",
-    "href": "acervo.html#notas-de-aula",
-    "title": "Acervo",
-    "section": "Notas de Aula",
-    "text": "Notas de Aula\n\n\n   \n    \n    \n      Ordenar por\n      Padrão\n      \n        Título\n      \n      \n        Autor(a)\n      \n      \n        Tags\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\nTítulo\n\n\n\nAutor(a)\n\n\n\nTags\n\n\n\n\n\n\n\n\nBasic Category Theory and Topos Theory\n\n\nJaap van Oosten\n\n\nNotas de Aula, Introdutório, Inglês\n\n\n\n\n\n\nDistributors at Work\n\n\nJean Bénabou (notas de Thomas Streicher)\n\n\nNotas de Aula, Avançado, Inglês\n\n\n\n\n\n\nSem itens correspondentes"
-  },
-  {
-    "objectID": "pesquisadores/paulo-dias/paulo-dias.html",
-    "href": "pesquisadores/paulo-dias/paulo-dias.html",
-    "title": "Paulo Dias",
-    "section": "",
-    "text": "Sou um estudante de graduação e faço iniciação científica em Teoria Aplicada das Categorias."
-  },
-  {
-    "objectID": "pesquisadores/paulo-dias/paulo-dias.html#instituição",
-    "href": "pesquisadores/paulo-dias/paulo-dias.html#instituição",
-    "title": "Paulo Dias",
-    "section": "Instituição",
-    "text": "Instituição\nInstituto de Matemática, Estatística e Ciência da Computação (IME) da Universidade de São Paulo (USP)."
-  },
-  {
-    "objectID": "pesquisadores/paulo-dias/paulo-dias.html#formação-acadêmica",
-    "href": "pesquisadores/paulo-dias/paulo-dias.html#formação-acadêmica",
-    "title": "Paulo Dias",
-    "section": "Formação Acadêmica",
-    "text": "Formação Acadêmica\n(2024 - 2027) Bacharelado em Ciência da Computação.\n  Instituto de Matemática, Estatística e Ciência da Computação (IME)\n  Universidade de São Paulo (USP)"
-  },
-  {
-    "objectID": "pesquisadores/paulo-dias/paulo-dias.html#link-para-o-site-pessoal",
-    "href": "pesquisadores/paulo-dias/paulo-dias.html#link-para-o-site-pessoal",
-    "title": "Paulo Dias",
-    "section": "Link para o site pessoal",
-    "text": "Link para o site pessoal\nhttps://skchima.github.io"
-  },
-  {
-    "objectID": "pesquisadores/paulo-dias/paulo-dias.html#email",
-    "href": "pesquisadores/paulo-dias/paulo-dias.html#email",
-    "title": "Paulo Dias",
-    "section": "Email",
-    "text": "Email\npaulomd@usp.br"
-  },
-  {
-    "objectID": "pesquisadores/hugo-mariano/hugo-mariano.html",
-    "href": "pesquisadores/hugo-mariano/hugo-mariano.html",
-    "title": "Hugo Luiz Mariano",
-    "section": "",
-    "text": "Tem experiência na área de Matemática, com ênfase em teoria dos grupos especiais, lógica matemática e teoria das categorias, atuando principalmente nos seguintes temas: princípios locais-globais na teoria algébrica de formas quadráticas, envoltória profinita de grupos especiais, feixes espectrais de anéis e de grupos especias, representação de grupos especiais, aspectos topológicos e categoriais da teoria dos modelos, esboços e categorias acessíveis, categorias de lógicas, algebrização de Blok-Pigozzi."
-  },
-  {
-    "objectID": "pesquisadores/hugo-mariano/hugo-mariano.html#instituição",
-    "href": "pesquisadores/hugo-mariano/hugo-mariano.html#instituição",
-    "title": "Hugo Luiz Mariano",
-    "section": "Instituição",
-    "text": "Instituição\nInstituto de Matemática, Estatística e Ciência da Computação (IME) da Universidade de São Paulo (USP)."
-  },
-  {
-    "objectID": "pesquisadores/hugo-mariano/hugo-mariano.html#formação-acadêmica",
-    "href": "pesquisadores/hugo-mariano/hugo-mariano.html#formação-acadêmica",
-    "title": "Hugo Luiz Mariano",
-    "section": "Formação Acadêmica",
-    "text": "Formação Acadêmica\n\nPós-Doutorado\nUniversidade Paris-Diderot (Paris 7)\nPós-Doutorado\nUniversidade Estadual de Campinas (UNICAMP)\nDoutorado em Matemática\nUniversidade de São Paulo (USP)\nMestrado em Matemática\nUniversidade de São Paulo (USP)\nBacharelado em Física\nUniversidade de São Paulo (USP)"
-  },
-  {
-    "objectID": "pesquisadores/hugo-mariano/hugo-mariano.html#link-para-o-site-pessoal",
-    "href": "pesquisadores/hugo-mariano/hugo-mariano.html#link-para-o-site-pessoal",
-    "title": "Hugo Luiz Mariano",
-    "section": "Link para o site pessoal",
-    "text": "Link para o site pessoal\nhttps://www.ime.usp.br/hugomar/"
-  },
-  {
-    "objectID": "pesquisadores/hugo-mariano/hugo-mariano.html#email",
-    "href": "pesquisadores/hugo-mariano/hugo-mariano.html#email",
-    "title": "Hugo Luiz Mariano",
-    "section": "Email",
-    "text": "Email\nhugomar (at) ime.usp.br"
-  },
-  {
-    "objectID": "pesquisadores.html",
-    "href": "pesquisadores.html",
-    "title": "Pesquisadores",
-    "section": "",
-    "text": "Aqui estão os pesquisadores que trabalham com Teoria das Categorias no Brasil. Você pode usar a busca ou o painel de categorias ao lado para filtrar por cargo, área ou localização.\n\n\n\n\n\n\n    \n      \n      \n    \n\n\n\n\n\n\n\n\nAnny Beatriz Azevedo\n\n\n\nMestrado\n\nTeoria dos Feixes\n\nComplexidade Computacional\n\nTopologia Geral\n\nSão Paulo\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBenjamin Merlin Bumpus\n\n\n\nProfessor Doutor\n\nComplexidade Computacional\n\nTeoria dos Feixes\n\nSão Paulo\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nHugo Luiz Mariano\n\n\n\nProfessor Associado\n\nLógica e Conjuntos\n\nTopologia Geral\n\nCombinatória\n\nSão Paulo\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nJoão Antonio Recio da Paixão\n\n\n\nProfessor\n\nMétodos Formais\n\nLinguagens Diagramáticas\n\nTeoria de Categorias Aplicada\n\nÁlgebra Linear Gráfica\n\nÁlgebra da Programação\n\nString Diagrams\n\nÁlgebra Linear Computacional\n\nRJ\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPaulo Dias\n\n\n\nIC\n\nComplexidade Computacional\n\nAlgoritmos em Grafos\n\nSão Paulo\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSem itens correspondentes"
-  },
-  {
-    "objectID": "laboratorios/cuica/cuica.html",
-    "href": "laboratorios/cuica/cuica.html",
-    "title": "CUÍCA",
-    "section": "",
-    "text": "CUÍCA (Categorical Understanding Ín Computation & Algorithms) é um laboratório situado no Instituto de Matemática, Estatística e Ciência da Computação (IME) da Universidade de São Paulo (USP)."
-  },
-  {
-    "objectID": "laboratorios/cuica/cuica.html#coordenação",
-    "href": "laboratorios/cuica/cuica.html#coordenação",
-    "title": "CUÍCA",
-    "section": "Coordenação",
-    "text": "Coordenação\n\nBenjamin Merlin Bumpus"
-  },
-  {
-    "objectID": "laboratorios/cuica/cuica.html#membros",
-    "href": "laboratorios/cuica/cuica.html#membros",
-    "title": "CUÍCA",
-    "section": "Membros",
-    "text": "Membros\n\nAnny Beatriz Azevedo\nCaio Morais\nDaniel Ferreira Betoret\nGustavo Freire\nJackson Cook\nJana Nickel\nKarina Sakurai\nLaura Larios-Jones\nLucas Francesco Gesteira\nPaulo Dias\nWill Turner"
-  },
-  {
-    "objectID": "laboratorios/cuica/cuica.html#localização",
-    "href": "laboratorios/cuica/cuica.html#localização",
-    "title": "CUÍCA",
-    "section": "Localização",
-    "text": "Localização\n…"
-  },
-  {
-    "objectID": "laboratorios/cuica/cuica.html#link-para-o-site",
-    "href": "laboratorios/cuica/cuica.html#link-para-o-site",
-    "title": "CUÍCA",
-    "section": "Link para o site",
-    "text": "Link para o site\n…"
-  },
-  {
-    "objectID": "laboratorios/cuica/cuica.html#email-de-contato",
-    "href": "laboratorios/cuica/cuica.html#email-de-contato",
-    "title": "CUÍCA",
-    "section": "Email de contato",
-    "text": "Email de contato\n…"
-  },
-  {
     "objectID": "blog.html",
     "href": "blog.html",
     "title": "Blog",
     "section": "",
     "text": "Como catalogar pesquisadores e laboratórios\n\n\n\nTutorial\n\n\n\n\n\n\n\n\n\n13 de abr. de 2026\n\n\nPaulo Dias\n\n\n\n\n\n\n\n\n\n\n\n\nComo contribuir com o site\n\n\n\nTutorial\n\n\n\n\n\n\n\n\n\n13 de abr. de 2026\n\n\nPaulo Dias\n\n\n\n\n\nSem itens correspondentes"
-  },
-  {
-    "objectID": "laboratorios.html",
-    "href": "laboratorios.html",
-    "title": "Laboratórios",
-    "section": "",
-    "text": "Aqui estão os laboratórios que trabalham com Teoria das Categorias no Brasil. Você pode filtrar através das categorias ao lado.\n\n\n\n\n\n\n    \n      \n      \n    \n\n\n\n\n\n\n\n\nCUÍCA\n\n\n\nComputational Complexity\n\nSheaf Theory\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSem itens correspondentes"
   },
   {
     "objectID": "pesquisadores/anny-azevedo/anny-azevedo.html",
@@ -266,6 +105,90 @@
     "text": "Link para o site pessoal\nhttps://www.joaopaixao.com/"
   },
   {
+    "objectID": "pesquisadores/hugo-mariano/hugo-mariano.html",
+    "href": "pesquisadores/hugo-mariano/hugo-mariano.html",
+    "title": "Hugo Luiz Mariano",
+    "section": "",
+    "text": "Tem experiência na área de Matemática, com ênfase em teoria das categorias, lógica matemática, teoria algébrica de formas quadráticas e hermitianas e teoria dos aneis C-infinito, suas principais áreas de pesquisa e de orientações de iniciação científica, mestrado e doutorado e de supervisões de pós-doutorado.\nDesde 2003 é vinculado à Sociedade Brasileira de Lógica (SBL), tendo sido presidente da SBL (2023-2025) e atualmente é vice-presidente (2025-2027). Desde 2004 é professor da Universidade de São Paulo (USP)."
+  },
+  {
+    "objectID": "pesquisadores/hugo-mariano/hugo-mariano.html#instituição",
+    "href": "pesquisadores/hugo-mariano/hugo-mariano.html#instituição",
+    "title": "Hugo Luiz Mariano",
+    "section": "Instituição",
+    "text": "Instituição\nInstituto de Matemática, Estatística e Ciência da Computação (IME) da Universidade de São Paulo (USP)."
+  },
+  {
+    "objectID": "pesquisadores/hugo-mariano/hugo-mariano.html#formação-acadêmica",
+    "href": "pesquisadores/hugo-mariano/hugo-mariano.html#formação-acadêmica",
+    "title": "Hugo Luiz Mariano",
+    "section": "Formação Acadêmica",
+    "text": "Formação Acadêmica\n\n\nPós-Doutorado\n\nUniversidade Paris Cité\n\nPós-Doutorado\n\nUniversidade Paris 7 (Denis Diderot)\n\nPós-Doutorado\n\nUniversidade Estadual de Campinas (UNICAMP)\n\nDoutorado em Matemática\n\nUniversidade de São Paulo (USP)\n\nMestrado em Matemática\n\nUniversidade de São Paulo (USP)\n\nBacharelado em Física\n\nUniversidade de São Paulo (USP)"
+  },
+  {
+    "objectID": "pesquisadores/hugo-mariano/hugo-mariano.html#link-para-o-site-pessoal",
+    "href": "pesquisadores/hugo-mariano/hugo-mariano.html#link-para-o-site-pessoal",
+    "title": "Hugo Luiz Mariano",
+    "section": "Link para o site pessoal",
+    "text": "Link para o site pessoal\nhttps://www.ime.usp.br/hugomar/"
+  },
+  {
+    "objectID": "pesquisadores/hugo-mariano/hugo-mariano.html#email",
+    "href": "pesquisadores/hugo-mariano/hugo-mariano.html#email",
+    "title": "Hugo Luiz Mariano",
+    "section": "Email",
+    "text": "Email\nhugomar (at) ime.usp.br"
+  },
+  {
+    "objectID": "pesquisadores/ana-tenorio/ana-tenorio.html#instituição",
+    "href": "pesquisadores/ana-tenorio/ana-tenorio.html#instituição",
+    "title": "Ana Luiza Tenório",
+    "section": "Instituição",
+    "text": "Instituição\nEscola de Matemática Aplicada da Fundação Getúlio Vargas (EMAp-FGV)."
+  },
+  {
+    "objectID": "pesquisadores/ana-tenorio/ana-tenorio.html#link-para-o-site-pessoal",
+    "href": "pesquisadores/ana-tenorio/ana-tenorio.html#link-para-o-site-pessoal",
+    "title": "Ana Luiza Tenório",
+    "section": "Link para o site pessoal",
+    "text": "Link para o site pessoal\nhttps://sites.google.com/ime.usp.br/analuizatenorio"
+  },
+  {
+    "objectID": "pesquisadores/paulo-dias/paulo-dias.html",
+    "href": "pesquisadores/paulo-dias/paulo-dias.html",
+    "title": "Paulo Dias",
+    "section": "",
+    "text": "Sou um estudante de graduação e faço iniciação científica em Teoria Aplicada das Categorias."
+  },
+  {
+    "objectID": "pesquisadores/paulo-dias/paulo-dias.html#instituição",
+    "href": "pesquisadores/paulo-dias/paulo-dias.html#instituição",
+    "title": "Paulo Dias",
+    "section": "Instituição",
+    "text": "Instituição\nInstituto de Matemática, Estatística e Ciência da Computação (IME) da Universidade de São Paulo (USP)."
+  },
+  {
+    "objectID": "pesquisadores/paulo-dias/paulo-dias.html#formação-acadêmica",
+    "href": "pesquisadores/paulo-dias/paulo-dias.html#formação-acadêmica",
+    "title": "Paulo Dias",
+    "section": "Formação Acadêmica",
+    "text": "Formação Acadêmica\n\n(2024 - 2027) Bacharelado em Ciência da Computação.\nInstituto de Matemática, Estatística e Ciência da Computação (IME) Universidade de São Paulo (USP)"
+  },
+  {
+    "objectID": "pesquisadores/paulo-dias/paulo-dias.html#link-para-o-site-pessoal",
+    "href": "pesquisadores/paulo-dias/paulo-dias.html#link-para-o-site-pessoal",
+    "title": "Paulo Dias",
+    "section": "Link para o site pessoal",
+    "text": "Link para o site pessoal\nhttps://skchima.github.io"
+  },
+  {
+    "objectID": "pesquisadores/paulo-dias/paulo-dias.html#email",
+    "href": "pesquisadores/paulo-dias/paulo-dias.html#email",
+    "title": "Paulo Dias",
+    "section": "Email",
+    "text": "Email\npaulomd@usp.br"
+  },
+  {
     "objectID": "pesquisadores/benjamin-bumpus/benjamin-bumpus.html",
     "href": "pesquisadores/benjamin-bumpus/benjamin-bumpus.html",
     "title": "Benjamin Merlin Bumpus",
@@ -284,7 +207,7 @@
     "href": "pesquisadores/benjamin-bumpus/benjamin-bumpus.html#formação-acadêmica",
     "title": "Benjamin Merlin Bumpus",
     "section": "Formação Acadêmica",
-    "text": "Formação Acadêmica\n\nProfessor Doutor\nInstituto de Matemática, Estatística e Ciência da Computação (IME)\nUniversidade de São Paulo, Brasil\n\n(2023-2025) Research Assistant Professor\n     University of Florida, USA\n(2022-2023) Postdoctoral Research Fellow\n     University of Florida, USA\n(2021-2022) Postdoctoral Researcher\n     Eindhoven University of Technology, Netherlands\n(2017-2021) PhD em Ciência da Computação\n     University of Glasgow, Scotland\n(2013-2017) BSc em Matemática e suas Aplicações\n     University of Stirling, Scotland"
+    "text": "Formação Acadêmica\n\n\nProfessor Doutor\n\nInstituto de Matemática, Estatística e Ciência da Computação (IME)\nUniversidade de São Paulo, Brasil\n(2023-2025) Research Assistant Professor\nUniversity of Florida, USA\n(2022-2023) Postdoctoral Research Fellow\nUniversity of Florida, USA\n(2021-2022) Postdoctoral Researcher\nEindhoven University of Technology, Netherlands\n(2017-2021) PhD em Ciência da Computação\nUniversity of Glasgow, Scotland\n(2013-2017) BSc em Matemática e suas Aplicações\nUniversity of Stirling, Scotland"
   },
   {
     "objectID": "pesquisadores/benjamin-bumpus/benjamin-bumpus.html#link-para-o-site-pessoal",
@@ -299,6 +222,69 @@
     "title": "Benjamin Merlin Bumpus",
     "section": "Email de contato",
     "text": "Email de contato\nbumpus (at) usp.br\nbenjamin.merlin.bumpus (at) gmail.com"
+  },
+  {
+    "objectID": "laboratorios/cuica/cuica.html",
+    "href": "laboratorios/cuica/cuica.html",
+    "title": "CUÍCA",
+    "section": "",
+    "text": "CUÍCA (Categorical Understanding Ín Computation & Algorithms) é um laboratório situado no Instituto de Matemática, Estatística e Ciência da Computação (IME) da Universidade de São Paulo (USP)."
+  },
+  {
+    "objectID": "laboratorios/cuica/cuica.html#coordenação",
+    "href": "laboratorios/cuica/cuica.html#coordenação",
+    "title": "CUÍCA",
+    "section": "Coordenação",
+    "text": "Coordenação\n\nBenjamin Merlin Bumpus"
+  },
+  {
+    "objectID": "laboratorios/cuica/cuica.html#membros",
+    "href": "laboratorios/cuica/cuica.html#membros",
+    "title": "CUÍCA",
+    "section": "Membros",
+    "text": "Membros\n\nAnny Beatriz Azevedo\nCaio Morais\nDaniel Ferreira Betoret\nGustavo Freire\nJackson Cook\nJana Nickel\nKarina Sakurai\nLaura Larios-Jones\nLucas Francesco Gesteira\nPaulo Dias\nWill Turner"
+  },
+  {
+    "objectID": "laboratorios/cuica/cuica.html#localização",
+    "href": "laboratorios/cuica/cuica.html#localização",
+    "title": "CUÍCA",
+    "section": "Localização",
+    "text": "Localização\n…"
+  },
+  {
+    "objectID": "laboratorios/cuica/cuica.html#link-para-o-site",
+    "href": "laboratorios/cuica/cuica.html#link-para-o-site",
+    "title": "CUÍCA",
+    "section": "Link para o site",
+    "text": "Link para o site\n…"
+  },
+  {
+    "objectID": "laboratorios/cuica/cuica.html#email-de-contato",
+    "href": "laboratorios/cuica/cuica.html#email-de-contato",
+    "title": "CUÍCA",
+    "section": "Email de contato",
+    "text": "Email de contato\n…"
+  },
+  {
+    "objectID": "blog/como-catalogar/index.html",
+    "href": "blog/como-catalogar/index.html",
+    "title": "Como catalogar pesquisadores e laboratórios",
+    "section": "",
+    "text": "Ao fazer parte deste site, você aumenta a visibilidade do seu trabalho e facilita que novos estudantes e colaboradores encontrem seu trabalho ou grupo de pesquisa, fortalecendo a área no Brasil. Veja como pode nos ajudar a manter este catálogo atualizado."
+  },
+  {
+    "objectID": "blog/como-catalogar/index.html#por-que-se-catalogar",
+    "href": "blog/como-catalogar/index.html#por-que-se-catalogar",
+    "title": "Como catalogar pesquisadores e laboratórios",
+    "section": "",
+    "text": "Ao fazer parte deste site, você aumenta a visibilidade do seu trabalho e facilita que novos estudantes e colaboradores encontrem seu trabalho ou grupo de pesquisa, fortalecendo a área no Brasil. Veja como pode nos ajudar a manter este catálogo atualizado."
+  },
+  {
+    "objectID": "blog/como-catalogar/index.html#formas-de-participar",
+    "href": "blog/como-catalogar/index.html#formas-de-participar",
+    "title": "Como catalogar pesquisadores e laboratórios",
+    "section": "Formas de Participar",
+    "text": "Formas de Participar\nExistem duas maneiras principais de catalogar suas informações: via GitHub (para quem prefere lidar diretamente com o código) ou via E-mail (para quem busca praticidade).\n\n1. Via GitHub\nNosso site é de código aberto e utiliza o Quarto. Se você tem familiaridade com Git e GitHub, siga estes passos:\n\nAcesse nosso repositório: categorias-brasil/categorias-brasil.github.io.\nFaça um Fork do projeto.\nCrie um diretório com o seu nome (ou nome do laboratório) e adicione um arquivo .qmd com esse mesmo nome dentro dele:\n\nPara pesquisadores: pesquisadores/seu-nome/seu-nome.qmd\nPara laboratórios: laboratorios/nome-do-lab/nome-do-lab.qmd\nDica: Ao criar um diretório próprio, você pode colocar sua foto ou logo na mesma pasta, o que facilita a organização.\n\nUse os modelos existentes como base para preencher seus dados:\n\nModelo para pessoas: pesquisadores/_pesquisadores-modelo.qmd\nModelo para laboratórios: laboratorios/_laboratorios-modelo.qmd\n\nEnvie um Pull Request.\nNo nosso README no GitHub, você encontra um guia ainda mais detalhado com todos os comandos de Git necessários.\n\n\n\n2. Via E-mail\nSe preferir, você pode enviar os dados diretamente para a nossa equipe. Basta enviar um e-mail para:\ncategoriasbrasil@gmail.com\nNo e-mail, inclua as seguintes informações:\n\nNome completo ou nome do laboratório;\nAfiliação institucional (universidade, instituto, etc.);\nLink para Currículo Lattes e/ou site pessoal;\nPrincipais áreas de pesquisa em Teoria das Categorias;\nOpcional: Uma foto de perfil ou logo do laboratório;\nOpcional: Qualquer outra informação extra que julgar relevante."
   },
   {
     "objectID": "blog/como-contribuir/index.html",
@@ -333,6 +319,34 @@
     "href": "eventos.html",
     "title": "Eventos",
     "section": "",
-    "text": "Ordenar por\n      Padrão\n      \n        Título\n      \n      \n        Data - Mais antigo\n      \n      \n        Data - O mais novo\n      \n      \n        Autor\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nIII Encontro Brasileiro em Teoria das Categorias (EBTC2026)\n\n\n\nMG\n\nHíbrido\n\n\n\n\n\n\n\n\n\n4 de mai. de 2026\n\n\n\n\n\nSem itens correspondentes"
+    "text": "Ordenar por\n      Padrão\n      \n        Título\n      \n      \n        Data - Mais antigo\n      \n      \n        Data - O mais novo\n      \n      \n        Autor\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nIII Encontro Brasileiro em Teoria das Categorias (EBTC2026)\n\n\n\nLocal: MG\n\nModalidade: Híbrido\n\n\n\n\n\n\n\n\n\n4 de mai. de 2026\n\n\n\n\n\nSem itens correspondentes"
+  },
+  {
+    "objectID": "acervo.html",
+    "href": "acervo.html",
+    "title": "Acervo",
+    "section": "",
+    "text": "Referências bibliográficas, vídeos, apostilas e materiais úteis para o estudo de Teoria das Categorias."
+  },
+  {
+    "objectID": "acervo.html#livros",
+    "href": "acervo.html#livros",
+    "title": "Acervo",
+    "section": "Livros",
+    "text": "Livros\n\n\n   \n    \n    \n      Ordenar por\n      Padrão\n      \n        Título\n      \n      \n        Autor(a)\n      \n      \n        Tags\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\nTítulo\n\n\n\nAutor(a)\n\n\n\nTags\n\n\n\n\n\n\n\n\nAn Invitation to Applied Category Theory: Seven Sketches in Compositionality\n\n\nBrendan Fong e David Spivak\n\n\nLivro, Introdutório, Inglês\n\n\n\n\n\n\nBasic Category Theory\n\n\nTom Leinster\n\n\nLivro, Introdutório, Inglês\n\n\n\n\n\n\nCategories for the Working Mathematician\n\n\nSaunders Mac Lane\n\n\nLivro, Avançado, Inglês\n\n\n\n\n\n\nCategory Theory\n\n\nSteve Awodey\n\n\nLivro, Introdutório, Inglês\n\n\n\n\n\n\nCategory Theory in Context\n\n\nEmily Riehl\n\n\nLivro, Intermediário, Inglês\n\n\n\n\n\n\nCoend Calculus\n\n\nFosco Loregian\n\n\nLivro, Avançado, Inglês\n\n\n\n\n\n\nCuadernos de Álgebra — Volumen 2\n\n\nOswaldo Lezama Serrano\n\n\nLivro, Introdutório, Espanhol\n\n\n\n\n\n\nHandbook of Categorical Algebra\n\n\nFrancis Borceux\n\n\nLivro, Avançado, Inglês\n\n\n\n\n\n\nLocally Presentable and Accessible Categories\n\n\nJiří Adámek e Jiří Rosický\n\n\nLivro, Avançado, Inglês\n\n\n\n\n\n\nSheaves in Geometry and Logic\n\n\nSaunders Mac Lane e Ieke Moerdijk\n\n\nLivro, Avançado, Inglês\n\n\n\n\n\n\nThe Joy of Abstraction\n\n\nEugenia Cheng\n\n\nLivro, Introdutório, Inglês\n\n\n\n\n\n\nTopoi: The Categorial Analysis of Logic\n\n\nRobert Goldblatt\n\n\nLivro, Introdutório, Inglês\n\n\n\n\n\n\nSem itens correspondentes"
+  },
+  {
+    "objectID": "acervo.html#vídeos",
+    "href": "acervo.html#vídeos",
+    "title": "Acervo",
+    "section": "Vídeos",
+    "text": "Vídeos\n\n\n   \n    \n    \n      Ordenar por\n      Padrão\n      \n        Título\n      \n      \n        Autor(a)\n      \n      \n        Tags\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\nTítulo\n\n\n\nAutor(a)\n\n\n\nTags\n\n\n\n\n\n\n\n\nCategory Theory for Programmers\n\n\nBartosz Milewski\n\n\nVídeo-aula, Introdutório, Inglês\n\n\n\n\n\n\nThe Catsters\n\n\nEugenia Cheng e Simon Willerton\n\n\nVídeo-aula, Intermediário, Inglês\n\n\n\n\n\n\nSem itens correspondentes"
+  },
+  {
+    "objectID": "acervo.html#notas-de-aula",
+    "href": "acervo.html#notas-de-aula",
+    "title": "Acervo",
+    "section": "Notas de Aula",
+    "text": "Notas de Aula\n\n\n   \n    \n    \n      Ordenar por\n      Padrão\n      \n        Título\n      \n      \n        Autor(a)\n      \n      \n        Tags\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\nTítulo\n\n\n\nAutor(a)\n\n\n\nTags\n\n\n\n\n\n\n\n\nBasic Category Theory and Topos Theory\n\n\nJaap van Oosten\n\n\nNotas de Aula, Introdutório, Inglês\n\n\n\n\n\n\nDistributors at Work\n\n\nJean Bénabou (notas de Thomas Streicher)\n\n\nNotas de Aula, Avançado, Inglês\n\n\n\n\n\n\nSem itens correspondentes"
   }
 ]
