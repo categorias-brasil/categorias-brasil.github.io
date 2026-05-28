@@ -6,17 +6,6 @@
     ]
   },
   {
-    "listing": "/pesquisadores.html",
-    "items": [
-      "/pesquisadores/ana-tenorio/ana-tenorio.html",
-      "/pesquisadores/anny-azevedo/anny-azevedo.html",
-      "/pesquisadores/benjamin-bumpus/benjamin-bumpus.html",
-      "/pesquisadores/hugo-mariano/hugo-mariano.html",
-      "/pesquisadores/joao-paixao/joao-paixao.html",
-      "/pesquisadores/paulo-dias/paulo-dias.html"
-    ]
-  },
-  {
     "listing": "/blog.html",
     "items": [
       "/blog/como-catalogar/index.html",
@@ -27,6 +16,23 @@
     "listing": "/eventos.html",
     "items": [
       "/eventos/ebct3.html"
+    ]
+  },
+  {
+    "listing": "/pesquisadores.html",
+    "items": [
+      "/pesquisadores/ana-tenorio/ana-tenorio.html",
+      "/pesquisadores/anny-azevedo/anny-azevedo.html",
+      "/pesquisadores/benjamin-bumpus/benjamin-bumpus.html",
+      "/pesquisadores/eduardo-ochs/eduardo-ochs.html",
+      "/pesquisadores/eduardo-marcos/eduardo-marcos.html",
+      "/pesquisadores/ellen-oliveira/ellen-oliveira.html",
+      "/pesquisadores/gustavo-boska/gustavo-boska.html",
+      "/pesquisadores/hugo-mariano/hugo-mariano.html",
+      "/pesquisadores/joao-paixao/joao-paixao.html",
+      "/pesquisadores/marcos-jardim/marcos-jardim.html",
+      "/pesquisadores/nelson-serrano/nelson-serrano.html",
+      "/pesquisadores/paulo-dias/paulo-dias.html"
     ]
   },
   {
