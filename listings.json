@@ -6,19 +6,6 @@
     ]
   },
   {
-    "listing": "/blog.html",
-    "items": [
-      "/blog/como-catalogar/index.html",
-      "/blog/como-contribuir/index.html"
-    ]
-  },
-  {
-    "listing": "/eventos.html",
-    "items": [
-      "/eventos/ebct3.html"
-    ]
-  },
-  {
     "listing": "/pesquisadores.html",
     "items": [
       "/pesquisadores/ana-tenorio/ana-tenorio.html",
@@ -32,7 +19,21 @@
       "/pesquisadores/joao-paixao/joao-paixao.html",
       "/pesquisadores/marcos-jardim/marcos-jardim.html",
       "/pesquisadores/nelson-serrano/nelson-serrano.html",
-      "/pesquisadores/paulo-dias/paulo-dias.html"
+      "/pesquisadores/paulo-dias/paulo-dias.html",
+      "/pesquisadores/sidiney-montanhano/sidiney-montanhano.html"
+    ]
+  },
+  {
+    "listing": "/eventos.html",
+    "items": [
+      "/eventos/ebct3.html"
+    ]
+  },
+  {
+    "listing": "/blog.html",
+    "items": [
+      "/blog/como-catalogar/index.html",
+      "/blog/como-contribuir/index.html"
     ]
   },
   {
