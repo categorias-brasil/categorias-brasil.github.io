@@ -1,9 +1,13 @@
 ---
+categories: 
+- "Grau: Professor Auxiliar"
+- "Área: Fundamentos da Teoria Quântica"
+- "Área: Teoria das Categorias Aplicada"
+- "Local: Paraná"
 title: Sidiney Bruno Montanhano
-categories: ["Grau: Professor Auxiliar", "Área: Fundamentos da Teoria Quântica", "Área: Teoria das Categorias Aplicada", "Local: Paraná"]
 ---
 
-<img src="foto-sidiney-montanhano.jpg" alt="Foto de Sidiney Bruno Montanhano" width="400" style="max-width: 400px;">`{=html}
+`<img src="foto-sidiney-montanhano.jpg" alt="Foto de Sidiney Bruno Montanhano" width="400" style="max-width: 400px;">`{=html}
 
 ## Instituição
 
