@@ -12,7 +12,7 @@ categories:
 title: João Antonio Recio da Paixão
 ---
 
-`<img src="foto-joao-paixao.jpg" alt="Foto do pesquisador(a)" width="400" style="max-width: 400px;">`{=html}
+`<img src="foto-joao-paixao.jpg" alt="Foto do pesquisador(a)" style="width: 100%; max-width: 400px; height: auto;">`{=html}
 
 ## Instituição
 

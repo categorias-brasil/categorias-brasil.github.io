@@ -7,7 +7,7 @@ categories:
 title: Sidiney Bruno Montanhano
 ---
 
-`<img src="foto-sidiney-montanhano.jpg" alt="Foto de Sidiney Bruno Montanhano" width="400" style="max-width: 400px;">`{=html}
+`<img src="foto-sidiney-montanhano.jpg" alt="Foto de Sidiney Bruno Montanhano" style="width: 100%; max-width: 400px; height: auto;">`{=html}
 
 ## Instituição
 

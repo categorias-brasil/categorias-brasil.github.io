@@ -4,8 +4,9 @@ categories: ["Área: Área de Atuação", "Local: Local ou Instituição"]
 draft: true
 ---
 
-<!-- Substitua na linha abaixo o nome do arquivo da sua imagem:
-<img src="sua_imagem.jpg" alt="Logo ou foto do laboratório" width="400" style="max-width: 400px;"> -->
+<!-- Substitua na linha abaixo o nome do arquivo da sua imagem.
+Na tag 'alt', descreva como é o logo para ajudar na acessibilidade:
+<img src="sua_imagem.jpg" alt="Descrição visual do logo do laboratório" style="width: 100%; max-width: 400px; height: auto;"> -->
 
 Descrição breve do laboratório/grupo e sua área englobada.
 

@@ -29,25 +29,33 @@ Siga este passo a passo para adicionar ou atualizar informações:
       1. Crie um novo diretório dentro de `laboratorios/` com o nome do laboratório (ex: `laboratorios/meu-lab/`).
       2. Dentro deste diretório, crie um arquivo `.qmd` com o mesmo nome (ex: `meu-lab.qmd`).
       3. Use o arquivo `laboratorios/_laboratorios-modelo.qmd` como base.
-    - **Imagens**: Se quiser incluir uma foto ou logo, salve o arquivo de imagem no **mesmo diretório** do seu arquivo `.qmd` e ajuste o campo `image` no cabeçalho (YAML) do arquivo.
-5.  **Commit e Push**:
+    - **Imagens**: Se quiser incluir uma foto ou logo, salve o arquivo de imagem no **mesmo diretório** do seu arquivo `.qmd`. Em seguida, insira a imagem logo após o cabeçalho YAML. Lembre-se de descrever a imagem na tag `alt` para acessibilidade (ex: "Retrato de pessoa sorrindo") e use CSS responsivo: `<img src="sua_foto.jpg" alt="Descrição visual da foto" style="width: 100%; max-width: 400px; height: auto;">`{=html}.
+5.  **Teste Localmente (Recomendado)**:
+    Se você tiver o [Quarto instalado](https://quarto.org/docs/get-started/), abra o terminal na pasta do repositório e rode o comando abaixo para pré-visualizar o site e garantir que não há erros:
+    ```bash
+    quarto preview
+    ```
+6.  **Commit e Push**:
     ```bash
     git add .
     git commit -m "Adiciona perfil de [Seu Nome]"
     git push origin adicionar-perfil-nome
     ```
-6.  **Abra um Pull Request**: Vá para o repositório original no GitHub e abra um Pull Request a partir da sua nova branch.
+7.  **Abra um Pull Request**: Vá para o repositório original no GitHub e abra um Pull Request a partir da sua nova branch.
 
 #### Preenchendo o Cabeçalho (YAML)
 
 Os arquivos `.qmd` começam com um bloco entre `---`, chamado YAML. Veja o que preencher:
 
 - `title`: Seu nome completo ou o nome do laboratório.
-- `image`: O nome do arquivo de imagem que você colocou na pasta (ex: `"foto.jpg"`).
 - `categories`: Uma lista de etiquetas para os filtros do site. 
   - Para pessoas, inclua: `["Cargo", "Área de Pesquisa", "Estado"]`.
   - Para laboratórios, inclua: `["Área", "Instituição"]`.
 - `draft: true`: **Importante!** Os modelos vêm com `draft: true` para não serem publicados por acidente. Para que seu perfil apareça no site, você deve **remover esta linha** ou mudá-la para `false`.
+
+#### Dicas Extras
+
+- **E-mails**: Para evitar robôs de spam varrendo a página, evite escrever seu e-mail como um link `mailto:` ou em texto puro legível. Prefira usar um formato ofuscado na seção do e-mail (ex: `seu-email [arroba] dominio.com` ou `usuario (at) instituicao.br`).
 
 ### 2. Via E-mail
 
@@ -73,3 +81,6 @@ No e-mail, inclua:
 
 Para mais informações, veja o tutorial no blog: [Como catalogar pesquisadores e laboratórios](https://categorias-brasil.github.io/blog/como-catalogar/).
 
+## Aprendendo Quarto
+
+Este site é construído utilizando o **Quarto**, um poderoso sistema de publicação científica e técnica de código aberto. Se você deseja aprender mais sobre as opções de formatação, explorar recursos avançados de Markdown ou configurar páginas mais elaboradas, recomendamos fortemente a leitura da [Documentação Oficial do Quarto (em inglês)](https://quarto.org/docs/guide/).

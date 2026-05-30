@@ -11,3 +11,4 @@ title: Eventos
 title-block-banner: true
 ---
 
+Fique por dentro das conferências, seminários, workshops e encontros focados em Teoria das Categorias e suas aplicações.

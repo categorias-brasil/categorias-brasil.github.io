@@ -11,3 +11,4 @@ title: Blog
 title-block-banner: true
 ---
 
+Acompanhe nossos tutoriais, comunicados e artigos. Aqui você encontrará guias de contribuição, atualizações da comunidade e materiais informativos sobre Teoria das Categorias no Brasil.

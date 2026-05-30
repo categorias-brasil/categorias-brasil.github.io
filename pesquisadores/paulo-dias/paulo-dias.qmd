@@ -7,7 +7,7 @@ categories:
 title: Paulo Dias
 ---
 
-`<img src="paulo-dias.jpg" alt="Foto de Paulo Dias" width="400" style="max-width: 400px;">`{=html}
+`<img src="paulo-dias.jpg" alt="Foto de Paulo Dias" style="width: 100%; max-width: 400px; height: auto;">`{=html}
 
 Sou um estudante de graduação e faço iniciação científica em Teoria Aplicada das
 Categorias.
@@ -30,4 +30,4 @@ Universidade de São Paulo (USP).
 
 ## Email
 
-<paulomd@usp.br>
+<paulomd (arroba) usp (ponto) br>

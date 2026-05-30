@@ -7,7 +7,7 @@ categories:
 title: Benjamin Merlin Bumpus
 ---
 
-`<img src="bumpus2.webp" alt="Foto de Benjamin Merlin Bumpus" width="400" style="max-width: 400px;">`{=html}
+`<img src="bumpus2.webp" alt="Foto de Benjamin Merlin Bumpus" style="width: 100%; max-width: 400px; height: auto;">`{=html}
 
 ## Instituição
 
