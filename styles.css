@@ -1,8 +1,36 @@
 :root {
-  --color-primary: #1a0081;
-  --color-secondary: #8a2be2;
-  --color-tertiary: #eae9f4;
-  --color-quaternary: #f8f8f8;
+  --cat-primary: #1a0081;
+  --cat-primary-dark: #0b0033;
+  --cat-tertiary: #eae9f4;
+  --cat-quaternary: #f8f8f8;
+  --cat-border-light: lightgray;
+  
+  --cat-link-color: #1a0081;
+  --cat-link-hover-color: #0b0033;
+}
+
+[data-bs-theme="dark"], body.quarto-dark, html.quarto-dark, [data-theme="dark"] {
+  --cat-link-color: #66b2ff;
+  --cat-link-hover-color: #99ccff;
+  --cat-border-light: #2a2a4a;
+}
+
+a, a:visited {
+  color: var(--cat-link-color) !important;
+}
+a:hover {
+  color: var(--cat-link-hover-color) !important;
+}
+
+div.callout-tip {
+  border-left-color: var(--cat-primary) !important;
+}
+div.callout-tip .callout-header {
+  background-color: var(--cat-tertiary) !important;
+}
+[data-bs-theme="dark"] div.callout-tip .callout-header, 
+body.quarto-dark div.callout-tip .callout-header {
+  background-color: #15152b !important;
 }
 
 @font-face {
@@ -26,7 +54,7 @@ div.c-set tr,
 div.c-set th,
 div.c-set td {
   padding: 10px;
-  border: 1px solid lightgray;
+  border: 1px solid var(--color-border-light);
 }
 
 div.c-set .fndef tr:first-of-type {
@@ -82,34 +110,33 @@ div.proof:after {
 }
 
 .navbar,
-.quarto-title-banner {
-  background-color: var(--color-primary) !important;
-}
-
+.quarto-title-banner,
 .nav-footer {
-  background-color: var(--bs-body-bg);
-  border-top: 1px solid var(--bs-border-color);
-  padding: 2rem 0;
-  font-size: 0.85rem;
-  color: var(--bs-body-color);
+  background-color: var(--cat-primary) !important;
+  color: #ffffff !important;
 }
 
+.navbar a, .navbar a:visited,
+.quarto-title-banner a, .quarto-title-banner a:visited,
+.nav-footer a, .nav-footer a:visited,
+.navbar-brand, .nav-link,
+.quarto-title-banner h1, .quarto-title-banner h2, .quarto-title-banner p,
 .nav-footer-center {
-  font-weight: 600;
-  color: var(--color-primary);
-}
-
-[data-bs-theme="dark"] .nav-footer-center {
-  color: var(--color-secondary);
-}
-
-.nav-footer a {
-  color: var(--color-secondary);
+  color: #ffffff !important;
   text-decoration: none;
 }
 
+.navbar a:hover, .nav-link:hover,
+.quarto-title-banner a:hover,
 .nav-footer a:hover {
+  color: #e0e0e0 !important;
   text-decoration: underline;
+}
+
+.nav-footer {
+  border-top: none;
+  padding: 2rem 0;
+  font-size: 0.85rem;
 }
 
 @media (min-width: 992px) {
