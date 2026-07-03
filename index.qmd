@@ -1,8 +1,50 @@
 ---
 page-layout: full
 title-block-banner: true
+listing:
+  - id: features
+    contents:
+      - title: "Pesquisadores"
+        path: pesquisadores.qmd
+        description: "Conheça os acadêmicos atuantes no país ou brasileiros no exterior."
+      - title: "Laboratórios"
+        path: laboratorios.qmd
+        description: "Grupos e centros de pesquisa dedicados à Teoria das Categorias."
+      - title: "Eventos"
+        path: eventos.qmd
+        description: "Fique por dentro de conferências, workshops e seminários."
+      - title: "Acervo"
+        path: acervo.qmd
+        description: "Referências bibliográficas e materiais úteis para estudo."
+    type: grid
+    grid-columns: 4
+    image-height: 0px
+    fields: [title, description]
+  - id: participar
+    contents:
+      - title: "Seja Catalogado"
+        path: blog/como-catalogar/index.qmd
+        description: "Se você é um pesquisador ou faz parte de um laboratório na área, junte-se ao catálogo para aumentar sua visibilidade."
+      - title: "Contribua com o Site"
+        path: blog/como-contribuir/index.qmd
+        description: "Sendo um projeto de código aberto, qualquer um pode ajudar. Aceitamos correções de bugs, novos conteúdos e melhorias no código."
+    type: grid
+    grid-columns: 2
+    image-height: 0px
+    fields: [title, description]
+  - id: blog-feed
+    contents: blog/*/index.qmd
+    type: grid
+    grid-columns: 3
+    max-items: 3
+    sort: "date desc"
+    image-height: 150px
+    fields: [title, date, description]
+    filter-ui: false
+    sort-ui: false
 ---
 
+::: {.text-center .py-5}
 # Nosso Objetivo
 
 Este site é dedicado à divulgação científica da Teoria das Categorias no Brasil.
@@ -14,36 +56,34 @@ na ciência da computação, servindo como uma linguagem multidisciplinar. Atrav
 desta plataforma, buscamos ampliar a visibilidade dessa área no cenário
 acadêmico brasileiro.
 
-## Como Participar
-
-Queremos que este catálogo seja o mais completo possível! Você pode participar
-ativamente da construção deste ecossistema:
-
-- **Seja Catalogado:** Se você é um pesquisador ou faz parte de um laboratório
-  na área, veja [como se incluir no site](blog/como-catalogar/index.qmd).
-
-::: {.callout-tip title="Contato Direto"}
-Prefere algo mais simples? Caso não queira realizar um Pull Request, você pode
-enviar suas informações diretamente para
-[**categoriasbrasil@gmail.com**](mailto:categoriasbrasil@gmail.com).
+[O que é Teoria das Categorias?](o-que-e.qmd){.btn .btn-primary .btn-lg}
 :::
 
-- **Contribua com o Site:** Sendo um projeto de código aberto, aceitamos
-  melhorias no código e no conteúdo. Veja [como contribuir com o
-  site](blog/como-contribuir/index.qmd).
+---
 
-## Objetivo do Projeto
+## Do Blog
 
-Buscamos centralizar informações essenciais que facilitam a colaboração entre
-pesquisadores e incentivam o interesse de estudantes pela Teoria das Categorias.
-Aqui você encontrará:
+Confira as últimas publicações, artigos de opinião, tutoriais e discussões científicas da nossa comunidade:
 
-- [**Pesquisadores:**](pesquisadores.qmd) Uma lista de acadêmicos atuantes no
-  país ou brasileiros no exterior.
+:::{#blog-feed}
+:::
 
-- [**Laboratórios:**](laboratorios.qmd) Grupos e centros de pesquisa dedicados
-  ao tema.
+::: {.text-end}
+[Ver todos os posts →](blog.qmd){.btn .btn-outline-primary .btn-sm}
+:::
 
-- [**Eventos:**](eventos.qmd) Conferências, workshops e seminários.
+---
 
-- [**Acervo:**](acervo.qmd) Referências bibliográficas e materiais úteis.
+## Informações e Catálogos
+
+Encontre pesquisadores da área, grupos de pesquisa ativos, eventos recentes e materiais recomendados de estudo:
+
+:::{#features}
+:::
+
+## Como Participar
+
+Queremos que este site seja o mais completo possível! Você pode participar ativamente da construção deste ecossistema:
+
+:::{#participar}
+:::

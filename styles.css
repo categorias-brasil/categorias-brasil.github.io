@@ -4,22 +4,38 @@
   --cat-tertiary: #eae9f4;
   --cat-quaternary: #f8f8f8;
   --cat-border-light: lightgray;
-  
+
   --cat-link-color: #1a0081;
   --cat-link-hover-color: #0b0033;
+
+  --cat-on-primary: #ffffff;
 }
 
 [data-bs-theme="dark"], body.quarto-dark, html.quarto-dark, [data-theme="dark"] {
+  --cat-primary: #3b20bd;
+  --cat-primary-dark: #2a109e;
   --cat-link-color: #66b2ff;
   --cat-link-hover-color: #99ccff;
   --cat-border-light: #2a2a4a;
+  --cat-on-primary: #ffffff;
 }
 
-a, a:visited {
+a:not(.btn), a:not(.btn):visited {
   color: var(--cat-link-color) !important;
 }
-a:hover {
+a:not(.btn):hover {
   color: var(--cat-link-hover-color) !important;
+}
+
+.btn-primary {
+  --bs-btn-bg: var(--cat-primary);
+  --bs-btn-border-color: var(--cat-primary);
+  --bs-btn-hover-bg: var(--cat-primary-dark);
+  --bs-btn-hover-border-color: var(--cat-primary-dark);
+  --bs-btn-color: var(--cat-on-primary);
+  --bs-btn-hover-color: var(--cat-on-primary);
+  --bs-btn-active-bg: var(--cat-primary-dark);
+  --bs-btn-active-color: var(--cat-on-primary);
 }
 
 div.callout-tip {
@@ -61,12 +77,19 @@ div.c-set .fndef tr:first-of-type {
   background: var(--color-quaternary);
 }
 
-.tikzcd {
+.tikzcd,
+.tikz {
   display: flex;
   flex-direction: column;
   align-items: center;
   margin-bottom: 1em;
   margin-top: 1em;
+}
+
+.tikz img,
+.tikzcd img {
+  max-width: 100%;
+  height: auto;
 }
 
 div.proof:after {
@@ -110,10 +133,19 @@ div.proof:after {
 }
 
 .navbar,
+.navbar.bg-primary,
 .quarto-title-banner,
 .nav-footer {
   background-color: var(--cat-primary) !important;
   color: #ffffff !important;
+}
+
+body.quarto-light .navbar {
+  background-color: #1a0081 !important;
+}
+
+body.quarto-dark .navbar {
+  background-color: #3b20bd !important;
 }
 
 .navbar a, .navbar a:visited,
@@ -149,4 +181,28 @@ div.proof:after {
 .quarto-margin-sidebar .listing-category,
 .quarto-margin-sidebar .category {
   white-space: nowrap !important;
+}
+
+/* Listing Cards */
+.quarto-grid-item .card {
+  min-height: 200px;
+}
+.quarto-grid-item .card-body {
+  padding: 2rem;
+}
+.quarto-grid-item .card-title {
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+
+/* Utility Classes */
+.hover-elevate {
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+.hover-elevate:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.15) !important;
+}
+[data-bs-theme="dark"] .hover-elevate:hover, body.quarto-dark .hover-elevate:hover {
+  box-shadow: 0 10px 20px rgba(0,0,0,0.5) !important;
 }

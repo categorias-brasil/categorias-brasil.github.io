@@ -11,6 +11,7 @@ website:
     background: primary
     collapse-below: sm
     right:
+      - o-que-e.qmd
       - blog.qmd
       - pesquisadores.qmd
       - laboratorios.qmd

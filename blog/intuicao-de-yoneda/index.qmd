@@ -1,0 +1,260 @@
+---
+author: Paulo Dias
+categories:
+- Teoria das Categorias
+date: 2026-07-02
+title: Um vislumbre de Yoneda através dos C-sets
+---
+
+## O que é?
+
+O lema de Yoneda é um dos resultados mais relevantes $[$e elegantes$]$ da teoria
+das categorias, mas também um dos mais difíceis de adquirir intuição na primeira
+leitura. Com esse post, meu objetivo é explorar apenas sua camada mais
+superficial. Então, se você nunca teve contato, esse texto é para você! Caso
+contrário, talvez encontre uma forma diferente de enxergá-lo.
+
+## "Uma função que representa uma escolha"
+
+Na visão conjuntista, uma das maneiras de propor uma mudança de perspectiva
+sobre o objeto analisado é dizer que cada elemento "pode ser visto" como uma
+função no seguinte sentido: seja $A = \{a, b, c\}$ um conjunto e $1$ o objeto
+terminal de Set. Há uma bijeção
+
+$$ A \cong \text{Set(1, A)}. $$
+
+Ou seja, para cada elemento $x \in A$, há uma única função $f_x : 1 \to A$ que
+leva o único elemento de $1$ para $x$. Isso nos dá a capacidade de olhar para os
+morfismos em vez dos objetos, o que é um hábito na teoria das categorias. Por
+que não tentamos generalizar essa ideia?
+
+## Formalidades
+
+Antes de enunciar o lema, precisamos de dois conceitos centrais que aparecerão
+em todos os exemplos a seguir.
+
+### Definições
+
+Um *copré-feixe* $F$ em uma categoria $C$ é um funtor $F : C \to \text{Set}$. A
+categoria dos $C$-sets tem como objetos esses funtores e como morfismos as
+transformações naturais entre eles. Também chamaremos esses funtores de $C$-sets
+quando a categoria $C$ estiver subentendida.
+
+> **Observação de notação:** Usaremos $F$ tanto para denotar o funtor em si
+> quanto para nos referir à estrutura que ele representa, seja um conjunto, um
+> grafo, ou qualquer outra. O contexto deixará claro qual o sentido em cada uso.
+
+### O lema
+
+Seja $\mathcal{C}$ uma categoria pequena e $F$ um copré-feixe. Para todo objeto
+$c$ de $\mathcal{C}$, há uma bijeção
+
+$$ \text{Nat}(C(c, -), F) \cong F(c). $$
+
+Em outras palavras, cada elemento $x \in F(c)$ determina unicamente uma
+transformação natural $f_x : C(c, -) \Rightarrow F$, e, reciprocamente, toda
+transformação natural dessa forma provém de um único elemento de $F(c)$. Essa
+correspondência é natural em $c$ e em $F$.
+
+Dizemos que $C(-, -)$ é uma *imersão de Yoneda*, e que um funtor $C(c, -)$ é o
+representável de $c$ nessa imersão.
+
+## Aplicando o lema em Set
+
+Para conjuntos, é praticamente imediato. Tomamos como a categoria $C$ a
+categoria terminal $1$, com um único objeto, que denotaremos por $*$. Um
+copré-feixe $A : 1 \to \text{Set}$ é completamente determinado pelo conjunto
+$A(*)$, de modo que podemos identificar um $1$-set simplesmente com um conjunto.
+
+Além disso, a partir da imersão de Yoneda, teríamos um único representável
+$1(*, -)$. O ponto crucial é que uma transformação natural $1(*, -) \Rightarrow
+A$ corresponde exatamente a escolher um elemento de $A(*)$: é essa a "noção de
+elemento" que o lema nos dá, e que será generalizada nos exemplos seguintes.
+
+### Quem é $1(*, -)?$
+
+Vamos considerar o funtor aplicado no único objeto de $1$:
+
+$$ 1(*, *) = \{id_*\}. $$
+
+Então podemos afirmar que o representável dessa categoria de $C$-sets é apenas
+um conjunto unitário.
+
+Nesse sentido, a "escolha" de um elemento seria uma transformação natural
+$\alpha : 1(*, -) \to A$. Podemos então entender quem seria $1(*, -)$ a partir
+da seguinte ilustração:
+
+``` tikz
+\node (star) at (0,0) {$*$};
+
+\node (a) at (4,1.5) {$a$};
+\node (b) at (4,0) {$b$};
+\node (c) at (4,-1.5) {$c$};
+
+\draw[->] (star) -- node[above left] {$f_a$} (a);
+\draw[->] (star) -- node[above] {$f_b$} (b);
+\draw[->] (star) -- node[below left] {$f_c$} (c);
+
+\draw[
+  decorate,
+  decoration={brace,mirror,amplitude=6pt}
+] (3.55,2.0) -- (3.55,-2.0);
+
+\draw[
+  decorate,
+  decoration={brace,amplitude=6pt}
+] (4.45,2.0) -- (4.45,-2.0);
+
+\node at (5.5,0) {$=\,A$};
+```
+
+Cada seta do desenho corresponde exatamente a uma transformação natural
+diferente, isto é, a uma maneira de escolher um elemento de $A$. Essa é
+precisamente a interpretação fornecida pelo lema de Yoneda no caso dos
+conjuntos.
+
+## Aplicando o lema em Graph
+
+A ideia para grafos é exatamente a mesma do caso dos conjuntos. A diferença é
+que agora não basta descrever apenas "elementos"; um grafo possui dois tipos
+distintos de objetos, vértices e arestas, além da informação de incidência entre
+eles. Precisamos, portanto, de uma categoria que codifique esses requisitos.
+
+Seguindo a abordagem anterior, primeiro definimos a categoria que será o domínio
+dos copré-feixes, denotada agora por $\Gamma$. O propósito dela é definir os
+tipos de dados da estrutura que estamos construindo, como em Set definimos
+grosso modo apenas "elemento". Então, para grafos, precisamos de dois objetos:
+um para vértices e outro para arestas; serão chamados de $V$ e $E$.
+
+Você provavelmente já reparou que precisaremos codificar as informações
+adicionais necessárias: dada uma aresta, como eu posso saber seus vértices de
+source e target? Bom, basta que existam morfismos $s, t : E \to V$ tal que, se
+$e = (u, v)$ é uma aresta do grafo, então $G(s)(e) = u$ e $G(t)(e) = v$.
+
+Assim, o diagrama dessa categoria será o seguinte:
+
+``` tikzcd
+E \arrow[r, "s", shift left=1] \arrow[r, "t"', shift right=1] & V
+```
+
+Pode notar que esta categoria é, de certa forma, isenta de conteúdo. Ou seja,
+não temos um grafo, mas temos um molde e, por conta disso, chamaremos o domínio
+dos copré-feixes de *categoria esquema*, ou apenas *esquema*.
+
+Um grafo, portanto, será um $C$-set em $\Gamma$. Em outras palavras, um grafo é
+um funtor $G : \Gamma \to \text{Set}$. A categoria formada por esses funtores e
+transformações naturais entre eles é equivalente à categoria usual dos grafos
+dirigidos, e costuma ser denotada por *Graph*.
+
+Por isso, preferimos utilizar a notação $G(V)$ para o conjunto de vértices e
+$G(E)$ para o de arestas de um grafo $G$, ao invés dos usuais $V(G)$ e $E(G)$.
+Além disso, como você pode imaginar, $G(s), G(t) : G(E) \to G(V)$ são as funções
+de source e target.
+
+Pela imersão de Yoneda, temos $\Gamma(V, -), \Gamma(E, -)$ como os dois
+representáveis da categoria Graph. Assim como em conjuntos, onde o único
+representável pode ser visto como um conjunto, estes representáveis também
+poderão ser vistos como grafos em si.
+
+### Quem é $\Gamma(V, -)?$
+
+Como um grafo é descrito por dois conjuntos (vértices e arestas), basta
+descobrir quais conjuntos o representável associa aos objetos $V$ e $E$.
+
+$$ \Gamma(V, V) = \{id_V\}; $$
+
+$$ \Gamma(V, E) = \emptyset. $$
+
+Portanto, o representável pode ser identificado com o seguinte grafo:
+
+``` tikz
+\node[circle, draw] (s) at (0,0) {$id_V$};
+```
+
+Agora podemos visualizar como esse representável atua ao escolher vértices de um
+grafo qualquer.
+
+``` tikz
+\node[shape=circle,draw] (k1) at (0,0) {$id_V$};
+
+\node[shape=circle,draw] (a) at (5,2) {$a$};
+\node[shape=circle,draw] (b) at (5,0) {$b$};
+\node[shape=circle,draw] (c) at (5,-2) {$c$};
+
+\draw[->, thick] (a) -- (b);
+\draw[->, thick] (b) -- (c);
+
+\draw[dashed,->,bend left=10] (k1) to node[above] {$g_{a}$} (a);
+\draw[dashed,->]             (k1) -- node[above] {$g_{b}$} (b);
+\draw[dashed,->,bend right=10] (k1) to node[below] {$g_{c}$} (c);
+
+\node at (0,-1.2) {$\Gamma(V,-)$};
+\node at (6,0) {$=\,G$};
+```
+
+Pelo lema, $v \in G(V)$ determina $g_v : \Gamma(V, -) \Rightarrow G$. Esse seria
+o morfismo de escolha de um vértice. O diagrama acima mostra exatamente essas
+possíveis escolhas.
+
+### Quem é $\Gamma(E, -)?$
+
+Fazemos o mesmo processo:
+
+$$ \Gamma(E, V) = \{s, t\}; $$
+
+$$ \Gamma(E, E) = \{id_E\}. $$
+
+Com isso, afirmamos que $\Gamma(E, -)$ corresponde ao seguinte grafo:
+
+``` tikz
+\node[circle, draw] (s) at (0,0) {$s$};
+\node[circle, draw] (t) at (3,0) {$t$};
+
+\draw[->] (s) -- node[above] {$id_E$} (t);
+```
+
+Analogamente, cada aresta $e \in G(E)$ determina uma transformação natural
+$g_e : \Gamma(E, -) \Rightarrow G$, ilustrada abaixo.
+
+``` tikz
+\node[shape=circle,draw] (s) at (0,1) {$s$};
+\node[shape=circle,draw] (t) at (0,-1) {$t$};
+
+\draw[->, thick] (s) -- (t);
+
+\node[shape=circle,draw] (a) at (6,2) {$a$};
+\node[shape=circle,draw] (b) at (6,0) {$b$};
+\node[shape=circle,draw] (c) at (6,-2) {$c$};
+
+\draw[->, thick] (a) -- (b);
+\draw[->, thick] (b) -- (c);
+
+\draw[dashed,->,bend left=12]
+  (0.5,0.2) to node[above] {$g_{e_1}$} (5.5,1);
+
+\draw[dashed,->,bend right=12]
+  (0.5,-0.2) to node[below] {$g_{e_2}$} (5.5,-1);
+
+\node at (0,-2.2) {$\Gamma(E,-)$};
+\node at (7,0) {$=\,G$};
+```
+
+Com um pouco de atenção, você pode perceber que a transformação "de escolha" de
+um vértice é um monomorfismo, enquanto a transformação "de escolha" de uma
+aresta não. Tente justificar essa afirmação construindo um exemplo.
+
+## Enfim
+
+E, com isso, temos uma tática concreta para analisar de maneira intuitiva o que
+seria uma escolha, ou o que seria uma estrutura mínima de uma estrutura maior
+descrita como $C$-set. Se tiver interesse, tente reproduzir o processo descrito
+neste post com outros $C$-sets! Que tal Redes de Petri?
+
+Neste post vimos apenas a primeira camada do lema de Yoneda: a interpretação dos
+representáveis como estruturas mínimas que "escolhem" elementos de um $C$-set.
+Em um próximo post veremos por que essa ideia leva ao famoso ditado:
+
+> "Me diga com quem tu andas, e direi quem tu és."
+
+E como ela permite recuperar um objeto inteiro apenas a partir de suas relações
+com os demais.

@@ -1,0 +1,46 @@
+---
+page-layout: article
+title: O que é Teoria das Categorias?
+title-block-banner: true
+---
+
+> "O que a matemática faz para o mundo, a teoria das categorias faz para a
+> matemática." - Eugenia Cheng
+
+No âmbito da matemática, é comum falarmos sobre o ato de generalizar teorias ou
+resultados específicos. Geralmente esse termo se refere a retirar certas
+premissas e reconsiderar os resultados consequentes.
+
+Nesse sentido, a teoria das categorias se beneficia da generalização para
+conectar diferentes áreas, abstraindo e compartilhando resultados.
+
+## O que é uma categoria?
+
+Uma **categoria** é uma estrutura que consiste em:
+
+- **Objetos**;
+- **Morfismos**: Conexões direcionadas entre objetos.
+
+E obedece as duas seguintes regras:
+
+- **Identidade**: Para todo objeto $A$, deve existir um morfismo de identidade
+  $\text{id}_A: A \to A$;
+- **Composição**: Se existem morfismos $f: A \to B$ e $g: B \to C$, deve existir
+  a composição $g \circ f: A \to C$.
+
+### Exemplos
+
+- *$Graph$*: composta por grafos e homomorfismos;
+- *$Top$*: composta por espaços topológicos e funções contínuas;
+- *$Cat$*: composta por categorias e funtores.
+
+## O que é Teoria das Categorias Aplicada?
+
+A **Teoria das Categorias Aplicada** (ou *ACT - Applied Category Theory*)
+utiliza essa linguagem para modelar sistemas do mundo real. Algumas das
+principais áreas de aplicação incluem:
+
+- Bancos de dados e linguagens tipadas, na computação;
+- Redes de Petri, na química;
+- Epidemiologia, na intersecção entre biologia e estatística;
+- Sistemas dinâmicos e topologia algébrica, na própria matemática.

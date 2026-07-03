@@ -53,7 +53,7 @@ local function tikz2image(template)
 					print("latex errored: log is")
 					os.execute("cat texlog")
 				else
-					os.execute("dvisvgm -TS1.7 -b papersize --font-format=woff2,autohint tikz.dvi > /dev/null")
+					os.execute("dvisvgm -TS1.7 -b papersize --font-format=woff2,autohint -o tikz.svg tikz.dvi > /dev/null")
 					print("output to: " .. outfile)
 					os.execute("mv tikz.svg " .. outfile)
 				end
