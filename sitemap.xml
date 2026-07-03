@@ -1,95 +1,103 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://categorias-brasil.github.io/laboratorios.html</loc>
-    <lastmod>2026-05-30T04:30:32.004Z</lastmod>
-  </url>
-  <url>
-    <loc>https://categorias-brasil.github.io/blog/como-catalogar/index.html</loc>
-    <lastmod>2026-05-30T04:30:32.003Z</lastmod>
+    <loc>https://categorias-brasil.github.io/index.html</loc>
+    <lastmod>2026-07-03T02:57:07.198Z</lastmod>
   </url>
   <url>
     <loc>https://categorias-brasil.github.io/eventos/ebct3.html</loc>
-    <lastmod>2026-05-30T04:30:32.004Z</lastmod>
-  </url>
-  <url>
-    <loc>https://categorias-brasil.github.io/pesquisadores/joao-paixao/joao-paixao.html</loc>
-    <lastmod>2026-05-30T04:30:32.005Z</lastmod>
-  </url>
-  <url>
-    <loc>https://categorias-brasil.github.io/pesquisadores/gustavo-boska/gustavo-boska.html</loc>
-    <lastmod>2026-05-30T04:30:32.005Z</lastmod>
-  </url>
-  <url>
-    <loc>https://categorias-brasil.github.io/pesquisadores/nelson-serrano/nelson-serrano.html</loc>
-    <lastmod>2026-05-30T04:30:32.012Z</lastmod>
-  </url>
-  <url>
-    <loc>https://categorias-brasil.github.io/pesquisadores/eduardo-marcos/eduardo-marcos.html</loc>
-    <lastmod>2026-05-30T04:30:32.005Z</lastmod>
-  </url>
-  <url>
-    <loc>https://categorias-brasil.github.io/pesquisadores/ana-tenorio/ana-tenorio.html</loc>
-    <lastmod>2026-05-30T04:30:32.004Z</lastmod>
-  </url>
-  <url>
-    <loc>https://categorias-brasil.github.io/pesquisadores.html</loc>
-    <lastmod>2026-05-30T04:30:32.004Z</lastmod>
-  </url>
-  <url>
-    <loc>https://categorias-brasil.github.io/eventos.html</loc>
-    <lastmod>2026-05-30T04:30:32.003Z</lastmod>
-  </url>
-  <url>
-    <loc>https://categorias-brasil.github.io/blog.html</loc>
-    <lastmod>2026-05-30T04:30:32.003Z</lastmod>
-  </url>
-  <url>
-    <loc>https://categorias-brasil.github.io/pesquisadores/marcos-jardim/marcos-jardim.html</loc>
-    <lastmod>2026-05-30T04:30:32.005Z</lastmod>
-  </url>
-  <url>
-    <loc>https://categorias-brasil.github.io/pesquisadores/ellen-oliveira/ellen-oliveira.html</loc>
-    <lastmod>2026-05-30T04:30:32.005Z</lastmod>
-  </url>
-  <url>
-    <loc>https://categorias-brasil.github.io/pesquisadores/benjamin-bumpus/benjamin-bumpus.html</loc>
-    <lastmod>2026-05-30T04:30:32.005Z</lastmod>
-  </url>
-  <url>
-    <loc>https://categorias-brasil.github.io/pesquisadores/anny-azevedo/anny-azevedo.html</loc>
-    <lastmod>2026-05-30T04:30:32.004Z</lastmod>
-  </url>
-  <url>
-    <loc>https://categorias-brasil.github.io/pesquisadores/sidiney-montanhano/sidiney-montanhano.html</loc>
-    <lastmod>2026-05-30T04:30:32.014Z</lastmod>
-  </url>
-  <url>
-    <loc>https://categorias-brasil.github.io/pesquisadores/paulo-dias/paulo-dias.html</loc>
-    <lastmod>2026-05-30T04:30:32.014Z</lastmod>
-  </url>
-  <url>
-    <loc>https://categorias-brasil.github.io/pesquisadores/hugo-mariano/hugo-mariano.html</loc>
-    <lastmod>2026-05-30T04:30:32.005Z</lastmod>
+    <lastmod>2026-07-03T02:57:07.198Z</lastmod>
   </url>
   <url>
     <loc>https://categorias-brasil.github.io/pesquisadores/eduardo-ochs/eduardo-ochs.html</loc>
-    <lastmod>2026-05-30T04:30:32.005Z</lastmod>
+    <lastmod>2026-07-03T02:57:07.199Z</lastmod>
   </url>
   <url>
-    <loc>https://categorias-brasil.github.io/index.html</loc>
-    <lastmod>2026-05-30T04:30:32.004Z</lastmod>
+    <loc>https://categorias-brasil.github.io/pesquisadores/eduardo-marcos/eduardo-marcos.html</loc>
+    <lastmod>2026-07-03T02:57:07.199Z</lastmod>
   </url>
   <url>
-    <loc>https://categorias-brasil.github.io/acervo.html</loc>
-    <lastmod>2026-05-30T04:30:32.003Z</lastmod>
+    <loc>https://categorias-brasil.github.io/pesquisadores/ana-tenorio/ana-tenorio.html</loc>
+    <lastmod>2026-07-03T02:57:07.199Z</lastmod>
   </url>
   <url>
-    <loc>https://categorias-brasil.github.io/blog/como-contribuir/index.html</loc>
-    <lastmod>2026-05-30T04:30:32.003Z</lastmod>
+    <loc>https://categorias-brasil.github.io/pesquisadores/nelson-serrano/nelson-serrano.html</loc>
+    <lastmod>2026-07-03T02:57:07.205Z</lastmod>
+  </url>
+  <url>
+    <loc>https://categorias-brasil.github.io/pesquisadores/ellen-oliveira/ellen-oliveira.html</loc>
+    <lastmod>2026-07-03T02:57:07.199Z</lastmod>
+  </url>
+  <url>
+    <loc>https://categorias-brasil.github.io/pesquisadores/anny-azevedo/anny-azevedo.html</loc>
+    <lastmod>2026-07-03T02:57:07.199Z</lastmod>
+  </url>
+  <url>
+    <loc>https://categorias-brasil.github.io/pesquisadores/benjamin-bumpus/benjamin-bumpus.html</loc>
+    <lastmod>2026-07-03T02:57:07.199Z</lastmod>
   </url>
   <url>
     <loc>https://categorias-brasil.github.io/laboratorios/cuica/cuica.html</loc>
-    <lastmod>2026-05-30T04:30:32.004Z</lastmod>
+    <lastmod>2026-07-03T02:57:07.198Z</lastmod>
+  </url>
+  <url>
+    <loc>https://categorias-brasil.github.io/o-que-e.html</loc>
+    <lastmod>2026-07-03T02:57:07.198Z</lastmod>
+  </url>
+  <url>
+    <loc>https://categorias-brasil.github.io/blog/intuicao-de-yoneda/index.html</loc>
+    <lastmod>2026-07-03T02:57:07.195Z</lastmod>
+  </url>
+  <url>
+    <loc>https://categorias-brasil.github.io/pesquisadores.html</loc>
+    <lastmod>2026-07-03T02:57:07.198Z</lastmod>
+  </url>
+  <url>
+    <loc>https://categorias-brasil.github.io/acervo.html</loc>
+    <lastmod>2026-07-03T02:57:07.194Z</lastmod>
+  </url>
+  <url>
+    <loc>https://categorias-brasil.github.io/blog/como-catalogar/index.html</loc>
+    <lastmod>2026-07-03T02:57:07.195Z</lastmod>
+  </url>
+  <url>
+    <loc>https://categorias-brasil.github.io/blog/como-contribuir/index.html</loc>
+    <lastmod>2026-07-03T02:57:07.195Z</lastmod>
+  </url>
+  <url>
+    <loc>https://categorias-brasil.github.io/eventos.html</loc>
+    <lastmod>2026-07-03T02:57:07.197Z</lastmod>
+  </url>
+  <url>
+    <loc>https://categorias-brasil.github.io/laboratorios.html</loc>
+    <lastmod>2026-07-03T02:57:07.198Z</lastmod>
+  </url>
+  <url>
+    <loc>https://categorias-brasil.github.io/pesquisadores/sidiney-montanhano/sidiney-montanhano.html</loc>
+    <lastmod>2026-07-03T02:57:07.208Z</lastmod>
+  </url>
+  <url>
+    <loc>https://categorias-brasil.github.io/pesquisadores/hugo-mariano/hugo-mariano.html</loc>
+    <lastmod>2026-07-03T02:57:07.199Z</lastmod>
+  </url>
+  <url>
+    <loc>https://categorias-brasil.github.io/pesquisadores/gustavo-boska/gustavo-boska.html</loc>
+    <lastmod>2026-07-03T02:57:07.199Z</lastmod>
+  </url>
+  <url>
+    <loc>https://categorias-brasil.github.io/pesquisadores/paulo-dias/paulo-dias.html</loc>
+    <lastmod>2026-07-03T02:57:07.206Z</lastmod>
+  </url>
+  <url>
+    <loc>https://categorias-brasil.github.io/pesquisadores/joao-paixao/joao-paixao.html</loc>
+    <lastmod>2026-07-03T02:57:07.199Z</lastmod>
+  </url>
+  <url>
+    <loc>https://categorias-brasil.github.io/pesquisadores/marcos-jardim/marcos-jardim.html</loc>
+    <lastmod>2026-07-03T02:57:07.199Z</lastmod>
+  </url>
+  <url>
+    <loc>https://categorias-brasil.github.io/blog.html</loc>
+    <lastmod>2026-07-03T02:57:07.195Z</lastmod>
   </url>
 </urlset>

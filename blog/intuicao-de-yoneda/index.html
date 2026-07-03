@@ -6,8 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Paulo Dias">
 
-<title>Ellen Peixoto de Oliveira – Teoria das Categorias no Brasil</title>
+<title>Um vislumbre de Yoneda através dos C-sets – Teoria das Categorias no Brasil</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -44,9 +45,9 @@ ul.task-list li input[type="checkbox"] {
 <link href="../../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap-c64ebfe5b3fe4a98b50712255ee49233.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../../site_libs/bootstrap/bootstrap-dark-ec2f5b9c21de0f5c70f0e55e8431b0df.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="../../site_libs/bootstrap/bootstrap-c64ebfe5b3fe4a98b50712255ee49233.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-9fcb20668e7bb69b6ca8a835a2af9588.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-dark-4c300bc3d75f67875581b83ff7fa7816.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../../site_libs/bootstrap/bootstrap-9fcb20668e7bb69b6ca8a835a2af9588.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -75,11 +76,54 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script>window.backupDefine = window.define; window.define = undefined;</script><script src="https://cdn.jsdelivr.net/npm/katex@latest/dist/katex.min.js"></script>
+  <script>document.addEventListener("DOMContentLoaded", function () {
+ var mathElements = document.getElementsByClassName("math");
+ var macros = [];
+ for (var i = 0; i < mathElements.length; i++) {
+  var texText = mathElements[i].firstChild;
+  if (mathElements[i].tagName == "SPAN") {
+   katex.render(texText.data, mathElements[i], {
+    displayMode: mathElements[i].classList.contains('display'),
+    throwOnError: false,
+    macros: macros,
+    fleqn: false
+   });
+}}});
+  </script>
+  <script>window.define = window.backupDefine; window.backupDefine = undefined;</script><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@latest/dist/katex.min.css">
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="../../styles.css">
 </head>
 
-<body class="nav-fixed fullcontent quarto-light"><script id="quarto-html-before-body" type="application/javascript">
+<body class="nav-fixed quarto-light"><script id="quarto-html-before-body" type="application/javascript">
     const toggleBodyColorMode = (bsSheetEl) => {
       const mode = bsSheetEl.getAttribute("data-mode");
       const bodyEl = window.document.querySelector("body");
@@ -294,20 +338,40 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#o-que-é" id="toc-o-que-é" class="nav-link active" data-scroll-target="#o-que-é">O que é?</a></li>
+  <li><a href="#uma-função-que-representa-uma-escolha" id="toc-uma-função-que-representa-uma-escolha" class="nav-link" data-scroll-target="#uma-função-que-representa-uma-escolha">“Uma função que representa uma escolha”</a></li>
+  <li><a href="#formalidades" id="toc-formalidades" class="nav-link" data-scroll-target="#formalidades">Formalidades</a>
+  <ul class="collapse">
+  <li><a href="#definições" id="toc-definições" class="nav-link" data-scroll-target="#definições">Definições</a></li>
+  <li><a href="#o-lema" id="toc-o-lema" class="nav-link" data-scroll-target="#o-lema">O lema</a></li>
+  </ul></li>
+  <li><a href="#aplicando-o-lema-em-set" id="toc-aplicando-o-lema-em-set" class="nav-link" data-scroll-target="#aplicando-o-lema-em-set">Aplicando o lema em Set</a>
+  <ul class="collapse">
+  <li><a href="#quem-é-1--" id="toc-quem-é-1--" class="nav-link" data-scroll-target="#quem-é-1--">Quem é <span class="math inline">1(*, -)?</span></a></li>
+  </ul></li>
+  <li><a href="#aplicando-o-lema-em-graph" id="toc-aplicando-o-lema-em-graph" class="nav-link" data-scroll-target="#aplicando-o-lema-em-graph">Aplicando o lema em Graph</a>
+  <ul class="collapse">
+  <li><a href="#quem-é-gammav--" id="toc-quem-é-gammav--" class="nav-link" data-scroll-target="#quem-é-gammav--">Quem é <span class="math inline">\Gamma(V, -)?</span></a></li>
+  <li><a href="#quem-é-gammae--" id="toc-quem-é-gammae--" class="nav-link" data-scroll-target="#quem-é-gammae--">Quem é <span class="math inline">\Gamma(E, -)?</span></a></li>
+  </ul></li>
+  <li><a href="#enfim" id="toc-enfim" class="nav-link" data-scroll-target="#enfim">Enfim</a></li>
+  </ul>
+</nav>
+    </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Ellen Peixoto de Oliveira</h1>
+<h1 class="title">Um vislumbre de Yoneda através dos C-sets</h1>
   <div class="quarto-categories">
-    <div class="quarto-category">Grau: Doutorado</div>
-    <div class="quarto-category">Área: Categorias Abelianas</div>
-    <div class="quarto-category">Área: Comma Categories</div>
-    <div class="quarto-category">Área: Geometria Algébrica</div>
-    <div class="quarto-category">Local: SP</div>
+    <div class="quarto-category">Teoria das Categorias</div>
   </div>
   </div>
 
@@ -315,7 +379,19 @@ ul.task-list li input[type="checkbox"] {
 
 <div class="quarto-title-meta">
 
+    <div>
+    <div class="quarto-title-meta-heading">Autor</div>
+    <div class="quarto-title-meta-contents">
+             <p>Paulo Dias </p>
+          </div>
+  </div>
     
+    <div>
+    <div class="quarto-title-meta-heading">Data de Publicação</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">2 de julho de 2026</p>
+    </div>
+  </div>
   
     
   </div>
@@ -325,13 +401,103 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="instituição" class="level2">
-<h2 class="anchored" data-anchor-id="instituição">Instituição</h2>
-<p>Universidade Estadual de Campinas (Unicamp).</p>
+<section id="o-que-é" class="level2">
+<h2 class="anchored" data-anchor-id="o-que-é">O que é?</h2>
+<p>O lema de Yoneda é um dos resultados mais relevantes <span class="math inline">[</span>e elegantes<span class="math inline">]</span> da teoria das categorias, mas também um dos mais difíceis de adquirir intuição na primeira leitura. Com esse post, meu objetivo é explorar apenas sua camada mais superficial. Então, se você nunca teve contato, esse texto é para você! Caso contrário, talvez encontre uma forma diferente de enxergá-lo.</p>
 </section>
-<section id="currículo-lattes" class="level2">
-<h2 class="anchored" data-anchor-id="currículo-lattes">Currículo Lattes</h2>
-<p><a href="http://lattes.cnpq.br/0272600140652647" class="uri">http://lattes.cnpq.br/0272600140652647</a></p>
+<section id="uma-função-que-representa-uma-escolha" class="level2">
+<h2 class="anchored" data-anchor-id="uma-função-que-representa-uma-escolha">“Uma função que representa uma escolha”</h2>
+<p>Na visão conjuntista, uma das maneiras de propor uma mudança de perspectiva sobre o objeto analisado é dizer que cada elemento “pode ser visto” como uma função no seguinte sentido: seja <span class="math inline">A = \{a, b, c\}</span> um conjunto e <span class="math inline">1</span> o objeto terminal de Set. Há uma bijeção</p>
+<p><span class="math display"> A \cong \text{Set(1, A)}. </span></p>
+<p>Ou seja, para cada elemento <span class="math inline">x \in A</span>, há uma única função <span class="math inline">f_x : 1 \to A</span> que leva o único elemento de <span class="math inline">1</span> para <span class="math inline">x</span>. Isso nos dá a capacidade de olhar para os morfismos em vez dos objetos, o que é um hábito na teoria das categorias. Por que não tentamos generalizar essa ideia?</p>
+</section>
+<section id="formalidades" class="level2">
+<h2 class="anchored" data-anchor-id="formalidades">Formalidades</h2>
+<p>Antes de enunciar o lema, precisamos de dois conceitos centrais que aparecerão em todos os exemplos a seguir.</p>
+<section id="definições" class="level3">
+<h3 class="anchored" data-anchor-id="definições">Definições</h3>
+<p>Um <em>copré-feixe</em> <span class="math inline">F</span> em uma categoria <span class="math inline">C</span> é um funtor <span class="math inline">F : C \to \text{Set}</span>. A categoria dos <span class="math inline">C</span>-sets tem como objetos esses funtores e como morfismos as transformações naturais entre eles. Também chamaremos esses funtores de <span class="math inline">C</span>-sets quando a categoria <span class="math inline">C</span> estiver subentendida.</p>
+<blockquote class="blockquote">
+<p><strong>Observação de notação:</strong> Usaremos <span class="math inline">F</span> tanto para denotar o funtor em si quanto para nos referir à estrutura que ele representa, seja um conjunto, um grafo, ou qualquer outra. O contexto deixará claro qual o sentido em cada uso.</p>
+</blockquote>
+</section>
+<section id="o-lema" class="level3">
+<h3 class="anchored" data-anchor-id="o-lema">O lema</h3>
+<p>Seja <span class="math inline">\mathcal{C}</span> uma categoria pequena e <span class="math inline">F</span> um copré-feixe. Para todo objeto <span class="math inline">c</span> de <span class="math inline">\mathcal{C}</span>, há uma bijeção</p>
+<p><span class="math display"> \text{Nat}(C(c, -), F) \cong F(c). </span></p>
+<p>Em outras palavras, cada elemento <span class="math inline">x \in F(c)</span> determina unicamente uma transformação natural <span class="math inline">f_x : C(c, -) \Rightarrow F</span>, e, reciprocamente, toda transformação natural dessa forma provém de um único elemento de <span class="math inline">F(c)</span>. Essa correspondência é natural em <span class="math inline">c</span> e em <span class="math inline">F</span>.</p>
+<p>Dizemos que <span class="math inline">C(-, -)</span> é uma <em>imersão de Yoneda</em>, e que um funtor <span class="math inline">C(c, -)</span> é o representável de <span class="math inline">c</span> nessa imersão.</p>
+</section>
+</section>
+<section id="aplicando-o-lema-em-set" class="level2">
+<h2 class="anchored" data-anchor-id="aplicando-o-lema-em-set">Aplicando o lema em Set</h2>
+<p>Para conjuntos, é praticamente imediato. Tomamos como a categoria <span class="math inline">C</span> a categoria terminal <span class="math inline">1</span>, com um único objeto, que denotaremos por <span class="math inline">*</span>. Um copré-feixe <span class="math inline">A : 1 \to \text{Set}</span> é completamente determinado pelo conjunto <span class="math inline">A(*)</span>, de modo que podemos identificar um <span class="math inline">1</span>-set simplesmente com um conjunto.</p>
+<p>Além disso, a partir da imersão de Yoneda, teríamos um único representável <span class="math inline">1(*, -)</span>. O ponto crucial é que uma transformação natural <span class="math inline">1(*, -) \Rightarrow
+A</span> corresponde exatamente a escolher um elemento de <span class="math inline">A(*)</span>: é essa a “noção de elemento” que o lema nos dá, e que será generalizada nos exemplos seguintes.</p>
+<section id="quem-é-1--" class="level3">
+<h3 class="anchored" data-anchor-id="quem-é-1--">Quem é <span class="math inline">1(*, -)?</span></h3>
+<p>Vamos considerar o funtor aplicado no único objeto de <span class="math inline">1</span>:</p>
+<p><span class="math display"> 1(*, *) = \{id_*\}. </span></p>
+<p>Então podemos afirmar que o representável dessa categoria de <span class="math inline">C</span>-sets é apenas um conjunto unitário.</p>
+<p>Nesse sentido, a “escolha” de um elemento seria uma transformação natural <span class="math inline">\alpha : 1(*, -) \to A</span>. Podemos então entender quem seria <span class="math inline">1(*, -)</span> a partir da seguinte ilustração:</p>
+<div class="tikz">
+<img src="_svgs/35b950756c9a50d3d3d54309168b4bc9458f0d2f.svg" class="img-fluid">
+</div>
+<p>Cada seta do desenho corresponde exatamente a uma transformação natural diferente, isto é, a uma maneira de escolher um elemento de <span class="math inline">A</span>. Essa é precisamente a interpretação fornecida pelo lema de Yoneda no caso dos conjuntos.</p>
+</section>
+</section>
+<section id="aplicando-o-lema-em-graph" class="level2">
+<h2 class="anchored" data-anchor-id="aplicando-o-lema-em-graph">Aplicando o lema em Graph</h2>
+<p>A ideia para grafos é exatamente a mesma do caso dos conjuntos. A diferença é que agora não basta descrever apenas “elementos”; um grafo possui dois tipos distintos de objetos, vértices e arestas, além da informação de incidência entre eles. Precisamos, portanto, de uma categoria que codifique esses requisitos.</p>
+<p>Seguindo a abordagem anterior, primeiro definimos a categoria que será o domínio dos copré-feixes, denotada agora por <span class="math inline">\Gamma</span>. O propósito dela é definir os tipos de dados da estrutura que estamos construindo, como em Set definimos grosso modo apenas “elemento”. Então, para grafos, precisamos de dois objetos: um para vértices e outro para arestas; serão chamados de <span class="math inline">V</span> e <span class="math inline">E</span>.</p>
+<p>Você provavelmente já reparou que precisaremos codificar as informações adicionais necessárias: dada uma aresta, como eu posso saber seus vértices de source e target? Bom, basta que existam morfismos <span class="math inline">s, t : E \to V</span> tal que, se <span class="math inline">e = (u, v)</span> é uma aresta do grafo, então <span class="math inline">G(s)(e) = u</span> e <span class="math inline">G(t)(e) = v</span>.</p>
+<p>Assim, o diagrama dessa categoria será o seguinte:</p>
+<div class="tikzcd">
+<img src="_svgs/ea31d6c0d776d5bfaafc7afda04f21e652d07c22.svg" class="img-fluid">
+</div>
+<p>Pode notar que esta categoria é, de certa forma, isenta de conteúdo. Ou seja, não temos um grafo, mas temos um molde e, por conta disso, chamaremos o domínio dos copré-feixes de <em>categoria esquema</em>, ou apenas <em>esquema</em>.</p>
+<p>Um grafo, portanto, será um <span class="math inline">C</span>-set em <span class="math inline">\Gamma</span>. Em outras palavras, um grafo é um funtor <span class="math inline">G : \Gamma \to \text{Set}</span>. A categoria formada por esses funtores e transformações naturais entre eles é equivalente à categoria usual dos grafos dirigidos, e costuma ser denotada por <em>Graph</em>.</p>
+<p>Por isso, preferimos utilizar a notação <span class="math inline">G(V)</span> para o conjunto de vértices e <span class="math inline">G(E)</span> para o de arestas de um grafo <span class="math inline">G</span>, ao invés dos usuais <span class="math inline">V(G)</span> e <span class="math inline">E(G)</span>. Além disso, como você pode imaginar, <span class="math inline">G(s), G(t) : G(E) \to G(V)</span> são as funções de source e target.</p>
+<p>Pela imersão de Yoneda, temos <span class="math inline">\Gamma(V, -), \Gamma(E, -)</span> como os dois representáveis da categoria Graph. Assim como em conjuntos, onde o único representável pode ser visto como um conjunto, estes representáveis também poderão ser vistos como grafos em si.</p>
+<section id="quem-é-gammav--" class="level3">
+<h3 class="anchored" data-anchor-id="quem-é-gammav--">Quem é <span class="math inline">\Gamma(V, -)?</span></h3>
+<p>Como um grafo é descrito por dois conjuntos (vértices e arestas), basta descobrir quais conjuntos o representável associa aos objetos <span class="math inline">V</span> e <span class="math inline">E</span>.</p>
+<p><span class="math display"> \Gamma(V, V) = \{id_V\}; </span></p>
+<p><span class="math display"> \Gamma(V, E) = \emptyset. </span></p>
+<p>Portanto, o representável pode ser identificado com o seguinte grafo:</p>
+<div class="tikz">
+<img src="_svgs/7a98839369dafc80ddf872f12a3c1b0895806d3d.svg" class="img-fluid">
+</div>
+<p>Agora podemos visualizar como esse representável atua ao escolher vértices de um grafo qualquer.</p>
+<div class="tikz">
+<img src="_svgs/4effc65be4190ca7b3fc2c25ab889a296cba8533.svg" class="img-fluid">
+</div>
+<p>Pelo lema, <span class="math inline">v \in G(V)</span> determina <span class="math inline">g_v : \Gamma(V, -) \Rightarrow G</span>. Esse seria o morfismo de escolha de um vértice. O diagrama acima mostra exatamente essas possíveis escolhas.</p>
+</section>
+<section id="quem-é-gammae--" class="level3">
+<h3 class="anchored" data-anchor-id="quem-é-gammae--">Quem é <span class="math inline">\Gamma(E, -)?</span></h3>
+<p>Fazemos o mesmo processo:</p>
+<p><span class="math display"> \Gamma(E, V) = \{s, t\}; </span></p>
+<p><span class="math display"> \Gamma(E, E) = \{id_E\}. </span></p>
+<p>Com isso, afirmamos que <span class="math inline">\Gamma(E, -)</span> corresponde ao seguinte grafo:</p>
+<div class="tikz">
+<img src="_svgs/91cbcb099862cd7bedc4e97f1a658bb95303287b.svg" class="img-fluid">
+</div>
+<p>Analogamente, cada aresta <span class="math inline">e \in G(E)</span> determina uma transformação natural <span class="math inline">g_e : \Gamma(E, -) \Rightarrow G</span>, ilustrada abaixo.</p>
+<div class="tikz">
+<img src="_svgs/a5e480640728ba44f2a1fde8ee63953a4ea08270.svg" class="img-fluid">
+</div>
+<p>Com um pouco de atenção, você pode perceber que a transformação “de escolha” de um vértice é um monomorfismo, enquanto a transformação “de escolha” de uma aresta não. Tente justificar essa afirmação construindo um exemplo.</p>
+</section>
+</section>
+<section id="enfim" class="level2">
+<h2 class="anchored" data-anchor-id="enfim">Enfim</h2>
+<p>E, com isso, temos uma tática concreta para analisar de maneira intuitiva o que seria uma escolha, ou o que seria uma estrutura mínima de uma estrutura maior descrita como <span class="math inline">C</span>-set. Se tiver interesse, tente reproduzir o processo descrito neste post com outros <span class="math inline">C</span>-sets! Que tal Redes de Petri?</p>
+<p>Neste post vimos apenas a primeira camada do lema de Yoneda: a interpretação dos representáveis como estruturas mínimas que “escolhem” elementos de um <span class="math inline">C</span>-set. Em um próximo post veremos por que essa ideia leva ao famoso ditado:</p>
+<blockquote class="blockquote">
+<p>“Me diga com quem tu andas, e direi quem tu és.”</p>
+</blockquote>
+<p>E como ela permite recuperar um objeto inteiro apenas a partir de suas relações com os demais.</p>
 
 
 </section>
