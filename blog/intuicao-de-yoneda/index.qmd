@@ -3,6 +3,8 @@ author: Paulo Dias
 categories:
 - Teoria das Categorias
 date: 2026-07-02
+nocite: |
+  @awodey2010
 title: Um vislumbre de Yoneda através dos C-sets
 ---
 
@@ -18,8 +20,8 @@ contrário, talvez encontre uma forma diferente de enxergá-lo.
 
 Na visão conjuntista, uma das maneiras de propor uma mudança de perspectiva
 sobre o objeto analisado é dizer que cada elemento "pode ser visto" como uma
-função no seguinte sentido: seja $A = \{a, b, c\}$ um conjunto e $1$ o objeto
-terminal de Set. Há uma bijeção
+função no seguinte sentido: seja $A = \{a, b, c\}$ um conjunto e
+$1 := \{\star\}$ o objeto terminal de Set. Há uma bijeção
 
 $$ A \cong \text{Set(1, A)}. $$
 
@@ -62,30 +64,32 @@ representável de $c$ nessa imersão.
 ## Aplicando o lema em Set
 
 Para conjuntos, é praticamente imediato. Tomamos como a categoria $C$ a
-categoria terminal $1$, com um único objeto, que denotaremos por $*$. Um
+categoria terminal $1$, com um único objeto, que denotaremos por $\star$. Um
 copré-feixe $A : 1 \to \text{Set}$ é completamente determinado pelo conjunto
-$A(*)$, de modo que podemos identificar um $1$-set simplesmente com um conjunto.
+$A(\star)$, de modo que podemos identificar um $1$-set simplesmente com um
+conjunto.
 
 Além disso, a partir da imersão de Yoneda, teríamos um único representável
-$1(*, -)$. O ponto crucial é que uma transformação natural $1(*, -) \Rightarrow
-A$ corresponde exatamente a escolher um elemento de $A(*)$: é essa a "noção de
-elemento" que o lema nos dá, e que será generalizada nos exemplos seguintes.
+$1(\star, -)$. O ponto crucial é que uma transformação natural
+$1(\star, -) \Rightarrow
+A$ corresponde exatamente a escolher um elemento de $A(\star)$: é essa a "noção
+de elemento" que o lema nos dá, e que será generalizada nos exemplos seguintes.
 
-### Quem é $1(*, -)?$
+### Quem é $1(\star, -)?$
 
 Vamos considerar o funtor aplicado no único objeto de $1$:
 
-$$ 1(*, *) = \{id_*\}. $$
+$$ 1(\star, \star) = \{id_{\star}\}. $$
 
 Então podemos afirmar que o representável dessa categoria de $C$-sets é apenas
 um conjunto unitário.
 
 Nesse sentido, a "escolha" de um elemento seria uma transformação natural
-$\alpha : 1(*, -) \to A$. Podemos então entender quem seria $1(*, -)$ a partir
-da seguinte ilustração:
+$\alpha : 1(\star, -) \to A$. Podemos então entender quem seria $1(\star, -)$ a
+partir da seguinte ilustração:
 
 ``` tikz
-\node (star) at (0,0) {$*$};
+\node (star) at (0,0) {$\star$};
 
 \node (a) at (4,1.5) {$a$};
 \node (b) at (4,0) {$b$};
