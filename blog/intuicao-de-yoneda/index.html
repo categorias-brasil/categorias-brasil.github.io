@@ -24,7 +24,26 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
@@ -352,7 +371,7 @@ window.Quarto = {
   </ul></li>
   <li><a href="#aplicando-o-lema-em-set" id="toc-aplicando-o-lema-em-set" class="nav-link" data-scroll-target="#aplicando-o-lema-em-set">Aplicando o lema em Set</a>
   <ul class="collapse">
-  <li><a href="#quem-é-1--" id="toc-quem-é-1--" class="nav-link" data-scroll-target="#quem-é-1--">Quem é <span class="math inline">1(*, -)?</span></a></li>
+  <li><a href="#quem-é-1star--" id="toc-quem-é-1star--" class="nav-link" data-scroll-target="#quem-é-1star--">Quem é <span class="math inline">1(\star, -)?</span></a></li>
   </ul></li>
   <li><a href="#aplicando-o-lema-em-graph" id="toc-aplicando-o-lema-em-graph" class="nav-link" data-scroll-target="#aplicando-o-lema-em-graph">Aplicando o lema em Graph</a>
   <ul class="collapse">
@@ -407,7 +426,7 @@ window.Quarto = {
 </section>
 <section id="uma-função-que-representa-uma-escolha" class="level2">
 <h2 class="anchored" data-anchor-id="uma-função-que-representa-uma-escolha">“Uma função que representa uma escolha”</h2>
-<p>Na visão conjuntista, uma das maneiras de propor uma mudança de perspectiva sobre o objeto analisado é dizer que cada elemento “pode ser visto” como uma função no seguinte sentido: seja <span class="math inline">A = \{a, b, c\}</span> um conjunto e <span class="math inline">1</span> o objeto terminal de Set. Há uma bijeção</p>
+<p>Na visão conjuntista, uma das maneiras de propor uma mudança de perspectiva sobre o objeto analisado é dizer que cada elemento “pode ser visto” como uma função no seguinte sentido: seja <span class="math inline">A = \{a, b, c\}</span> um conjunto e <span class="math inline">1 := \{\star\}</span> o objeto terminal de Set. Há uma bijeção</p>
 <p><span class="math display"> A \cong \text{Set(1, A)}. </span></p>
 <p>Ou seja, para cada elemento <span class="math inline">x \in A</span>, há uma única função <span class="math inline">f_x : 1 \to A</span> que leva o único elemento de <span class="math inline">1</span> para <span class="math inline">x</span>. Isso nos dá a capacidade de olhar para os morfismos em vez dos objetos, o que é um hábito na teoria das categorias. Por que não tentamos generalizar essa ideia?</p>
 </section>
@@ -431,17 +450,17 @@ window.Quarto = {
 </section>
 <section id="aplicando-o-lema-em-set" class="level2">
 <h2 class="anchored" data-anchor-id="aplicando-o-lema-em-set">Aplicando o lema em Set</h2>
-<p>Para conjuntos, é praticamente imediato. Tomamos como a categoria <span class="math inline">C</span> a categoria terminal <span class="math inline">1</span>, com um único objeto, que denotaremos por <span class="math inline">*</span>. Um copré-feixe <span class="math inline">A : 1 \to \text{Set}</span> é completamente determinado pelo conjunto <span class="math inline">A(*)</span>, de modo que podemos identificar um <span class="math inline">1</span>-set simplesmente com um conjunto.</p>
-<p>Além disso, a partir da imersão de Yoneda, teríamos um único representável <span class="math inline">1(*, -)</span>. O ponto crucial é que uma transformação natural <span class="math inline">1(*, -) \Rightarrow
-A</span> corresponde exatamente a escolher um elemento de <span class="math inline">A(*)</span>: é essa a “noção de elemento” que o lema nos dá, e que será generalizada nos exemplos seguintes.</p>
-<section id="quem-é-1--" class="level3">
-<h3 class="anchored" data-anchor-id="quem-é-1--">Quem é <span class="math inline">1(*, -)?</span></h3>
+<p>Para conjuntos, é praticamente imediato. Tomamos como a categoria <span class="math inline">C</span> a categoria terminal <span class="math inline">1</span>, com um único objeto, que denotaremos por <span class="math inline">\star</span>. Um copré-feixe <span class="math inline">A : 1 \to \text{Set}</span> é completamente determinado pelo conjunto <span class="math inline">A(\star)</span>, de modo que podemos identificar um <span class="math inline">1</span>-set simplesmente com um conjunto.</p>
+<p>Além disso, a partir da imersão de Yoneda, teríamos um único representável <span class="math inline">1(\star, -)</span>. O ponto crucial é que uma transformação natural <span class="math inline">1(\star, -) \Rightarrow
+A</span> corresponde exatamente a escolher um elemento de <span class="math inline">A(\star)</span>: é essa a “noção de elemento” que o lema nos dá, e que será generalizada nos exemplos seguintes.</p>
+<section id="quem-é-1star--" class="level3">
+<h3 class="anchored" data-anchor-id="quem-é-1star--">Quem é <span class="math inline">1(\star, -)?</span></h3>
 <p>Vamos considerar o funtor aplicado no único objeto de <span class="math inline">1</span>:</p>
-<p><span class="math display"> 1(*, *) = \{id_*\}. </span></p>
+<p><span class="math display"> 1(\star, \star) = \{id_{\star}\}. </span></p>
 <p>Então podemos afirmar que o representável dessa categoria de <span class="math inline">C</span>-sets é apenas um conjunto unitário.</p>
-<p>Nesse sentido, a “escolha” de um elemento seria uma transformação natural <span class="math inline">\alpha : 1(*, -) \to A</span>. Podemos então entender quem seria <span class="math inline">1(*, -)</span> a partir da seguinte ilustração:</p>
+<p>Nesse sentido, a “escolha” de um elemento seria uma transformação natural <span class="math inline">\alpha : 1(\star, -) \to A</span>. Podemos então entender quem seria <span class="math inline">1(\star, -)</span> a partir da seguinte ilustração:</p>
 <div class="tikz">
-<img src="_svgs/35b950756c9a50d3d3d54309168b4bc9458f0d2f.svg" class="img-fluid">
+<img src="_svgs/bd192e2a6a9e82efcca4d49a8c28bfdc5d08d67d.svg" class="img-fluid">
 </div>
 <p>Cada seta do desenho corresponde exatamente a uma transformação natural diferente, isto é, a uma maneira de escolher um elemento de <span class="math inline">A</span>. Essa é precisamente a interpretação fornecida pelo lema de Yoneda no caso dos conjuntos.</p>
 </section>
@@ -500,9 +519,14 @@ A</span> corresponde exatamente a escolher um elemento de <span class="math inli
 <p>E como ela permite recuperar um objeto inteiro apenas a partir de suas relações com os demais.</p>
 
 
+
 </section>
 
-</main> <!-- /main -->
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">Referências</h2><div id="refs" class="references csl-bib-body hanging-indent" role="list">
+<div id="ref-awodey2010" class="csl-entry" role="listitem">
+Awodey, Steve. 2010. <em>Category Theory</em>. Oxford University Press. <a href="https://books.google.com.br/books?id=UCgUDAAAQBAJ">https://books.google.com.br/books?id=UCgUDAAAQBAJ</a>.
+</div>
+</div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     // Ensure there is a toggle, if there isn't float one in the top right
