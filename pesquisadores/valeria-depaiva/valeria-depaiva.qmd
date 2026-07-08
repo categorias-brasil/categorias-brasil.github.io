@@ -1,0 +1,52 @@
+---
+categories:
+- "Grau: Pesquisadora"
+- "Área: Dialectica categories"
+- "Área: Semântica categórica"
+- "Área: Representação de conhecimento"
+- "Local: EUA"
+title: Valeria de Paiva
+---
+
+`<img src="valeria-paiva.jpg" alt="Retrato da pesquisadora sorrindo e segurando um copo de café" style="width: 100%; max-width: 400px; height: auto;">`{=html}
+
+Matemática que atua na interseção entre teoria das categorias, lógica e
+linguagem natural. Construo pontes entre a matemática abstrata e sistemas do
+mundo real, especialmente nas áreas de semântica, representação do conhecimento
+e inteligência artificial. Meu trabalho abrange tanto a academia quanto a
+indústria, desde os fundamentos da lógica até sistemas conversacionais e
+tecnologias de linguagem em larga escala.
+
+### Pesquisa
+
+Minha pesquisa investiga como estruturas matemáticas --- especialmente da teoria
+das categorias e da lógica --- podem iluminar a linguagem, a computação e os
+sistemas de conhecimento. Um tema central do meu trabalho é o que chamo de
+Matemática de Redes (Network Mathematics): extrair e organizar, com o auxílio de
+ferramentas computacionais, a estrutura implícita da matemática e do
+conhecimento científico. Isso envolve:
+
+- semântica categórica;
+- sistemas lógicos e teoria da demonstração;
+- compreensão de linguagem natural;
+- grafos de conhecimento e representações estruturadas.
+
+Tenho especial interesse em como essas ideias podem ser escaladas, desde a
+teoria fundamental até sistemas de inteligência artificial aplicados ao mundo
+real.
+
+## Instituições
+
+Principal Research Scientist no Topos Institute
+
+Honorary Research Fellow na Universidade de Birmingham
+
+## Formação Acadêmica
+
+- (1988) Doctor of Philosophy
+
+  Universidade de Cambridge
+
+## Link para o site pessoal
+
+<https://vcvpaiva.github.io/>
