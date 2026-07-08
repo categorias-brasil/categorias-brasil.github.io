@@ -12,22 +12,6 @@
     ]
   },
   {
-    "listing": "/laboratorios.html",
-    "items": [
-      "/laboratorios/cuica/cuica.html"
-    ]
-  },
-  {
-    "listing": "/eventos.html",
-    "items": [
-      "/eventos/ebct3.html"
-    ]
-  },
-  {
-    "listing": "/acervo.html",
-    "items": []
-  },
-  {
     "listing": "/pesquisadores.html",
     "items": [
       "/pesquisadores/ana-tenorio/ana-tenorio.html",
@@ -39,11 +23,28 @@
       "/pesquisadores/gustavo-boska/gustavo-boska.html",
       "/pesquisadores/hugo-mariano/hugo-mariano.html",
       "/pesquisadores/joao-paixao/joao-paixao.html",
+      "/pesquisadores/kaique-roberto/kaique-roberto.html",
       "/pesquisadores/marcos-jardim/marcos-jardim.html",
       "/pesquisadores/nelson-serrano/nelson-serrano.html",
       "/pesquisadores/paulo-dias/paulo-dias.html",
       "/pesquisadores/sidiney-montanhano/sidiney-montanhano.html",
       "/pesquisadores/valeria-depaiva/valeria-depaiva.html"
+    ]
+  },
+  {
+    "listing": "/acervo.html",
+    "items": []
+  },
+  {
+    "listing": "/eventos.html",
+    "items": [
+      "/eventos/ebct3.html"
+    ]
+  },
+  {
+    "listing": "/laboratorios.html",
+    "items": [
+      "/laboratorios/cuica/cuica.html"
     ]
   },
   {
