@@ -1,0 +1,38 @@
+---
+categories:
+- "Grau: Pós-Doc"
+- "Área: Lógica Categorial"
+- "Área: Lógica Algébrica"
+- "Área: Hyper Álgebras"
+- "Local: SP"
+title: Kaique Matias de Andrade Roberto
+---
+
+`<img src="kaique-roberto.jpg" alt="Retrato do pesquisador sorrindo com as mãos nos bolsos" style="width: 100%; max-width: 400px; height: auto;">`{=html}
+
+## Instituição
+
+Centro de Lógica, Epistemologia e História da Ciência (CLE) - Universidade
+Estadual de Campinas (Unicamp)
+
+## Formação acadêmica
+
+- (2023) Doutorado em matemática
+
+  Universidade de São Paulo
+
+- (2019) Mestrado em matemática
+
+  Universidade de São Paulo
+
+- (2016) Bacharelado em matemática
+
+  Universidade de São Paulo
+
+## Link para o site pessoal
+
+<https://www.kaiquegalois.com.br/>
+
+## Link para o currículo Lattes
+
+<http://lattes.cnpq.br/7033491672545413>

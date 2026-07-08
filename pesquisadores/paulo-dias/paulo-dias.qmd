@@ -9,8 +9,8 @@ title: Paulo Dias
 
 `<img src="paulo-dias.jpg" alt="Foto de Paulo Dias" style="width: 100%; max-width: 400px; height: auto;">`{=html}
 
-Sou um estudante de graduação e faço iniciação científica em Teoria Aplicada das
-Categorias.
+Sou um estudante de graduação e faço iniciação científica em teoria das
+categorias aplicada.
 
 ## Instituição
 
@@ -21,7 +21,7 @@ Universidade de São Paulo (USP).
 
 - (2024 - 2027) Bacharelado em Ciência da Computação.
 
-  Instituto de Matemática, Estatística e Ciência da Computação (IME)
+  Instituto de Matemática, Estatística e Ciência da Computação (IME) da
   Universidade de São Paulo (USP)
 
 ## Link para o site pessoal
@@ -30,4 +30,4 @@ Universidade de São Paulo (USP).
 
 ## Email
 
-<paulomd (arroba) usp (ponto) br>
+\<paulomd (arroba) usp (ponto) br\>
