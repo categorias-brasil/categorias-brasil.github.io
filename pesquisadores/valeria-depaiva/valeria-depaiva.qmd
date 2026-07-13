@@ -1,6 +1,7 @@
 ---
 categories:
 - "Grau: Pesquisadora"
+- "Grau: Professora"
 - "Área: Dialectica categories"
 - "Área: Semântica categórica"
 - "Área: Representação de conhecimento"
@@ -21,9 +22,9 @@ tecnologias de linguagem em larga escala.
 
 Minha pesquisa investiga como estruturas matemáticas --- especialmente da teoria
 das categorias e da lógica --- podem iluminar a linguagem, a computação e os
-sistemas de conhecimento. Um tema central do meu trabalho é o que chamo de
-Matemática de Redes (Network Mathematics): extrair e organizar, com o auxílio de
-ferramentas computacionais, a estrutura implícita da matemática e do
+sistemas de conhecimento. Um tema central do meu trabalho é o que chamo de Redes
+Matemáticas (Network Mathematics): um projeto para extrair e organizar, com o
+auxílio de ferramentas computacionais, a estrutura implícita da matemática e do
 conhecimento científico. Isso envolve:
 
 - semântica categórica;
@@ -40,6 +41,8 @@ real.
 Principal Research Scientist no Topos Institute
 
 Honorary Research Fellow na Universidade de Birmingham
+
+Professora Visitante do Departamento de Informática, PUC-RJ
 
 ## Formação Acadêmica
 
