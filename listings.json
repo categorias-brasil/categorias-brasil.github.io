@@ -6,10 +6,26 @@
       "/eventos.html",
       "/laboratorios.html",
       "/pesquisadores.html",
-      "/blog/como-contribuir/index.html",
-      "/blog/como-catalogar/index.html",
+      "/participe/como-contribuir.html",
+      "/participe/como-catalogar.html",
       "/blog/intuicao-de-yoneda/index.html"
     ]
+  },
+  {
+    "listing": "/eventos.html",
+    "items": [
+      "/eventos/ebct3.html"
+    ]
+  },
+  {
+    "listing": "/laboratorios.html",
+    "items": [
+      "/laboratorios/cuica/cuica.html"
+    ]
+  },
+  {
+    "listing": "/acervo.html",
+    "items": []
   },
   {
     "listing": "/pesquisadores.html",
@@ -32,27 +48,16 @@
     ]
   },
   {
-    "listing": "/acervo.html",
-    "items": []
-  },
-  {
-    "listing": "/eventos.html",
+    "listing": "/participe.html",
     "items": [
-      "/eventos/ebct3.html"
-    ]
-  },
-  {
-    "listing": "/laboratorios.html",
-    "items": [
-      "/laboratorios/cuica/cuica.html"
+      "/participe/como-contribuir.html",
+      "/participe/como-catalogar.html"
     ]
   },
   {
     "listing": "/blog.html",
     "items": [
-      "/blog/intuicao-de-yoneda/index.html",
-      "/blog/como-catalogar/index.html",
-      "/blog/como-contribuir/index.html"
+      "/blog/intuicao-de-yoneda/index.html"
     ]
   }
 ]

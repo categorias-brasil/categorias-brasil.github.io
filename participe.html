@@ -6,9 +6,8 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Paulo Dias">
 
-<title>Como contribuir com o site – Teoria das Categorias no Brasil</title>
+<title>Participe – Teoria das Categorias no Brasil</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -27,27 +26,29 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
-<script src="../../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../../">
-<script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="../../site_libs/quarto-html/popper.min.js"></script>
-<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dark-0a6b7249c26820e032cb0bd839ff02b1.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
-<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap-9fcb20668e7bb69b6ca8a835a2af9588.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../../site_libs/bootstrap/bootstrap-dark-4c300bc3d75f67875581b83ff7fa7816.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="../../site_libs/bootstrap/bootstrap-9fcb20668e7bb69b6ca8a835a2af9588.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-listing/list.min.js"></script>
+<script src="site_libs/quarto-listing/quarto-listing.js"></script>
+<script src="site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-0a6b7249c26820e032cb0bd839ff02b1.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap-66bb21676da65a27774c19eeedd86bc7.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-bf54e085d7dd9527adf1f1b5ce5ca4a2.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-66bb21676da65a27774c19eeedd86bc7.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -75,9 +76,86 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Procurar"
   }
 }</script>
+<script>
 
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-botoes-participe .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
 
-<link rel="stylesheet" href="../../styles.css">
+    const options = {
+      valueNames: ['listing-title','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-title","listing-author","listing-image","listing-description"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-botoes-participe'] = new List('listing-botoes-participe', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
+
+  <script>window.backupDefine = window.define; window.define = undefined;</script><script src="https://cdn.jsdelivr.net/npm/katex@latest/dist/katex.min.js"></script>
+  <script>document.addEventListener("DOMContentLoaded", function () {
+ var mathElements = document.getElementsByClassName("math");
+ var macros = [];
+ for (var i = 0; i < mathElements.length; i++) {
+  var texText = mathElements[i].firstChild;
+  if (mathElements[i].tagName == "SPAN") {
+   katex.render(texText.data, mathElements[i], {
+    displayMode: mathElements[i].classList.contains('display'),
+    throwOnError: false,
+    macros: macros,
+    fleqn: false
+   });
+}}});
+  </script>
+  <script>window.define = window.backupDefine; window.backupDefine = undefined;</script><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@latest/dist/katex.min.css">
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+<meta property="og:title" content="Participe – Teoria das Categorias no Brasil">
+<meta property="og:description" content="Divulgação científica da Teoria das Categorias no Brasil. Encontre pesquisadores, laboratórios, eventos e materiais de referência.">
+<meta property="og:site_name" content="Teoria das Categorias no Brasil">
+<meta name="twitter:title" content="Participe – Teoria das Categorias no Brasil">
+<meta name="twitter:description" content="Divulgação científica da Teoria das Categorias no Brasil. Encontre pesquisadores, laboratórios, eventos e materiais de referência.">
+<meta name="twitter:card" content="summary">
 </head>
 
 <body class="nav-fixed quarto-light"><script id="quarto-html-before-body" type="application/javascript">
@@ -246,10 +324,10 @@ ul.task-list li input[type="checkbox"] {
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
-    <nav class="navbar navbar-expand-sm " data-bs-theme="dark">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="../../index.html">
+    <a class="navbar-brand" href="./index.html">
     <span class="navbar-title">Teoria das Categorias no Brasil</span>
     </a>
   </div>
@@ -260,28 +338,32 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../../o-que-e.html"> 
+    <a class="nav-link" href="./o-que-e.html"> 
 <span class="menu-text">O que é Teoria das Categorias?</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../blog.html"> 
+    <a class="nav-link" href="./blog.html"> 
 <span class="menu-text">Blog</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../pesquisadores.html"> 
+    <a class="nav-link" href="./pesquisadores.html"> 
 <span class="menu-text">Pesquisadores</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../laboratorios.html"> 
+    <a class="nav-link" href="./laboratorios.html"> 
 <span class="menu-text">Laboratórios</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../eventos.html"> 
+    <a class="nav-link" href="./eventos.html"> 
 <span class="menu-text">Eventos</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../acervo.html"> 
+    <a class="nav-link" href="./acervo.html"> 
 <span class="menu-text">Acervo</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link active" href="./participe.html" aria-current="page"> 
+<span class="menu-text">Participe</span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
@@ -292,54 +374,24 @@ ul.task-list li input[type="checkbox"] {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#repositório" id="toc-repositório" class="nav-link active" data-scroll-target="#repositório">Repositório</a></li>
-  <li><a href="#como-contribuir" id="toc-como-contribuir" class="nav-link" data-scroll-target="#como-contribuir">Como Contribuir</a>
-  <ul class="collapse">
-  <li><a href="#correções-e-sugestões" id="toc-correções-e-sugestões" class="nav-link" data-scroll-target="#correções-e-sugestões">1. Correções e Sugestões</a></li>
-  <li><a href="#melhorias-técnicas" id="toc-melhorias-técnicas" class="nav-link" data-scroll-target="#melhorias-técnicas">2. Melhorias Técnicas</a></li>
-  <li><a href="#conteúdo-científico" id="toc-conteúdo-científico" class="nav-link" data-scroll-target="#conteúdo-científico">3. Conteúdo Científico</a></li>
-  </ul></li>
-  <li><a href="#licença-e-direitos-autorais" id="toc-licença-e-direitos-autorais" class="nav-link" data-scroll-target="#licença-e-direitos-autorais">Licença e Direitos Autorais</a></li>
-  </ul>
-</nav>
-    </div>
+    
 <!-- main -->
-<main class="content" id="quarto-document-content">
+<main class="content column-page" id="quarto-document-content">
 
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Como contribuir com o site</h1>
-  <div class="quarto-categories">
-    <div class="quarto-category">Tutorial</div>
-  </div>
-  </div>
+<h1 class="title">Participe</h1>
+</div>
 
 
 
-<div class="quarto-title-meta">
+<div class="quarto-title-meta column-page">
 
-    <div>
-    <div class="quarto-title-meta-heading">Autor</div>
-    <div class="quarto-title-meta-contents">
-             <p>Paulo Dias </p>
-          </div>
-  </div>
     
-    <div>
-    <div class="quarto-title-meta-heading">Data de Publicação</div>
-    <div class="quarto-title-meta-contents">
-      <p class="date">13 de abril de 2026</p>
-    </div>
-  </div>
   
     
   </div>
@@ -349,37 +401,60 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="repositório" class="level2">
-<h2 class="anchored" data-anchor-id="repositório">Repositório</h2>
-<p>Toda a infraestrutura do site está hospedada publicamente em: <a href="https://github.com/categorias-brasil/categorias-brasil.github.io" class="uri">https://github.com/categorias-brasil/categorias-brasil.github.io</a></p>
-</section>
-<section id="como-contribuir" class="level2">
-<h2 class="anchored" data-anchor-id="como-contribuir">Como Contribuir</h2>
-<p>Existem várias formas de ajudar a melhorar esta plataforma:</p>
-<section id="correções-e-sugestões" class="level3">
-<h3 class="anchored" data-anchor-id="correções-e-sugestões">1. Correções e Sugestões</h3>
-<p>Se você encontrar erros de digitação, links quebrados ou informações desatualizadas, você pode:</p>
+<p>Nós adoraríamos contar com a sua participação para tornar este catálogo e comunidade cada vez mais fortes!</p>
+<p>Existem duas principais formas de participar ativamente:</p>
+<div id="listing-botoes-participe" class="quarto-listing quarto-listing-container-grid">
+<div class="list grid quarto-listing-cols-2">
+<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1784581208048" data-listing-reading-time-sort="2" data-listing-word-count-sort="201">
+<a href="./participe/como-contribuir.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Contribua com o Site
+</h5>
+<div class="card-text listing-description delink">
+<p>Veja como enviar correções de bugs, adicionar novos conteúdos e melhorar nosso código.</p>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="1" data-listing-file-modified-sort="1784581208048" data-listing-reading-time-sort="2" data-listing-word-count-sort="296">
+<a href="./participe/como-catalogar.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Seja Catalogado
+</h5>
+<div class="card-text listing-description delink">
+<p>Saiba como adicionar o seu perfil ou laboratório ao nosso acervo.</p>
+</div>
+</div>
+</div></a>
+</div>
+</div>
+<div class="listing-no-matching d-none">Sem itens correspondentes</div>
+</div>
+<section id="nossos-contribuintes" class="level2">
+<h2 class="anchored" data-anchor-id="nossos-contribuintes">Nossos Contribuintes</h2>
+<p>Gostaríamos de agradecer a todas as pessoas que já contribuíram de alguma forma para estruturar este projeto até o momento:</p>
 <ul>
-<li>Abrir um <strong>Issue</strong> no GitHub descrevendo o problema;</li>
-<li>Fazer a correção diretamente via <strong>Pull Request</strong>.</li>
+<li><strong>Paulo Dias</strong></li>
+<li><em>(Seu nome pode estar aqui! Acesse os guias acima e junte-se a nós)</em></li>
 </ul>
-</section>
-<section id="melhorias-técnicas" class="level3">
-<h3 class="anchored" data-anchor-id="melhorias-técnicas">2. Melhorias Técnicas</h3>
-<p>O site é construído utilizando <a href="https://quarto.org/">Quarto</a>. Se você tem conhecimentos em Markdown/Quarto e CSS, sinta-se à vontade para propor melhorias estruturais que tornem a experiência do usuário mais agradável.</p>
-</section>
-<section id="conteúdo-científico" class="level3">
-<h3 class="anchored" data-anchor-id="conteúdo-científico">3. Conteúdo Científico</h3>
-<p>Você também pode incluir novos materiais no Acervo, divulgar novos eventos, ou realizar postagens no Blog. A estrutura é baseada em arquivos Markdown simples, facilitando a adição de novos conteúdos.</p>
-</section>
-</section>
-<section id="licença-e-direitos-autorais" class="level2">
-<h2 class="anchored" data-anchor-id="licença-e-direitos-autorais">Licença e Direitos Autorais</h2>
-<p>Este repositório utiliza duas licenças diferentes para separar o código-fonte estrutural do conteúdo original. Ao contribuir, você concorda que o seu trabalho será disponibilizado sob os seguintes termos:</p>
-<ul>
-<li><strong>Código-fonte e Templates:</strong> O código estrutural, os estilos CSS e os templates Quarto baseados no projeto original estão licenciados sob a <a href="https://github.com/categorias-brasil/categorias-brasil.github.io/blob/main/LICENSE">MIT License</a> (Copyright 2020 AlgebraicJulia).</li>
-<li><strong>Conteúdo e Textos:</strong> Todos os artigos, posts de blog, dados de pesquisadores, tutoriais e demais conteúdos textuais criados pelo Categorias Brasil e seus contribuidores estão licenciados sob a <a href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International (CC BY 4.0)</a>.</li>
-</ul>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Nota
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Caso prefira não usar o GitHub para contribuir, você pode sempre nos enviar um e-mail com suas informações ou sugestões!</p>
+</div>
+</div>
+
 
 
 </section>
@@ -471,7 +546,7 @@ ul.task-list li input[type="checkbox"] {
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp("https:\/\/categorias-brasil\.github\.io\/");
+        var filterRegex = new RegExp("https:\/\/categorias-brasil\.github\.io");
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }

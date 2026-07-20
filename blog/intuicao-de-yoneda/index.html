@@ -64,9 +64,9 @@ div.csl-indent {
 <link href="../../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap-9fcb20668e7bb69b6ca8a835a2af9588.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../../site_libs/bootstrap/bootstrap-dark-4c300bc3d75f67875581b83ff7fa7816.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="../../site_libs/bootstrap/bootstrap-9fcb20668e7bb69b6ca8a835a2af9588.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-4254015585900cadf858da9054465a43.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-dark-557a6cbb4929d186c4b92e184c6a6449.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../../site_libs/bootstrap/bootstrap-4254015585900cadf858da9054465a43.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -139,7 +139,14 @@ window.Quarto = {
 };
 </script>
 
-<link rel="stylesheet" href="../../styles.css">
+<meta property="og:title" content="Um vislumbre de Yoneda através dos C-sets – Teoria das Categorias no Brasil">
+<meta property="og:description" content="Divulgação científica da Teoria das Categorias no Brasil. Encontre pesquisadores, laboratórios, eventos e materiais de referência.">
+<meta property="og:image" content="https://categorias-brasil.github.io/blog/intuicao-de-yoneda/_svgs/a947d0b4216b1b0cb143deb552b04997dc4dbf50.svg">
+<meta property="og:site_name" content="Teoria das Categorias no Brasil">
+<meta name="twitter:title" content="Um vislumbre de Yoneda através dos C-sets – Teoria das Categorias no Brasil">
+<meta name="twitter:description" content="Divulgação científica da Teoria das Categorias no Brasil. Encontre pesquisadores, laboratórios, eventos e materiais de referência.">
+<meta name="twitter:image" content="https://categorias-brasil.github.io/blog/intuicao-de-yoneda/_svgs/a947d0b4216b1b0cb143deb552b04997dc4dbf50.svg">
+<meta name="twitter:card" content="summary_large_image">
 </head>
 
 <body class="nav-fixed quarto-light"><script id="quarto-html-before-body" type="application/javascript">
@@ -308,7 +315,7 @@ window.Quarto = {
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
-    <nav class="navbar navbar-expand-sm " data-bs-theme="dark">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a class="navbar-brand" href="../../index.html">
@@ -344,6 +351,10 @@ window.Quarto = {
   <li class="nav-item">
     <a class="nav-link" href="../../acervo.html"> 
 <span class="menu-text">Acervo</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../participe.html"> 
+<span class="menu-text">Participe</span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
@@ -436,14 +447,24 @@ window.Quarto = {
 <section id="definições" class="level3">
 <h3 class="anchored" data-anchor-id="definições">Definições</h3>
 <p>Um <em>copré-feixe</em> <span class="math inline">F</span> em uma categoria <span class="math inline">C</span> é um funtor <span class="math inline">F : C \to \text{Set}</span>. A categoria dos <span class="math inline">C</span>-sets tem como objetos esses funtores e como morfismos as transformações naturais entre eles. Também chamaremos esses funtores de <span class="math inline">C</span>-sets quando a categoria <span class="math inline">C</span> estiver subentendida.</p>
-<blockquote class="blockquote">
-<p><strong>Observação de notação:</strong> Usaremos <span class="math inline">F</span> tanto para denotar o funtor em si quanto para nos referir à estrutura que ele representa, seja um conjunto, um grafo, ou qualquer outra. O contexto deixará claro qual o sentido em cada uso.</p>
-</blockquote>
+<div class="callout callout-style-default callout-note callout-titled" title="Observação de notação">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Nota</span>Observação de notação
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Usaremos <span class="math inline">F</span> tanto para denotar o funtor em si quanto para nos referir à estrutura que ele representa, seja um conjunto, um grafo, ou qualquer outra. O contexto deixará claro qual o sentido em cada uso.</p>
+</div>
+</div>
 </section>
 <section id="o-lema" class="level3">
 <h3 class="anchored" data-anchor-id="o-lema">O lema</h3>
 <p>Seja <span class="math inline">\mathcal{C}</span> uma categoria pequena e <span class="math inline">F</span> um copré-feixe. Para todo objeto <span class="math inline">c</span> de <span class="math inline">\mathcal{C}</span>, há uma bijeção</p>
-<p><span class="math display"> \text{Nat}(C(c, -), F) \cong F(c). </span></p>
+<p><span id="eq-yoneda"><span class="math display"> \text{Nat}(C(c, -), F) \cong F(c).  \tag{1}</span></span></p>
 <p>Em outras palavras, cada elemento <span class="math inline">x \in F(c)</span> determina unicamente uma transformação natural <span class="math inline">f_x : C(c, -) \Rightarrow F</span>, e, reciprocamente, toda transformação natural dessa forma provém de um único elemento de <span class="math inline">F(c)</span>. Essa correspondência é natural em <span class="math inline">c</span> e em <span class="math inline">F</span>.</p>
 <p>Dizemos que <span class="math inline">C(-, -)</span> é uma <em>imersão de Yoneda</em>, e que um funtor <span class="math inline">C(c, -)</span> é o representável de <span class="math inline">c</span> nessa imersão.</p>
 </section>
@@ -460,7 +481,7 @@ A</span> corresponde exatamente a escolher um elemento de <span class="math inli
 <p>Então podemos afirmar que o representável dessa categoria de <span class="math inline">C</span>-sets é apenas um conjunto unitário.</p>
 <p>Nesse sentido, a “escolha” de um elemento seria uma transformação natural <span class="math inline">\alpha : 1(\star, -) \to A</span>. Podemos então entender quem seria <span class="math inline">1(\star, -)</span> a partir da seguinte ilustração:</p>
 <div class="tikz">
-<img src="_svgs/bd192e2a6a9e82efcca4d49a8c28bfdc5d08d67d.svg" class="img-fluid">
+<img src="_svgs/a947d0b4216b1b0cb143deb552b04997dc4dbf50.svg" class="img-fluid">
 </div>
 <p>Cada seta do desenho corresponde exatamente a uma transformação natural diferente, isto é, a uma maneira de escolher um elemento de <span class="math inline">A</span>. Essa é precisamente a interpretação fornecida pelo lema de Yoneda no caso dos conjuntos.</p>
 </section>
@@ -472,7 +493,7 @@ A</span> corresponde exatamente a escolher um elemento de <span class="math inli
 <p>Você provavelmente já reparou que precisaremos codificar as informações adicionais necessárias: dada uma aresta, como eu posso saber seus vértices de source e target? Bom, basta que existam morfismos <span class="math inline">s, t : E \to V</span> tal que, se <span class="math inline">e = (u, v)</span> é uma aresta do grafo, então <span class="math inline">G(s)(e) = u</span> e <span class="math inline">G(t)(e) = v</span>.</p>
 <p>Assim, o diagrama dessa categoria será o seguinte:</p>
 <div class="tikzcd">
-<img src="_svgs/ea31d6c0d776d5bfaafc7afda04f21e652d07c22.svg" class="img-fluid">
+<img src="_svgs/3baeee5cf0c8a780dcd6ce12c046c40c5575e22b.svg" class="img-fluid">
 </div>
 <p>Pode notar que esta categoria é, de certa forma, isenta de conteúdo. Ou seja, não temos um grafo, mas temos um molde e, por conta disso, chamaremos o domínio dos copré-feixes de <em>categoria esquema</em>, ou apenas <em>esquema</em>.</p>
 <p>Um grafo, portanto, será um <span class="math inline">C</span>-set em <span class="math inline">\Gamma</span>. Em outras palavras, um grafo é um funtor <span class="math inline">G : \Gamma \to \text{Set}</span>. A categoria formada por esses funtores e transformações naturais entre eles é equivalente à categoria usual dos grafos dirigidos, e costuma ser denotada por <em>Graph</em>.</p>
@@ -485,11 +506,11 @@ A</span> corresponde exatamente a escolher um elemento de <span class="math inli
 <p><span class="math display"> \Gamma(V, E) = \emptyset. </span></p>
 <p>Portanto, o representável pode ser identificado com o seguinte grafo:</p>
 <div class="tikz">
-<img src="_svgs/7a98839369dafc80ddf872f12a3c1b0895806d3d.svg" class="img-fluid">
+<img src="_svgs/954faaf2e880c015f94c5c6ec25580e7e70a9ff9.svg" class="img-fluid">
 </div>
 <p>Agora podemos visualizar como esse representável atua ao escolher vértices de um grafo qualquer.</p>
 <div class="tikz">
-<img src="_svgs/4effc65be4190ca7b3fc2c25ab889a296cba8533.svg" class="img-fluid">
+<img src="_svgs/3dde6327f73e885615a9df9e23fc1051b347f411.svg" class="img-fluid">
 </div>
 <p>Pelo lema, <span class="math inline">v \in G(V)</span> determina <span class="math inline">g_v : \Gamma(V, -) \Rightarrow G</span>. Esse seria o morfismo de escolha de um vértice. O diagrama acima mostra exatamente essas possíveis escolhas.</p>
 </section>
@@ -500,11 +521,11 @@ A</span> corresponde exatamente a escolher um elemento de <span class="math inli
 <p><span class="math display"> \Gamma(E, E) = \{id_E\}. </span></p>
 <p>Com isso, afirmamos que <span class="math inline">\Gamma(E, -)</span> corresponde ao seguinte grafo:</p>
 <div class="tikz">
-<img src="_svgs/91cbcb099862cd7bedc4e97f1a658bb95303287b.svg" class="img-fluid">
+<img src="_svgs/364f164c0a124f283835778beb7e7e1505f754bd.svg" class="img-fluid">
 </div>
 <p>Analogamente, cada aresta <span class="math inline">e \in G(E)</span> determina uma transformação natural <span class="math inline">g_e : \Gamma(E, -) \Rightarrow G</span>, ilustrada abaixo.</p>
 <div class="tikz">
-<img src="_svgs/a5e480640728ba44f2a1fde8ee63953a4ea08270.svg" class="img-fluid">
+<img src="_svgs/e8430708cf5791061840803071f809a3427ebeb9.svg" class="img-fluid">
 </div>
 <p>Com um pouco de atenção, você pode perceber que a transformação “de escolha” de um vértice é um monomorfismo, enquanto a transformação “de escolha” de uma aresta não. Tente justificar essa afirmação construindo um exemplo.</p>
 </section>
@@ -613,7 +634,7 @@ Awodey, Steve. 2010. <em>Category Theory</em>. Oxford University Press. <a href=
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp("https:\/\/categorias-brasil\.github\.io\/");
+        var filterRegex = new RegExp("https:\/\/categorias-brasil\.github\.io");
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }
