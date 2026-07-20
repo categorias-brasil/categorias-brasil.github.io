@@ -8,7 +8,8 @@ title: Hugo Luiz Mariano
 ---
 
 <!-- Substitua a linha abaixo pela sua imagem:
-<img src="sua_imagem.jpg" alt="Foto de Hugo Mariano" style="width: 100%; max-width: 400px; height: auto;"> -->
+-->
+![](sua_imagem.jpg){fig-alt="Foto de Hugo Mariano" width="400"}
 
 Tem experiência na área de Matemática, com ênfase em teoria das categorias,
 lógica matemática, teoria algébrica de formas quadráticas e hermitianas e teoria

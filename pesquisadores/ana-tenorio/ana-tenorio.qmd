@@ -7,7 +7,7 @@ categories:
 title: Ana Luiza Tenório
 ---
 
-`<img src="ana-tenorio.jpg" alt="Foto de Ana Tenório" style="width: 100%; max-width: 400px; height: auto;">`{=html}
+![](ana-tenorio.jpg){fig-alt="Foto de Ana Tenório" width="400"}
 
 ## Instituição
 

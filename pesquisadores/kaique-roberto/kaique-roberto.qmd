@@ -8,7 +8,7 @@ categories:
 title: Kaique Matias de Andrade Roberto
 ---
 
-`<img src="kaique-roberto.jpg" alt="Retrato do pesquisador sorrindo com as mãos nos bolsos" style="width: 100%; max-width: 400px; height: auto;">`{=html}
+![](kaique-roberto.jpg){fig-alt="Retrato de Kaique Roberto sorrindo com as mãos nos bolsos" width="400"}
 
 ## Instituição
 

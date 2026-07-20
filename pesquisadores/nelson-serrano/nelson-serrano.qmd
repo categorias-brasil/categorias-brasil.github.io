@@ -8,7 +8,7 @@ categories:
 title: Nelson Prata Pravato Serrano
 ---
 
-`<img src="nelson-serrano.jpg" alt="Foto do pesquisador(a)" style="width: 100%; max-width: 400px; height: auto;">`{=html}
+![](nelson-serrano.jpg){fig-alt="Foto de Nelson Serrano" width="400"}
 
 Atualmente eu estudo categorias Tannakianas, com foco na categoria de fibrados
 unipotentes sobre k-esquemas.

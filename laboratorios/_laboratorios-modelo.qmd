@@ -6,7 +6,8 @@ draft: true
 
 <!-- Substitua na linha abaixo o nome do arquivo da sua imagem.
 Na tag 'alt', descreva como é o logo para ajudar na acessibilidade:
-<img src="sua_imagem.jpg" alt="Descrição visual do logo do laboratório" style="width: 100%; max-width: 400px; height: auto;"> -->
+-->
+![](sua_imagem.jpg){fig-alt="Descrição visual do logo do laboratório" width="400"}
 
 Descrição breve do laboratório/grupo e sua área englobada.
 

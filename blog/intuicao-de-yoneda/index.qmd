@@ -42,16 +42,16 @@ categoria dos $C$-sets tem como objetos esses funtores e como morfismos as
 transformações naturais entre eles. Também chamaremos esses funtores de $C$-sets
 quando a categoria $C$ estiver subentendida.
 
-> **Observação de notação:** Usaremos $F$ tanto para denotar o funtor em si
-> quanto para nos referir à estrutura que ele representa, seja um conjunto, um
-> grafo, ou qualquer outra. O contexto deixará claro qual o sentido em cada uso.
+::: {.callout-note title="Observação de notação"}
+Usaremos $F$ tanto para denotar o funtor em si quanto para nos referir à estrutura que ele representa, seja um conjunto, um grafo, ou qualquer outra. O contexto deixará claro qual o sentido em cada uso.
+:::
 
 ### O lema
 
 Seja $\mathcal{C}$ uma categoria pequena e $F$ um copré-feixe. Para todo objeto
 $c$ de $\mathcal{C}$, há uma bijeção
 
-$$ \text{Nat}(C(c, -), F) \cong F(c). $$
+$$ \text{Nat}(C(c, -), F) \cong F(c). $$ {#eq-yoneda}
 
 Em outras palavras, cada elemento $x \in F(c)$ determina unicamente uma
 transformação natural $f_x : C(c, -) \Rightarrow F$, e, reciprocamente, toda

@@ -1,0 +1,98 @@
+/*-- scss:defaults --*/
+$primary: #1a0081 !default;
+$link-color: #1a0081 !default;
+$link-hover-color: #0b0033 !default;
+$cat-tertiary: #eae9f4;
+$cat-quaternary: #f8f8f8;
+$cat-border-light: lightgray;
+
+/*-- scss:rules --*/
+[data-bs-theme="dark"], body.quarto-dark, html.quarto-dark, [data-theme="dark"] {
+  --cat-tertiary: #15152b;
+  --cat-quaternary: #111122;
+  --cat-border-light: #2a2a4a;
+}
+
+div.callout-tip {
+  border-left-color: $primary !important;
+}
+div.callout-tip .callout-header {
+  background-color: var(--cat-tertiary) !important;
+}
+
+@font-face {
+  font-family: JuliaMono-Regular;
+  src: url("https://cdn.jsdelivr.net/gh/cormullion/juliamono/webfonts/JuliaMono-Regular.woff2");
+}
+
+div.c-set table {
+  line-height: 1em;
+  margin-left: auto;
+  margin-right: auto;
+  border-collapse: collapse;
+  text-align: center;
+  margin-bottom: 1.5em;
+}
+div.c-set thead tr:first-of-type > th {
+  text-align: center;
+  background: var(--cat-tertiary);
+}
+div.c-set tr,
+div.c-set th,
+div.c-set td {
+  padding: 10px;
+  border: 1px solid var(--cat-border-light);
+}
+
+div.c-set .fndef tr:first-of-type {
+  background: var(--cat-quaternary);
+}
+
+.tikzcd,
+.tikz {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 1em;
+  margin-top: 1em;
+}
+
+.tikz img,
+.tikzcd img {
+  max-width: 100%;
+  height: auto;
+}
+
+@media (min-width: 992px) {
+  .quarto-margin-sidebar {
+    min-width: 300px !important;
+  }
+}
+
+.quarto-margin-sidebar .quarto-categories .category,
+.quarto-margin-sidebar .listing-category,
+.quarto-margin-sidebar .category {
+  white-space: nowrap !important;
+}
+
+.quarto-grid-item .card {
+  min-height: 200px;
+}
+.quarto-grid-item .card-body {
+  padding: 2rem;
+}
+.quarto-grid-item .card-title {
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+
+.hover-elevate {
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+.hover-elevate:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.15) !important;
+}
+[data-bs-theme="dark"] .hover-elevate:hover, body.quarto-dark .hover-elevate:hover {
+  box-shadow: 0 10px 20px rgba(0,0,0,0.5) !important;
+}

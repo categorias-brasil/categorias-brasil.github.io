@@ -1,0 +1,5 @@
+website:
+  site-url: "https://categorias-brasil.github.io"
+  description: "Divulgação científica da Teoria das Categorias no Brasil. Encontre pesquisadores, laboratórios, eventos e materiais de referência."
+  open-graph: true
+  twitter-card: true

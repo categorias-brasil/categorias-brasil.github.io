@@ -7,9 +7,9 @@ draft: true
 title: Nome do Pesquisador(a)
 ---
 
-<!-- Substitua na linha abaixo o nome do arquivo da sua imagem.
-Na tag 'alt', escreva uma descrição de como é a foto para ajudar na acessibilidade (ex: "Retrato de pessoa sorrindo, usando óculos"):
-<img src="sua_imagem.jpg" alt="Descreva a foto do pesquisador(a) para leitores de tela" style="width: 100%; max-width: 400px; height: auto;"> -->
+<!-- Substitua "sua_imagem.jpg" pelo nome do arquivo da sua imagem.
+Em fig-alt, escreva uma descrição da foto para acessibilidade (ex: "Retrato de pessoa sorrindo, usando óculos"): -->
+![](sua_imagem.jpg){fig-alt="Descreva a foto do pesquisador(a) para leitores de tela" width="400"}
 
 Breve descrição ou biografia resumida.
 

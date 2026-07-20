@@ -23,17 +23,20 @@ listing:
   - id: participar
     contents:
       - title: "Seja Catalogado"
-        path: blog/como-catalogar/index.qmd
+        path: participe/como-catalogar.qmd
         description: "Se você é um pesquisador ou faz parte de um laboratório na área, junte-se ao catálogo para aumentar sua visibilidade."
       - title: "Contribua com o Site"
-        path: blog/como-contribuir/index.qmd
+        path: participe/como-contribuir.qmd
         description: "Sendo um projeto de código aberto, qualquer um pode ajudar. Aceitamos correções de bugs, novos conteúdos e melhorias no código."
     type: grid
     grid-columns: 2
     image-height: 0px
     fields: [title, description]
   - id: blog-feed
-    contents: blog/*/index.qmd
+    contents: 
+      - "blog/*/index.qmd"
+      - "!blog/como-catalogar/index.qmd"
+      - "!blog/como-contribuir/index.qmd"
     type: grid
     grid-columns: 3
     max-items: 3

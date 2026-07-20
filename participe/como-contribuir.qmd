@@ -1,8 +1,4 @@
 ---
-author: Paulo Dias
-categories:
-- Tutorial
-date: 2026-04-13
 title: Como contribuir com o site
 ---
 

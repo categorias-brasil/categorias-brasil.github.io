@@ -1,0 +1,35 @@
+---
+title: "Participe"
+page-layout: full
+listing:
+  - id: botoes-participe
+    contents:
+      - title: "Seja Catalogado"
+        path: participe/como-catalogar.qmd
+        description: "Saiba como adicionar o seu perfil ou laboratório ao nosso acervo."
+      - title: "Contribua com o Site"
+        path: participe/como-contribuir.qmd
+        description: "Veja como enviar correções de bugs, adicionar novos conteúdos e melhorar nosso código."
+    type: grid
+    grid-columns: 2
+    image-height: 0px
+    fields: [title, description]
+---
+
+Nós adoraríamos contar com a sua participação para tornar este catálogo e comunidade cada vez mais fortes!
+
+Existem duas principais formas de participar ativamente:
+
+:::{#botoes-participe}
+:::
+
+## Nossos Contribuintes
+
+Gostaríamos de agradecer a todas as pessoas que já contribuíram de alguma forma para estruturar este projeto até o momento:
+
+- **Paulo Dias**
+- *(Seu nome pode estar aqui! Acesse os guias acima e junte-se a nós)*
+
+::: {.callout-note}
+Caso prefira não usar o GitHub para contribuir, você pode sempre nos enviar um e-mail com suas informações ou sugestões!
+:::

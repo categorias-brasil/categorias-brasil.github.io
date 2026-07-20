@@ -6,6 +6,8 @@ listing:
   - id: livros
     contents: acervo/livros.yml
     type: table
+    filter-ui: true
+    sort-ui: true
     sort: title asc
     fields: [title, author, categories]
     field-display-names:
@@ -17,6 +19,8 @@ listing:
   - id: videos
     contents: acervo/videos.yml
     type: table
+    filter-ui: true
+    sort-ui: true
     sort: title asc
     fields: [title, author, categories]
     field-display-names:
@@ -28,6 +32,8 @@ listing:
   - id: notas
     contents: acervo/notas.yml
     type: table
+    filter-ui: true
+    sort-ui: true
     sort: title asc
     fields: [title, author, categories]
     field-display-names:

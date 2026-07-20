@@ -9,7 +9,7 @@ categories:
 title: Valeria de Paiva
 ---
 
-`<img src="valeria-depaiva.jpg" alt="Retrato da pesquisadora sorrindo e segurando um copo de café" style="width: 100%; max-width: 400px; height: auto;">`{=html}
+![](valeria-depaiva.jpg){fig-alt="Retrato de Valeria de Paiva sorrindo e segurando um copo de café" width="400"}
 
 Matemática que atua na interseção entre teoria das categorias, lógica e
 linguagem natural. Construo pontes entre a matemática abstrata e sistemas do

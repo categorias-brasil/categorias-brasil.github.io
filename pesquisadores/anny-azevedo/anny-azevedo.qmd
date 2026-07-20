@@ -8,7 +8,7 @@ categories:
 title: Anny Beatriz Azevedo
 ---
 
-`<img src="azevedo.webp" alt="Foto de Anny Beatriz Azevedo" style="width: 100%; max-width: 400px; height: auto;">`{=html}
+![](azevedo.webp){fig-alt="Foto de Anny Beatriz Azevedo" width="400"}
 
 Faço mestrado no IME-USP, trabalhando sob a supervisão do Professor [Benjamin
 Merlin Bumpus](../benjamin-bumpus/benjamin-bumpus.qmd). Durante minha graduação,

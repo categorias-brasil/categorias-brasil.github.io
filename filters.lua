@@ -84,7 +84,7 @@ local function file_exists(name)
 	end
 end
 
-local function memoize_svg(input, builder, key)
+local function memoize_svg(input, builder, key, alt_text)
 	local svgdir = system.get_working_directory() .. "/_svgs"
 	os.execute("mkdir -p " .. svgdir)
 	local fbasename = pandoc.sha1(input .. key .. thiscontent) .. ".svg"
@@ -92,18 +92,23 @@ local function memoize_svg(input, builder, key)
 	if not file_exists(fname) then
 		builder(input, fname)
 	end
-	return pandoc.Image({}, "_svgs/" .. fbasename)
+	local caption = {}
+	if alt_text then
+		caption = { pandoc.Str(alt_text) }
+	end
+	return pandoc.Image(caption, "_svgs/" .. fbasename)
 end
 
 function CodeBlock(el)
 	local tikz_template = tikz_templates[el.classes[1]]
+	local alt_text = el.attributes["fig-alt"] or el.attributes["alt"]
 	if tikz_template ~= nil then
 		return pandoc.Div(
-			memoize_svg(el.text, tikz2image(tikz_template), tikz_template[1] .. tikz_template[2]),
+			memoize_svg(el.text, tikz2image(tikz_template), tikz_template[1] .. tikz_template[2], alt_text),
 			{ class = el.classes[1] }
 		)
 	elseif el.classes[1] == "graphviz" then
-		return pandoc.Div(memoize_svg(el.text, graphviz2image, "graphviz"), { class = "graphviz" })
+		return pandoc.Div(memoize_svg(el.text, graphviz2image, "graphviz", alt_text), { class = "graphviz" })
 	else
 		return el
 	end

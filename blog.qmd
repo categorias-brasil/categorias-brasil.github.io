@@ -1,7 +1,8 @@
 ---
 listing:
   categories: true
-  contents: blog
+  contents: 
+    - blog
   filter-ui: false
   sort: date desc
   sort-ui: false

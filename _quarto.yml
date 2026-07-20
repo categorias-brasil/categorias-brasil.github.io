@@ -9,7 +9,7 @@ website:
   title: Teoria das Categorias no Brasil
   navbar:
     background: primary
-    collapse-below: sm
+    collapse-below: lg
     right:
       - o-que-e.qmd
       - blog.qmd
@@ -17,6 +17,7 @@ website:
       - laboratorios.qmd
       - eventos.qmd
       - acervo.qmd
+      - participe.qmd
   page-footer:
     left: "Sugestões ou dúvidas? [categoriasbrasil@gmail.com](mailto:categoriasbrasil@gmail.com)"
     center: "Teoria das Categorias no Brasil"
@@ -28,9 +29,8 @@ format:
   html:
     html-math-method: katex
     theme:
-      light: flatly
-      dark: darkly
-    css: styles.css
+      light: [flatly, custom.scss]
+      dark: [darkly, custom-dark.scss]
     monofont: JuliaMono-Regular
 
 from: markdown+tex_math_single_backslash
