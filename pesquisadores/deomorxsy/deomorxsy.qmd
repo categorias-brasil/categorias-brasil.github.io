@@ -1,12 +1,12 @@
 ---
 categories:
 - "Grau: Graduado"
-- "Área: Curry-Howard-Lambek isomorphism"
-- "Área: Formal Semantics"
-- "Área: Representation Theory"
-- "Área: Virtualization"
-- "Área: Operating Systems"
-- "Área: Compiler design"
+- "Área: Isomorfismo de Curry-Howard-Lambek"
+- "Área: Semântica Formal"
+- "Área: Teoria da Representação"
+- "Área: Virtualização"
+- "Área: Sistemas Operacionais"
+- "Área: Design de Compiladores"
 draft: true
 title: deomorxsy
 ---
