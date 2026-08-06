@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="pt-BR" xml:lang="pt-BR"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.38">
+<meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -12,10 +12,13 @@
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
 */
-code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -41,14 +44,14 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-0a6b7249c26820e032cb0bd839ff02b1.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-b85bc7c33db8c58e0ec93c3465666fed.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-66bb21676da65a27774c19eeedd86bc7.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark-bf54e085d7dd9527adf1f1b5ce5ca4a2.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="site_libs/bootstrap/bootstrap-66bb21676da65a27774c19eeedd86bc7.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-e695df675371060abe0c50e4fa4aaa76.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-3a07545ce08507dbcd477bb07784c8f1.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-e695df675371060abe0c50e4fa4aaa76.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -345,21 +348,32 @@ window.Quarto = {
     <a class="nav-link" href="./blog.html"> 
 <span class="menu-text">Blog</span></a>
   </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./pesquisadores.html"> 
-<span class="menu-text">Pesquisadores</span></a>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-catálogos" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Catálogos</span>
+    </a>
+    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-catálogos">    
+        <li>
+    <a class="dropdown-item" href="./pesquisadores.html">
+ <span class="dropdown-text">Pesquisadores</span></a>
   </li>  
+        <li>
+    <a class="dropdown-item" href="./laboratorios.html">
+ <span class="dropdown-text">Laboratórios</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./acervo.html">
+ <span class="dropdown-text">Acervo</span></a>
+  </li>  
+    </ul>
+  </li>
   <li class="nav-item">
-    <a class="nav-link" href="./laboratorios.html"> 
-<span class="menu-text">Laboratórios</span></a>
+    <a class="nav-link" href="./seminarios.html"> 
+<span class="menu-text">Seminários</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link active" href="./eventos.html" aria-current="page"> 
 <span class="menu-text">Eventos</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./acervo.html"> 
-<span class="menu-text">Acervo</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./participe.html"> 
@@ -395,7 +409,7 @@ window.Quarto = {
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         
-    <h5 class="quarto-listing-category-title">Categorias</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">Todos <span class="quarto-category-count">(1)</span></div><div class="category" data-category="TG9jYWwlM0ElMjBNRw==">Local: MG <span class="quarto-category-count">(1)</span></div><div class="category" data-category="TW9kYWxpZGFkZSUzQSUyMEglQzMlQURicmlkbw==">Modalidade: Híbrido <span class="quarto-category-count">(1)</span></div></div></div>
+    <h5 class="quarto-listing-category-title">Categorias</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">Todos <span class="quarto-category-count">(2)</span></div><div class="category" data-category="TG9jYWwlM0ElMjBNRw==">Local: MG <span class="quarto-category-count">(1)</span></div><div class="category" data-category="TW9kYWxpZGFkZSUzQSUyMEglQzMlQURicmlkbw==">Modalidade: Híbrido <span class="quarto-category-count">(1)</span></div><div class="category" data-category="TW9kYWxpZGFkZSUzQSUyME9ubGluZQ==">Modalidade: Online <span class="quarto-category-count">(1)</span></div><div class="category" data-category="VGlwbyUzQSUyMEdydXBvJTIwZGUlMjBFc3R1ZG9z">Tipo: Grupo de Estudos <span class="quarto-category-count">(1)</span></div></div></div>
 <!-- main -->
 <main class="content quarto-banner-title-block column-page-left" id="quarto-document-content">
 
@@ -404,7 +418,7 @@ window.Quarto = {
 
 
 
-<p>Fique por dentro das conferências, seminários, workshops e encontros focados em Teoria das Categorias e suas aplicações.</p>
+<p>Fique por dentro das conferências, workshops e encontros focados em Teoria das Categorias e suas aplicações.</p>
 
 
 
@@ -436,7 +450,36 @@ window.Quarto = {
     </div>
 </div>
 <div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="TG9jYWwlM0ElMjBNRyUyQ01vZGFsaWRhZGUlM0ElMjBIJUMzJUFEYnJpZG8=" data-listing-date-sort="1777852800000" data-listing-file-modified-sort="1784581208047" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="80">
+<div class="quarto-post image-right" data-index="0" data-categories="TW9kYWxpZGFkZSUzQSUyME9ubGluZSUyQ1RpcG8lM0ElMjBHcnVwbyUyMGRlJTIwRXN0dWRvcw==" data-listing-date-sort="1785974400000" data-listing-file-modified-sort="1785992205708" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="305">
+<div class="thumbnail"><a href="./eventos/coend-reading-group.html" class="no-external">
+
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./eventos/coend-reading-group.html" class="no-external">(Co)end Reading Group</a>
+</h3>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('TW9kYWxpZGFkZSUzQSUyME9ubGluZQ=='); return false;">Modalidade: Online</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('VGlwbyUzQSUyMEdydXBvJTIwZGUlMjBFc3R1ZG9z'); return false;">Tipo: Grupo de Estudos</div>
+
+</div>
+<div class="delink listing-description"><a href="./eventos/coend-reading-group.html" class="no-external">
+Um grupo de estudos semanal dedicado à teoria dos coends, aberto a participantes do Brasil e do exterior. As sessões têm início no dia <strong>10 de agosto</strong> e ocorrem toda…<strong></strong>
+</a></div>
+</div>
+<div class="metadata">
+<a href="./eventos/coend-reading-group.html" class="no-external">
+<div class="listing-date">
+6 de ago. de 2026
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="1" data-categories="TG9jYWwlM0ElMjBNRyUyQ01vZGFsaWRhZGUlM0ElMjBIJUMzJUFEYnJpZG8=" data-listing-date-sort="1777852800000" data-listing-file-modified-sort="1785992205708" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="80">
 <div class="thumbnail"><a href="./eventos/ebct3.html" class="no-external">
 
 <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>

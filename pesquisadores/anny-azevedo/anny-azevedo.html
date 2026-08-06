@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="pt-BR" xml:lang="pt-BR"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.38">
+<meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -12,10 +12,13 @@
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
 */
-code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -39,14 +42,14 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dark-0a6b7249c26820e032cb0bd839ff02b1.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dark-b85bc7c33db8c58e0ec93c3465666fed.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap-66bb21676da65a27774c19eeedd86bc7.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../../site_libs/bootstrap/bootstrap-dark-bf54e085d7dd9527adf1f1b5ce5ca4a2.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="../../site_libs/bootstrap/bootstrap-66bb21676da65a27774c19eeedd86bc7.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-e695df675371060abe0c50e4fa4aaa76.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-dark-3a07545ce08507dbcd477bb07784c8f1.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../../site_libs/bootstrap/bootstrap-e695df675371060abe0c50e4fa4aaa76.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -275,21 +278,32 @@ ul.task-list li input[type="checkbox"] {
     <a class="nav-link" href="../../blog.html"> 
 <span class="menu-text">Blog</span></a>
   </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="../../pesquisadores.html"> 
-<span class="menu-text">Pesquisadores</span></a>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-catálogos" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Catálogos</span>
+    </a>
+    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-catálogos">    
+        <li>
+    <a class="dropdown-item" href="../../pesquisadores.html">
+ <span class="dropdown-text">Pesquisadores</span></a>
   </li>  
+        <li>
+    <a class="dropdown-item" href="../../laboratorios.html">
+ <span class="dropdown-text">Laboratórios</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../acervo.html">
+ <span class="dropdown-text">Acervo</span></a>
+  </li>  
+    </ul>
+  </li>
   <li class="nav-item">
-    <a class="nav-link" href="../../laboratorios.html"> 
-<span class="menu-text">Laboratórios</span></a>
+    <a class="nav-link" href="../../seminarios.html"> 
+<span class="menu-text">Seminários</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="../../eventos.html"> 
 <span class="menu-text">Eventos</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="../../acervo.html"> 
-<span class="menu-text">Acervo</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="../../participe.html"> 
@@ -316,7 +330,7 @@ ul.task-list li input[type="checkbox"] {
 <div class="quarto-title">
 <h1 class="title">Anny Beatriz Azevedo</h1>
   <div class="quarto-categories">
-    <div class="quarto-category">Grau: Mestrado</div>
+    <div class="quarto-category">Grau: Doutorado</div>
     <div class="quarto-category">Área: Teoria dos Feixes</div>
     <div class="quarto-category">Área: Complexidade Computacional</div>
     <div class="quarto-category">Área: Topologia Geral</div>
@@ -339,7 +353,7 @@ ul.task-list li input[type="checkbox"] {
 
 
 <p><img src="azevedo.webp" class="img-fluid" alt="Foto de Anny Beatriz Azevedo" width="400"></p>
-<p>Faço mestrado no IME-USP, trabalhando sob a supervisão do Professor <a href="../../pesquisadores/benjamin-bumpus/benjamin-bumpus.html">Benjamin Merlin Bumpus</a>. Durante minha graduação, estudei Teoria dos Modelos e lógica interna de topos. Agora, no mestrado, direcionei meu foco para aplicações da Teoria das Categorias em Ciência da Computação. Atualmente, estou interessada em usar a Teoria dos Feixes para descrever problemas computacionais.</p>
+<p>Faço doutorado no IME-USP, trabalhando sob a supervisão do Professor <a href="../../pesquisadores/benjamin-bumpus/benjamin-bumpus.html">Benjamin Merlin Bumpus</a>. Durante minha graduação, estudei Teoria dos Modelos e lógica interna de topos. No mestrado, direcionei meu foco para aplicações da Teoria das Categorias em Ciência da Computação. Atualmente, estou interessada em usar a Teoria dos Feixes para descrever problemas computacionais.</p>
 <section id="instituição" class="level2">
 <h2 class="anchored" data-anchor-id="instituição">Instituição</h2>
 <p>Instituto de Matemática, Estatística e Ciência da Computação (IME) da Universidade de São Paulo (USP).</p>
@@ -347,7 +361,8 @@ ul.task-list li input[type="checkbox"] {
 <section id="formação-acadêmica" class="level2">
 <h2 class="anchored" data-anchor-id="formação-acadêmica">Formação Acadêmica</h2>
 <p>2020-2024: Bacharelado em Matemática, Universidade de São Paulo (USP), São Paulo, Brasil</p>
-<p>2024-Agora: Mestrado em Matemática, Universidade de São Paulo (USP), São Paulo, Brasil, sob a supervisão do Professor Benjamin M. Bumpus</p>
+<p>2024-2026: Mestrado em Matemática, Universidade de São Paulo (USP), São Paulo, Brasil, sob a supervisão do Professor Benjamin M. Bumpus</p>
+<p>2026-Agora: Doutorado em Matemática, Universidade de São Paulo (USP), São Paulo, Brasil, sob a supervisão do Professor Benjamin M. Bumpus</p>
 </section>
 <section id="link-para-o-site-pessoal" class="level2">
 <h2 class="anchored" data-anchor-id="link-para-o-site-pessoal">Link para o site pessoal</h2>

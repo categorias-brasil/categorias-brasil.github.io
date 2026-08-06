@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="pt-BR" xml:lang="pt-BR"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.38">
+<meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -12,10 +12,13 @@
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
 */
-code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -41,14 +44,14 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-0a6b7249c26820e032cb0bd839ff02b1.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-b85bc7c33db8c58e0ec93c3465666fed.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-66bb21676da65a27774c19eeedd86bc7.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark-bf54e085d7dd9527adf1f1b5ce5ca4a2.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="site_libs/bootstrap/bootstrap-66bb21676da65a27774c19eeedd86bc7.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-e695df675371060abe0c50e4fa4aaa76.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-3a07545ce08507dbcd477bb07784c8f1.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-e695df675371060abe0c50e4fa4aaa76.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -345,21 +348,32 @@ window.Quarto = {
     <a class="nav-link" href="./blog.html"> 
 <span class="menu-text">Blog</span></a>
   </li>  
-  <li class="nav-item">
-    <a class="nav-link active" href="./pesquisadores.html" aria-current="page"> 
-<span class="menu-text">Pesquisadores</span></a>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-catálogos" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Catálogos</span>
+    </a>
+    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-catálogos">    
+        <li>
+    <a class="dropdown-item" href="./pesquisadores.html">
+ <span class="dropdown-text">Pesquisadores</span></a>
   </li>  
+        <li>
+    <a class="dropdown-item" href="./laboratorios.html">
+ <span class="dropdown-text">Laboratórios</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./acervo.html">
+ <span class="dropdown-text">Acervo</span></a>
+  </li>  
+    </ul>
+  </li>
   <li class="nav-item">
-    <a class="nav-link" href="./laboratorios.html"> 
-<span class="menu-text">Laboratórios</span></a>
+    <a class="nav-link" href="./seminarios.html"> 
+<span class="menu-text">Seminários</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./eventos.html"> 
 <span class="menu-text">Eventos</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./acervo.html"> 
-<span class="menu-text">Acervo</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./participe.html"> 
@@ -395,7 +409,7 @@ window.Quarto = {
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         
-    <h5 class="quarto-listing-category-title">Categorias</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">Todos <span class="quarto-category-count">(15)</span></div><div class="category" data-category="JUMzJTgxcmVhJTNBJTIwJUMzJTgxbGdlYnJh">Área: Álgebra <span class="quarto-category-count">(1)</span></div><div class="category" data-category="JUMzJTgxcmVhJTNBJTIwJUMzJTgxbGdlYnJhJTIwZGElMjBQcm9ncmFtYSVDMyVBNyVDMyVBM28=">Área: Álgebra da Programação <span class="quarto-category-count">(1)</span></div><div class="category" data-category="JUMzJTgxcmVhJTNBJTIwJUMzJTgxbGdlYnJhJTIwTGluZWFyJTIwQ29tcHV0YWNpb25hbA==">Área: Álgebra Linear Computacional <span class="quarto-category-count">(1)</span></div><div class="category" data-category="JUMzJTgxcmVhJTNBJTIwJUMzJTgxbGdlYnJhJTIwTGluZWFyJTIwR3IlQzMlQTFmaWNh">Área: Álgebra Linear Gráfica <span class="quarto-category-count">(1)</span></div><div class="category" data-category="JUMzJTgxcmVhJTNBJTIwQWxnb3JpdG1vcyUyMGVtJTIwR3JhZm9z">Área: Algoritmos em Grafos <span class="quarto-category-count">(1)</span></div><div class="category" data-category="JUMzJTgxcmVhJTNBJTIwQ2F0ZWdvcmlhcyUyMEFiZWxpYW5hcw==">Área: Categorias Abelianas <span class="quarto-category-count">(1)</span></div><div class="category" data-category="JUMzJTgxcmVhJTNBJTIwQ2F0ZWdvcmlhcyUyMFRhbm5ha2lhbmFz">Área: Categorias Tannakianas <span class="quarto-category-count">(1)</span></div><div class="category" data-category="JUMzJTgxcmVhJTNBJTIwQ29tYmluYXQlQzMlQjNyaWElMjBJbmZpbml0YQ==">Área: Combinatória Infinita <span class="quarto-category-count">(1)</span></div><div class="category" data-category="JUMzJTgxcmVhJTNBJTIwQ29tbWElMjBDYXRlZ29yaWVz">Área: Comma Categories <span class="quarto-category-count">(1)</span></div><div class="category" data-category="JUMzJTgxcmVhJTNBJTIwQ29tcGxleGlkYWRlJTIwQ29tcHV0YWNpb25hbA==">Área: Complexidade Computacional <span class="quarto-category-count">(3)</span></div><div class="category" data-category="JUMzJTgxcmVhJTNBJTIwRGlhbGVjdGljYSUyMGNhdGVnb3JpZXM=">Área: Dialectica categories <span class="quarto-category-count">(1)</span></div><div class="category" data-category="JUMzJTgxcmVhJTNBJTIwRnVuZGFtZW50b3MlMjBkYSUyMFRlb3JpYSUyMFF1JUMzJUEybnRpY2E=">Área: Fundamentos da Teoria Quântica <span class="quarto-category-count">(1)</span></div><div class="category" data-category="JUMzJTgxcmVhJTNBJTIwR2VvbWV0cmlhJTIwQWxnJUMzJUE5YnJpY2E=">Área: Geometria Algébrica <span class="quarto-category-count">(3)</span></div><div class="category" data-category="JUMzJTgxcmVhJTNBJTIwSHlwZXIlMjAlQzMlODFsZ2VicmFz">Área: Hyper Álgebras <span class="quarto-category-count">(1)</span></div><div class="category" data-category="JUMzJTgxcmVhJTNBJTIwTGluZ3VhZ2VucyUyMERpYWdyYW0lQzMlQTF0aWNhcw==">Área: Linguagens Diagramáticas <span class="quarto-category-count">(2)</span></div><div class="category" data-category="JUMzJTgxcmVhJTNBJTIwTCVDMyVCM2dpY2E=">Área: Lógica <span class="quarto-category-count">(1)</span></div><div class="category" data-category="JUMzJTgxcmVhJTNBJTIwTCVDMyVCM2dpY2ElMjBBbGclQzMlQTlicmljYQ==">Área: Lógica Algébrica <span class="quarto-category-count">(1)</span></div><div class="category" data-category="JUMzJTgxcmVhJTNBJTIwTCVDMyVCM2dpY2ElMjBDYXRlZ29yaWFs">Área: Lógica Categorial <span class="quarto-category-count">(1)</span></div><div class="category" data-category="JUMzJTgxcmVhJTNBJTIwTSVDMyVBOXRvZG9zJTIwRm9ybWFpcw==">Área: Métodos Formais <span class="quarto-category-count">(1)</span></div><div class="category" data-category="JUMzJTgxcmVhJTNBJTIwTSVDMyVCM2R1bG9zJTIwc29icmUlMjBLLUNhdGVnb3JpYXM=">Área: Módulos sobre K-Categorias <span class="quarto-category-count">(1)</span></div><div class="category" data-category="JUMzJTgxcmVhJTNBJTIwUXVhbnRhbGVz">Área: Quantales <span class="quarto-category-count">(1)</span></div><div class="category" data-category="JUMzJTgxcmVhJTNBJTIwUmVkZXMlMjBOZXVyYWlzJTIwZW0lMjBHcmFmb3M=">Área: Redes Neurais em Grafos <span class="quarto-category-count">(1)</span></div><div class="category" data-category="JUMzJTgxcmVhJTNBJTIwUmVwcmVzZW50YSVDMyVBNyVDMyVBM28lMjBkZSUyMGNvbmhlY2ltZW50bw==">Área: Representação de conhecimento <span class="quarto-category-count">(1)</span></div><div class="category" data-category="JUMzJTgxcmVhJTNBJTIwU2VtJUMzJUEybnRpY2ElMjBjYXRlZyVDMyVCM3JpY2E=">Área: Semântica categórica <span class="quarto-category-count">(1)</span></div><div class="category" data-category="JUMzJTgxcmVhJTNBJTIwU3RyaW5nJTIwRGlhZ3JhbXM=">Área: String Diagrams <span class="quarto-category-count">(1)</span></div><div class="category" data-category="JUMzJTgxcmVhJTNBJTIwVGVvcmlhJTIwZGFzJTIwQ2F0ZWdvcmlhcyUyMEFwbGljYWRh">Área: Teoria das Categorias Aplicada <span class="quarto-category-count">(1)</span></div><div class="category" data-category="JUMzJTgxcmVhJTNBJTIwVGVvcmlhJTIwZGUlMjBDYXRlZ29yaWFzJTIwQXBsaWNhZGE=">Área: Teoria de Categorias Aplicada <span class="quarto-category-count">(1)</span></div><div class="category" data-category="JUMzJTgxcmVhJTNBJTIwVGVvcmlhJTIwZGUlMjBSZXByZXNlbnRhJUMzJUE3JUMzJUI1ZXMlMjBkZSUyMCVDMyU4MWxnZWJyYXM=">Área: Teoria de Representações de Álgebras <span class="quarto-category-count">(1)</span></div><div class="category" data-category="JUMzJTgxcmVhJTNBJTIwVGVvcmlhJTIwZG9zJTIwRmVpeGVz">Área: Teoria dos Feixes <span class="quarto-category-count">(3)</span></div><div class="category" data-category="JUMzJTgxcmVhJTNBJTIwVG9wb2xvZ2lhJTIwQWxnJUMzJUE5YnJpY2E=">Área: Topologia Algébrica <span class="quarto-category-count">(1)</span></div><div class="category" data-category="JUMzJTgxcmVhJTNBJTIwVG9wb2xvZ2lhJTIwR2VyYWw=">Área: Topologia Geral <span class="quarto-category-count">(1)</span></div><div class="category" data-category="R3JhdSUzQSUyMERvdXRvcmFkbw==">Grau: Doutorado <span class="quarto-category-count">(2)</span></div><div class="category" data-category="R3JhdSUzQSUyMEluaWNpYSVDMyVBNyVDMyVBM28lMjBDaWVudCVDMyVBRGZpY2E=">Grau: Iniciação Científica <span class="quarto-category-count">(1)</span></div><div class="category" data-category="R3JhdSUzQSUyME1lc3RyYWRv">Grau: Mestrado <span class="quarto-category-count">(1)</span></div><div class="category" data-category="R3JhdSUzQSUyMFBlc3F1aXNhZG9yYQ==">Grau: Pesquisadora <span class="quarto-category-count">(1)</span></div><div class="category" data-category="R3JhdSUzQSUyMFAlQzMlQjNzLURvYw==">Grau: Pós-Doc <span class="quarto-category-count">(2)</span></div><div class="category" data-category="R3JhdSUzQSUyMFByb2Zlc3Nvcg==">Grau: Professor <span class="quarto-category-count">(3)</span></div><div class="category" data-category="R3JhdSUzQSUyMFByb2Zlc3NvciUyMEFzc29jaWFkbw==">Grau: Professor Associado <span class="quarto-category-count">(1)</span></div><div class="category" data-category="R3JhdSUzQSUyMFByb2Zlc3NvciUyMEF1eGlsaWFy">Grau: Professor Auxiliar <span class="quarto-category-count">(1)</span></div><div class="category" data-category="R3JhdSUzQSUyMFByb2Zlc3NvciUyMERvdXRvcg==">Grau: Professor Doutor <span class="quarto-category-count">(1)</span></div><div class="category" data-category="R3JhdSUzQSUyMFByb2Zlc3NvciUyMFN1YnN0aXR1dG8=">Grau: Professor Substituto <span class="quarto-category-count">(1)</span></div><div class="category" data-category="R3JhdSUzQSUyMFByb2Zlc3NvciUyMFRpdHVsYXI=">Grau: Professor Titular <span class="quarto-category-count">(1)</span></div><div class="category" data-category="R3JhdSUzQSUyMFByb2Zlc3NvcmE=">Grau: Professora <span class="quarto-category-count">(1)</span></div><div class="category" data-category="TG9jYWwlM0ElMjBFVUE=">Local: EUA <span class="quarto-category-count">(1)</span></div><div class="category" data-category="TG9jYWwlM0ElMjBQYXJhbiVDMyVBMQ==">Local: Paraná <span class="quarto-category-count">(1)</span></div><div class="category" data-category="TG9jYWwlM0ElMjBQUg==">Local: PR <span class="quarto-category-count">(1)</span></div><div class="category" data-category="TG9jYWwlM0ElMjBSaW8lMjBkZSUyMEphbmVpcm8=">Local: Rio de Janeiro <span class="quarto-category-count">(1)</span></div><div class="category" data-category="TG9jYWwlM0ElMjBSSg==">Local: RJ <span class="quarto-category-count">(1)</span></div><div class="category" data-category="TG9jYWwlM0ElMjBTJUMzJUEzbyUyMFBhdWxv">Local: São Paulo <span class="quarto-category-count">(4)</span></div><div class="category" data-category="TG9jYWwlM0ElMjBTUA==">Local: SP <span class="quarto-category-count">(5)</span></div></div></div>
+    <h5 class="quarto-listing-category-title">Categorias</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">Todos <span class="quarto-category-count">(15)</span></div><div class="category" data-category="JUMzJTgxcmVhJTNBJTIwJUMzJTgxbGdlYnJh">Área: Álgebra <span class="quarto-category-count">(1)</span></div><div class="category" data-category="JUMzJTgxcmVhJTNBJTIwJUMzJTgxbGdlYnJhJTIwZGElMjBQcm9ncmFtYSVDMyVBNyVDMyVBM28=">Área: Álgebra da Programação <span class="quarto-category-count">(1)</span></div><div class="category" data-category="JUMzJTgxcmVhJTNBJTIwJUMzJTgxbGdlYnJhJTIwTGluZWFyJTIwQ29tcHV0YWNpb25hbA==">Área: Álgebra Linear Computacional <span class="quarto-category-count">(1)</span></div><div class="category" data-category="JUMzJTgxcmVhJTNBJTIwJUMzJTgxbGdlYnJhJTIwTGluZWFyJTIwR3IlQzMlQTFmaWNh">Área: Álgebra Linear Gráfica <span class="quarto-category-count">(1)</span></div><div class="category" data-category="JUMzJTgxcmVhJTNBJTIwQWxnb3JpdG1vcyUyMGVtJTIwR3JhZm9z">Área: Algoritmos em Grafos <span class="quarto-category-count">(1)</span></div><div class="category" data-category="JUMzJTgxcmVhJTNBJTIwQ2F0ZWdvcmlhcyUyMEFiZWxpYW5hcw==">Área: Categorias Abelianas <span class="quarto-category-count">(1)</span></div><div class="category" data-category="JUMzJTgxcmVhJTNBJTIwQ2F0ZWdvcmlhcyUyMFRhbm5ha2lhbmFz">Área: Categorias Tannakianas <span class="quarto-category-count">(1)</span></div><div class="category" data-category="JUMzJTgxcmVhJTNBJTIwQ29tYmluYXQlQzMlQjNyaWElMjBJbmZpbml0YQ==">Área: Combinatória Infinita <span class="quarto-category-count">(1)</span></div><div class="category" data-category="JUMzJTgxcmVhJTNBJTIwQ29tbWElMjBDYXRlZ29yaWVz">Área: Comma Categories <span class="quarto-category-count">(1)</span></div><div class="category" data-category="JUMzJTgxcmVhJTNBJTIwQ29tcGxleGlkYWRlJTIwQ29tcHV0YWNpb25hbA==">Área: Complexidade Computacional <span class="quarto-category-count">(3)</span></div><div class="category" data-category="JUMzJTgxcmVhJTNBJTIwRGlhbGVjdGljYSUyMGNhdGVnb3JpZXM=">Área: Dialectica categories <span class="quarto-category-count">(1)</span></div><div class="category" data-category="JUMzJTgxcmVhJTNBJTIwRnVuZGFtZW50b3MlMjBkYSUyMFRlb3JpYSUyMFF1JUMzJUEybnRpY2E=">Área: Fundamentos da Teoria Quântica <span class="quarto-category-count">(1)</span></div><div class="category" data-category="JUMzJTgxcmVhJTNBJTIwR2VvbWV0cmlhJTIwQWxnJUMzJUE5YnJpY2E=">Área: Geometria Algébrica <span class="quarto-category-count">(3)</span></div><div class="category" data-category="JUMzJTgxcmVhJTNBJTIwSHlwZXIlMjAlQzMlODFsZ2VicmFz">Área: Hyper Álgebras <span class="quarto-category-count">(1)</span></div><div class="category" data-category="JUMzJTgxcmVhJTNBJTIwTGluZ3VhZ2VucyUyMERpYWdyYW0lQzMlQTF0aWNhcw==">Área: Linguagens Diagramáticas <span class="quarto-category-count">(2)</span></div><div class="category" data-category="JUMzJTgxcmVhJTNBJTIwTCVDMyVCM2dpY2E=">Área: Lógica <span class="quarto-category-count">(1)</span></div><div class="category" data-category="JUMzJTgxcmVhJTNBJTIwTCVDMyVCM2dpY2ElMjBBbGclQzMlQTlicmljYQ==">Área: Lógica Algébrica <span class="quarto-category-count">(1)</span></div><div class="category" data-category="JUMzJTgxcmVhJTNBJTIwTCVDMyVCM2dpY2ElMjBDYXRlZ29yaWFs">Área: Lógica Categorial <span class="quarto-category-count">(1)</span></div><div class="category" data-category="JUMzJTgxcmVhJTNBJTIwTSVDMyVBOXRvZG9zJTIwRm9ybWFpcw==">Área: Métodos Formais <span class="quarto-category-count">(1)</span></div><div class="category" data-category="JUMzJTgxcmVhJTNBJTIwTSVDMyVCM2R1bG9zJTIwc29icmUlMjBLLUNhdGVnb3JpYXM=">Área: Módulos sobre K-Categorias <span class="quarto-category-count">(1)</span></div><div class="category" data-category="JUMzJTgxcmVhJTNBJTIwUXVhbnRhbGVz">Área: Quantales <span class="quarto-category-count">(1)</span></div><div class="category" data-category="JUMzJTgxcmVhJTNBJTIwUmVkZXMlMjBOZXVyYWlzJTIwZW0lMjBHcmFmb3M=">Área: Redes Neurais em Grafos <span class="quarto-category-count">(1)</span></div><div class="category" data-category="JUMzJTgxcmVhJTNBJTIwUmVwcmVzZW50YSVDMyVBNyVDMyVBM28lMjBkZSUyMGNvbmhlY2ltZW50bw==">Área: Representação de conhecimento <span class="quarto-category-count">(1)</span></div><div class="category" data-category="JUMzJTgxcmVhJTNBJTIwU2VtJUMzJUEybnRpY2ElMjBjYXRlZyVDMyVCM3JpY2E=">Área: Semântica categórica <span class="quarto-category-count">(1)</span></div><div class="category" data-category="JUMzJTgxcmVhJTNBJTIwU3RyaW5nJTIwRGlhZ3JhbXM=">Área: String Diagrams <span class="quarto-category-count">(1)</span></div><div class="category" data-category="JUMzJTgxcmVhJTNBJTIwVGVvcmlhJTIwZGFzJTIwQ2F0ZWdvcmlhcyUyMEFwbGljYWRh">Área: Teoria das Categorias Aplicada <span class="quarto-category-count">(1)</span></div><div class="category" data-category="JUMzJTgxcmVhJTNBJTIwVGVvcmlhJTIwZGUlMjBDYXRlZ29yaWFzJTIwQXBsaWNhZGE=">Área: Teoria de Categorias Aplicada <span class="quarto-category-count">(1)</span></div><div class="category" data-category="JUMzJTgxcmVhJTNBJTIwVGVvcmlhJTIwZGUlMjBSZXByZXNlbnRhJUMzJUE3JUMzJUI1ZXMlMjBkZSUyMCVDMyU4MWxnZWJyYXM=">Área: Teoria de Representações de Álgebras <span class="quarto-category-count">(1)</span></div><div class="category" data-category="JUMzJTgxcmVhJTNBJTIwVGVvcmlhJTIwZG9zJTIwRmVpeGVz">Área: Teoria dos Feixes <span class="quarto-category-count">(3)</span></div><div class="category" data-category="JUMzJTgxcmVhJTNBJTIwVG9wb2xvZ2lhJTIwQWxnJUMzJUE5YnJpY2E=">Área: Topologia Algébrica <span class="quarto-category-count">(1)</span></div><div class="category" data-category="JUMzJTgxcmVhJTNBJTIwVG9wb2xvZ2lhJTIwR2VyYWw=">Área: Topologia Geral <span class="quarto-category-count">(1)</span></div><div class="category" data-category="R3JhdSUzQSUyMERvdXRvcmFkbw==">Grau: Doutorado <span class="quarto-category-count">(3)</span></div><div class="category" data-category="R3JhdSUzQSUyMEluaWNpYSVDMyVBNyVDMyVBM28lMjBDaWVudCVDMyVBRGZpY2E=">Grau: Iniciação Científica <span class="quarto-category-count">(1)</span></div><div class="category" data-category="R3JhdSUzQSUyMFBlc3F1aXNhZG9yYQ==">Grau: Pesquisadora <span class="quarto-category-count">(1)</span></div><div class="category" data-category="R3JhdSUzQSUyMFAlQzMlQjNzLURvYw==">Grau: Pós-Doc <span class="quarto-category-count">(2)</span></div><div class="category" data-category="R3JhdSUzQSUyMFByb2Zlc3Nvcg==">Grau: Professor <span class="quarto-category-count">(3)</span></div><div class="category" data-category="R3JhdSUzQSUyMFByb2Zlc3NvciUyMEFzc29jaWFkbw==">Grau: Professor Associado <span class="quarto-category-count">(1)</span></div><div class="category" data-category="R3JhdSUzQSUyMFByb2Zlc3NvciUyMEF1eGlsaWFy">Grau: Professor Auxiliar <span class="quarto-category-count">(1)</span></div><div class="category" data-category="R3JhdSUzQSUyMFByb2Zlc3NvciUyMERvdXRvcg==">Grau: Professor Doutor <span class="quarto-category-count">(1)</span></div><div class="category" data-category="R3JhdSUzQSUyMFByb2Zlc3NvciUyMFN1YnN0aXR1dG8=">Grau: Professor Substituto <span class="quarto-category-count">(1)</span></div><div class="category" data-category="R3JhdSUzQSUyMFByb2Zlc3NvciUyMFRpdHVsYXI=">Grau: Professor Titular <span class="quarto-category-count">(1)</span></div><div class="category" data-category="R3JhdSUzQSUyMFByb2Zlc3NvcmE=">Grau: Professora <span class="quarto-category-count">(1)</span></div><div class="category" data-category="TG9jYWwlM0ElMjBFVUE=">Local: EUA <span class="quarto-category-count">(1)</span></div><div class="category" data-category="TG9jYWwlM0ElMjBQYXJhbiVDMyVBMQ==">Local: Paraná <span class="quarto-category-count">(1)</span></div><div class="category" data-category="TG9jYWwlM0ElMjBQUg==">Local: PR <span class="quarto-category-count">(1)</span></div><div class="category" data-category="TG9jYWwlM0ElMjBSaW8lMjBkZSUyMEphbmVpcm8=">Local: Rio de Janeiro <span class="quarto-category-count">(1)</span></div><div class="category" data-category="TG9jYWwlM0ElMjBSSg==">Local: RJ <span class="quarto-category-count">(1)</span></div><div class="category" data-category="TG9jYWwlM0ElMjBTJUMzJUEzbyUyMFBhdWxv">Local: São Paulo <span class="quarto-category-count">(4)</span></div><div class="category" data-category="TG9jYWwlM0ElMjBTUA==">Local: SP <span class="quarto-category-count">(5)</span></div></div></div>
 <!-- main -->
 <main class="content quarto-banner-title-block column-page-left" id="quarto-document-content">
 
@@ -417,7 +431,7 @@ window.Quarto = {
     </div>
 </div>
 <div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-categories="R3JhdSUzQSUyMFAlQzMlQjNzLURvYyUyQyVDMyU4MXJlYSUzQSUyMFRlb3JpYSUyMGRvcyUyMEZlaXhlcyUyQyVDMyU4MXJlYSUzQSUyMFF1YW50YWxlcyUyQyVDMyU4MXJlYSUzQSUyMFJlZGVzJTIwTmV1cmFpcyUyMGVtJTIwR3JhZm9z" data-listing-file-modified-sort="1784581208049" data-listing-reading-time-sort="1" data-listing-word-count-sort="18">
+<div class="g-col-1" data-index="0" data-categories="R3JhdSUzQSUyMFAlQzMlQjNzLURvYyUyQyVDMyU4MXJlYSUzQSUyMFRlb3JpYSUyMGRvcyUyMEZlaXhlcyUyQyVDMyU4MXJlYSUzQSUyMFF1YW50YWxlcyUyQyVDMyU4MXJlYSUzQSUyMFJlZGVzJTIwTmV1cmFpcyUyMGVtJTIwR3JhZm9z" data-listing-file-modified-sort="1785992205709" data-listing-reading-time-sort="1" data-listing-word-count-sort="18">
 <a href="./pesquisadores/ana-tenorio/ana-tenorio.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top"><img loading='lazy' src="pesquisadores/ana-tenorio/ana-tenorio.jpg" alt="Foto de Ana Tenório" style="height: 150px;"  class="thumbnail-image card-img"/></p>
@@ -447,7 +461,7 @@ Escola de Matemática Aplicada da Fundação Getúlio Vargas (EMAp-FGV).
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="1" data-categories="R3JhdSUzQSUyME1lc3RyYWRvJTJDJUMzJTgxcmVhJTNBJTIwVGVvcmlhJTIwZG9zJTIwRmVpeGVzJTJDJUMzJTgxcmVhJTNBJTIwQ29tcGxleGlkYWRlJTIwQ29tcHV0YWNpb25hbCUyQyVDMyU4MXJlYSUzQSUyMFRvcG9sb2dpYSUyMEdlcmFsJTJDTG9jYWwlM0ElMjBTJUMzJUEzbyUyMFBhdWxv" data-listing-file-modified-sort="1784581208049" data-listing-reading-time-sort="1" data-listing-word-count-sort="105">
+<div class="g-col-1" data-index="1" data-categories="R3JhdSUzQSUyMERvdXRvcmFkbyUyQyVDMyU4MXJlYSUzQSUyMFRlb3JpYSUyMGRvcyUyMEZlaXhlcyUyQyVDMyU4MXJlYSUzQSUyMENvbXBsZXhpZGFkZSUyMENvbXB1dGFjaW9uYWwlMkMlQzMlODFyZWElM0ElMjBUb3BvbG9naWElMjBHZXJhbCUyQ0xvY2FsJTNBJTIwUyVDMyVBM28lMjBQYXVsbw==" data-listing-file-modified-sort="1785992205709" data-listing-reading-time-sort="1" data-listing-word-count-sort="122">
 <a href="./pesquisadores/anny-azevedo/anny-azevedo.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top"><img loading='lazy' src="pesquisadores/anny-azevedo/azevedo.webp" alt="Foto de Anny Beatriz Azevedo" style="height: 150px;"  class="thumbnail-image card-img"/></p>
@@ -457,7 +471,7 @@ Anny Beatriz Azevedo
 </h5>
 <div class="listing-categories">
 
-<div class="listing-category" onclick="window.quartoListingCategory('R3JhdSUzQSUyME1lc3RyYWRv'); return false;">Grau: Mestrado</div>
+<div class="listing-category" onclick="window.quartoListingCategory('R3JhdSUzQSUyMERvdXRvcmFkbw=='); return false;">Grau: Doutorado</div>
 
 <div class="listing-category" onclick="window.quartoListingCategory('JUMzJTgxcmVhJTNBJTIwVGVvcmlhJTIwZG9zJTIwRmVpeGVz'); return false;">Área: Teoria dos Feixes</div>
 
@@ -469,7 +483,7 @@ Anny Beatriz Azevedo
 
 </div>
 <div class="card-text listing-description delink">
-Faço mestrado no IME-USP, trabalhando sob a supervisão do Professor Benjamin Merlin Bumpus. Durante minha graduação, estudei Teoria dos Modelos e lógica interna de topos.…
+Faço doutorado no IME-USP, trabalhando sob a supervisão do Professor Benjamin Merlin Bumpus. Durante minha graduação, estudei Teoria dos Modelos e lógica interna de topos.…
 </div>
 <div class="card-attribution card-text-small start">
 <div class="listing-author">
@@ -479,7 +493,7 @@ Faço mestrado no IME-USP, trabalhando sob a supervisão do Professor Benjamin M
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="2" data-categories="R3JhdSUzQSUyMFByb2Zlc3NvciUyMERvdXRvciUyQyVDMyU4MXJlYSUzQSUyMENvbXBsZXhpZGFkZSUyMENvbXB1dGFjaW9uYWwlMkMlQzMlODFyZWElM0ElMjBUZW9yaWElMjBkb3MlMjBGZWl4ZXMlMkNMb2NhbCUzQSUyMFMlQzMlQTNvJTIwUGF1bG8=" data-listing-file-modified-sort="1784581208049" data-listing-reading-time-sort="1" data-listing-word-count-sort="102">
+<div class="g-col-1" data-index="2" data-categories="R3JhdSUzQSUyMFByb2Zlc3NvciUyMERvdXRvciUyQyVDMyU4MXJlYSUzQSUyMENvbXBsZXhpZGFkZSUyMENvbXB1dGFjaW9uYWwlMkMlQzMlODFyZWElM0ElMjBUZW9yaWElMjBkb3MlMjBGZWl4ZXMlMkNMb2NhbCUzQSUyMFMlQzMlQTNvJTIwUGF1bG8=" data-listing-file-modified-sort="1785992205710" data-listing-reading-time-sort="1" data-listing-word-count-sort="102">
 <a href="./pesquisadores/benjamin-bumpus/benjamin-bumpus.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top"><img loading='lazy' src="pesquisadores/benjamin-bumpus/bumpus2.webp" alt="Foto de Benjamin Merlin Bumpus" style="height: 150px;"  class="thumbnail-image card-img"/></p>
@@ -509,7 +523,7 @@ Instituto de Matemática, Estatística e Ciência da Computação (IME) da Unive
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="3" data-categories="R3JhdSUzQSUyMFByb2Zlc3NvciUyQyVDMyU4MXJlYSUzQSUyMExpbmd1YWdlbnMlMjBEaWFncmFtJUMzJUExdGljYXMlMkNMb2NhbCUzQSUyMFJK" data-listing-file-modified-sort="1784581208049" data-listing-reading-time-sort="1" data-listing-word-count-sort="13">
+<div class="g-col-1" data-index="3" data-categories="R3JhdSUzQSUyMFByb2Zlc3NvciUyQyVDMyU4MXJlYSUzQSUyMExpbmd1YWdlbnMlMjBEaWFncmFtJUMzJUExdGljYXMlMkNMb2NhbCUzQSUyMFJK" data-listing-file-modified-sort="1785992205710" data-listing-reading-time-sort="1" data-listing-word-count-sort="13">
 <a href="./pesquisadores/eduardo-ochs/eduardo-ochs.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
@@ -537,7 +551,7 @@ Universidade Federal Fluminense (UFF) - Rio das Ostras.
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="4" data-categories="R3JhdSUzQSUyMFByb2Zlc3NvciUyMFRpdHVsYXIlMkMlQzMlODFyZWElM0ElMjBUZW9yaWElMjBkZSUyMFJlcHJlc2VudGElQzMlQTclQzMlQjVlcyUyMGRlJTIwJUMzJTgxbGdlYnJhcyUyQyVDMyU4MXJlYSUzQSUyME0lQzMlQjNkdWxvcyUyMHNvYnJlJTIwSy1DYXRlZ29yaWFzJTJDTG9jYWwlM0ElMjBTUA==" data-listing-file-modified-sort="1784581208049" data-listing-reading-time-sort="1" data-listing-word-count-sort="37">
+<div class="g-col-1" data-index="4" data-categories="R3JhdSUzQSUyMFByb2Zlc3NvciUyMFRpdHVsYXIlMkMlQzMlODFyZWElM0ElMjBUZW9yaWElMjBkZSUyMFJlcHJlc2VudGElQzMlQTclQzMlQjVlcyUyMGRlJTIwJUMzJTgxbGdlYnJhcyUyQyVDMyU4MXJlYSUzQSUyME0lQzMlQjNkdWxvcyUyMHNvYnJlJTIwSy1DYXRlZ29yaWFzJTJDTG9jYWwlM0ElMjBTUA==" data-listing-file-modified-sort="1785992205710" data-listing-reading-time-sort="1" data-listing-word-count-sort="37">
 <a href="./pesquisadores/eduardo-marcos/eduardo-marcos.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
@@ -567,7 +581,7 @@ A teoria das categorias surge no meu estudo como ferramenta, em particular estud
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="5" data-categories="R3JhdSUzQSUyMERvdXRvcmFkbyUyQyVDMyU4MXJlYSUzQSUyMENhdGVnb3JpYXMlMjBBYmVsaWFuYXMlMkMlQzMlODFyZWElM0ElMjBDb21tYSUyMENhdGVnb3JpZXMlMkMlQzMlODFyZWElM0ElMjBHZW9tZXRyaWElMjBBbGclQzMlQTlicmljYSUyQ0xvY2FsJTNBJTIwU1A=" data-listing-file-modified-sort="1784581208049" data-listing-reading-time-sort="1" data-listing-word-count-sort="7">
+<div class="g-col-1" data-index="5" data-categories="R3JhdSUzQSUyMERvdXRvcmFkbyUyQyVDMyU4MXJlYSUzQSUyMENhdGVnb3JpYXMlMjBBYmVsaWFuYXMlMkMlQzMlODFyZWElM0ElMjBDb21tYSUyMENhdGVnb3JpZXMlMkMlQzMlODFyZWElM0ElMjBHZW9tZXRyaWElMjBBbGclQzMlQTlicmljYSUyQ0xvY2FsJTNBJTIwU1A=" data-listing-file-modified-sort="1785992205710" data-listing-reading-time-sort="1" data-listing-word-count-sort="7">
 <a href="./pesquisadores/ellen-oliveira/ellen-oliveira.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
@@ -599,7 +613,7 @@ Universidade Estadual de Campinas (Unicamp).
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="6" data-categories="R3JhdSUzQSUyMFByb2Zlc3NvciUyMFN1YnN0aXR1dG8lMkMlQzMlODFyZWElM0ElMjBDb21iaW5hdCVDMyVCM3JpYSUyMEluZmluaXRhJTJDTG9jYWwlM0ElMjBQUg==" data-listing-file-modified-sort="1784581208049" data-listing-reading-time-sort="1" data-listing-word-count-sort="43">
+<div class="g-col-1" data-index="6" data-categories="R3JhdSUzQSUyMFByb2Zlc3NvciUyMFN1YnN0aXR1dG8lMkMlQzMlODFyZWElM0ElMjBDb21iaW5hdCVDMyVCM3JpYSUyMEluZmluaXRhJTJDTG9jYWwlM0ElMjBQUg==" data-listing-file-modified-sort="1785992205710" data-listing-reading-time-sort="1" data-listing-word-count-sort="43">
 <a href="./pesquisadores/gustavo-boska/gustavo-boska.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
@@ -627,7 +641,7 @@ Use of the functorialization of end-spaces and edge end-spaces to extend results
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="7" data-categories="R3JhdSUzQSUyMFByb2Zlc3NvciUyMEFzc29jaWFkbyUyQyVDMyU4MXJlYSUzQSUyMEwlQzMlQjNnaWNhJTJDJUMzJTgxcmVhJTNBJTIwJUMzJTgxbGdlYnJhJTJDTG9jYWwlM0ElMjBTJUMzJUEzbyUyMFBhdWxv" data-listing-file-modified-sort="1784581208049" data-listing-reading-time-sort="1" data-listing-word-count-sort="156">
+<div class="g-col-1" data-index="7" data-categories="R3JhdSUzQSUyMFByb2Zlc3NvciUyMEFzc29jaWFkbyUyQyVDMyU4MXJlYSUzQSUyMEwlQzMlQjNnaWNhJTJDJUMzJTgxcmVhJTNBJTIwJUMzJTgxbGdlYnJhJTJDTG9jYWwlM0ElMjBTJUMzJUEzbyUyMFBhdWxv" data-listing-file-modified-sort="1785992205710" data-listing-reading-time-sort="1" data-listing-word-count-sort="156">
 <a href="./pesquisadores/hugo-mariano/hugo-mariano.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top"><img loading='lazy' src="pesquisadores/hugo-mariano/sua_imagem.jpg" alt="Foto de Hugo Mariano" style="height: 150px;"  class="thumbnail-image card-img"/></p>
@@ -657,7 +671,7 @@ Tem experiência na área de Matemática, com ênfase em teoria das categorias, 
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="8" data-categories="R3JhdSUzQSUyMFByb2Zlc3NvciUyQyVDMyU4MXJlYSUzQSUyME0lQzMlQTl0b2RvcyUyMEZvcm1haXMlMkMlQzMlODFyZWElM0ElMjBMaW5ndWFnZW5zJTIwRGlhZ3JhbSVDMyVBMXRpY2FzJTJDJUMzJTgxcmVhJTNBJTIwVGVvcmlhJTIwZGUlMjBDYXRlZ29yaWFzJTIwQXBsaWNhZGElMkMlQzMlODFyZWElM0ElMjAlQzMlODFsZ2VicmElMjBMaW5lYXIlMjBHciVDMyVBMWZpY2ElMkMlQzMlODFyZWElM0ElMjAlQzMlODFsZ2VicmElMjBkYSUyMFByb2dyYW1hJUMzJUE3JUMzJUEzbyUyQyVDMyU4MXJlYSUzQSUyMFN0cmluZyUyMERpYWdyYW1zJTJDJUMzJTgxcmVhJTNBJTIwJUMzJTgxbGdlYnJhJTIwTGluZWFyJTIwQ29tcHV0YWNpb25hbCUyQ0xvY2FsJTNBJTIwUmlvJTIwZGUlMjBKYW5laXJv" data-listing-file-modified-sort="1784581208049" data-listing-reading-time-sort="1" data-listing-word-count-sort="20">
+<div class="g-col-1" data-index="8" data-categories="R3JhdSUzQSUyMFByb2Zlc3NvciUyQyVDMyU4MXJlYSUzQSUyME0lQzMlQTl0b2RvcyUyMEZvcm1haXMlMkMlQzMlODFyZWElM0ElMjBMaW5ndWFnZW5zJTIwRGlhZ3JhbSVDMyVBMXRpY2FzJTJDJUMzJTgxcmVhJTNBJTIwVGVvcmlhJTIwZGUlMjBDYXRlZ29yaWFzJTIwQXBsaWNhZGElMkMlQzMlODFyZWElM0ElMjAlQzMlODFsZ2VicmElMjBMaW5lYXIlMjBHciVDMyVBMWZpY2ElMkMlQzMlODFyZWElM0ElMjAlQzMlODFsZ2VicmElMjBkYSUyMFByb2dyYW1hJUMzJUE3JUMzJUEzbyUyQyVDMyU4MXJlYSUzQSUyMFN0cmluZyUyMERpYWdyYW1zJTJDJUMzJTgxcmVhJTNBJTIwJUMzJTgxbGdlYnJhJTIwTGluZWFyJTIwQ29tcHV0YWNpb25hbCUyQ0xvY2FsJTNBJTIwUmlvJTIwZGUlMjBKYW5laXJv" data-listing-file-modified-sort="1785992205711" data-listing-reading-time-sort="1" data-listing-word-count-sort="20">
 <a href="./pesquisadores/joao-paixao/joao-paixao.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top"><img loading='lazy' src="pesquisadores/joao-paixao/foto-joao-paixao.jpg" alt="Foto do pesquisador(a)" style="height: 150px;"  class="thumbnail-image card-img"/></p>
@@ -697,7 +711,7 @@ Instituto de Computação (IC) da Universidade Federal do Rio de Janeiro (UFRJ).
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="9" data-categories="R3JhdSUzQSUyMFAlQzMlQjNzLURvYyUyQyVDMyU4MXJlYSUzQSUyMEwlQzMlQjNnaWNhJTIwQ2F0ZWdvcmlhbCUyQyVDMyU4MXJlYSUzQSUyMEwlQzMlQjNnaWNhJTIwQWxnJUMzJUE5YnJpY2ElMkMlQzMlODFyZWElM0ElMjBIeXBlciUyMCVDMyU4MWxnZWJyYXMlMkNMb2NhbCUzQSUyMFNQ" data-listing-file-modified-sort="1784581208050" data-listing-reading-time-sort="1" data-listing-word-count-sort="63">
+<div class="g-col-1" data-index="9" data-categories="R3JhdSUzQSUyMFAlQzMlQjNzLURvYyUyQyVDMyU4MXJlYSUzQSUyMEwlQzMlQjNnaWNhJTIwQ2F0ZWdvcmlhbCUyQyVDMyU4MXJlYSUzQSUyMEwlQzMlQjNnaWNhJTIwQWxnJUMzJUE5YnJpY2ElMkMlQzMlODFyZWElM0ElMjBIeXBlciUyMCVDMyU4MWxnZWJyYXMlMkNMb2NhbCUzQSUyMFNQ" data-listing-file-modified-sort="1785992205712" data-listing-reading-time-sort="1" data-listing-word-count-sort="63">
 <a href="./pesquisadores/kaique-roberto/kaique-roberto.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top"><img loading='lazy' src="pesquisadores/kaique-roberto/kaique-roberto.jpg" alt="Retrato de Kaique Roberto sorrindo com as mãos nos bolsos" style="height: 150px;"  class="thumbnail-image card-img"/></p>
@@ -729,7 +743,7 @@ Centro de Lógica, Epistemologia e História da Ciência (CLE) - Universidade Es
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="10" data-categories="R3JhdSUzQSUyMFByb2Zlc3NvciUyQyVDMyU4MXJlYSUzQSUyMEdlb21ldHJpYSUyMEFsZyVDMyVBOWJyaWNhJTJDTG9jYWwlM0ElMjBTUA==" data-listing-file-modified-sort="1784581208050" data-listing-reading-time-sort="1" data-listing-word-count-sort="58">
+<div class="g-col-1" data-index="10" data-categories="R3JhdSUzQSUyMFByb2Zlc3NvciUyQyVDMyU4MXJlYSUzQSUyMEdlb21ldHJpYSUyMEFsZyVDMyVBOWJyaWNhJTJDTG9jYWwlM0ElMjBTUA==" data-listing-file-modified-sort="1785992205712" data-listing-reading-time-sort="1" data-listing-word-count-sort="58">
 <a href="./pesquisadores/marcos-jardim/marcos-jardim.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
@@ -757,7 +771,7 @@ A minha área principal de pesquisa é a Geometria Algébrica, e nesse contexto 
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="11" data-categories="R3JhdSUzQSUyMERvdXRvcmFkbyUyQyVDMyU4MXJlYSUzQSUyMENhdGVnb3JpYXMlMjBUYW5uYWtpYW5hcyUyQyVDMyU4MXJlYSUzQSUyMEdlb21ldHJpYSUyMEFsZyVDMyVBOWJyaWNhJTJDJUMzJTgxcmVhJTNBJTIwVG9wb2xvZ2lhJTIwQWxnJUMzJUE5YnJpY2ElMkNMb2NhbCUzQSUyMFNQ" data-listing-file-modified-sort="1784581208056" data-listing-reading-time-sort="1" data-listing-word-count-sort="23">
+<div class="g-col-1" data-index="11" data-categories="R3JhdSUzQSUyMERvdXRvcmFkbyUyQyVDMyU4MXJlYSUzQSUyMENhdGVnb3JpYXMlMjBUYW5uYWtpYW5hcyUyQyVDMyU4MXJlYSUzQSUyMEdlb21ldHJpYSUyMEFsZyVDMyVBOWJyaWNhJTJDJUMzJTgxcmVhJTNBJTIwVG9wb2xvZ2lhJTIwQWxnJUMzJUE5YnJpY2ElMkNMb2NhbCUzQSUyMFNQ" data-listing-file-modified-sort="1785992205716" data-listing-reading-time-sort="1" data-listing-word-count-sort="23">
 <a href="./pesquisadores/nelson-serrano/nelson-serrano.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top"><img loading='lazy' src="pesquisadores/nelson-serrano/nelson-serrano.jpg" alt="Foto de Nelson Serrano" style="height: 150px;"  class="thumbnail-image card-img"/></p>
@@ -789,7 +803,7 @@ Atualmente eu estudo categorias Tannakianas, com foco na categoria de fibrados u
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="12" data-categories="R3JhdSUzQSUyMEluaWNpYSVDMyVBNyVDMyVBM28lMjBDaWVudCVDMyVBRGZpY2ElMkMlQzMlODFyZWElM0ElMjBDb21wbGV4aWRhZGUlMjBDb21wdXRhY2lvbmFsJTJDJUMzJTgxcmVhJTNBJTIwQWxnb3JpdG1vcyUyMGVtJTIwR3JhZm9zJTJDTG9jYWwlM0ElMjBTJUMzJUEzbyUyMFBhdWxv" data-listing-file-modified-sort="1784581208057" data-listing-reading-time-sort="1" data-listing-word-count-sort="67">
+<div class="g-col-1" data-index="12" data-categories="R3JhdSUzQSUyMEluaWNpYSVDMyVBNyVDMyVBM28lMjBDaWVudCVDMyVBRGZpY2ElMkMlQzMlODFyZWElM0ElMjBDb21wbGV4aWRhZGUlMjBDb21wdXRhY2lvbmFsJTJDJUMzJTgxcmVhJTNBJTIwQWxnb3JpdG1vcyUyMGVtJTIwR3JhZm9zJTJDTG9jYWwlM0ElMjBTJUMzJUEzbyUyMFBhdWxv" data-listing-file-modified-sort="1785992205718" data-listing-reading-time-sort="1" data-listing-word-count-sort="67">
 <a href="./pesquisadores/paulo-dias/paulo-dias.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top"><img loading='lazy' src="pesquisadores/paulo-dias/paulo-dias.jpg" alt="Foto de Paulo Dias" style="height: 150px;"  class="thumbnail-image card-img"/></p>
@@ -819,7 +833,7 @@ Sou um estudante de graduação e faço iniciação científica em teoria das ca
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="13" data-categories="R3JhdSUzQSUyMFByb2Zlc3NvciUyMEF1eGlsaWFyJTJDJUMzJTgxcmVhJTNBJTIwRnVuZGFtZW50b3MlMjBkYSUyMFRlb3JpYSUyMFF1JUMzJUEybnRpY2ElMkMlQzMlODFyZWElM0ElMjBUZW9yaWElMjBkYXMlMjBDYXRlZ29yaWFzJTIwQXBsaWNhZGElMkNMb2NhbCUzQSUyMFBhcmFuJUMzJUEx" data-listing-file-modified-sort="1784581208059" data-listing-reading-time-sort="1" data-listing-word-count-sort="16">
+<div class="g-col-1" data-index="13" data-categories="R3JhdSUzQSUyMFByb2Zlc3NvciUyMEF1eGlsaWFyJTJDJUMzJTgxcmVhJTNBJTIwRnVuZGFtZW50b3MlMjBkYSUyMFRlb3JpYSUyMFF1JUMzJUEybnRpY2ElMkMlQzMlODFyZWElM0ElMjBUZW9yaWElMjBkYXMlMjBDYXRlZ29yaWFzJTIwQXBsaWNhZGElMkNMb2NhbCUzQSUyMFBhcmFuJUMzJUEx" data-listing-file-modified-sort="1785992205718" data-listing-reading-time-sort="1" data-listing-word-count-sort="16">
 <a href="./pesquisadores/sidiney-montanhano/sidiney-montanhano.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top"><img loading='lazy' src="pesquisadores/sidiney-montanhano/foto-sidiney-montanhano.jpg" alt="Foto de Sidiney Bruno Montanhano" style="height: 150px;"  class="thumbnail-image card-img"/></p>
@@ -849,7 +863,7 @@ Quantum Industrial Innovation (QuIIN), SENAI CIMATEC
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="14" data-categories="R3JhdSUzQSUyMFBlc3F1aXNhZG9yYSUyQ0dyYXUlM0ElMjBQcm9mZXNzb3JhJTJDJUMzJTgxcmVhJTNBJTIwRGlhbGVjdGljYSUyMGNhdGVnb3JpZXMlMkMlQzMlODFyZWElM0ElMjBTZW0lQzMlQTJudGljYSUyMGNhdGVnJUMzJUIzcmljYSUyQyVDMyU4MXJlYSUzQSUyMFJlcHJlc2VudGElQzMlQTclQzMlQTNvJTIwZGUlMjBjb25oZWNpbWVudG8lMkNMb2NhbCUzQSUyMEVVQQ==" data-listing-file-modified-sort="1784581208059" data-listing-reading-time-sort="1" data-listing-word-count-sort="196">
+<div class="g-col-1" data-index="14" data-categories="R3JhdSUzQSUyMFBlc3F1aXNhZG9yYSUyQ0dyYXUlM0ElMjBQcm9mZXNzb3JhJTJDJUMzJTgxcmVhJTNBJTIwRGlhbGVjdGljYSUyMGNhdGVnb3JpZXMlMkMlQzMlODFyZWElM0ElMjBTZW0lQzMlQTJudGljYSUyMGNhdGVnJUMzJUIzcmljYSUyQyVDMyU4MXJlYSUzQSUyMFJlcHJlc2VudGElQzMlQTclQzMlQTNvJTIwZGUlMjBjb25oZWNpbWVudG8lMkNMb2NhbCUzQSUyMEVVQQ==" data-listing-file-modified-sort="1785992205719" data-listing-reading-time-sort="1" data-listing-word-count-sort="196">
 <a href="./pesquisadores/valeria-depaiva/valeria-depaiva.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top"><img loading='lazy' src="pesquisadores/valeria-depaiva/valeria-depaiva.jpg" alt="Retrato de Valeria de Paiva sorrindo e segurando um copo de café" style="height: 150px;"  class="thumbnail-image card-img"/></p>
