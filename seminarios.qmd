@@ -1,0 +1,27 @@
+---
+title: Seminários
+page-layout: article
+title-block-banner: true
+---
+
+Nos seminários da comunidade brasileira de Teoria das Categorias,
+contamos com apresentações de membros do grupo e de pesquisadores
+visitantes de universidades brasileiras e estrangeiras.
+
+---
+
+## 2026
+
+### 05/06/2026 — Online {#nate-osgood-2026-06-05}
+
+- **Palestrante**: Nathaniel Osgood
+- **Horário**: 12h (horário de Brasília)
+- **Título**: The Topos of Narratives
+- **Resumo**: A palestra apresenta uma expansão da estrutura topos-teórica das *narrativas temporais*, com foco nas duas camadas
+  inferiores do modelo: *snapshots* instantâneos e intervalos unitários em linhas do tempo inteiras. São introduzidos
+  functores representáveis para categorias de intervalos (na versão *op*), mostrando como presheaves adquirem valores
+  não-triviais em instantes vizinhos. O classificador de sub-objetos é derivado concretamente para representáveis temporais,
+  revelando cinco sub-objetos válidos e uma estrutura poset que captura implicação e monotonicidade ao longo do tempo.
+  Operações lógicas (AND, OR, implicação, complemento) emergem de adjunções e conexões de Galois nesse cenário.
+  A implementação em Catlab cobre narrativas finitas e as aplicações discutidas incluem alcançabilidade temporal e
+  rastreamento de contatos em epidemiologia computacional.

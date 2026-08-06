@@ -13,10 +13,13 @@ website:
     right:
       - o-que-e.qmd
       - blog.qmd
-      - pesquisadores.qmd
-      - laboratorios.qmd
+      - text: "Catálogos"
+        menu:
+          - pesquisadores.qmd
+          - laboratorios.qmd
+          - acervo.qmd
+      - seminarios.qmd
       - eventos.qmd
-      - acervo.qmd
       - participe.qmd
   page-footer:
     left: "Sugestões ou dúvidas? [categoriasbrasil@gmail.com](mailto:categoriasbrasil@gmail.com)"

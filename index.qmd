@@ -1,50 +1,60 @@
 ---
+listing:
+- contents:
+  - description: Conheça os acadêmicos atuantes no país ou brasileiros no
+      exterior.
+    path: pesquisadores.qmd
+    title: Pesquisadores
+  - description: Grupos e centros de pesquisa dedicados à Teoria das Categorias.
+    path: laboratorios.qmd
+    title: Laboratórios
+  - description: Fique por dentro de conferências, workshops e seminários.
+    path: eventos.qmd
+    title: Eventos
+  - description: Referências bibliográficas e materiais úteis para estudo.
+    path: acervo.qmd
+    title: Acervo
+  fields:
+  - title
+  - description
+  grid-columns: 4
+  id: features
+  image-height: 0px
+  type: grid
+- contents:
+  - description: Se você é um pesquisador ou faz parte de um laboratório na
+      área, junte-se ao catálogo para aumentar sua visibilidade.
+    path: participe/como-catalogar.qmd
+    title: Seja Catalogado
+  - description: Sendo um projeto de código aberto, qualquer um pode ajudar.
+      Aceitamos correções de bugs, novos conteúdos e melhorias no código.
+    path: participe/como-contribuir.qmd
+    title: Contribua com o Site
+  fields:
+  - title
+  - description
+  grid-columns: 2
+  id: participar
+  image-height: 0px
+  type: grid
+- contents:
+  - blog/\*/index.qmd
+  - "!blog/como-catalogar/index.qmd"
+  - "!blog/como-contribuir/index.qmd"
+  fields:
+  - title
+  - date
+  - description
+  filter-ui: false
+  grid-columns: 3
+  id: blog-feed
+  image-height: 150px
+  max-items: 3
+  sort: date desc
+  sort-ui: false
+  type: grid
 page-layout: full
 title-block-banner: true
-listing:
-  - id: features
-    contents:
-      - title: "Pesquisadores"
-        path: pesquisadores.qmd
-        description: "Conheça os acadêmicos atuantes no país ou brasileiros no exterior."
-      - title: "Laboratórios"
-        path: laboratorios.qmd
-        description: "Grupos e centros de pesquisa dedicados à Teoria das Categorias."
-      - title: "Eventos"
-        path: eventos.qmd
-        description: "Fique por dentro de conferências, workshops e seminários."
-      - title: "Acervo"
-        path: acervo.qmd
-        description: "Referências bibliográficas e materiais úteis para estudo."
-    type: grid
-    grid-columns: 4
-    image-height: 0px
-    fields: [title, description]
-  - id: participar
-    contents:
-      - title: "Seja Catalogado"
-        path: participe/como-catalogar.qmd
-        description: "Se você é um pesquisador ou faz parte de um laboratório na área, junte-se ao catálogo para aumentar sua visibilidade."
-      - title: "Contribua com o Site"
-        path: participe/como-contribuir.qmd
-        description: "Sendo um projeto de código aberto, qualquer um pode ajudar. Aceitamos correções de bugs, novos conteúdos e melhorias no código."
-    type: grid
-    grid-columns: 2
-    image-height: 0px
-    fields: [title, description]
-  - id: blog-feed
-    contents: 
-      - "blog/*/index.qmd"
-      - "!blog/como-catalogar/index.qmd"
-      - "!blog/como-contribuir/index.qmd"
-    type: grid
-    grid-columns: 3
-    max-items: 3
-    sort: "date desc"
-    image-height: 150px
-    fields: [title, date, description]
-    filter-ui: false
-    sort-ui: false
 ---
 
 ::: {.text-center .py-5}
@@ -62,31 +72,34 @@ acadêmico brasileiro.
 [O que é Teoria das Categorias?](o-que-e.qmd){.btn .btn-primary .btn-lg}
 :::
 
----
+--------------------------------------------------------------------------------
 
 ## Do Blog
 
-Confira as últimas publicações, artigos de opinião, tutoriais e discussões científicas da nossa comunidade:
+Confira as últimas publicações, artigos de opinião, tutoriais e discussões
+científicas da nossa comunidade:
 
-:::{#blog-feed}
+::: {#blog-feed}
 :::
 
-::: {.text-end}
+::: text-end
 [Ver todos os posts →](blog.qmd){.btn .btn-outline-primary .btn-sm}
 :::
 
----
+--------------------------------------------------------------------------------
 
 ## Informações e Catálogos
 
-Encontre pesquisadores da área, grupos de pesquisa ativos, eventos recentes e materiais recomendados de estudo:
+Encontre pesquisadores da área, grupos de pesquisa ativos, eventos recentes e
+materiais recomendados de estudo:
 
-:::{#features}
+::: {#features}
 :::
 
 ## Como Participar
 
-Queremos que este site seja o mais completo possível! Você pode participar ativamente da construção deste ecossistema:
+Queremos que este site seja o mais completo possível! Você pode participar
+ativamente da construção deste ecossistema:
 
-:::{#participar}
+::: {#participar}
 :::
