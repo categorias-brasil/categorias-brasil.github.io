@@ -1,0 +1,46 @@
+---
+categories:
+- "Área: Geometria Diferencial"
+- "Área: Geometria de Poisson"
+- "Local: IME-USP"
+title: Grupo de Pesquisa em Geometria Diferencial Superior
+---
+
+O **Grupo de Pesquisa em Geometria Diferencial Superior** (*Research Group on
+Higher Differential Geometry*) é um grupo de pesquisa sediado no Instituto de Matemática, Estatística e Ciência da Computação (IME) da
+Universidade de São Paulo (USP) e cadastrado no Diretório dos Grupos de Pesquisa
+do CNPq.
+
+Sua pesquisa é dedicada à Geometria Diferencial moderna e ao estudo de
+estruturas geométricas superiores --- tais como grupoides e algebroides de Lie,
+geometria de Poisson, empilhamentos (*stacks*) e $\infty$-grupoides ---, bem
+como suas interações e aplicações em Física Matemática.
+
+## Coordenação
+
+- [Cristian Ortiz](../../pesquisadores/cristian-ortiz/cristian-ortiz.qmd)
+
+## Membros
+
+- Beatriz Persoli (IC)
+- Emma Cupitra (Doutorado)
+- Eduardo de Carvalho (Doutorado)
+- Nicole Conversano (Mestrado)
+- Carol Mançur(Pós-doutorado)
+- Edmundo Martins (Pós-doutorado)
+- Clarice Netto
+- Laura Niehues (Mestrado)
+- Cristian Ortiz
+
+## Localização
+
+Departamento de Matemática do Instituto de Matemática, Estatística e Ciência da
+Computação (IME) da Universidade de São Paulo (USP).
+
+## Link para o site
+
+<https://sites.google.com/view/cristian-ortiz/research-group-on-higher-differential-geometry>
+
+## Email
+
+cortiz (at) ime.usp.br

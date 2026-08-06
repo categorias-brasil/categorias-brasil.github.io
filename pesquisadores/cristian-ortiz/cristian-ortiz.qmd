@@ -1,0 +1,48 @@
+---
+categories:
+- "Grau: Professor Titular"
+- "Área: Geometria Diferencial"
+- "Área: Geometria de Poisson"
+- "Área: Estruturas Geométricas Superiores"
+- "Local: São Paulo"
+title: Cristian Ortiz
+---
+
+![](cristian-ortiz.jpg){fig-alt="Foto de Cristian Ortiz" width="400"}
+
+Matemático nascido em Santiago, Chile, e radicado em São Paulo, Brasil. É Professor Titular no Departamento de Matemática do Instituto de Matemática e Estatística (IME) da Universidade de São Paulo (USP).
+
+Sua pesquisa é focada em Geometria Diferencial, investigando principalmente estruturas geométricas superiores (grupoides e algebroides de Lie, geometria de Poisson, geometria de Higher Lie) e suas conexões com a Física Matemática. Lidera o Grupo de Pesquisa em Geometria Diferencial Superior (*Higher Differential Geometry Research Group*), cadastrado no CNPq, e é membro do Grupo de Pesquisa em Geometria do IME-USP.
+
+## Instituição
+
+Departamento de Matemática, Instituto de Matemática e Estatística (IME) da Universidade de São Paulo (USP).
+
+## Formação Acadêmica
+
+- 2023–Agora: Professor Titular — Instituto de Matemática e Estatística da Universidade de São Paulo (IME-USP), Brasil
+
+- 2021–2023: Professor Associado 3 — Instituto de Matemática e Estatística da Universidade de São Paulo (IME-USP), Brasil
+
+- 2017–2021: Professor Associado 1 — Instituto de Matemática e Estatística da Universidade de São Paulo (IME-USP), Brasil
+
+- 2014–2017: Professor Doutor (Assistente) — Instituto de Matemática e Estatística da Universidade de São Paulo (IME-USP), Brasil
+
+- 2011–2014: Professor Doutor (Assistente) — Universidade Federal do Paraná (UFPR), Brasil
+
+- 2010: Pesquisador Jovem (Junior Research Fellow) — Instituto Internacional Erwin Schrödinger de Física Matemática (ESI), Áustria
+
+- 2009–2010: Pós-Doutorado — Instituto de Matemática Pura e Aplicada (IMPA), Rio de Janeiro, Brasil
+
+- 2009: Doutorado em Matemática — Instituto de Matemática Pura e Aplicada (IMPA), Rio de Janeiro, Brasil (orientação de Henrique Bursztyn, com estágio de 6 meses na Universidade de Utrecht, Holanda)
+
+- Graduação em Matemática — Universidade do Chile, Santiago, Chile
+
+## Link para o site pessoal
+
+<https://sites.google.com/view/cristian-ortiz>
+
+## Email
+
+cortiz (at) ime.usp.br
+

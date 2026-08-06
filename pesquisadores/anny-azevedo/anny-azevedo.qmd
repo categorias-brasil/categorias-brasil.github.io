@@ -10,12 +10,13 @@ title: Anny Beatriz Azevedo
 
 ![](azevedo.webp){fig-alt="Foto de Anny Beatriz Azevedo" width="400"}
 
-Faço doutorado no IME-USP, trabalhando sob a supervisão do Professor [Benjamin
-Merlin Bumpus](../benjamin-bumpus/benjamin-bumpus.qmd). Durante minha graduação,
-estudei Teoria dos Modelos e lógica interna de topos. No mestrado,
+Faço doutorado no IME-USP, trabalhando sob a supervisão do Professor
+[Benjamin Merlin Bumpus](../benjamin-bumpus/benjamin-bumpus.qmd). Durante minha
+graduação, estudei Teoria dos Modelos e lógica interna de topos. No mestrado,
 direcionei meu foco para aplicações da Teoria das Categorias em Ciência da
-Computação. Atualmente, estou interessada em usar a Teoria dos Feixes para
-descrever problemas computacionais.
+Computação, investigando métodos de Teoria dos Feixes e de Cohomologia aplicados
+a problemas computacionais. Atualmente, estou interessada em usar ações de
+monoides e ferramentas categóricas para descrever modelos computacionais.
 
 ## Instituição
 
@@ -23,9 +24,6 @@ Instituto de Matemática, Estatística e Ciência da Computação (IME) da
 Universidade de São Paulo (USP).
 
 ## Formação Acadêmica
-
-2020-2024: Bacharelado em Matemática, Universidade de São Paulo (USP), São
-Paulo, Brasil
 
 2024-2026: Mestrado em Matemática, Universidade de São Paulo (USP), São Paulo,
 Brasil, sob a supervisão do Professor Benjamin M. Bumpus
