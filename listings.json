@@ -7,22 +7,8 @@
     ]
   },
   {
-    "listing": "/index.html",
-    "items": [
-      "/acervo.html",
-      "/eventos.html",
-      "/laboratorios.html",
-      "/pesquisadores.html",
-      "/participe/como-contribuir.html",
-      "/participe/como-catalogar.html"
-    ]
-  },
-  {
-    "listing": "/participe.html",
-    "items": [
-      "/participe/como-contribuir.html",
-      "/participe/como-catalogar.html"
-    ]
+    "listing": "/acervo.html",
+    "items": []
   },
   {
     "listing": "/blog.html",
@@ -33,7 +19,8 @@
   {
     "listing": "/laboratorios.html",
     "items": [
-      "/laboratorios/cuica/cuica.html"
+      "/laboratorios/cuica/cuica.html",
+      "/laboratorios/higher-differential-geometry/higher-differential-geometry.html"
     ]
   },
   {
@@ -42,6 +29,7 @@
       "/pesquisadores/ana-tenorio/ana-tenorio.html",
       "/pesquisadores/anny-azevedo/anny-azevedo.html",
       "/pesquisadores/benjamin-bumpus/benjamin-bumpus.html",
+      "/pesquisadores/cristian-ortiz/cristian-ortiz.html",
       "/pesquisadores/eduardo-ochs/eduardo-ochs.html",
       "/pesquisadores/eduardo-marcos/eduardo-marcos.html",
       "/pesquisadores/ellen-oliveira/ellen-oliveira.html",
@@ -57,7 +45,21 @@
     ]
   },
   {
-    "listing": "/acervo.html",
-    "items": []
+    "listing": "/participe.html",
+    "items": [
+      "/participe/como-contribuir.html",
+      "/participe/como-catalogar.html"
+    ]
+  },
+  {
+    "listing": "/index.html",
+    "items": [
+      "/acervo.html",
+      "/eventos.html",
+      "/laboratorios.html",
+      "/pesquisadores.html",
+      "/participe/como-contribuir.html",
+      "/participe/como-catalogar.html"
+    ]
   }
 ]
