@@ -1,0 +1,29 @@
+---
+categories:
+- "Grau: Graduado"
+- "Área: Isomorfismo de Curry-Howard-Lambek"
+- "Área: Semântica Formal"
+- "Área: Teoria da Representação"
+- "Área: Virtualização"
+- "Área: Sistemas Operacionais"
+- "Área: Design de Compiladores"
+draft: true
+title: deomorxsy
+---
+
+![](./deomorxsy.png){fig-alt="a digital processed image from an illustration that resembles a mosaic-like, with waterpixels of something looking like a moss through the lens of a glass, reflecting sunbeams into a source of water at the ground below, next to it." width="400"}
+
+whoami: Im into Sysadmin/DevSecOps/SRE, kernel inner workings, all things virtualization,
+tracing/profiling and lately the Curry-Howard-Lambek isomorphism semantics
+of ZFC (Zermelo-Fraenkel Set Theory and the axiom of Choice)
+through the lens of 1) functional programming, 2) type theory, and 3) category theory.
+
+## Instituição
+
+Sistemas de Informação, Universidade de Pernambuco.
+
+## Link para o site pessoal
+
+<https://deomorxsy.github.io/>
+<https://orcid.org/0009-0002-8685-3460>
+
