@@ -21,7 +21,6 @@ Universidade de São Paulo (USP).
 ## Membros
 
 - [Anny Beatriz Azevedo](../../pesquisadores/anny-azevedo/anny-azevedo.qmd)
-- [Caio Morais](../../pesquisadores/caio-morais/caio-morais.qmd)
 - [Daniel Ferreira
   Betoret](../../pesquisadores/daniel-betoret/daniel-betoret.qmd)
 - [Gustavo Freire](../../pesquisadores/gustavo-freire/gustavo-freire.qmd)

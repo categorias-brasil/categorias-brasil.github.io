@@ -38,7 +38,7 @@ listing:
   image-height: 0px
   type: grid
 - contents:
-  - blog/\*/index.qmd
+  - blog/*/index.qmd
   - "!blog/como-catalogar/index.qmd"
   - "!blog/como-contribuir/index.qmd"
   fields:

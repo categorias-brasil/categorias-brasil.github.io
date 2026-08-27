@@ -1,27 +1,77 @@
 ---
-title: Seminários
 page-layout: article
+title: Seminários
 title-block-banner: true
 ---
 
-Nos seminários da comunidade brasileira de Teoria das Categorias,
-contamos com apresentações de membros do grupo e de pesquisadores
-visitantes de universidades brasileiras e estrangeiras.
+Nos seminários da comunidade brasileira de Teoria das Categorias, contamos com
+apresentações de membros do grupo e de pesquisadores visitantes de universidades
+brasileiras e estrangeiras.
 
----
+--------------------------------------------------------------------------------
 
 ## 2026
 
-### 05/06/2026 — Online {#nate-osgood-2026-06-05}
+### 31/08/2026 --- Híbrido {#valeria-depaiva--2026-08-31}
+
+- **Palestrante**: [Valeria de Paiva](pesquisadores/valeria-depaiva/valeria-depaiva.qmd)
+
+- **Horário**: 16h (horário de Brasília)
+
+- **Local**: Sala B07 do IME-USP
+
+- **Acesso online**: Para ter acesso ao link da palestra, envie um e-mail para
+  [Anny Beatriz Azevedo](pesquisadores/anny-azevedo/anny-azevedo.qmd)
+
+- **Título**: Small Dialectica Categories
+
+- **Resumo**: As categorias Dialectica fornecem uma semântica categórica para a
+  lógica linear, mas suas definições podem ser difíceis de compreender, mesmo
+  para lógicos familiarizados com a teoria das categorias. Neste trabalho,
+  estudamos as menores instâncias não triviais de categorias Dialectica, obtidas
+  tomando como categoria base a *walking arrow*, $\mathbf{2} = (0 \to 1)$.
+  Construímos explicitamente $\mathbf{G}_{2}(\mathbf{2})$ e
+  $\mathbf{D}_{2}(\mathbf{2})$, calculamos seus produtos tensoriais, *homs*
+  internos, negação linear e estrutura aditiva, e fornecemos tabelas concretas
+  ilustrando essas estruturas.
+
+  Nosso objetivo não é apenas reproduzir esses cálculos, mas utilizá-los como
+  fundamento para compreender o *espaço de parâmetros bidimensional* das
+  construções Dialectica: variar o objeto de valores de verdade $L$ (de
+  Boolean $\mathbf{2}$ para Kleene $\mathbf{3}$ ou para a categoria
+  colapsada $\mathbf{1}$, para os números naturais $\mathbb{N}$, para
+  $[0,\infty]^{\mathrm{op}}$ de Lawvere, ou para uma *lineale* geral $L$) e
+  variando a categoria base $\mathbf{C}$ (da *walking arrow* $\mathbf{2}$ para
+  $\mathbf{Set}$) produz diferentes sistemas lógicos com diferentes propriedades
+  estruturais. Esperamos que o desenvolvimento explícito da álgebra nos casos
+  muito pequenos permita compreender estruturalmente *por que* isso acontece e,
+  em particular, esclarecer de onde surge a modalidade $!$ e por que ela se
+  comporta de maneira diferente em $\mathbf{G}$ e $\mathbf{D}$.
+  
+  Este é um trabalho conjunto com Colin Bloomfield e Peter Jipsen.
+
+- **Observação**: A palestra será ministrada em inglês e faz parte das reuniões
+  do [(Co)end Reading Group](eventos/coend-reading-group.qmd).
+
+### 05/06/2026 --- Online {#nate-osgood-2026-06-05}
 
 - **Palestrante**: Nathaniel Osgood
+
 - **Horário**: 12h (horário de Brasília)
+
 - **Título**: The Topos of Narratives
-- **Resumo**: A palestra apresenta uma expansão da estrutura topos-teórica das *narrativas temporais*, com foco nas duas camadas
-  inferiores do modelo: *snapshots* instantâneos e intervalos unitários em linhas do tempo inteiras. São introduzidos
-  functores representáveis para categorias de intervalos (na versão *op*), mostrando como presheaves adquirem valores
-  não-triviais em instantes vizinhos. O classificador de sub-objetos é derivado concretamente para representáveis temporais,
-  revelando cinco sub-objetos válidos e uma estrutura poset que captura implicação e monotonicidade ao longo do tempo.
-  Operações lógicas (AND, OR, implicação, complemento) emergem de adjunções e conexões de Galois nesse cenário.
-  A implementação em Catlab cobre narrativas finitas e as aplicações discutidas incluem alcançabilidade temporal e
+
+- **Resumo**: A palestra apresenta uma expansão da estrutura topos-teórica das
+  *narrativas temporais*, com foco nas duas camadas inferiores do modelo:
+  *snapshots* instantâneos e intervalos unitários em linhas do tempo inteiras.
+  São introduzidos functores representáveis para categorias de intervalos (na
+  versão *op*), mostrando como presheaves adquirem valores não-triviais em
+  instantes vizinhos. O classificador de sub-objetos é derivado concretamente
+  para representáveis temporais, revelando cinco sub-objetos válidos e uma
+  estrutura poset que captura implicação e monotonicidade ao longo do tempo.
+  Operações lógicas (AND, OR, implicação, complemento) emergem de adjunções e
+  conexões de Galois nesse cenário. A implementação em Catlab cobre narrativas
+  finitas e as aplicações discutidas incluem alcançabilidade temporal e
   rastreamento de contatos em epidemiologia computacional.
+
+- **Observação**: A palestra foi ministrada em inglês.

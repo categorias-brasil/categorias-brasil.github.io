@@ -1,30 +1,34 @@
 ---
-title: "(Co)end Reading Group"
-date: "2026-08-06"
-categories: ["Modalidade: Online", "Tipo: Grupo de Estudos"]
+categories:
+- "Modalidade: Online"
+- "Tipo: Grupo de Estudos"
+date: 2026-08-06
+title: (Co)end Reading Group
 ---
 
-Um grupo de estudos semanal dedicado à teoria dos coends,
-aberto a participantes do Brasil e do exterior. As sessões têm início no dia **10 de agosto**
-e ocorrem toda segunda-feira às **16h (horário de Brasília)**, com transmissão via Google Meet,
-até o final do semestre.
+Um grupo de estudos semanal dedicado à teoria dos coends, aberto a participantes
+do Brasil e do exterior. As sessões têm início no dia **10 de agosto** e ocorrem
+toda segunda-feira às **16h (horário de Brasília)**, com transmissão via Google
+Meet, até o final do semestre.
 
 Não é preciso ter experiência prévia com o tema: este é um espaço descontraído e
-acolhedor, aberto a participantes do Brasil e do exterior. **As reuniões são conduzidas em inglês.**
+acolhedor, aberto a participantes do Brasil e do exterior. **As reuniões são
+conduzidas em inglês.**
 
 ## Sobre o Texto
 
-**Coend Calculus** — Fosco Loregian
+**Coend Calculus** --- Fosco Loregian
 
 O livro cobre a teoria de coends em categorias enriquecidas, incluindo fórmulas
-de Fubini, o lema de Yoneda enriquecido, extensões de Kan e aplicações em teoria dos funtores.
-O próprio autor, [Fosco Loregian](https://tetrapharmakon.github.io/), é um dos palestrantes convidados.
+de Fubini, o lema de Yoneda enriquecido, extensões de Kan e aplicações em teoria
+dos funtores. O próprio autor, [Fosco
+Loregian](https://tetrapharmakon.github.io/), é um dos palestrantes convidados.
 O livro está disponível livremente no [arXiv](https://arxiv.org/abs/1501.02503).
 
 ## Palestrantes Convidados
 
-Além das sessões semanais de leitura, o grupo conta com apresentações de pesquisadores
-convidados:
+Além das sessões semanais de leitura, o grupo conta com apresentações de
+pesquisadores convidados:
 
 - [Christina Vasilakopoulou](http://www.math.ntua.gr/~cvasilak/)
 - [Monique Müller Rocha](https://sites.google.com/site/moniquemtm)
@@ -33,28 +37,29 @@ convidados:
 
 ## Programação
 
-As sessões seguem a estrutura do livro, intercaladas com palestras de pesquisadores
-convidados (indicadas em destaque):
+As sessões seguem a estrutura do livro, intercaladas com palestras de
+pesquisadores convidados (indicadas em destaque):
 
-| Data  | Sessão |
-|-------|--------|
-| 10/08 | Introdução do grupo e do livro |
-| 17/08 | §1.1 Supernaturality |
-| 24/08 | §1.2 Co/ends as co/limits |
-| 31/08 | **Palestra convidada: a confirmar** |
-| 14/09 | §1.3 The Fubini rule / §1.4 First instances of co/ends |
-| 21/09 | §2.2 The Yoneda Lemma |
-| 28/09 | §2.3 Kan extensions |
-| 05/10 | **Palestra convidada: Monique Müller Rocha** |
-| 19/10 | §3.1 The classical nerve and realisation |
-| 26/10 | §3.2 Abstract realisations and nerves |
-| 09/11 | **Palestra convidada: Wilmer Leal** |
-| 16/11 | §4.1 Weighted limits and colimits |
-| 23/11 | §4.3 Enriched co/ends |
-| 30/11 | **Coends and beyond** — palestra de Fosco Loregian |
-| 07/12 | **Palestra convidada: Christina Vasilakopoulou** |
+  Data    Sessão
+  ------- --------------------------------------------------------------------------------------------------
+  10/08   Introdução do grupo e do livro
+  17/08   §1.1 Supernaturality
+  24/08   §1.2 Co/ends as co/limits
+  31/08   **Palestra convidada: [Valeria de Paiva](../pesquisadores/valeria-depaiva/valeria-depaiva.qmd)**
+  14/09   §1.3 The Fubini rule / §1.4 First instances of co/ends
+  21/09   §2.2 The Yoneda Lemma
+  28/09   §2.3 Kan extensions
+  05/10   **Palestra convidada: Monique Müller Rocha**
+  19/10   §3.1 The classical nerve and realisation
+  26/10   §3.2 Abstract realisations and nerves
+  09/11   **Palestra convidada: Wilmer Leal**
+  16/11   §4.1 Weighted limits and colimits
+  23/11   §4.3 Enriched co/ends
+  30/11   **Coends and beyond** --- palestra de Fosco Loregian
+  07/12   **Palestra convidada: Christina Vasilakopoulou**
 
 ## Como Participar
 
-O grupo é transmitido ao vivo via Google Meet. Para receber o link e acessar a planilha
-completa do cronograma, entre em contato com a organizadora [Anny Azevedo](../pesquisadores/anny-azevedo/anny-azevedo.qmd).
+O grupo é transmitido ao vivo via Google Meet. Para receber o link e acessar a
+planilha completa do cronograma, entre em contato com a organizadora [Anny
+Azevedo](../pesquisadores/anny-azevedo/anny-azevedo.qmd).
