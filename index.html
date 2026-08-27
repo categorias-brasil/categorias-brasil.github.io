@@ -49,9 +49,9 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-e695df675371060abe0c50e4fa4aaa76.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark-3a07545ce08507dbcd477bb07784c8f1.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="site_libs/bootstrap/bootstrap-e695df675371060abe0c50e4fa4aaa76.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-13fc84061c318d596219fbae64338c73.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-1e8f6af7e21d4981ae93ea4d6b635e9f.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-13fc84061c318d596219fbae64338c73.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -147,7 +147,7 @@ ul.task-list li input[type="checkbox"] {
     const options = {
       valueNames: ['listing-title','listing-date','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
-      searchColumns: [],
+      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -467,7 +467,24 @@ window.Quarto = {
 <p>Confira as últimas publicações, artigos de opinião, tutoriais e discussões científicas da nossa comunidade:</p>
 <div id="listing-blog-feed" class="quarto-listing quarto-listing-container-grid">
 <div class="list grid quarto-listing-cols-3">
-
+<div class="g-col-1" data-index="0" data-categories="VGVvcmlhJTIwZGFzJTIwQ2F0ZWdvcmlhcw==" data-listing-date-sort="1782950400000" data-listing-file-modified-sort="1787843489660" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="7" data-listing-word-count-sort="1306">
+<a href="./blog/intuicao-de-yoneda/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Um vislumbre de Yoneda através dos C-sets
+</h5>
+<div class="card-text listing-description delink">
+O lema de Yoneda é um dos resultados mais relevantes <span class="math inline">[</span>e elegantes<span class="math inline">]</span> da teoria das categorias, mas também um dos mais difíceis de adquirir intuição na primeira leitura. Com…
+</div>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+2 de jul. de 2026
+</div>
+</div>
+</div>
+</div></a>
+</div>
 </div>
 <div class="listing-no-matching d-none">Sem itens correspondentes</div>
 </div>
@@ -481,7 +498,7 @@ window.Quarto = {
 <p>Encontre pesquisadores da área, grupos de pesquisa ativos, eventos recentes e materiais recomendados de estudo:</p>
 <div id="listing-features" class="quarto-listing quarto-listing-container-grid">
 <div class="list grid quarto-listing-cols-4">
-<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1785994641877" data-listing-reading-time-sort="1" data-listing-word-count-sort="17">
+<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1787843489658" data-listing-reading-time-sort="1" data-listing-word-count-sort="17">
 <a href="./acervo.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <div class="card-body post-contents">
@@ -494,7 +511,7 @@ Acervo
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="1" data-listing-file-modified-sort="1785994641880" data-listing-reading-time-sort="1" data-listing-word-count-sort="16">
+<div class="g-col-1" data-index="1" data-listing-file-modified-sort="1787843489661" data-listing-reading-time-sort="1" data-listing-word-count-sort="16">
 <a href="./eventos.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <div class="card-body post-contents">
@@ -507,7 +524,7 @@ Eventos
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="2" data-listing-file-modified-sort="1785994641880" data-listing-reading-time-sort="1" data-listing-word-count-sort="19">
+<div class="g-col-1" data-index="2" data-listing-file-modified-sort="1787843489661" data-listing-reading-time-sort="1" data-listing-word-count-sort="19">
 <a href="./laboratorios.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <div class="card-body post-contents">
@@ -520,7 +537,7 @@ Laboratórios
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="3" data-listing-file-modified-sort="1785994641881" data-listing-reading-time-sort="1" data-listing-word-count-sort="29">
+<div class="g-col-1" data-index="3" data-listing-file-modified-sort="1787843489661" data-listing-reading-time-sort="1" data-listing-word-count-sort="29">
 <a href="./pesquisadores.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <div class="card-body post-contents">
@@ -542,7 +559,7 @@ Pesquisadores
 <p>Queremos que este site seja o mais completo possível! Você pode participar ativamente da construção deste ecossistema:</p>
 <div id="listing-participar" class="quarto-listing quarto-listing-container-grid">
 <div class="list grid quarto-listing-cols-2">
-<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1785994641881" data-listing-reading-time-sort="2" data-listing-word-count-sort="201">
+<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1787843489661" data-listing-reading-time-sort="2" data-listing-word-count-sort="201">
 <a href="./participe/como-contribuir.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <div class="card-body post-contents">
@@ -555,7 +572,7 @@ Contribua com o Site
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="1" data-listing-file-modified-sort="1785994641881" data-listing-reading-time-sort="2" data-listing-word-count-sort="296">
+<div class="g-col-1" data-index="1" data-listing-file-modified-sort="1787843489661" data-listing-reading-time-sort="2" data-listing-word-count-sort="296">
 <a href="./participe/como-catalogar.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <div class="card-body post-contents">

@@ -1,18 +1,26 @@
 [
   {
-    "listing": "/eventos.html",
+    "listing": "/blog.html",
     "items": [
-      "/eventos/coend-reading-group.html",
-      "/eventos/ebct3.html"
+      "/blog/intuicao-de-yoneda/index.html"
     ]
   },
   {
-    "listing": "/acervo.html",
-    "items": []
+    "listing": "/participe.html",
+    "items": [
+      "/participe/como-contribuir.html",
+      "/participe/como-catalogar.html"
+    ]
   },
   {
-    "listing": "/blog.html",
+    "listing": "/index.html",
     "items": [
+      "/acervo.html",
+      "/eventos.html",
+      "/laboratorios.html",
+      "/pesquisadores.html",
+      "/participe/como-contribuir.html",
+      "/participe/como-catalogar.html",
       "/blog/intuicao-de-yoneda/index.html"
     ]
   },
@@ -45,21 +53,14 @@
     ]
   },
   {
-    "listing": "/participe.html",
+    "listing": "/eventos.html",
     "items": [
-      "/participe/como-contribuir.html",
-      "/participe/como-catalogar.html"
+      "/eventos/coend-reading-group.html",
+      "/eventos/ebct3.html"
     ]
   },
   {
-    "listing": "/index.html",
-    "items": [
-      "/acervo.html",
-      "/eventos.html",
-      "/laboratorios.html",
-      "/pesquisadores.html",
-      "/participe/como-contribuir.html",
-      "/participe/como-catalogar.html"
-    ]
+    "listing": "/acervo.html",
+    "items": []
   }
 ]

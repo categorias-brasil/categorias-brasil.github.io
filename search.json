@@ -1,45 +1,52 @@
 [
   {
-    "objectID": "eventos/coend-reading-group.html",
-    "href": "eventos/coend-reading-group.html",
-    "title": "(Co)end Reading Group",
+    "objectID": "pesquisadores/joao-paixao/joao-paixao.html#instituição",
+    "href": "pesquisadores/joao-paixao/joao-paixao.html#instituição",
+    "title": "João Antonio Recio da Paixão",
+    "section": "Instituição",
+    "text": "Instituição\nInstituto de Computação (IC) da Universidade Federal do Rio de Janeiro (UFRJ)."
+  },
+  {
+    "objectID": "pesquisadores/joao-paixao/joao-paixao.html#link-para-o-site-pessoal",
+    "href": "pesquisadores/joao-paixao/joao-paixao.html#link-para-o-site-pessoal",
+    "title": "João Antonio Recio da Paixão",
+    "section": "Link para o site pessoal",
+    "text": "Link para o site pessoal\nhttps://www.joaopaixao.com/"
+  },
+  {
+    "objectID": "pesquisadores/hugo-mariano/hugo-mariano.html",
+    "href": "pesquisadores/hugo-mariano/hugo-mariano.html",
+    "title": "Hugo Luiz Mariano",
     "section": "",
-    "text": "Um grupo de estudos semanal dedicado à teoria dos coends, aberto a participantes do Brasil e do exterior. As sessões têm início no dia 10 de agosto e ocorrem toda segunda-feira às 16h (horário de Brasília), com transmissão via Google Meet, até o final do semestre.\nNão é preciso ter experiência prévia com o tema: este é um espaço descontraído e acolhedor, aberto a participantes do Brasil e do exterior. As reuniões são conduzidas em inglês."
+    "text": "Tem experiência na área de Matemática, com ênfase em teoria das categorias, lógica matemática, teoria algébrica de formas quadráticas e hermitianas e teoria dos aneis C-infinito, suas principais áreas de pesquisa e de orientações de iniciação científica, mestrado e doutorado e de supervisões de pós-doutorado.\nDesde 2003 é vinculado à Sociedade Brasileira de Lógica (SBL), tendo sido presidente da SBL (2023-2025) e atualmente é vice-presidente (2025-2027). Desde 2004 é professor da Universidade de São Paulo (USP)."
   },
   {
-    "objectID": "eventos/coend-reading-group.html#sobre-o-texto",
-    "href": "eventos/coend-reading-group.html#sobre-o-texto",
-    "title": "(Co)end Reading Group",
-    "section": "Sobre o Texto",
-    "text": "Sobre o Texto\nCoend Calculus — Fosco Loregian\nO livro cobre a teoria de coends em categorias enriquecidas, incluindo fórmulas de Fubini, o lema de Yoneda enriquecido, extensões de Kan e aplicações em teoria dos funtores. O próprio autor, Fosco Loregian, é um dos palestrantes convidados. O livro está disponível livremente no arXiv."
+    "objectID": "pesquisadores/hugo-mariano/hugo-mariano.html#instituição",
+    "href": "pesquisadores/hugo-mariano/hugo-mariano.html#instituição",
+    "title": "Hugo Luiz Mariano",
+    "section": "Instituição",
+    "text": "Instituição\nInstituto de Matemática, Estatística e Ciência da Computação (IME) da Universidade de São Paulo (USP)."
   },
   {
-    "objectID": "eventos/coend-reading-group.html#palestrantes-convidados",
-    "href": "eventos/coend-reading-group.html#palestrantes-convidados",
-    "title": "(Co)end Reading Group",
-    "section": "Palestrantes Convidados",
-    "text": "Palestrantes Convidados\nAlém das sessões semanais de leitura, o grupo conta com apresentações de pesquisadores convidados:\n\nChristina Vasilakopoulou\nMonique Müller Rocha\nFosco Loregian\nWilmer Leal"
+    "objectID": "pesquisadores/hugo-mariano/hugo-mariano.html#formação-acadêmica",
+    "href": "pesquisadores/hugo-mariano/hugo-mariano.html#formação-acadêmica",
+    "title": "Hugo Luiz Mariano",
+    "section": "Formação Acadêmica",
+    "text": "Formação Acadêmica\n\n\nPós-Doutorado\n\nUniversidade Paris Cité\n\nPós-Doutorado\n\nUniversidade Paris 7 (Denis Diderot)\n\nPós-Doutorado\n\nUniversidade Estadual de Campinas (UNICAMP)\n\nDoutorado em Matemática\n\nUniversidade de São Paulo (USP)\n\nMestrado em Matemática\n\nUniversidade de São Paulo (USP)\n\nBacharelado em Física\n\nUniversidade de São Paulo (USP)"
   },
   {
-    "objectID": "eventos/coend-reading-group.html#programação",
-    "href": "eventos/coend-reading-group.html#programação",
-    "title": "(Co)end Reading Group",
-    "section": "Programação",
-    "text": "Programação\nAs sessões seguem a estrutura do livro, intercaladas com palestras de pesquisadores convidados (indicadas em destaque):\n\n\n\nData\nSessão\n\n\n\n\n10/08\nIntrodução do grupo e do livro\n\n\n17/08\n§1.1 Supernaturality\n\n\n24/08\n§1.2 Co/ends as co/limits\n\n\n31/08\nPalestra convidada: a confirmar\n\n\n14/09\n§1.3 The Fubini rule / §1.4 First instances of co/ends\n\n\n21/09\n§2.2 The Yoneda Lemma\n\n\n28/09\n§2.3 Kan extensions\n\n\n05/10\nPalestra convidada: Monique Müller Rocha\n\n\n19/10\n§3.1 The classical nerve and realisation\n\n\n26/10\n§3.2 Abstract realisations and nerves\n\n\n09/11\nPalestra convidada: Wilmer Leal\n\n\n16/11\n§4.1 Weighted limits and colimits\n\n\n23/11\n§4.3 Enriched co/ends\n\n\n30/11\nCoends and beyond — palestra de Fosco Loregian\n\n\n07/12\nPalestra convidada: Christina Vasilakopoulou"
+    "objectID": "pesquisadores/hugo-mariano/hugo-mariano.html#link-para-o-site-pessoal",
+    "href": "pesquisadores/hugo-mariano/hugo-mariano.html#link-para-o-site-pessoal",
+    "title": "Hugo Luiz Mariano",
+    "section": "Link para o site pessoal",
+    "text": "Link para o site pessoal\nhttps://www.ime.usp.br/hugomar/"
   },
   {
-    "objectID": "eventos/coend-reading-group.html#como-participar",
-    "href": "eventos/coend-reading-group.html#como-participar",
-    "title": "(Co)end Reading Group",
-    "section": "Como Participar",
-    "text": "Como Participar\nO grupo é transmitido ao vivo via Google Meet. Para receber o link e acessar a planilha completa do cronograma, entre em contato com a organizadora Anny Azevedo."
-  },
-  {
-    "objectID": "eventos.html",
-    "href": "eventos.html",
-    "title": "Eventos",
-    "section": "",
-    "text": "Fique por dentro das conferências, workshops e encontros focados em Teoria das Categorias e suas aplicações.\n\n\n\n\n\n\n   \n    \n    \n      Ordenar por\n      Padrão\n      \n        Título\n      \n      \n        Data - Mais antigo\n      \n      \n        Data - O mais novo\n      \n      \n        Autor\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\n(Co)end Reading Group\n\n\n\nModalidade: Online\n\nTipo: Grupo de Estudos\n\n\n\n\n\n\n\n\n\n6 de ago. de 2026\n\n\n\n\n\n\n\n\n\n\n\n\nIII Encontro Brasileiro em Teoria das Categorias (EBTC2026)\n\n\n\nLocal: MG\n\nModalidade: Híbrido\n\n\n\n\n\n\n\n\n\n4 de mai. de 2026\n\n\n\n\n\nSem itens correspondentes"
+    "objectID": "pesquisadores/hugo-mariano/hugo-mariano.html#email",
+    "href": "pesquisadores/hugo-mariano/hugo-mariano.html#email",
+    "title": "Hugo Luiz Mariano",
+    "section": "Email",
+    "text": "Email\nhugomar (at) ime.usp.br"
   },
   {
     "objectID": "pesquisadores/valeria-depaiva/valeria-depaiva.html",
@@ -68,48 +75,6 @@
     "title": "Valeria de Paiva",
     "section": "Link para o site pessoal",
     "text": "Link para o site pessoal\nhttps://vcvpaiva.github.io/"
-  },
-  {
-    "objectID": "pesquisadores/gustavo-boska/gustavo-boska.html",
-    "href": "pesquisadores/gustavo-boska/gustavo-boska.html",
-    "title": "Gustavo Henrique Labegalini Boska",
-    "section": "",
-    "text": "Use of the functorialization of end-spaces and edge end-spaces to extend results of finite combinatorics into an infinite setting. Study of combinatorial representation of continuous maps under such functors. Finding interesting categories and invariants under these constructions."
-  },
-  {
-    "objectID": "pesquisadores/gustavo-boska/gustavo-boska.html#instituição",
-    "href": "pesquisadores/gustavo-boska/gustavo-boska.html#instituição",
-    "title": "Gustavo Henrique Labegalini Boska",
-    "section": "Instituição",
-    "text": "Instituição\nUniversidade Tecnológica Federal do Paraná (UTFPR) - Curitiba."
-  },
-  {
-    "objectID": "pesquisadores/gustavo-boska/gustavo-boska.html#currículo-lattes",
-    "href": "pesquisadores/gustavo-boska/gustavo-boska.html#currículo-lattes",
-    "title": "Gustavo Henrique Labegalini Boska",
-    "section": "Currículo Lattes",
-    "text": "Currículo Lattes\nhttps://lattes.cnpq.br/9858968452979652"
-  },
-  {
-    "objectID": "pesquisadores/eduardo-ochs/eduardo-ochs.html",
-    "href": "pesquisadores/eduardo-ochs/eduardo-ochs.html",
-    "title": "Eduardo Nahum Ochs",
-    "section": "",
-    "text": "Universidade Federal Fluminense (UFF) - Rio das Ostras."
-  },
-  {
-    "objectID": "pesquisadores/eduardo-ochs/eduardo-ochs.html#instituição",
-    "href": "pesquisadores/eduardo-ochs/eduardo-ochs.html#instituição",
-    "title": "Eduardo Nahum Ochs",
-    "section": "",
-    "text": "Universidade Federal Fluminense (UFF) - Rio das Ostras."
-  },
-  {
-    "objectID": "pesquisadores/eduardo-ochs/eduardo-ochs.html#link-para-o-site-pessoal",
-    "href": "pesquisadores/eduardo-ochs/eduardo-ochs.html#link-para-o-site-pessoal",
-    "title": "Eduardo Nahum Ochs",
-    "section": "Link para o site pessoal",
-    "text": "Link para o site pessoal\nhttps://anggtwu.net/math-b.html"
   },
   {
     "objectID": "pesquisadores/paulo-dias/paulo-dias.html",
@@ -147,25 +112,53 @@
     "text": "Email\n&lt;paulomd (arroba) usp (ponto) br&gt;"
   },
   {
-    "objectID": "pesquisadores/eduardo-marcos/eduardo-marcos.html",
-    "href": "pesquisadores/eduardo-marcos/eduardo-marcos.html",
-    "title": "Eduardo do Nascimento Marcos",
-    "section": "",
-    "text": "A teoria das categorias surge no meu estudo como ferramenta, em particular estudo ideias particulares das categorias derivadas, subcategorias da categoria de módulos, etc…"
-  },
-  {
-    "objectID": "pesquisadores/eduardo-marcos/eduardo-marcos.html#instituição",
-    "href": "pesquisadores/eduardo-marcos/eduardo-marcos.html#instituição",
-    "title": "Eduardo do Nascimento Marcos",
+    "objectID": "pesquisadores/sidiney-montanhano/sidiney-montanhano.html#instituição",
+    "href": "pesquisadores/sidiney-montanhano/sidiney-montanhano.html#instituição",
+    "title": "Sidiney Bruno Montanhano",
     "section": "Instituição",
-    "text": "Instituição\nInstituto de Matemática, Estatística e Ciência da Computação (IME) da Universidade de São Paulo (USP)."
+    "text": "Instituição\nQuantum Industrial Innovation (QuIIN), SENAI CIMATEC"
   },
   {
-    "objectID": "pesquisadores/eduardo-marcos/eduardo-marcos.html#currículo-lattes",
-    "href": "pesquisadores/eduardo-marcos/eduardo-marcos.html#currículo-lattes",
-    "title": "Eduardo do Nascimento Marcos",
+    "objectID": "pesquisadores/sidiney-montanhano/sidiney-montanhano.html#link-para-o-site-pessoal",
+    "href": "pesquisadores/sidiney-montanhano/sidiney-montanhano.html#link-para-o-site-pessoal",
+    "title": "Sidiney Bruno Montanhano",
+    "section": "Link para o site pessoal",
+    "text": "Link para o site pessoal\nhttps://sidineybm.github.io"
+  },
+  {
+    "objectID": "pesquisadores/ana-tenorio/ana-tenorio.html#instituição",
+    "href": "pesquisadores/ana-tenorio/ana-tenorio.html#instituição",
+    "title": "Ana Luiza Tenório",
+    "section": "Instituição",
+    "text": "Instituição\nEscola de Matemática Aplicada da Fundação Getúlio Vargas (EMAp-FGV)."
+  },
+  {
+    "objectID": "pesquisadores/ana-tenorio/ana-tenorio.html#link-para-o-site-pessoal",
+    "href": "pesquisadores/ana-tenorio/ana-tenorio.html#link-para-o-site-pessoal",
+    "title": "Ana Luiza Tenório",
+    "section": "Link para o site pessoal",
+    "text": "Link para o site pessoal\nhttps://sites.google.com/ime.usp.br/analuizatenorio"
+  },
+  {
+    "objectID": "pesquisadores/marcos-jardim/marcos-jardim.html",
+    "href": "pesquisadores/marcos-jardim/marcos-jardim.html",
+    "title": "Marcos Jardim",
+    "section": "",
+    "text": "A minha área principal de pesquisa é a Geometria Algébrica, e nesse contexto eu trabalho com categorias abelianas e trianguladas, especialmente a categoria de feixes coerentes sobre um esquema projetivo e a categoria derivada deste. De particular interesse é a noção de estabilidade em categorias abelianas e trianguladas."
+  },
+  {
+    "objectID": "pesquisadores/marcos-jardim/marcos-jardim.html#instituição",
+    "href": "pesquisadores/marcos-jardim/marcos-jardim.html#instituição",
+    "title": "Marcos Jardim",
+    "section": "Instituição",
+    "text": "Instituição\nInstituto de Matemática, Estatística e Computação Científica (IMECC) da Universidade Estadual de Campinas (UNICAMP)."
+  },
+  {
+    "objectID": "pesquisadores/marcos-jardim/marcos-jardim.html#currículo-lattes",
+    "href": "pesquisadores/marcos-jardim/marcos-jardim.html#currículo-lattes",
+    "title": "Marcos Jardim",
     "section": "Currículo Lattes",
-    "text": "Currículo Lattes\nhttp://lattes.cnpq.br/4654251951434427"
+    "text": "Currículo Lattes\nhttps://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4797291E8"
   },
   {
     "objectID": "pesquisadores/benjamin-bumpus/benjamin-bumpus.html#instituição",
@@ -196,188 +189,6 @@
     "text": "Email de contato\nbumpus (at) usp.br\nbenjamin.merlin.bumpus (at) gmail.com"
   },
   {
-    "objectID": "pesquisadores/ellen-oliveira/ellen-oliveira.html",
-    "href": "pesquisadores/ellen-oliveira/ellen-oliveira.html",
-    "title": "Ellen Peixoto de Oliveira",
-    "section": "",
-    "text": "Universidade Estadual de Campinas (Unicamp)."
-  },
-  {
-    "objectID": "pesquisadores/ellen-oliveira/ellen-oliveira.html#instituição",
-    "href": "pesquisadores/ellen-oliveira/ellen-oliveira.html#instituição",
-    "title": "Ellen Peixoto de Oliveira",
-    "section": "",
-    "text": "Universidade Estadual de Campinas (Unicamp)."
-  },
-  {
-    "objectID": "pesquisadores/ellen-oliveira/ellen-oliveira.html#currículo-lattes",
-    "href": "pesquisadores/ellen-oliveira/ellen-oliveira.html#currículo-lattes",
-    "title": "Ellen Peixoto de Oliveira",
-    "section": "Currículo Lattes",
-    "text": "Currículo Lattes\nhttp://lattes.cnpq.br/0272600140652647"
-  },
-  {
-    "objectID": "pesquisadores/nelson-serrano/nelson-serrano.html",
-    "href": "pesquisadores/nelson-serrano/nelson-serrano.html",
-    "title": "Nelson Prata Pravato Serrano",
-    "section": "",
-    "text": "Atualmente eu estudo categorias Tannakianas, com foco na categoria de fibrados unipotentes sobre k-esquemas."
-  },
-  {
-    "objectID": "pesquisadores/nelson-serrano/nelson-serrano.html#instituição",
-    "href": "pesquisadores/nelson-serrano/nelson-serrano.html#instituição",
-    "title": "Nelson Prata Pravato Serrano",
-    "section": "Instituição",
-    "text": "Instituição\nUniversidade Estadual de Campinas (Unicamp)."
-  },
-  {
-    "objectID": "pesquisadores/nelson-serrano/nelson-serrano.html#currículo-lattes",
-    "href": "pesquisadores/nelson-serrano/nelson-serrano.html#currículo-lattes",
-    "title": "Nelson Prata Pravato Serrano",
-    "section": "Currículo Lattes",
-    "text": "Currículo Lattes\nhttp://lattes.cnpq.br/2031376373943263"
-  },
-  {
-    "objectID": "pesquisadores/kaique-roberto/kaique-roberto.html#instituição",
-    "href": "pesquisadores/kaique-roberto/kaique-roberto.html#instituição",
-    "title": "Kaique Matias de Andrade Roberto",
-    "section": "Instituição",
-    "text": "Instituição\nCentro de Lógica, Epistemologia e História da Ciência (CLE) - Universidade Estadual de Campinas (Unicamp)"
-  },
-  {
-    "objectID": "pesquisadores/kaique-roberto/kaique-roberto.html#formação-acadêmica",
-    "href": "pesquisadores/kaique-roberto/kaique-roberto.html#formação-acadêmica",
-    "title": "Kaique Matias de Andrade Roberto",
-    "section": "Formação acadêmica",
-    "text": "Formação acadêmica\n\n\nDoutorado em matemática\n\nUniversidade de São Paulo\n\nMestrado em matemática\n\nUniversidade de São Paulo\n\nBacharelado em matemática\n\nUniversidade de São Paulo"
-  },
-  {
-    "objectID": "pesquisadores/kaique-roberto/kaique-roberto.html#link-para-o-site-pessoal",
-    "href": "pesquisadores/kaique-roberto/kaique-roberto.html#link-para-o-site-pessoal",
-    "title": "Kaique Matias de Andrade Roberto",
-    "section": "Link para o site pessoal",
-    "text": "Link para o site pessoal\nhttps://www.kaiquegalois.com.br/"
-  },
-  {
-    "objectID": "pesquisadores/kaique-roberto/kaique-roberto.html#link-para-o-currículo-lattes",
-    "href": "pesquisadores/kaique-roberto/kaique-roberto.html#link-para-o-currículo-lattes",
-    "title": "Kaique Matias de Andrade Roberto",
-    "section": "Link para o currículo Lattes",
-    "text": "Link para o currículo Lattes\nhttp://lattes.cnpq.br/7033491672545413"
-  },
-  {
-    "objectID": "acervo.html",
-    "href": "acervo.html",
-    "title": "Acervo",
-    "section": "",
-    "text": "Referências bibliográficas, vídeos, apostilas e materiais úteis para o estudo de Teoria das Categorias."
-  },
-  {
-    "objectID": "acervo.html#livros",
-    "href": "acervo.html#livros",
-    "title": "Acervo",
-    "section": "Livros",
-    "text": "Livros\n\n\n   \n    \n    \n      Ordenar por\n      Padrão\n      \n        Título\n      \n      \n        Autor(a)\n      \n      \n        Tags\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\nTítulo\n\n\n\nAutor(a)\n\n\n\nTags\n\n\n\n\n\n\n\n\nAn Invitation to Applied Category Theory: Seven Sketches in Compositionality\n\n\nBrendan Fong e David Spivak\n\n\nLivro, Introdutório, Inglês\n\n\n\n\n\n\nBasic Category Theory\n\n\nTom Leinster\n\n\nLivro, Introdutório, Inglês\n\n\n\n\n\n\nCategories for the Working Mathematician\n\n\nSaunders Mac Lane\n\n\nLivro, Avançado, Inglês\n\n\n\n\n\n\nCategory Theory\n\n\nSteve Awodey\n\n\nLivro, Introdutório, Inglês\n\n\n\n\n\n\nCategory Theory in Context\n\n\nEmily Riehl\n\n\nLivro, Intermediário, Inglês\n\n\n\n\n\n\nCoend Calculus\n\n\nFosco Loregian\n\n\nLivro, Avançado, Inglês\n\n\n\n\n\n\nCuadernos de Álgebra — Volumen 2\n\n\nOswaldo Lezama Serrano\n\n\nLivro, Introdutório, Espanhol\n\n\n\n\n\n\nHandbook of Categorical Algebra\n\n\nFrancis Borceux\n\n\nLivro, Avançado, Inglês\n\n\n\n\n\n\nLocally Presentable and Accessible Categories\n\n\nJiří Adámek e Jiří Rosický\n\n\nLivro, Avançado, Inglês\n\n\n\n\n\n\nSheaves in Geometry and Logic\n\n\nSaunders Mac Lane e Ieke Moerdijk\n\n\nLivro, Avançado, Inglês\n\n\n\n\n\n\nThe Joy of Abstraction\n\n\nEugenia Cheng\n\n\nLivro, Introdutório, Inglês\n\n\n\n\n\n\nTopoi: The Categorial Analysis of Logic\n\n\nRobert Goldblatt\n\n\nLivro, Introdutório, Inglês\n\n\n\n\n\n\nSem itens correspondentes"
-  },
-  {
-    "objectID": "acervo.html#vídeos",
-    "href": "acervo.html#vídeos",
-    "title": "Acervo",
-    "section": "Vídeos",
-    "text": "Vídeos\n\n\n   \n    \n    \n      Ordenar por\n      Padrão\n      \n        Título\n      \n      \n        Autor(a)\n      \n      \n        Tags\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\nTítulo\n\n\n\nAutor(a)\n\n\n\nTags\n\n\n\n\n\n\n\n\nCategory Theory for Programmers\n\n\nBartosz Milewski\n\n\nVídeo-aula, Introdutório, Inglês\n\n\n\n\n\n\nThe Catsters\n\n\nEugenia Cheng e Simon Willerton\n\n\nVídeo-aula, Intermediário, Inglês\n\n\n\n\n\n\nSem itens correspondentes"
-  },
-  {
-    "objectID": "acervo.html#notas-de-aula",
-    "href": "acervo.html#notas-de-aula",
-    "title": "Acervo",
-    "section": "Notas de Aula",
-    "text": "Notas de Aula\n\n\n   \n    \n    \n      Ordenar por\n      Padrão\n      \n        Título\n      \n      \n        Autor(a)\n      \n      \n        Tags\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\nTítulo\n\n\n\nAutor(a)\n\n\n\nTags\n\n\n\n\n\n\n\n\nBasic Category Theory and Topos Theory\n\n\nJaap van Oosten\n\n\nNotas de Aula, Introdutório, Inglês\n\n\n\n\n\n\nDistributors at Work\n\n\nJean Bénabou (notas de Thomas Streicher)\n\n\nNotas de Aula, Avançado, Inglês\n\n\n\n\n\n\nSem itens correspondentes"
-  },
-  {
-    "objectID": "o-que-e.html",
-    "href": "o-que-e.html",
-    "title": "O que é Teoria das Categorias?",
-    "section": "",
-    "text": "“O que a matemática faz para o mundo, a teoria das categorias faz para a matemática.” - Eugenia Cheng\nNo âmbito da matemática, é comum falarmos sobre o ato de generalizar teorias ou resultados específicos. Geralmente esse termo se refere a retirar certas premissas e reconsiderar os resultados consequentes.\nNesse sentido, a teoria das categorias se beneficia da generalização para conectar diferentes áreas, abstraindo e compartilhando resultados."
-  },
-  {
-    "objectID": "o-que-e.html#o-que-é-uma-categoria",
-    "href": "o-que-e.html#o-que-é-uma-categoria",
-    "title": "O que é Teoria das Categorias?",
-    "section": "O que é uma categoria?",
-    "text": "O que é uma categoria?\nUma categoria é uma estrutura que consiste em:\n\nObjetos;\nMorfismos: Conexões direcionadas entre objetos.\n\nE obedece as duas seguintes regras:\n\nIdentidade: Para todo objeto A, deve existir um morfismo de identidade \\text{id}_A: A \\to A;\nComposição: Se existem morfismos f: A \\to B e g: B \\to C, deve existir a composição g \\circ f: A \\to C.\n\n\nExemplos\n\nGraph: composta por grafos e homomorfismos;\nTop: composta por espaços topológicos e funções contínuas;\nCat: composta por categorias e funtores."
-  },
-  {
-    "objectID": "o-que-e.html#o-que-é-teoria-das-categorias-aplicada",
-    "href": "o-que-e.html#o-que-é-teoria-das-categorias-aplicada",
-    "title": "O que é Teoria das Categorias?",
-    "section": "O que é Teoria das Categorias Aplicada?",
-    "text": "O que é Teoria das Categorias Aplicada?\nA Teoria das Categorias Aplicada (ou ACT - Applied Category Theory) utiliza essa linguagem para modelar sistemas do mundo real. Algumas das principais áreas de aplicação incluem:\n\nBancos de dados e linguagens tipadas, na computação;\nRedes de Petri, na química;\nEpidemiologia, na intersecção entre biologia e estatística;\nSistemas dinâmicos e topologia algébrica, na própria matemática."
-  },
-  {
-    "objectID": "laboratorios/cuica/cuica.html",
-    "href": "laboratorios/cuica/cuica.html",
-    "title": "CUÍCA",
-    "section": "",
-    "text": "CUÍCA (Categorical Understanding Ín Computation & Algorithms) é um laboratório situado no Instituto de Matemática, Estatística e Ciência da Computação (IME) da Universidade de São Paulo (USP)."
-  },
-  {
-    "objectID": "laboratorios/cuica/cuica.html#coordenação",
-    "href": "laboratorios/cuica/cuica.html#coordenação",
-    "title": "CUÍCA",
-    "section": "Coordenação",
-    "text": "Coordenação\n\nBenjamin Merlin Bumpus"
-  },
-  {
-    "objectID": "laboratorios/cuica/cuica.html#membros",
-    "href": "laboratorios/cuica/cuica.html#membros",
-    "title": "CUÍCA",
-    "section": "Membros",
-    "text": "Membros\n\nAnny Beatriz Azevedo\nCaio Morais\nDaniel Ferreira Betoret\nGustavo Freire\nJackson Cook\nJana Nickel\nKarina Sakurai\nLaura Larios-Jones\nLucas Francesco Gesteira\nPaulo Dias\nWill Turner"
-  },
-  {
-    "objectID": "participe/como-catalogar.html",
-    "href": "participe/como-catalogar.html",
-    "title": "Como catalogar pesquisadores e laboratórios",
-    "section": "",
-    "text": "Ao fazer parte deste site, você aumenta a visibilidade do seu trabalho e facilita que novos estudantes e colaboradores encontrem seu trabalho ou grupo de pesquisa, fortalecendo a área no Brasil. Veja como pode nos ajudar a manter este catálogo atualizado."
-  },
-  {
-    "objectID": "participe/como-catalogar.html#por-que-se-catalogar",
-    "href": "participe/como-catalogar.html#por-que-se-catalogar",
-    "title": "Como catalogar pesquisadores e laboratórios",
-    "section": "",
-    "text": "Ao fazer parte deste site, você aumenta a visibilidade do seu trabalho e facilita que novos estudantes e colaboradores encontrem seu trabalho ou grupo de pesquisa, fortalecendo a área no Brasil. Veja como pode nos ajudar a manter este catálogo atualizado."
-  },
-  {
-    "objectID": "participe/como-catalogar.html#formas-de-participar",
-    "href": "participe/como-catalogar.html#formas-de-participar",
-    "title": "Como catalogar pesquisadores e laboratórios",
-    "section": "Formas de Participar",
-    "text": "Formas de Participar\nExistem duas maneiras principais de catalogar suas informações: via GitHub (para quem prefere lidar diretamente com o código) ou via E-mail (para quem busca praticidade).\n\n1. Via GitHub\nNosso site é de código aberto e utiliza o Quarto. Se você tem familiaridade com Git e GitHub, siga estes passos:\n\nAcesse nosso repositório: categorias-brasil/categorias-brasil.github.io.\nFaça um Fork do projeto.\nCrie um diretório com o seu nome (ou nome do laboratório) e adicione um arquivo .qmd com esse mesmo nome dentro dele:\n\nPara pesquisadores: pesquisadores/seu-nome/seu-nome.qmd\nPara laboratórios: laboratorios/nome-do-lab/nome-do-lab.qmd\nDica: Ao criar um diretório próprio, você pode colocar sua foto ou logo na mesma pasta, o que facilita a organização.\n\nUse os modelos existentes como base para preencher seus dados:\n\nModelo para pessoas: pesquisadores/_pesquisadores-modelo.qmd\nModelo para laboratórios: laboratorios/_laboratorios-modelo.qmd\n\nEnvie um Pull Request.\nNo nosso README no GitHub, você encontra um guia ainda mais detalhado com todos os comandos de Git necessários.\n\n\n\n2. Via E-mail\nSe preferir, você pode enviar os dados diretamente para a nossa equipe. Basta enviar um e-mail para:\ncategoriasbrasil@gmail.com\nNo e-mail, inclua as seguintes informações:\n\nNome completo ou nome do laboratório;\nAfiliação institucional (universidade, instituto, etc.);\nLink para Currículo Lattes e/ou site pessoal;\nPrincipais áreas de pesquisa em Teoria das Categorias;\nOpcional: Uma foto de perfil ou logo do laboratório;\nOpcional: Qualquer outra informação extra que julgar relevante."
-  },
-  {
-    "objectID": "blog.html",
-    "href": "blog.html",
-    "title": "Blog",
-    "section": "",
-    "text": "Acompanhe nossos tutoriais, comunicados e artigos. Aqui você encontrará guias de contribuição, atualizações da comunidade e materiais informativos sobre Teoria das Categorias no Brasil.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nUm vislumbre de Yoneda através dos C-sets\n\n\n\nTeoria das Categorias\n\n\n\n\n\n\n\n\n\n2 de jul. de 2026\n\n\nPaulo Dias\n\n\n\n\n\nSem itens correspondentes"
-  },
-  {
-    "objectID": "laboratorios.html",
-    "href": "laboratorios.html",
-    "title": "Laboratórios",
-    "section": "",
-    "text": "Aqui estão os laboratórios que trabalham com Teoria das Categorias no Brasil. Você pode filtrar através das categorias ao lado.\n\n\n\n\n\n\n    \n      \n      \n    \n\n\n\n\n\n\n\n\nCUÍCA\n\n\n\nÁrea: Complexidade Computacional\n\nÁrea: Teoria dos Feixes\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nGrupo de Pesquisa em Geometria Diferencial Superior\n\n\n\nÁrea: Geometria Diferencial\n\nÁrea: Geometria de Poisson\n\nLocal: IME-USP\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSem itens correspondentes"
-  },
-  {
-    "objectID": "pesquisadores.html",
-    "href": "pesquisadores.html",
-    "title": "Pesquisadores",
-    "section": "",
-    "text": "Aqui estão os pesquisadores que trabalham com Teoria das Categorias no Brasil. Você pode usar a busca ou o painel de categorias ao lado para filtrar por cargo, área ou localização.\n\n\n\n\n\n\n    \n      \n      \n    \n\n\n\n\n\n\n\n\nAna Luiza Tenório\n\n\n\nGrau: Pós-Doc\n\nÁrea: Teoria dos Feixes\n\nÁrea: Quantales\n\nÁrea: Redes Neurais em Grafos\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAnny Beatriz Azevedo\n\n\n\nGrau: Doutorado\n\nÁrea: Teoria dos Feixes\n\nÁrea: Complexidade Computacional\n\nÁrea: Topologia Geral\n\nLocal: São Paulo\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBenjamin Merlin Bumpus\n\n\n\nGrau: Professor Doutor\n\nÁrea: Complexidade Computacional\n\nÁrea: Teoria dos Feixes\n\nLocal: São Paulo\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCristian Ortiz\n\n\n\nGrau: Professor Titular\n\nÁrea: Geometria Diferencial\n\nÁrea: Geometria de Poisson\n\nÁrea: Estruturas Geométricas Superiores\n\nLocal: São Paulo\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEduardo Nahum Ochs\n\n\n\nGrau: Professor\n\nÁrea: Linguagens Diagramáticas\n\nLocal: RJ\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEduardo do Nascimento Marcos\n\n\n\nGrau: Professor Titular\n\nÁrea: Teoria de Representações de Álgebras\n\nÁrea: Módulos sobre K-Categorias\n\nLocal: SP\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEllen Peixoto de Oliveira\n\n\n\nGrau: Doutorado\n\nÁrea: Categorias Abelianas\n\nÁrea: Comma Categories\n\nÁrea: Geometria Algébrica\n\nLocal: SP\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nGustavo Henrique Labegalini Boska\n\n\n\nGrau: Professor Substituto\n\nÁrea: Combinatória Infinita\n\nLocal: PR\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nHugo Luiz Mariano\n\n\n\nGrau: Professor Associado\n\nÁrea: Lógica\n\nÁrea: Álgebra\n\nLocal: São Paulo\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nJoão Antonio Recio da Paixão\n\n\n\nGrau: Professor\n\nÁrea: Métodos Formais\n\nÁrea: Linguagens Diagramáticas\n\nÁrea: Teoria de Categorias Aplicada\n\nÁrea: Álgebra Linear Gráfica\n\nÁrea: Álgebra da Programação\n\nÁrea: String Diagrams\n\nÁrea: Álgebra Linear Computacional\n\nLocal: Rio de Janeiro\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nKaique Matias de Andrade Roberto\n\n\n\nGrau: Pós-Doc\n\nÁrea: Lógica Categorial\n\nÁrea: Lógica Algébrica\n\nÁrea: Hyper Álgebras\n\nLocal: SP\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMarcos Jardim\n\n\n\nGrau: Professor\n\nÁrea: Geometria Algébrica\n\nLocal: SP\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNelson Prata Pravato Serrano\n\n\n\nGrau: Doutorado\n\nÁrea: Categorias Tannakianas\n\nÁrea: Geometria Algébrica\n\nÁrea: Topologia Algébrica\n\nLocal: SP\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPaulo Dias\n\n\n\nGrau: Iniciação Científica\n\nÁrea: Complexidade Computacional\n\nÁrea: Algoritmos em Grafos\n\nLocal: São Paulo\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSidiney Bruno Montanhano\n\n\n\nGrau: Professor Auxiliar\n\nÁrea: Fundamentos da Teoria Quântica\n\nÁrea: Teoria das Categorias Aplicada\n\nLocal: Paraná\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nValeria de Paiva\n\n\n\nGrau: Pesquisadora\n\nGrau: Professora\n\nÁrea: Dialectica categories\n\nÁrea: Semântica categórica\n\nÁrea: Representação de conhecimento\n\nLocal: EUA\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSem itens correspondentes"
-  },
-  {
     "objectID": "participe/como-contribuir.html",
     "href": "participe/como-contribuir.html",
     "title": "Como contribuir com o site",
@@ -404,6 +215,41 @@
     "title": "Como contribuir com o site",
     "section": "Licença e Direitos Autorais",
     "text": "Licença e Direitos Autorais\nEste repositório utiliza duas licenças diferentes para separar o código-fonte estrutural do conteúdo original. Ao contribuir, você concorda que o seu trabalho será disponibilizado sob os seguintes termos:\n\nCódigo-fonte e Templates: O código estrutural, os estilos CSS e os templates Quarto baseados no projeto original estão licenciados sob a MIT License (Copyright 2020 AlgebraicJulia).\nConteúdo e Textos: Todos os artigos, posts de blog, dados de pesquisadores, tutoriais e demais conteúdos textuais criados pelo Categorias Brasil e seus contribuidores estão licenciados sob a Creative Commons Attribution 4.0 International (CC BY 4.0)."
+  },
+  {
+    "objectID": "eventos/ebct3.html",
+    "href": "eventos/ebct3.html",
+    "title": "III Encontro Brasileiro em Teoria das Categorias (EBTC2026)",
+    "section": "",
+    "text": "O principal evento brasileiro em Teoria das Categorias está na sua terceira edição! O EBTC ocorre desde 2021, a cada dois anos, e neste mês de maio, entre os dias 25 e 29, ele será sediado em Juiz de Fora, MG, na Universidade Federal de Juiz de Fora (UFJF), de forma híbrida.\nNa página do evento há informações sobre a programação do evento, minicursos, palestras, e até mesmo questões de transporte e hospedagem. O EBTC2026 contará com palestras, mini-cursos e apresentação de pôsteres."
+  },
+  {
+    "objectID": "eventos/ebct3.html#site-do-evento",
+    "href": "eventos/ebct3.html#site-do-evento",
+    "title": "III Encontro Brasileiro em Teoria das Categorias (EBTC2026)",
+    "section": "Site do Evento",
+    "text": "Site do Evento\nhttps://terceiro.encontrocategorico.mat.br"
+  },
+  {
+    "objectID": "blog.html",
+    "href": "blog.html",
+    "title": "Blog",
+    "section": "",
+    "text": "Acompanhe nossos tutoriais, comunicados e artigos. Aqui você encontrará guias de contribuição, atualizações da comunidade e materiais informativos sobre Teoria das Categorias no Brasil.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nUm vislumbre de Yoneda através dos C-sets\n\n\n\nTeoria das Categorias\n\n\n\n\n\n\n\n\n\n2 de jul. de 2026\n\n\nPaulo Dias\n\n\n\n\n\nSem itens correspondentes"
+  },
+  {
+    "objectID": "participe.html",
+    "href": "participe.html",
+    "title": "Participe",
+    "section": "",
+    "text": "Nós adoraríamos contar com a sua participação para tornar este catálogo e comunidade cada vez mais fortes!\nExistem duas principais formas de participar ativamente:"
+  },
+  {
+    "objectID": "participe.html#nossos-contribuintes",
+    "href": "participe.html#nossos-contribuintes",
+    "title": "Participe",
+    "section": "Nossos Contribuintes",
+    "text": "Nossos Contribuintes\nGostaríamos de agradecer a todas as pessoas que já contribuíram de alguma forma para estruturar este projeto até o momento:\n\nPaulo Dias\n(Seu nome pode estar aqui! Acesse os guias acima e junte-se a nós)\n\n\n\n\n\n\n\nNota\n\n\n\nCaso prefira não usar o GitHub para contribuir, você pode sempre nos enviar um e-mail com suas informações ou sugestões!"
   },
   {
     "objectID": "laboratorios/higher-differential-geometry/higher-differential-geometry.html",
@@ -448,18 +294,123 @@
     "text": "Email\ncortiz (at) ime.usp.br"
   },
   {
-    "objectID": "participe.html",
-    "href": "participe.html",
-    "title": "Participe",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Nosso Objetivo",
     "section": "",
-    "text": "Nós adoraríamos contar com a sua participação para tornar este catálogo e comunidade cada vez mais fortes!\nExistem duas principais formas de participar ativamente:"
+    "text": "Este site é dedicado à divulgação científica da Teoria das Categorias no Brasil. Nosso objetivo é fortalecer a comunidade nacional ao reunir pesquisadores, laboratórios, eventos e materiais de referência em um único local acessível.\nA Teoria das Categorias desempenha um papel fundamental na matemática moderna e na ciência da computação, servindo como uma linguagem multidisciplinar. Através desta plataforma, buscamos ampliar a visibilidade dessa área no cenário acadêmico brasileiro.\nO que é Teoria das Categorias?"
   },
   {
-    "objectID": "participe.html#nossos-contribuintes",
-    "href": "participe.html#nossos-contribuintes",
-    "title": "Participe",
-    "section": "Nossos Contribuintes",
-    "text": "Nossos Contribuintes\nGostaríamos de agradecer a todas as pessoas que já contribuíram de alguma forma para estruturar este projeto até o momento:\n\nPaulo Dias\n(Seu nome pode estar aqui! Acesse os guias acima e junte-se a nós)\n\n\n\n\n\n\n\nNota\n\n\n\nCaso prefira não usar o GitHub para contribuir, você pode sempre nos enviar um e-mail com suas informações ou sugestões!"
+    "objectID": "index.html#do-blog",
+    "href": "index.html#do-blog",
+    "title": "Nosso Objetivo",
+    "section": "Do Blog",
+    "text": "Do Blog\nConfira as últimas publicações, artigos de opinião, tutoriais e discussões científicas da nossa comunidade:\n\n\n\n\n\n\n\nUm vislumbre de Yoneda através dos C-sets\n\n\n\n\n\n\n2 de jul. de 2026\n\n\n\n\n\n\nSem itens correspondentes\n\n\nVer todos os posts →"
+  },
+  {
+    "objectID": "index.html#informações-e-catálogos",
+    "href": "index.html#informações-e-catálogos",
+    "title": "Nosso Objetivo",
+    "section": "Informações e Catálogos",
+    "text": "Informações e Catálogos\nEncontre pesquisadores da área, grupos de pesquisa ativos, eventos recentes e materiais recomendados de estudo:\n\n\n\n\n\n\n\nAcervo\n\n\nReferências bibliográficas e materiais úteis para estudo.\n\n\n\n\n\n\n\n\n\nEventos\n\n\nFique por dentro de conferências, workshops e seminários.\n\n\n\n\n\n\n\n\n\nLaboratórios\n\n\nGrupos e centros de pesquisa dedicados à Teoria das Categorias.\n\n\n\n\n\n\n\n\n\nPesquisadores\n\n\nConheça os acadêmicos atuantes no país ou brasileiros no exterior.\n\n\n\n\n\nSem itens correspondentes"
+  },
+  {
+    "objectID": "index.html#como-participar",
+    "href": "index.html#como-participar",
+    "title": "Nosso Objetivo",
+    "section": "Como Participar",
+    "text": "Como Participar\nQueremos que este site seja o mais completo possível! Você pode participar ativamente da construção deste ecossistema:\n\n\n\n\n\n\n\nContribua com o Site\n\n\nSendo um projeto de código aberto, qualquer um pode ajudar. Aceitamos correções de bugs, novos conteúdos e melhorias no código.\n\n\n\n\n\n\n\n\n\nSeja Catalogado\n\n\nSe você é um pesquisador ou faz parte de um laboratório na área, junte-se ao catálogo para aumentar sua visibilidade.\n\n\n\n\n\nSem itens correspondentes"
+  },
+  {
+    "objectID": "laboratorios.html",
+    "href": "laboratorios.html",
+    "title": "Laboratórios",
+    "section": "",
+    "text": "Aqui estão os laboratórios que trabalham com Teoria das Categorias no Brasil. Você pode filtrar através das categorias ao lado.\n\n\n\n\n\n\n    \n      \n      \n    \n\n\n\n\n\n\n\n\nCUÍCA\n\n\n\nÁrea: Complexidade Computacional\n\nÁrea: Teoria dos Feixes\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nGrupo de Pesquisa em Geometria Diferencial Superior\n\n\n\nÁrea: Geometria Diferencial\n\nÁrea: Geometria de Poisson\n\nLocal: IME-USP\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSem itens correspondentes"
+  },
+  {
+    "objectID": "pesquisadores.html",
+    "href": "pesquisadores.html",
+    "title": "Pesquisadores",
+    "section": "",
+    "text": "Aqui estão os pesquisadores que trabalham com Teoria das Categorias no Brasil. Você pode usar a busca ou o painel de categorias ao lado para filtrar por cargo, área ou localização.\n\n\n\n\n\n\n    \n      \n      \n    \n\n\n\n\n\n\n\n\nAna Luiza Tenório\n\n\n\nGrau: Pós-Doc\n\nÁrea: Teoria dos Feixes\n\nÁrea: Quantales\n\nÁrea: Redes Neurais em Grafos\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAnny Beatriz Azevedo\n\n\n\nGrau: Doutorado\n\nÁrea: Teoria dos Feixes\n\nÁrea: Complexidade Computacional\n\nÁrea: Topologia Geral\n\nLocal: São Paulo\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBenjamin Merlin Bumpus\n\n\n\nGrau: Professor Doutor\n\nÁrea: Complexidade Computacional\n\nÁrea: Teoria dos Feixes\n\nLocal: São Paulo\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCristian Ortiz\n\n\n\nGrau: Professor Titular\n\nÁrea: Geometria Diferencial\n\nÁrea: Geometria de Poisson\n\nÁrea: Estruturas Geométricas Superiores\n\nLocal: São Paulo\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEduardo Nahum Ochs\n\n\n\nGrau: Professor\n\nÁrea: Linguagens Diagramáticas\n\nLocal: RJ\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEduardo do Nascimento Marcos\n\n\n\nGrau: Professor Titular\n\nÁrea: Teoria de Representações de Álgebras\n\nÁrea: Módulos sobre K-Categorias\n\nLocal: SP\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEllen Peixoto de Oliveira\n\n\n\nGrau: Doutorado\n\nÁrea: Categorias Abelianas\n\nÁrea: Comma Categories\n\nÁrea: Geometria Algébrica\n\nLocal: SP\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nGustavo Henrique Labegalini Boska\n\n\n\nGrau: Professor Substituto\n\nÁrea: Combinatória Infinita\n\nLocal: PR\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nHugo Luiz Mariano\n\n\n\nGrau: Professor Associado\n\nÁrea: Lógica\n\nÁrea: Álgebra\n\nLocal: São Paulo\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nJoão Antonio Recio da Paixão\n\n\n\nGrau: Professor\n\nÁrea: Métodos Formais\n\nÁrea: Linguagens Diagramáticas\n\nÁrea: Teoria de Categorias Aplicada\n\nÁrea: Álgebra Linear Gráfica\n\nÁrea: Álgebra da Programação\n\nÁrea: String Diagrams\n\nÁrea: Álgebra Linear Computacional\n\nLocal: Rio de Janeiro\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nKaique Matias de Andrade Roberto\n\n\n\nGrau: Pós-Doc\n\nÁrea: Lógica Categorial\n\nÁrea: Lógica Algébrica\n\nÁrea: Hyper Álgebras\n\nLocal: SP\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMarcos Jardim\n\n\n\nGrau: Professor\n\nÁrea: Geometria Algébrica\n\nLocal: SP\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNelson Prata Pravato Serrano\n\n\n\nGrau: Doutorado\n\nÁrea: Categorias Tannakianas\n\nÁrea: Geometria Algébrica\n\nÁrea: Topologia Algébrica\n\nLocal: SP\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPaulo Dias\n\n\n\nGrau: Iniciação Científica\n\nÁrea: Complexidade Computacional\n\nÁrea: Algoritmos em Grafos\n\nLocal: São Paulo\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSidiney Bruno Montanhano\n\n\n\nGrau: Professor Auxiliar\n\nÁrea: Fundamentos da Teoria Quântica\n\nÁrea: Teoria das Categorias Aplicada\n\nLocal: Paraná\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nValeria de Paiva\n\n\n\nGrau: Pesquisadora\n\nGrau: Professora\n\nÁrea: Dialectica categories\n\nÁrea: Semântica categórica\n\nÁrea: Representação de conhecimento\n\nLocal: EUA\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSem itens correspondentes"
+  },
+  {
+    "objectID": "eventos.html",
+    "href": "eventos.html",
+    "title": "Eventos",
+    "section": "",
+    "text": "Fique por dentro das conferências, workshops e encontros focados em Teoria das Categorias e suas aplicações.\n\n\n\n\n\n\n   \n    \n    \n      Ordenar por\n      Padrão\n      \n        Título\n      \n      \n        Data - Mais antigo\n      \n      \n        Data - O mais novo\n      \n      \n        Autor\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\n(Co)end Reading Group\n\n\n\nModalidade: Online\n\nTipo: Grupo de Estudos\n\n\n\n\n\n\n\n\n\n6 de ago. de 2026\n\n\n\n\n\n\n\n\n\n\n\n\nIII Encontro Brasileiro em Teoria das Categorias (EBTC2026)\n\n\n\nLocal: MG\n\nModalidade: Híbrido\n\n\n\n\n\n\n\n\n\n4 de mai. de 2026\n\n\n\n\n\nSem itens correspondentes"
+  },
+  {
+    "objectID": "o-que-e.html",
+    "href": "o-que-e.html",
+    "title": "O que é Teoria das Categorias?",
+    "section": "",
+    "text": "“O que a matemática faz para o mundo, a teoria das categorias faz para a matemática.” - Eugenia Cheng\nNo âmbito da matemática, é comum falarmos sobre o ato de generalizar teorias ou resultados específicos. Geralmente esse termo se refere a retirar certas premissas e reconsiderar os resultados consequentes.\nNesse sentido, a teoria das categorias se beneficia da generalização para conectar diferentes áreas, abstraindo e compartilhando resultados."
+  },
+  {
+    "objectID": "o-que-e.html#o-que-é-uma-categoria",
+    "href": "o-que-e.html#o-que-é-uma-categoria",
+    "title": "O que é Teoria das Categorias?",
+    "section": "O que é uma categoria?",
+    "text": "O que é uma categoria?\nUma categoria é uma estrutura que consiste em:\n\nObjetos;\nMorfismos: Conexões direcionadas entre objetos.\n\nE obedece as duas seguintes regras:\n\nIdentidade: Para todo objeto A, deve existir um morfismo de identidade \\text{id}_A: A \\to A;\nComposição: Se existem morfismos f: A \\to B e g: B \\to C, deve existir a composição g \\circ f: A \\to C.\n\n\nExemplos\n\nGraph: composta por grafos e homomorfismos;\nTop: composta por espaços topológicos e funções contínuas;\nCat: composta por categorias e funtores."
+  },
+  {
+    "objectID": "o-que-e.html#o-que-é-teoria-das-categorias-aplicada",
+    "href": "o-que-e.html#o-que-é-teoria-das-categorias-aplicada",
+    "title": "O que é Teoria das Categorias?",
+    "section": "O que é Teoria das Categorias Aplicada?",
+    "text": "O que é Teoria das Categorias Aplicada?\nA Teoria das Categorias Aplicada (ou ACT - Applied Category Theory) utiliza essa linguagem para modelar sistemas do mundo real. Algumas das principais áreas de aplicação incluem:\n\nBancos de dados e linguagens tipadas, na computação;\nRedes de Petri, na química;\nEpidemiologia, na intersecção entre biologia e estatística;\nSistemas dinâmicos e topologia algébrica, na própria matemática."
+  },
+  {
+    "objectID": "acervo.html",
+    "href": "acervo.html",
+    "title": "Acervo",
+    "section": "",
+    "text": "Referências bibliográficas, vídeos, apostilas e materiais úteis para o estudo de Teoria das Categorias."
+  },
+  {
+    "objectID": "acervo.html#livros",
+    "href": "acervo.html#livros",
+    "title": "Acervo",
+    "section": "Livros",
+    "text": "Livros\n\n\n   \n    \n    \n      Ordenar por\n      Padrão\n      \n        Título\n      \n      \n        Autor(a)\n      \n      \n        Tags\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\nTítulo\n\n\n\nAutor(a)\n\n\n\nTags\n\n\n\n\n\n\n\n\nAn Invitation to Applied Category Theory: Seven Sketches in Compositionality\n\n\nBrendan Fong e David Spivak\n\n\nLivro, Introdutório, Inglês\n\n\n\n\n\n\nBasic Category Theory\n\n\nTom Leinster\n\n\nLivro, Introdutório, Inglês\n\n\n\n\n\n\nCategories for the Working Mathematician\n\n\nSaunders Mac Lane\n\n\nLivro, Avançado, Inglês\n\n\n\n\n\n\nCategory Theory\n\n\nSteve Awodey\n\n\nLivro, Introdutório, Inglês\n\n\n\n\n\n\nCategory Theory in Context\n\n\nEmily Riehl\n\n\nLivro, Intermediário, Inglês\n\n\n\n\n\n\nCoend Calculus\n\n\nFosco Loregian\n\n\nLivro, Avançado, Inglês\n\n\n\n\n\n\nCuadernos de Álgebra — Volumen 2\n\n\nOswaldo Lezama Serrano\n\n\nLivro, Introdutório, Espanhol\n\n\n\n\n\n\nHandbook of Categorical Algebra\n\n\nFrancis Borceux\n\n\nLivro, Avançado, Inglês\n\n\n\n\n\n\nLocally Presentable and Accessible Categories\n\n\nJiří Adámek e Jiří Rosický\n\n\nLivro, Avançado, Inglês\n\n\n\n\n\n\nSheaves in Geometry and Logic\n\n\nSaunders Mac Lane e Ieke Moerdijk\n\n\nLivro, Avançado, Inglês\n\n\n\n\n\n\nThe Joy of Abstraction\n\n\nEugenia Cheng\n\n\nLivro, Introdutório, Inglês\n\n\n\n\n\n\nTopoi: The Categorial Analysis of Logic\n\n\nRobert Goldblatt\n\n\nLivro, Introdutório, Inglês\n\n\n\n\n\n\nSem itens correspondentes"
+  },
+  {
+    "objectID": "acervo.html#vídeos",
+    "href": "acervo.html#vídeos",
+    "title": "Acervo",
+    "section": "Vídeos",
+    "text": "Vídeos\n\n\n   \n    \n    \n      Ordenar por\n      Padrão\n      \n        Título\n      \n      \n        Autor(a)\n      \n      \n        Tags\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\nTítulo\n\n\n\nAutor(a)\n\n\n\nTags\n\n\n\n\n\n\n\n\nCategory Theory for Programmers\n\n\nBartosz Milewski\n\n\nVídeo-aula, Introdutório, Inglês\n\n\n\n\n\n\nThe Catsters\n\n\nEugenia Cheng e Simon Willerton\n\n\nVídeo-aula, Intermediário, Inglês\n\n\n\n\n\n\nSem itens correspondentes"
+  },
+  {
+    "objectID": "acervo.html#notas-de-aula",
+    "href": "acervo.html#notas-de-aula",
+    "title": "Acervo",
+    "section": "Notas de Aula",
+    "text": "Notas de Aula\n\n\n   \n    \n    \n      Ordenar por\n      Padrão\n      \n        Título\n      \n      \n        Autor(a)\n      \n      \n        Tags\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\nTítulo\n\n\n\nAutor(a)\n\n\n\nTags\n\n\n\n\n\n\n\n\nBasic Category Theory and Topos Theory\n\n\nJaap van Oosten\n\n\nNotas de Aula, Introdutório, Inglês\n\n\n\n\n\n\nDistributors at Work\n\n\nJean Bénabou (notas de Thomas Streicher)\n\n\nNotas de Aula, Avançado, Inglês\n\n\n\n\n\n\nSem itens correspondentes"
+  },
+  {
+    "objectID": "laboratorios/cuica/cuica.html",
+    "href": "laboratorios/cuica/cuica.html",
+    "title": "CUÍCA",
+    "section": "",
+    "text": "CUÍCA (Categorical Understanding Ín Computation & Algorithms) é um laboratório situado no Instituto de Matemática, Estatística e Ciência da Computação (IME) da Universidade de São Paulo (USP)."
+  },
+  {
+    "objectID": "laboratorios/cuica/cuica.html#coordenação",
+    "href": "laboratorios/cuica/cuica.html#coordenação",
+    "title": "CUÍCA",
+    "section": "Coordenação",
+    "text": "Coordenação\n\nBenjamin Merlin Bumpus"
+  },
+  {
+    "objectID": "laboratorios/cuica/cuica.html#membros",
+    "href": "laboratorios/cuica/cuica.html#membros",
+    "title": "CUÍCA",
+    "section": "Membros",
+    "text": "Membros\n\nAnny Beatriz Azevedo\nDaniel Ferreira Betoret\nGustavo Freire\nJackson Cook\nJana Nickel\nKarina Sakurai\nLaura Larios-Jones\nLucas Francesco Gesteira\nPaulo Dias\nWill Turner"
   },
   {
     "objectID": "seminarios.html",
@@ -473,7 +424,7 @@
     "href": "seminarios.html#section",
     "title": "Seminários",
     "section": "2026",
-    "text": "2026\n\n05/06/2026 — Online\n\nPalestrante: Nathaniel Osgood\nHorário: 12h (horário de Brasília)\nTítulo: The Topos of Narratives\nResumo: A palestra apresenta uma expansão da estrutura topos-teórica das narrativas temporais, com foco nas duas camadas inferiores do modelo: snapshots instantâneos e intervalos unitários em linhas do tempo inteiras. São introduzidos functores representáveis para categorias de intervalos (na versão op), mostrando como presheaves adquirem valores não-triviais em instantes vizinhos. O classificador de sub-objetos é derivado concretamente para representáveis temporais, revelando cinco sub-objetos válidos e uma estrutura poset que captura implicação e monotonicidade ao longo do tempo. Operações lógicas (AND, OR, implicação, complemento) emergem de adjunções e conexões de Galois nesse cenário. A implementação em Catlab cobre narrativas finitas e as aplicações discutidas incluem alcançabilidade temporal e rastreamento de contatos em epidemiologia computacional."
+    "text": "2026\n\n31/08/2026 — Híbrido\n\nPalestrante: Valeria de Paiva\nHorário: 16h (horário de Brasília)\nLocal: Sala B07 do IME-USP\nAcesso online: Para ter acesso ao link da palestra, envie um e-mail para Anny Beatriz Azevedo\nTítulo: Small Dialectica Categories\nResumo: As categorias Dialectica fornecem uma semântica categórica para a lógica linear, mas suas definições podem ser difíceis de compreender, mesmo para lógicos familiarizados com a teoria das categorias. Neste trabalho, estudamos as menores instâncias não triviais de categorias Dialectica, obtidas tomando como categoria base a walking arrow, \\mathbf{2} = (0 \\to 1). Construímos explicitamente \\mathbf{G}_{2}(\\mathbf{2}) e \\mathbf{D}_{2}(\\mathbf{2}), calculamos seus produtos tensoriais, homs internos, negação linear e estrutura aditiva, e fornecemos tabelas concretas ilustrando essas estruturas.\nNosso objetivo não é apenas reproduzir esses cálculos, mas utilizá-los como fundamento para compreender o espaço de parâmetros bidimensional das construções Dialectica: variar o objeto de valores de verdade L (de Boolean \\mathbf{2} para Kleene \\mathbf{3} ou para a categoria colapsada \\mathbf{1}, para os números naturais \\mathbb{N}, para [0,\\infty]^{\\mathrm{op}} de Lawvere, ou para uma lineale geral L) e variando a categoria base \\mathbf{C} (da walking arrow \\mathbf{2} para \\mathbf{Set}) produz diferentes sistemas lógicos com diferentes propriedades estruturais. Esperamos que o desenvolvimento explícito da álgebra nos casos muito pequenos permita compreender estruturalmente por que isso acontece e, em particular, esclarecer de onde surge a modalidade ! e por que ela se comporta de maneira diferente em \\mathbf{G} e \\mathbf{D}.\nEste é um trabalho conjunto com Colin Bloomfield e Peter Jipsen.\nObservação: A palestra será ministrada em inglês e faz parte das reuniões do (Co)end Reading Group.\n\n\n\n05/06/2026 — Online\n\nPalestrante: Nathaniel Osgood\nHorário: 12h (horário de Brasília)\nTítulo: The Topos of Narratives\nResumo: A palestra apresenta uma expansão da estrutura topos-teórica das narrativas temporais, com foco nas duas camadas inferiores do modelo: snapshots instantâneos e intervalos unitários em linhas do tempo inteiras. São introduzidos functores representáveis para categorias de intervalos (na versão op), mostrando como presheaves adquirem valores não-triviais em instantes vizinhos. O classificador de sub-objetos é derivado concretamente para representáveis temporais, revelando cinco sub-objetos válidos e uma estrutura poset que captura implicação e monotonicidade ao longo do tempo. Operações lógicas (AND, OR, implicação, complemento) emergem de adjunções e conexões de Galois nesse cenário. A implementação em Catlab cobre narrativas finitas e as aplicações discutidas incluem alcançabilidade temporal e rastreamento de contatos em epidemiologia computacional.\nObservação: A palestra foi ministrada em inglês."
   },
   {
     "objectID": "blog/intuicao-de-yoneda/index.html",
@@ -525,102 +476,123 @@
     "text": "Enfim\nE, com isso, temos uma tática concreta para analisar de maneira intuitiva o que seria uma escolha, ou o que seria uma estrutura mínima de uma estrutura maior descrita como C-set. Se tiver interesse, tente reproduzir o processo descrito neste post com outros C-sets! Que tal Redes de Petri?\nNeste post vimos apenas a primeira camada do lema de Yoneda: a interpretação dos representáveis como estruturas mínimas que “escolhem” elementos de um C-set. Em um próximo post veremos por que essa ideia leva ao famoso ditado:\n\n“Me diga com quem tu andas, e direi quem tu és.”\n\nE como ela permite recuperar um objeto inteiro apenas a partir de suas relações com os demais."
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Nosso Objetivo",
+    "objectID": "eventos/coend-reading-group.html",
+    "href": "eventos/coend-reading-group.html",
+    "title": "(Co)end Reading Group",
     "section": "",
-    "text": "Este site é dedicado à divulgação científica da Teoria das Categorias no Brasil. Nosso objetivo é fortalecer a comunidade nacional ao reunir pesquisadores, laboratórios, eventos e materiais de referência em um único local acessível.\nA Teoria das Categorias desempenha um papel fundamental na matemática moderna e na ciência da computação, servindo como uma linguagem multidisciplinar. Através desta plataforma, buscamos ampliar a visibilidade dessa área no cenário acadêmico brasileiro.\nO que é Teoria das Categorias?"
+    "text": "Um grupo de estudos semanal dedicado à teoria dos coends, aberto a participantes do Brasil e do exterior. As sessões têm início no dia 10 de agosto e ocorrem toda segunda-feira às 16h (horário de Brasília), com transmissão via Google Meet, até o final do semestre.\nNão é preciso ter experiência prévia com o tema: este é um espaço descontraído e acolhedor, aberto a participantes do Brasil e do exterior. As reuniões são conduzidas em inglês."
   },
   {
-    "objectID": "index.html#do-blog",
-    "href": "index.html#do-blog",
-    "title": "Nosso Objetivo",
-    "section": "Do Blog",
-    "text": "Do Blog\nConfira as últimas publicações, artigos de opinião, tutoriais e discussões científicas da nossa comunidade:\n\n\n\n\nSem itens correspondentes\n\n\nVer todos os posts →"
+    "objectID": "eventos/coend-reading-group.html#sobre-o-texto",
+    "href": "eventos/coend-reading-group.html#sobre-o-texto",
+    "title": "(Co)end Reading Group",
+    "section": "Sobre o Texto",
+    "text": "Sobre o Texto\nCoend Calculus — Fosco Loregian\nO livro cobre a teoria de coends em categorias enriquecidas, incluindo fórmulas de Fubini, o lema de Yoneda enriquecido, extensões de Kan e aplicações em teoria dos funtores. O próprio autor, Fosco Loregian, é um dos palestrantes convidados. O livro está disponível livremente no arXiv."
   },
   {
-    "objectID": "index.html#informações-e-catálogos",
-    "href": "index.html#informações-e-catálogos",
-    "title": "Nosso Objetivo",
-    "section": "Informações e Catálogos",
-    "text": "Informações e Catálogos\nEncontre pesquisadores da área, grupos de pesquisa ativos, eventos recentes e materiais recomendados de estudo:\n\n\n\n\n\n\n\nAcervo\n\n\nReferências bibliográficas e materiais úteis para estudo.\n\n\n\n\n\n\n\n\n\nEventos\n\n\nFique por dentro de conferências, workshops e seminários.\n\n\n\n\n\n\n\n\n\nLaboratórios\n\n\nGrupos e centros de pesquisa dedicados à Teoria das Categorias.\n\n\n\n\n\n\n\n\n\nPesquisadores\n\n\nConheça os acadêmicos atuantes no país ou brasileiros no exterior.\n\n\n\n\n\nSem itens correspondentes"
+    "objectID": "eventos/coend-reading-group.html#palestrantes-convidados",
+    "href": "eventos/coend-reading-group.html#palestrantes-convidados",
+    "title": "(Co)end Reading Group",
+    "section": "Palestrantes Convidados",
+    "text": "Palestrantes Convidados\nAlém das sessões semanais de leitura, o grupo conta com apresentações de pesquisadores convidados:\n\nChristina Vasilakopoulou\nMonique Müller Rocha\nFosco Loregian\nWilmer Leal"
   },
   {
-    "objectID": "index.html#como-participar",
-    "href": "index.html#como-participar",
-    "title": "Nosso Objetivo",
+    "objectID": "eventos/coend-reading-group.html#programação",
+    "href": "eventos/coend-reading-group.html#programação",
+    "title": "(Co)end Reading Group",
+    "section": "Programação",
+    "text": "Programação\nAs sessões seguem a estrutura do livro, intercaladas com palestras de pesquisadores convidados (indicadas em destaque):\n\n\n\nData\nSessão\n\n\n\n\n10/08\nIntrodução do grupo e do livro\n\n\n17/08\n§1.1 Supernaturality\n\n\n24/08\n§1.2 Co/ends as co/limits\n\n\n31/08\nPalestra convidada: Valeria de Paiva\n\n\n14/09\n§1.3 The Fubini rule / §1.4 First instances of co/ends\n\n\n21/09\n§2.2 The Yoneda Lemma\n\n\n28/09\n§2.3 Kan extensions\n\n\n05/10\nPalestra convidada: Monique Müller Rocha\n\n\n19/10\n§3.1 The classical nerve and realisation\n\n\n26/10\n§3.2 Abstract realisations and nerves\n\n\n09/11\nPalestra convidada: Wilmer Leal\n\n\n16/11\n§4.1 Weighted limits and colimits\n\n\n23/11\n§4.3 Enriched co/ends\n\n\n30/11\nCoends and beyond — palestra de Fosco Loregian\n\n\n07/12\nPalestra convidada: Christina Vasilakopoulou"
+  },
+  {
+    "objectID": "eventos/coend-reading-group.html#como-participar",
+    "href": "eventos/coend-reading-group.html#como-participar",
+    "title": "(Co)end Reading Group",
     "section": "Como Participar",
-    "text": "Como Participar\nQueremos que este site seja o mais completo possível! Você pode participar ativamente da construção deste ecossistema:\n\n\n\n\n\n\n\nContribua com o Site\n\n\nSendo um projeto de código aberto, qualquer um pode ajudar. Aceitamos correções de bugs, novos conteúdos e melhorias no código.\n\n\n\n\n\n\n\n\n\nSeja Catalogado\n\n\nSe você é um pesquisador ou faz parte de um laboratório na área, junte-se ao catálogo para aumentar sua visibilidade.\n\n\n\n\n\nSem itens correspondentes"
+    "text": "Como Participar\nO grupo é transmitido ao vivo via Google Meet. Para receber o link e acessar a planilha completa do cronograma, entre em contato com a organizadora Anny Azevedo."
   },
   {
-    "objectID": "pesquisadores/marcos-jardim/marcos-jardim.html",
-    "href": "pesquisadores/marcos-jardim/marcos-jardim.html",
-    "title": "Marcos Jardim",
+    "objectID": "participe/como-catalogar.html",
+    "href": "participe/como-catalogar.html",
+    "title": "Como catalogar pesquisadores e laboratórios",
     "section": "",
-    "text": "A minha área principal de pesquisa é a Geometria Algébrica, e nesse contexto eu trabalho com categorias abelianas e trianguladas, especialmente a categoria de feixes coerentes sobre um esquema projetivo e a categoria derivada deste. De particular interesse é a noção de estabilidade em categorias abelianas e trianguladas."
+    "text": "Ao fazer parte deste site, você aumenta a visibilidade do seu trabalho e facilita que novos estudantes e colaboradores encontrem seu trabalho ou grupo de pesquisa, fortalecendo a área no Brasil. Veja como pode nos ajudar a manter este catálogo atualizado."
   },
   {
-    "objectID": "pesquisadores/marcos-jardim/marcos-jardim.html#instituição",
-    "href": "pesquisadores/marcos-jardim/marcos-jardim.html#instituição",
-    "title": "Marcos Jardim",
-    "section": "Instituição",
-    "text": "Instituição\nInstituto de Matemática, Estatística e Computação Científica (IMECC) da Universidade Estadual de Campinas (UNICAMP)."
+    "objectID": "participe/como-catalogar.html#por-que-se-catalogar",
+    "href": "participe/como-catalogar.html#por-que-se-catalogar",
+    "title": "Como catalogar pesquisadores e laboratórios",
+    "section": "",
+    "text": "Ao fazer parte deste site, você aumenta a visibilidade do seu trabalho e facilita que novos estudantes e colaboradores encontrem seu trabalho ou grupo de pesquisa, fortalecendo a área no Brasil. Veja como pode nos ajudar a manter este catálogo atualizado."
   },
   {
-    "objectID": "pesquisadores/marcos-jardim/marcos-jardim.html#currículo-lattes",
-    "href": "pesquisadores/marcos-jardim/marcos-jardim.html#currículo-lattes",
-    "title": "Marcos Jardim",
+    "objectID": "participe/como-catalogar.html#formas-de-participar",
+    "href": "participe/como-catalogar.html#formas-de-participar",
+    "title": "Como catalogar pesquisadores e laboratórios",
+    "section": "Formas de Participar",
+    "text": "Formas de Participar\nExistem duas maneiras principais de catalogar suas informações: via GitHub (para quem prefere lidar diretamente com o código) ou via E-mail (para quem busca praticidade).\n\n1. Via GitHub\nNosso site é de código aberto e utiliza o Quarto. Se você tem familiaridade com Git e GitHub, siga estes passos:\n\nAcesse nosso repositório: categorias-brasil/categorias-brasil.github.io.\nFaça um Fork do projeto.\nCrie um diretório com o seu nome (ou nome do laboratório) e adicione um arquivo .qmd com esse mesmo nome dentro dele:\n\nPara pesquisadores: pesquisadores/seu-nome/seu-nome.qmd\nPara laboratórios: laboratorios/nome-do-lab/nome-do-lab.qmd\nDica: Ao criar um diretório próprio, você pode colocar sua foto ou logo na mesma pasta, o que facilita a organização.\n\nUse os modelos existentes como base para preencher seus dados:\n\nModelo para pessoas: pesquisadores/_pesquisadores-modelo.qmd\nModelo para laboratórios: laboratorios/_laboratorios-modelo.qmd\n\nEnvie um Pull Request.\nNo nosso README no GitHub, você encontra um guia ainda mais detalhado com todos os comandos de Git necessários.\n\n\n\n2. Via E-mail\nSe preferir, você pode enviar os dados diretamente para a nossa equipe. Basta enviar um e-mail para:\ncategoriasbrasil@gmail.com\nNo e-mail, inclua as seguintes informações:\n\nNome completo ou nome do laboratório;\nAfiliação institucional (universidade, instituto, etc.);\nLink para Currículo Lattes e/ou site pessoal;\nPrincipais áreas de pesquisa em Teoria das Categorias;\nOpcional: Uma foto de perfil ou logo do laboratório;\nOpcional: Qualquer outra informação extra que julgar relevante."
+  },
+  {
+    "objectID": "pesquisadores/ellen-oliveira/ellen-oliveira.html",
+    "href": "pesquisadores/ellen-oliveira/ellen-oliveira.html",
+    "title": "Ellen Peixoto de Oliveira",
+    "section": "",
+    "text": "Universidade Estadual de Campinas (Unicamp)."
+  },
+  {
+    "objectID": "pesquisadores/ellen-oliveira/ellen-oliveira.html#instituição",
+    "href": "pesquisadores/ellen-oliveira/ellen-oliveira.html#instituição",
+    "title": "Ellen Peixoto de Oliveira",
+    "section": "",
+    "text": "Universidade Estadual de Campinas (Unicamp)."
+  },
+  {
+    "objectID": "pesquisadores/ellen-oliveira/ellen-oliveira.html#currículo-lattes",
+    "href": "pesquisadores/ellen-oliveira/ellen-oliveira.html#currículo-lattes",
+    "title": "Ellen Peixoto de Oliveira",
     "section": "Currículo Lattes",
-    "text": "Currículo Lattes\nhttps://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4797291E8"
+    "text": "Currículo Lattes\nhttp://lattes.cnpq.br/0272600140652647"
   },
   {
-    "objectID": "pesquisadores/anny-azevedo/anny-azevedo.html",
-    "href": "pesquisadores/anny-azevedo/anny-azevedo.html",
-    "title": "Anny Beatriz Azevedo",
+    "objectID": "pesquisadores/gustavo-boska/gustavo-boska.html",
+    "href": "pesquisadores/gustavo-boska/gustavo-boska.html",
+    "title": "Gustavo Henrique Labegalini Boska",
     "section": "",
-    "text": "Faço doutorado no IME-USP, trabalhando sob a supervisão do Professor Benjamin Merlin Bumpus. Durante minha graduação, estudei Teoria dos Modelos e lógica interna de topos. No mestrado, direcionei meu foco para aplicações da Teoria das Categorias em Ciência da Computação, investigando métodos de Teoria dos Feixes e de Cohomologia aplicados a problemas computacionais. Atualmente, estou interessada em usar ações de monoides e ferramentas categóricas para descrever modelos computacionais."
+    "text": "Use of the functorialization of end-spaces and edge end-spaces to extend results of finite combinatorics into an infinite setting. Study of combinatorial representation of continuous maps under such functors. Finding interesting categories and invariants under these constructions."
   },
   {
-    "objectID": "pesquisadores/anny-azevedo/anny-azevedo.html#instituição",
-    "href": "pesquisadores/anny-azevedo/anny-azevedo.html#instituição",
-    "title": "Anny Beatriz Azevedo",
+    "objectID": "pesquisadores/gustavo-boska/gustavo-boska.html#instituição",
+    "href": "pesquisadores/gustavo-boska/gustavo-boska.html#instituição",
+    "title": "Gustavo Henrique Labegalini Boska",
     "section": "Instituição",
-    "text": "Instituição\nInstituto de Matemática, Estatística e Ciência da Computação (IME) da Universidade de São Paulo (USP)."
+    "text": "Instituição\nUniversidade Tecnológica Federal do Paraná (UTFPR) - Curitiba."
   },
   {
-    "objectID": "pesquisadores/anny-azevedo/anny-azevedo.html#formação-acadêmica",
-    "href": "pesquisadores/anny-azevedo/anny-azevedo.html#formação-acadêmica",
-    "title": "Anny Beatriz Azevedo",
-    "section": "Formação Acadêmica",
-    "text": "Formação Acadêmica\n2024-2026: Mestrado em Matemática, Universidade de São Paulo (USP), São Paulo, Brasil, sob a supervisão do Professor Benjamin M. Bumpus\n2026-Agora: Doutorado em Matemática, Universidade de São Paulo (USP), São Paulo, Brasil, sob a supervisão do Professor Benjamin M. Bumpus"
+    "objectID": "pesquisadores/gustavo-boska/gustavo-boska.html#currículo-lattes",
+    "href": "pesquisadores/gustavo-boska/gustavo-boska.html#currículo-lattes",
+    "title": "Gustavo Henrique Labegalini Boska",
+    "section": "Currículo Lattes",
+    "text": "Currículo Lattes\nhttps://lattes.cnpq.br/9858968452979652"
   },
   {
-    "objectID": "pesquisadores/anny-azevedo/anny-azevedo.html#link-para-o-site-pessoal",
-    "href": "pesquisadores/anny-azevedo/anny-azevedo.html#link-para-o-site-pessoal",
-    "title": "Anny Beatriz Azevedo",
+    "objectID": "pesquisadores/eduardo-ochs/eduardo-ochs.html",
+    "href": "pesquisadores/eduardo-ochs/eduardo-ochs.html",
+    "title": "Eduardo Nahum Ochs",
+    "section": "",
+    "text": "Universidade Federal Fluminense (UFF) - Rio das Ostras."
+  },
+  {
+    "objectID": "pesquisadores/eduardo-ochs/eduardo-ochs.html#instituição",
+    "href": "pesquisadores/eduardo-ochs/eduardo-ochs.html#instituição",
+    "title": "Eduardo Nahum Ochs",
+    "section": "",
+    "text": "Universidade Federal Fluminense (UFF) - Rio das Ostras."
+  },
+  {
+    "objectID": "pesquisadores/eduardo-ochs/eduardo-ochs.html#link-para-o-site-pessoal",
+    "href": "pesquisadores/eduardo-ochs/eduardo-ochs.html#link-para-o-site-pessoal",
+    "title": "Eduardo Nahum Ochs",
     "section": "Link para o site pessoal",
-    "text": "Link para o site pessoal\nhttps://annyb-azevedo.com/"
-  },
-  {
-    "objectID": "pesquisadores/anny-azevedo/anny-azevedo.html#email",
-    "href": "pesquisadores/anny-azevedo/anny-azevedo.html#email",
-    "title": "Anny Beatriz Azevedo",
-    "section": "Email",
-    "text": "Email\nannyb.azevedo (at) ime.usp.br"
-  },
-  {
-    "objectID": "pesquisadores/joao-paixao/joao-paixao.html#instituição",
-    "href": "pesquisadores/joao-paixao/joao-paixao.html#instituição",
-    "title": "João Antonio Recio da Paixão",
-    "section": "Instituição",
-    "text": "Instituição\nInstituto de Computação (IC) da Universidade Federal do Rio de Janeiro (UFRJ)."
-  },
-  {
-    "objectID": "pesquisadores/joao-paixao/joao-paixao.html#link-para-o-site-pessoal",
-    "href": "pesquisadores/joao-paixao/joao-paixao.html#link-para-o-site-pessoal",
-    "title": "João Antonio Recio da Paixão",
-    "section": "Link para o site pessoal",
-    "text": "Link para o site pessoal\nhttps://www.joaopaixao.com/"
+    "text": "Link para o site pessoal\nhttps://anggtwu.net/math-b.html"
   },
   {
     "objectID": "pesquisadores/cristian-ortiz/cristian-ortiz.html",
@@ -658,80 +630,108 @@
     "text": "Email\ncortiz (at) ime.usp.br"
   },
   {
-    "objectID": "pesquisadores/ana-tenorio/ana-tenorio.html#instituição",
-    "href": "pesquisadores/ana-tenorio/ana-tenorio.html#instituição",
-    "title": "Ana Luiza Tenório",
+    "objectID": "pesquisadores/kaique-roberto/kaique-roberto.html#instituição",
+    "href": "pesquisadores/kaique-roberto/kaique-roberto.html#instituição",
+    "title": "Kaique Matias de Andrade Roberto",
     "section": "Instituição",
-    "text": "Instituição\nEscola de Matemática Aplicada da Fundação Getúlio Vargas (EMAp-FGV)."
+    "text": "Instituição\nCentro de Lógica, Epistemologia e História da Ciência (CLE) - Universidade Estadual de Campinas (Unicamp)"
   },
   {
-    "objectID": "pesquisadores/ana-tenorio/ana-tenorio.html#link-para-o-site-pessoal",
-    "href": "pesquisadores/ana-tenorio/ana-tenorio.html#link-para-o-site-pessoal",
-    "title": "Ana Luiza Tenório",
+    "objectID": "pesquisadores/kaique-roberto/kaique-roberto.html#formação-acadêmica",
+    "href": "pesquisadores/kaique-roberto/kaique-roberto.html#formação-acadêmica",
+    "title": "Kaique Matias de Andrade Roberto",
+    "section": "Formação acadêmica",
+    "text": "Formação acadêmica\n\n\nDoutorado em matemática\n\nUniversidade de São Paulo\n\nMestrado em matemática\n\nUniversidade de São Paulo\n\nBacharelado em matemática\n\nUniversidade de São Paulo"
+  },
+  {
+    "objectID": "pesquisadores/kaique-roberto/kaique-roberto.html#link-para-o-site-pessoal",
+    "href": "pesquisadores/kaique-roberto/kaique-roberto.html#link-para-o-site-pessoal",
+    "title": "Kaique Matias de Andrade Roberto",
     "section": "Link para o site pessoal",
-    "text": "Link para o site pessoal\nhttps://sites.google.com/ime.usp.br/analuizatenorio"
+    "text": "Link para o site pessoal\nhttps://www.kaiquegalois.com.br/"
   },
   {
-    "objectID": "pesquisadores/hugo-mariano/hugo-mariano.html",
-    "href": "pesquisadores/hugo-mariano/hugo-mariano.html",
-    "title": "Hugo Luiz Mariano",
+    "objectID": "pesquisadores/kaique-roberto/kaique-roberto.html#link-para-o-currículo-lattes",
+    "href": "pesquisadores/kaique-roberto/kaique-roberto.html#link-para-o-currículo-lattes",
+    "title": "Kaique Matias de Andrade Roberto",
+    "section": "Link para o currículo Lattes",
+    "text": "Link para o currículo Lattes\nhttp://lattes.cnpq.br/7033491672545413"
+  },
+  {
+    "objectID": "pesquisadores/anny-azevedo/anny-azevedo.html",
+    "href": "pesquisadores/anny-azevedo/anny-azevedo.html",
+    "title": "Anny Beatriz Azevedo",
     "section": "",
-    "text": "Tem experiência na área de Matemática, com ênfase em teoria das categorias, lógica matemática, teoria algébrica de formas quadráticas e hermitianas e teoria dos aneis C-infinito, suas principais áreas de pesquisa e de orientações de iniciação científica, mestrado e doutorado e de supervisões de pós-doutorado.\nDesde 2003 é vinculado à Sociedade Brasileira de Lógica (SBL), tendo sido presidente da SBL (2023-2025) e atualmente é vice-presidente (2025-2027). Desde 2004 é professor da Universidade de São Paulo (USP)."
+    "text": "Faço doutorado no IME-USP, trabalhando sob a supervisão do Professor Benjamin Merlin Bumpus. Durante minha graduação, estudei Teoria dos Modelos e lógica interna de topos. No mestrado, direcionei meu foco para aplicações da Teoria das Categorias em Ciência da Computação, investigando métodos de Teoria dos Feixes e de Cohomologia aplicados a problemas computacionais. Atualmente, estou interessada em usar ações de monoides e ferramentas categóricas para descrever modelos computacionais."
   },
   {
-    "objectID": "pesquisadores/hugo-mariano/hugo-mariano.html#instituição",
-    "href": "pesquisadores/hugo-mariano/hugo-mariano.html#instituição",
-    "title": "Hugo Luiz Mariano",
+    "objectID": "pesquisadores/anny-azevedo/anny-azevedo.html#instituição",
+    "href": "pesquisadores/anny-azevedo/anny-azevedo.html#instituição",
+    "title": "Anny Beatriz Azevedo",
     "section": "Instituição",
     "text": "Instituição\nInstituto de Matemática, Estatística e Ciência da Computação (IME) da Universidade de São Paulo (USP)."
   },
   {
-    "objectID": "pesquisadores/hugo-mariano/hugo-mariano.html#formação-acadêmica",
-    "href": "pesquisadores/hugo-mariano/hugo-mariano.html#formação-acadêmica",
-    "title": "Hugo Luiz Mariano",
+    "objectID": "pesquisadores/anny-azevedo/anny-azevedo.html#formação-acadêmica",
+    "href": "pesquisadores/anny-azevedo/anny-azevedo.html#formação-acadêmica",
+    "title": "Anny Beatriz Azevedo",
     "section": "Formação Acadêmica",
-    "text": "Formação Acadêmica\n\n\nPós-Doutorado\n\nUniversidade Paris Cité\n\nPós-Doutorado\n\nUniversidade Paris 7 (Denis Diderot)\n\nPós-Doutorado\n\nUniversidade Estadual de Campinas (UNICAMP)\n\nDoutorado em Matemática\n\nUniversidade de São Paulo (USP)\n\nMestrado em Matemática\n\nUniversidade de São Paulo (USP)\n\nBacharelado em Física\n\nUniversidade de São Paulo (USP)"
+    "text": "Formação Acadêmica\n2024-2026: Mestrado em Matemática, Universidade de São Paulo (USP), São Paulo, Brasil, sob a supervisão do Professor Benjamin M. Bumpus\n2026-Agora: Doutorado em Matemática, Universidade de São Paulo (USP), São Paulo, Brasil, sob a supervisão do Professor Benjamin M. Bumpus"
   },
   {
-    "objectID": "pesquisadores/hugo-mariano/hugo-mariano.html#link-para-o-site-pessoal",
-    "href": "pesquisadores/hugo-mariano/hugo-mariano.html#link-para-o-site-pessoal",
-    "title": "Hugo Luiz Mariano",
+    "objectID": "pesquisadores/anny-azevedo/anny-azevedo.html#link-para-o-site-pessoal",
+    "href": "pesquisadores/anny-azevedo/anny-azevedo.html#link-para-o-site-pessoal",
+    "title": "Anny Beatriz Azevedo",
     "section": "Link para o site pessoal",
-    "text": "Link para o site pessoal\nhttps://www.ime.usp.br/hugomar/"
+    "text": "Link para o site pessoal\nhttps://annyb-azevedo.com/"
   },
   {
-    "objectID": "pesquisadores/hugo-mariano/hugo-mariano.html#email",
-    "href": "pesquisadores/hugo-mariano/hugo-mariano.html#email",
-    "title": "Hugo Luiz Mariano",
+    "objectID": "pesquisadores/anny-azevedo/anny-azevedo.html#email",
+    "href": "pesquisadores/anny-azevedo/anny-azevedo.html#email",
+    "title": "Anny Beatriz Azevedo",
     "section": "Email",
-    "text": "Email\nhugomar (at) ime.usp.br"
+    "text": "Email\nannyb.azevedo (at) ime.usp.br"
   },
   {
-    "objectID": "pesquisadores/sidiney-montanhano/sidiney-montanhano.html#instituição",
-    "href": "pesquisadores/sidiney-montanhano/sidiney-montanhano.html#instituição",
-    "title": "Sidiney Bruno Montanhano",
-    "section": "Instituição",
-    "text": "Instituição\nQuantum Industrial Innovation (QuIIN), SENAI CIMATEC"
-  },
-  {
-    "objectID": "pesquisadores/sidiney-montanhano/sidiney-montanhano.html#link-para-o-site-pessoal",
-    "href": "pesquisadores/sidiney-montanhano/sidiney-montanhano.html#link-para-o-site-pessoal",
-    "title": "Sidiney Bruno Montanhano",
-    "section": "Link para o site pessoal",
-    "text": "Link para o site pessoal\nhttps://sidineybm.github.io"
-  },
-  {
-    "objectID": "eventos/ebct3.html",
-    "href": "eventos/ebct3.html",
-    "title": "III Encontro Brasileiro em Teoria das Categorias (EBTC2026)",
+    "objectID": "pesquisadores/eduardo-marcos/eduardo-marcos.html",
+    "href": "pesquisadores/eduardo-marcos/eduardo-marcos.html",
+    "title": "Eduardo do Nascimento Marcos",
     "section": "",
-    "text": "O principal evento brasileiro em Teoria das Categorias está na sua terceira edição! O EBTC ocorre desde 2021, a cada dois anos, e neste mês de maio, entre os dias 25 e 29, ele será sediado em Juiz de Fora, MG, na Universidade Federal de Juiz de Fora (UFJF), de forma híbrida.\nNa página do evento há informações sobre a programação do evento, minicursos, palestras, e até mesmo questões de transporte e hospedagem. O EBTC2026 contará com palestras, mini-cursos e apresentação de pôsteres."
+    "text": "A teoria das categorias surge no meu estudo como ferramenta, em particular estudo ideias particulares das categorias derivadas, subcategorias da categoria de módulos, etc…"
   },
   {
-    "objectID": "eventos/ebct3.html#site-do-evento",
-    "href": "eventos/ebct3.html#site-do-evento",
-    "title": "III Encontro Brasileiro em Teoria das Categorias (EBTC2026)",
-    "section": "Site do Evento",
-    "text": "Site do Evento\nhttps://terceiro.encontrocategorico.mat.br"
+    "objectID": "pesquisadores/eduardo-marcos/eduardo-marcos.html#instituição",
+    "href": "pesquisadores/eduardo-marcos/eduardo-marcos.html#instituição",
+    "title": "Eduardo do Nascimento Marcos",
+    "section": "Instituição",
+    "text": "Instituição\nInstituto de Matemática, Estatística e Ciência da Computação (IME) da Universidade de São Paulo (USP)."
+  },
+  {
+    "objectID": "pesquisadores/eduardo-marcos/eduardo-marcos.html#currículo-lattes",
+    "href": "pesquisadores/eduardo-marcos/eduardo-marcos.html#currículo-lattes",
+    "title": "Eduardo do Nascimento Marcos",
+    "section": "Currículo Lattes",
+    "text": "Currículo Lattes\nhttp://lattes.cnpq.br/4654251951434427"
+  },
+  {
+    "objectID": "pesquisadores/nelson-serrano/nelson-serrano.html",
+    "href": "pesquisadores/nelson-serrano/nelson-serrano.html",
+    "title": "Nelson Prata Pravato Serrano",
+    "section": "",
+    "text": "Atualmente eu estudo categorias Tannakianas, com foco na categoria de fibrados unipotentes sobre k-esquemas."
+  },
+  {
+    "objectID": "pesquisadores/nelson-serrano/nelson-serrano.html#instituição",
+    "href": "pesquisadores/nelson-serrano/nelson-serrano.html#instituição",
+    "title": "Nelson Prata Pravato Serrano",
+    "section": "Instituição",
+    "text": "Instituição\nUniversidade Estadual de Campinas (Unicamp)."
+  },
+  {
+    "objectID": "pesquisadores/nelson-serrano/nelson-serrano.html#currículo-lattes",
+    "href": "pesquisadores/nelson-serrano/nelson-serrano.html#currículo-lattes",
+    "title": "Nelson Prata Pravato Serrano",
+    "section": "Currículo Lattes",
+    "text": "Currículo Lattes\nhttp://lattes.cnpq.br/2031376373943263"
   }
 ]

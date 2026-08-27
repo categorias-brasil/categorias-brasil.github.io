@@ -47,9 +47,9 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-e695df675371060abe0c50e4fa4aaa76.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark-3a07545ce08507dbcd477bb07784c8f1.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="site_libs/bootstrap/bootstrap-e695df675371060abe0c50e4fa4aaa76.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-13fc84061c318d596219fbae64338c73.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-1e8f6af7e21d4981ae93ea4d6b635e9f.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-13fc84061c318d596219fbae64338c73.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -78,6 +78,49 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script>window.backupDefine = window.define; window.define = undefined;</script><script src="https://cdn.jsdelivr.net/npm/katex@latest/dist/katex.min.js"></script>
+  <script>document.addEventListener("DOMContentLoaded", function () {
+ var mathElements = document.getElementsByClassName("math");
+ var macros = [];
+ for (var i = 0; i < mathElements.length; i++) {
+  var texText = mathElements[i].firstChild;
+  if (mathElements[i].tagName == "SPAN") {
+   katex.render(texText.data, mathElements[i], {
+    displayMode: mathElements[i].classList.contains('display'),
+    throwOnError: false,
+    macros: macros,
+    fleqn: false
+   });
+}}});
+  </script>
+  <script>window.define = window.backupDefine; window.backupDefine = undefined;</script><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@latest/dist/katex.min.css">
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <meta property="og:title" content="Seminários – Teoria das Categorias no Brasil">
 <meta property="og:description" content="Divulgação científica da Teoria das Categorias no Brasil. Encontre pesquisadores, laboratórios, eventos e materiais de referência.">
@@ -346,13 +389,28 @@ ul.task-list li input[type="checkbox"] {
 <hr>
 <section id="section" class="level2">
 <h2 class="anchored" data-anchor-id="section">2026</h2>
+<section id="valeria-depaiva--2026-08-31" class="level3">
+<h3 class="anchored" data-anchor-id="valeria-depaiva--2026-08-31">31/08/2026 — Híbrido</h3>
+<ul>
+<li><p><strong>Palestrante</strong>: <a href="./pesquisadores/valeria-depaiva/valeria-depaiva.html">Valeria de Paiva</a></p></li>
+<li><p><strong>Horário</strong>: 16h (horário de Brasília)</p></li>
+<li><p><strong>Local</strong>: Sala B07 do IME-USP</p></li>
+<li><p><strong>Acesso online</strong>: Para ter acesso ao link da palestra, envie um e-mail para <a href="./pesquisadores/anny-azevedo/anny-azevedo.html">Anny Beatriz Azevedo</a></p></li>
+<li><p><strong>Título</strong>: Small Dialectica Categories</p></li>
+<li><p><strong>Resumo</strong>: As categorias Dialectica fornecem uma semântica categórica para a lógica linear, mas suas definições podem ser difíceis de compreender, mesmo para lógicos familiarizados com a teoria das categorias. Neste trabalho, estudamos as menores instâncias não triviais de categorias Dialectica, obtidas tomando como categoria base a <em>walking arrow</em>, <span class="math inline">\mathbf{2} = (0 \to 1)</span>. Construímos explicitamente <span class="math inline">\mathbf{G}_{2}(\mathbf{2})</span> e <span class="math inline">\mathbf{D}_{2}(\mathbf{2})</span>, calculamos seus produtos tensoriais, <em>homs</em> internos, negação linear e estrutura aditiva, e fornecemos tabelas concretas ilustrando essas estruturas.</p>
+<p>Nosso objetivo não é apenas reproduzir esses cálculos, mas utilizá-los como fundamento para compreender o <em>espaço de parâmetros bidimensional</em> das construções Dialectica: variar o objeto de valores de verdade <span class="math inline">L</span> (de Boolean <span class="math inline">\mathbf{2}</span> para Kleene <span class="math inline">\mathbf{3}</span> ou para a categoria colapsada <span class="math inline">\mathbf{1}</span>, para os números naturais <span class="math inline">\mathbb{N}</span>, para <span class="math inline">[0,\infty]^{\mathrm{op}}</span> de Lawvere, ou para uma <em>lineale</em> geral <span class="math inline">L</span>) e variando a categoria base <span class="math inline">\mathbf{C}</span> (da <em>walking arrow</em> <span class="math inline">\mathbf{2}</span> para <span class="math inline">\mathbf{Set}</span>) produz diferentes sistemas lógicos com diferentes propriedades estruturais. Esperamos que o desenvolvimento explícito da álgebra nos casos muito pequenos permita compreender estruturalmente <em>por que</em> isso acontece e, em particular, esclarecer de onde surge a modalidade <span class="math inline">!</span> e por que ela se comporta de maneira diferente em <span class="math inline">\mathbf{G}</span> e <span class="math inline">\mathbf{D}</span>.</p>
+<p>Este é um trabalho conjunto com Colin Bloomfield e Peter Jipsen.</p></li>
+<li><p><strong>Observação</strong>: A palestra será ministrada em inglês e faz parte das reuniões do <a href="./eventos/coend-reading-group.html">(Co)end Reading Group</a>.</p></li>
+</ul>
+</section>
 <section id="nate-osgood-2026-06-05" class="level3">
 <h3 class="anchored" data-anchor-id="nate-osgood-2026-06-05">05/06/2026 — Online</h3>
 <ul>
-<li><strong>Palestrante</strong>: Nathaniel Osgood</li>
-<li><strong>Horário</strong>: 12h (horário de Brasília)</li>
-<li><strong>Título</strong>: The Topos of Narratives</li>
-<li><strong>Resumo</strong>: A palestra apresenta uma expansão da estrutura topos-teórica das <em>narrativas temporais</em>, com foco nas duas camadas inferiores do modelo: <em>snapshots</em> instantâneos e intervalos unitários em linhas do tempo inteiras. São introduzidos functores representáveis para categorias de intervalos (na versão <em>op</em>), mostrando como presheaves adquirem valores não-triviais em instantes vizinhos. O classificador de sub-objetos é derivado concretamente para representáveis temporais, revelando cinco sub-objetos válidos e uma estrutura poset que captura implicação e monotonicidade ao longo do tempo. Operações lógicas (AND, OR, implicação, complemento) emergem de adjunções e conexões de Galois nesse cenário. A implementação em Catlab cobre narrativas finitas e as aplicações discutidas incluem alcançabilidade temporal e rastreamento de contatos em epidemiologia computacional.</li>
+<li><p><strong>Palestrante</strong>: Nathaniel Osgood</p></li>
+<li><p><strong>Horário</strong>: 12h (horário de Brasília)</p></li>
+<li><p><strong>Título</strong>: The Topos of Narratives</p></li>
+<li><p><strong>Resumo</strong>: A palestra apresenta uma expansão da estrutura topos-teórica das <em>narrativas temporais</em>, com foco nas duas camadas inferiores do modelo: <em>snapshots</em> instantâneos e intervalos unitários em linhas do tempo inteiras. São introduzidos functores representáveis para categorias de intervalos (na versão <em>op</em>), mostrando como presheaves adquirem valores não-triviais em instantes vizinhos. O classificador de sub-objetos é derivado concretamente para representáveis temporais, revelando cinco sub-objetos válidos e uma estrutura poset que captura implicação e monotonicidade ao longo do tempo. Operações lógicas (AND, OR, implicação, complemento) emergem de adjunções e conexões de Galois nesse cenário. A implementação em Catlab cobre narrativas finitas e as aplicações discutidas incluem alcançabilidade temporal e rastreamento de contatos em epidemiologia computacional.</p></li>
+<li><p><strong>Observação</strong>: A palestra foi ministrada em inglês.</p></li>
 </ul>
 
 
