@@ -12,9 +12,34 @@ brasileiras e estrangeiras.
 
 ## 2026
 
+### 25/09/2026 --- Híbrido {#fernando-yamauti--2026-09-25}
+
+- **Palestrante**: Fernando Yamauti (USP)
+
+- **Horário**: 16h (horário de Brasília)
+
+- **Local**: Sala B07 do IME-USP
+
+- **Acesso online**: Para ter acesso ao link da palestra, envie um e-mail para
+  [Anny Beatriz Azevedo](pesquisadores/anny-azevedo/anny-azevedo.qmd)
+
+- **Título**: Topoi e homotopia de tipos
+
+- **Resumo**: O resultado principal da monografia clássica "Classifying Spaces
+  and Classifying Topoi" de Moerdijk diz que topoi de pré-feixes $C$\^
+  apresentam a homotopia de tipos do espaço classificante $BC$. Apresentarei uma
+  nova prova pra $(oo,1)-$topoi gerais assim como pontuarei algumas
+  consequências das técnicas de localização usadas nessa prova. Se o tempo
+  permitir, irei pontuar alguns trabalhos atuais sobre computações de
+  localizações relacionadas da categoria de Topos.
+
+- **Observação**: A palestra será ministrada em inglês e faz parte das reuniões
+  do [(Co)end Reading Group](eventos/coend-reading-group.qmd).
+
 ### 31/08/2026 --- Híbrido {#valeria-depaiva--2026-08-31}
 
-- **Palestrante**: [Valeria de Paiva](pesquisadores/valeria-depaiva/valeria-depaiva.qmd)
+- **Palestrante**: [Valeria de
+  Paiva](pesquisadores/valeria-depaiva/valeria-depaiva.qmd)
 
 - **Horário**: 16h (horário de Brasília)
 
@@ -37,9 +62,9 @@ brasileiras e estrangeiras.
 
   Nosso objetivo não é apenas reproduzir esses cálculos, mas utilizá-los como
   fundamento para compreender o *espaço de parâmetros bidimensional* das
-  construções Dialectica: variar o objeto de valores de verdade $L$ (de
-  Boolean $\mathbf{2}$ para Kleene $\mathbf{3}$ ou para a categoria
-  colapsada $\mathbf{1}$, para os números naturais $\mathbb{N}$, para
+  construções Dialectica: variar o objeto de valores de verdade $L$ (de Boolean
+  $\mathbf{2}$ para Kleene $\mathbf{3}$ ou para a categoria colapsada
+  $\mathbf{1}$, para os números naturais $\mathbb{N}$, para
   $[0,\infty]^{\mathrm{op}}$ de Lawvere, ou para uma *lineale* geral $L$) e
   variando a categoria base $\mathbf{C}$ (da *walking arrow* $\mathbf{2}$ para
   $\mathbf{Set}$) produz diferentes sistemas lógicos com diferentes propriedades
@@ -47,7 +72,7 @@ brasileiras e estrangeiras.
   muito pequenos permita compreender estruturalmente *por que* isso acontece e,
   em particular, esclarecer de onde surge a modalidade $!$ e por que ela se
   comporta de maneira diferente em $\mathbf{G}$ e $\mathbf{D}$.
-  
+
   Este é um trabalho conjunto com Colin Bloomfield e Peter Jipsen.
 
 - **Observação**: A palestra será ministrada em inglês e faz parte das reuniões
