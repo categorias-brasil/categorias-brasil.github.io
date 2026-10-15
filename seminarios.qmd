@@ -12,6 +12,42 @@ brasileiras e estrangeiras.
 
 ## 2026
 
+### 30/11/2026 --- Híbrido {#fosco-loregian--2026-11-30}
+
+- **Palestrante**: [Fosco Loregian](https://tetrapharmakon.github.io/) (TalTech)
+
+- **Horário**: 16h (horário de Brasília)
+
+- **Local**: Sala B07 do IME-USP
+
+- **Acesso online**: Para ter acesso ao link da palestra, envie um e-mail para
+  [Anny Beatriz Azevedo](pesquisadores/anny-azevedo/anny-azevedo.qmd)
+
+- **Título**: Coends and Beyond
+
+- **Resumo**: TBA
+
+- **Observação**: A palestra será ministrada em inglês e faz parte das reuniões
+  do [(Co)end Reading Group](eventos/coend-reading-group.qmd).
+
+### 09/11/2026 --- Híbrido {#wilmer-leal--2026-11-09}
+
+- **Palestrante**: [Wilmer Leal](https://wilmerleal.me/) (Universidade da Flórida)
+
+- **Horário**: 16h (horário de Brasília)
+
+- **Local**: Sala B07 do IME-USP
+
+- **Acesso online**: Para ter acesso ao link da palestra, envie um e-mail para
+  [Anny Beatriz Azevedo](pesquisadores/anny-azevedo/anny-azevedo.qmd)
+
+- **Título**: TBA
+
+- **Resumo**: TBA
+
+- **Observação**: A palestra será ministrada em inglês e faz parte das reuniões
+  do [(Co)end Reading Group](eventos/coend-reading-group.qmd).
+
 ### 25/09/2026 --- Híbrido {#fernando-yamauti--2026-09-25}
 
 - **Palestrante**: Fernando Yamauti (USP)
@@ -75,7 +111,9 @@ brasileiras e estrangeiras.
 
   Este é um trabalho conjunto com Colin Bloomfield e Peter Jipsen.
 
-- **Observação**: A palestra será ministrada em inglês e faz parte das reuniões
+- **Gravação**: [YouTube](https://www.youtube.com/watch?v=Bzi3buYNv-4&t=4219s)
+
+- **Observação**: A palestra foi ministrada em inglês e faz parte das reuniões
   do [(Co)end Reading Group](eventos/coend-reading-group.qmd).
 
 ### 05/06/2026 --- Online {#nate-osgood-2026-06-05}
