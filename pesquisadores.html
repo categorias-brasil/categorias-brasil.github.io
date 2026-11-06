@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="pt-BR" xml:lang="pt-BR"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.10.19">
+<meta name="generator" content="quarto-1.11.9">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -40,18 +40,19 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/scrollable-regions/scrollable-regions.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-bf27225e3a48a9273f3daa8f8e829971.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-b626d73c4c936ccc3cb08be7d45d1df6.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-bf27225e3a48a9273f3daa8f8e829971.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-63b5708e65d6cd79cd7618c58d0c21e7.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-447e42e69aaa9833c0ba1b986f430b20.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-63b5708e65d6cd79cd7618c58d0c21e7.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-4080215b7366b79bacae720d0e4c2808.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark-74a0496e65dc9da4dad9aa40a9745d36.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="site_libs/bootstrap/bootstrap-4080215b7366b79bacae720d0e4c2808.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-e1479bb6f3f7785c3dfa3742385be5af.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-e364c6b539cc330791717271bb5ea880.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-e1479bb6f3f7785c3dfa3742385be5af.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -101,12 +102,6 @@ ul.task-list li input[type="checkbox"] {
       window['quarto-listing-loaded']();
     }
   });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
   </script>
 
   <script>window.backupDefine = window.define; window.define = undefined;</script><script src="https://cdn.jsdelivr.net/npm/katex@latest/dist/katex.min.js"></script>
@@ -161,7 +156,7 @@ window.Quarto = {
 <meta name="twitter:card" content="summary">
 </head>
 
-<body class="nav-fixed quarto-light"><script id="quarto-html-before-body" type="application/javascript">
+<body class="nav-fixed quarto-light"><a id="quarto-skip-link" class="visually-hidden-focusable" href="#quarto-document-content">Pular para o conteúdo principal</a><script id="quarto-html-before-body" type="application/javascript">
     const toggleBodyColorMode = (bsSheetEl) => {
       const mode = bsSheetEl.getAttribute("data-mode");
       const bodyEl = window.document.querySelector("body");
@@ -184,6 +179,7 @@ window.Quarto = {
       for (let i=0; i < toggles.length; i++) {
         const toggle = toggles[i];
         if (toggle) {
+          toggle.setAttribute("aria-checked", alternate ? "true" : "false");
           if (alternate) {
             toggle.classList.add("alternate");
           } else {
@@ -213,13 +209,19 @@ window.Quarto = {
       manageTransitions('#quarto-margin-sidebar .nav-link', true);
       // Switch the toggles
       setColorSchemeToggle(alternate)
-      // Hack to workaround the fact that safari doesn't
-      // properly recolor the scrollbar when toggling (#1455)
+    }
+    // Hack to workaround the fact that safari doesn't
+    // properly recolor the scrollbar when toggling (#1455).
+    // Not run on load: stylesheets are set before first paint there, and
+    // scrolling would undo the scroll to a URL fragment (#14973).
+    // The one pixel nudge keeps the reader where they were.
+    const refreshSafariScrollbar = () => {
       if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
         manageTransitions("body", false);
-        window.scrollTo(0, 1);
+        const scrollY = window.scrollY;
+        window.scrollTo(0, scrollY > 0 ? scrollY - 1 : 1);
         setTimeout(() => {
-          window.scrollTo(0, 0);
+          window.scrollTo(0, scrollY);
           manageTransitions("body", true);
         }, 40);
       }
@@ -313,6 +315,7 @@ window.Quarto = {
       // Read the current dark / light value
       let toAlternate = !hasAlternateSentinel();
       toggleColorMode(toAlternate);
+      refreshSafariScrollbar();
       setStyleSentinel(toAlternate);
       toggleGiscusIfUsed(toAlternate, darkModeDefault);
       window.dispatchEvent(new Event('resize'));
@@ -327,15 +330,14 @@ window.Quarto = {
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top quarto-banner">
-    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark" aria-label="Site">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a class="navbar-brand" href="./index.html">
     <span class="navbar-title">Teoria das Categorias no Brasil</span>
     </a>
   </div>
-            <div id="quarto-search" class="" title="Procurar"></div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Alternar de navegação" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Alternar de navegação" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
@@ -382,8 +384,9 @@ window.Quarto = {
 </ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
-  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Alternar modo escuro"><i class="bi"></i></a>
+  <button type="button" role="switch" aria-checked="false" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Alternar modo escuro" aria-label="Alternar modo escuro"><i class="bi"></i></button>
 </div>
+            <div id="quarto-search" class="" title="Procurar"></div>
       </div> <!-- /container-fluid -->
     </nav>
 </header>
@@ -411,7 +414,7 @@ window.Quarto = {
         
     <h5 class="quarto-listing-category-title">Categorias</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">Todos <span class="quarto-category-count">(16)</span></div><div class="category" data-category="JUMzJTgxcmVhJTNBJTIwJUMzJTgxbGdlYnJh">Área: Álgebra <span class="quarto-category-count">(1)</span></div><div class="category" data-category="JUMzJTgxcmVhJTNBJTIwJUMzJTgxbGdlYnJhJTIwZGElMjBQcm9ncmFtYSVDMyVBNyVDMyVBM28=">Área: Álgebra da Programação <span class="quarto-category-count">(1)</span></div><div class="category" data-category="JUMzJTgxcmVhJTNBJTIwJUMzJTgxbGdlYnJhJTIwTGluZWFyJTIwQ29tcHV0YWNpb25hbA==">Área: Álgebra Linear Computacional <span class="quarto-category-count">(1)</span></div><div class="category" data-category="JUMzJTgxcmVhJTNBJTIwJUMzJTgxbGdlYnJhJTIwTGluZWFyJTIwR3IlQzMlQTFmaWNh">Área: Álgebra Linear Gráfica <span class="quarto-category-count">(1)</span></div><div class="category" data-category="JUMzJTgxcmVhJTNBJTIwQWxnb3JpdG1vcyUyMGVtJTIwR3JhZm9z">Área: Algoritmos em Grafos <span class="quarto-category-count">(1)</span></div><div class="category" data-category="JUMzJTgxcmVhJTNBJTIwQ2F0ZWdvcmlhcyUyMEFiZWxpYW5hcw==">Área: Categorias Abelianas <span class="quarto-category-count">(1)</span></div><div class="category" data-category="JUMzJTgxcmVhJTNBJTIwQ2F0ZWdvcmlhcyUyMFRhbm5ha2lhbmFz">Área: Categorias Tannakianas <span class="quarto-category-count">(1)</span></div><div class="category" data-category="JUMzJTgxcmVhJTNBJTIwQ29tYmluYXQlQzMlQjNyaWElMjBJbmZpbml0YQ==">Área: Combinatória Infinita <span class="quarto-category-count">(1)</span></div><div class="category" data-category="JUMzJTgxcmVhJTNBJTIwQ29tbWElMjBDYXRlZ29yaWVz">Área: Comma Categories <span class="quarto-category-count">(1)</span></div><div class="category" data-category="JUMzJTgxcmVhJTNBJTIwQ29tcGxleGlkYWRlJTIwQ29tcHV0YWNpb25hbA==">Área: Complexidade Computacional <span class="quarto-category-count">(3)</span></div><div class="category" data-category="JUMzJTgxcmVhJTNBJTIwRGlhbGVjdGljYSUyMGNhdGVnb3JpZXM=">Área: Dialectica categories <span class="quarto-category-count">(1)</span></div><div class="category" data-category="JUMzJTgxcmVhJTNBJTIwRXN0cnV0dXJhcyUyMEdlb20lQzMlQTl0cmljYXMlMjBTdXBlcmlvcmVz">Área: Estruturas Geométricas Superiores <span class="quarto-category-count">(1)</span></div><div class="category" data-category="JUMzJTgxcmVhJTNBJTIwRnVuZGFtZW50b3MlMjBkYSUyMFRlb3JpYSUyMFF1JUMzJUEybnRpY2E=">Área: Fundamentos da Teoria Quântica <span class="quarto-category-count">(1)</span></div><div class="category" data-category="JUMzJTgxcmVhJTNBJTIwR2VvbWV0cmlhJTIwQWxnJUMzJUE5YnJpY2E=">Área: Geometria Algébrica <span class="quarto-category-count">(3)</span></div><div class="category" data-category="JUMzJTgxcmVhJTNBJTIwR2VvbWV0cmlhJTIwZGUlMjBQb2lzc29u">Área: Geometria de Poisson <span class="quarto-category-count">(1)</span></div><div class="category" data-category="JUMzJTgxcmVhJTNBJTIwR2VvbWV0cmlhJTIwRGlmZXJlbmNpYWw=">Área: Geometria Diferencial <span class="quarto-category-count">(1)</span></div><div class="category" data-category="JUMzJTgxcmVhJTNBJTIwSHlwZXIlMjAlQzMlODFsZ2VicmFz">Área: Hyper Álgebras <span class="quarto-category-count">(1)</span></div><div class="category" data-category="JUMzJTgxcmVhJTNBJTIwTGluZ3VhZ2VucyUyMERpYWdyYW0lQzMlQTF0aWNhcw==">Área: Linguagens Diagramáticas <span class="quarto-category-count">(2)</span></div><div class="category" data-category="JUMzJTgxcmVhJTNBJTIwTCVDMyVCM2dpY2E=">Área: Lógica <span class="quarto-category-count">(1)</span></div><div class="category" data-category="JUMzJTgxcmVhJTNBJTIwTCVDMyVCM2dpY2ElMjBBbGclQzMlQTlicmljYQ==">Área: Lógica Algébrica <span class="quarto-category-count">(1)</span></div><div class="category" data-category="JUMzJTgxcmVhJTNBJTIwTCVDMyVCM2dpY2ElMjBDYXRlZ29yaWFs">Área: Lógica Categorial <span class="quarto-category-count">(1)</span></div><div class="category" data-category="JUMzJTgxcmVhJTNBJTIwTSVDMyVBOXRvZG9zJTIwRm9ybWFpcw==">Área: Métodos Formais <span class="quarto-category-count">(1)</span></div><div class="category" data-category="JUMzJTgxcmVhJTNBJTIwTSVDMyVCM2R1bG9zJTIwc29icmUlMjBLLUNhdGVnb3JpYXM=">Área: Módulos sobre K-Categorias <span class="quarto-category-count">(1)</span></div><div class="category" data-category="JUMzJTgxcmVhJTNBJTIwUXVhbnRhbGVz">Área: Quantales <span class="quarto-category-count">(1)</span></div><div class="category" data-category="JUMzJTgxcmVhJTNBJTIwUmVkZXMlMjBOZXVyYWlzJTIwZW0lMjBHcmFmb3M=">Área: Redes Neurais em Grafos <span class="quarto-category-count">(1)</span></div><div class="category" data-category="JUMzJTgxcmVhJTNBJTIwUmVwcmVzZW50YSVDMyVBNyVDMyVBM28lMjBkZSUyMGNvbmhlY2ltZW50bw==">Área: Representação de conhecimento <span class="quarto-category-count">(1)</span></div><div class="category" data-category="JUMzJTgxcmVhJTNBJTIwU2VtJUMzJUEybnRpY2ElMjBjYXRlZyVDMyVCM3JpY2E=">Área: Semântica categórica <span class="quarto-category-count">(1)</span></div><div class="category" data-category="JUMzJTgxcmVhJTNBJTIwU3RyaW5nJTIwRGlhZ3JhbXM=">Área: String Diagrams <span class="quarto-category-count">(1)</span></div><div class="category" data-category="JUMzJTgxcmVhJTNBJTIwVGVvcmlhJTIwZGFzJTIwQ2F0ZWdvcmlhcyUyMEFwbGljYWRh">Área: Teoria das Categorias Aplicada <span class="quarto-category-count">(1)</span></div><div class="category" data-category="JUMzJTgxcmVhJTNBJTIwVGVvcmlhJTIwZGUlMjBDYXRlZ29yaWFzJTIwQXBsaWNhZGE=">Área: Teoria de Categorias Aplicada <span class="quarto-category-count">(1)</span></div><div class="category" data-category="JUMzJTgxcmVhJTNBJTIwVGVvcmlhJTIwZGUlMjBSZXByZXNlbnRhJUMzJUE3JUMzJUI1ZXMlMjBkZSUyMCVDMyU4MWxnZWJyYXM=">Área: Teoria de Representações de Álgebras <span class="quarto-category-count">(1)</span></div><div class="category" data-category="JUMzJTgxcmVhJTNBJTIwVGVvcmlhJTIwZG9zJTIwRmVpeGVz">Área: Teoria dos Feixes <span class="quarto-category-count">(3)</span></div><div class="category" data-category="JUMzJTgxcmVhJTNBJTIwVG9wb2xvZ2lhJTIwQWxnJUMzJUE5YnJpY2E=">Área: Topologia Algébrica <span class="quarto-category-count">(1)</span></div><div class="category" data-category="JUMzJTgxcmVhJTNBJTIwVG9wb2xvZ2lhJTIwR2VyYWw=">Área: Topologia Geral <span class="quarto-category-count">(1)</span></div><div class="category" data-category="R3JhdSUzQSUyMERvdXRvcmFkbw==">Grau: Doutorado <span class="quarto-category-count">(3)</span></div><div class="category" data-category="R3JhdSUzQSUyMEluaWNpYSVDMyVBNyVDMyVBM28lMjBDaWVudCVDMyVBRGZpY2E=">Grau: Iniciação Científica <span class="quarto-category-count">(1)</span></div><div class="category" data-category="R3JhdSUzQSUyMFBlc3F1aXNhZG9yYQ==">Grau: Pesquisadora <span class="quarto-category-count">(1)</span></div><div class="category" data-category="R3JhdSUzQSUyMFAlQzMlQjNzLURvYw==">Grau: Pós-Doc <span class="quarto-category-count">(2)</span></div><div class="category" data-category="R3JhdSUzQSUyMFByb2Zlc3Nvcg==">Grau: Professor <span class="quarto-category-count">(3)</span></div><div class="category" data-category="R3JhdSUzQSUyMFByb2Zlc3NvciUyMEFzc29jaWFkbw==">Grau: Professor Associado <span class="quarto-category-count">(1)</span></div><div class="category" data-category="R3JhdSUzQSUyMFByb2Zlc3NvciUyMEF1eGlsaWFy">Grau: Professor Auxiliar <span class="quarto-category-count">(1)</span></div><div class="category" data-category="R3JhdSUzQSUyMFByb2Zlc3NvciUyMERvdXRvcg==">Grau: Professor Doutor <span class="quarto-category-count">(1)</span></div><div class="category" data-category="R3JhdSUzQSUyMFByb2Zlc3NvciUyMFN1YnN0aXR1dG8=">Grau: Professor Substituto <span class="quarto-category-count">(1)</span></div><div class="category" data-category="R3JhdSUzQSUyMFByb2Zlc3NvciUyMFRpdHVsYXI=">Grau: Professor Titular <span class="quarto-category-count">(2)</span></div><div class="category" data-category="R3JhdSUzQSUyMFByb2Zlc3NvcmE=">Grau: Professora <span class="quarto-category-count">(1)</span></div><div class="category" data-category="TG9jYWwlM0ElMjBFVUE=">Local: EUA <span class="quarto-category-count">(1)</span></div><div class="category" data-category="TG9jYWwlM0ElMjBQYXJhbiVDMyVBMQ==">Local: Paraná <span class="quarto-category-count">(1)</span></div><div class="category" data-category="TG9jYWwlM0ElMjBQUg==">Local: PR <span class="quarto-category-count">(1)</span></div><div class="category" data-category="TG9jYWwlM0ElMjBSaW8lMjBkZSUyMEphbmVpcm8=">Local: Rio de Janeiro <span class="quarto-category-count">(1)</span></div><div class="category" data-category="TG9jYWwlM0ElMjBSSg==">Local: RJ <span class="quarto-category-count">(1)</span></div><div class="category" data-category="TG9jYWwlM0ElMjBTJUMzJUEzbyUyMFBhdWxv">Local: São Paulo <span class="quarto-category-count">(5)</span></div><div class="category" data-category="TG9jYWwlM0ElMjBTUA==">Local: SP <span class="quarto-category-count">(5)</span></div></div></div>
 <!-- main -->
-<main class="content quarto-banner-title-block column-page-left" id="quarto-document-content">
+<main class="content quarto-banner-title-block column-page-left" id="quarto-document-content" tabindex="-1">
 
 
 
@@ -431,8 +434,8 @@ window.Quarto = {
     </div>
 </div>
 <div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-categories="R3JhdSUzQSUyMFAlQzMlQjNzLURvYyUyQyVDMyU4MXJlYSUzQSUyMFRlb3JpYSUyMGRvcyUyMEZlaXhlcyUyQyVDMyU4MXJlYSUzQSUyMFF1YW50YWxlcyUyQyVDMyU4MXJlYSUzQSUyMFJlZGVzJTIwTmV1cmFpcyUyMGVtJTIwR3JhZm9z" data-listing-file-modified-sort="1792102543941" data-listing-reading-time-sort="1" data-listing-word-count-sort="18">
-<a href="./pesquisadores/ana-tenorio/ana-tenorio.html" class="quarto-grid-link">
+<div class="g-col-1" data-index="0" data-categories="R3JhdSUzQSUyMFAlQzMlQjNzLURvYyUyQyVDMyU4MXJlYSUzQSUyMFRlb3JpYSUyMGRvcyUyMEZlaXhlcyUyQyVDMyU4MXJlYSUzQSUyMFF1YW50YWxlcyUyQyVDMyU4MXJlYSUzQSUyMFJlZGVzJTIwTmV1cmFpcyUyMGVtJTIwR3JhZm9z" data-listing-file-modified-sort="1793983662642" data-listing-reading-time-sort="1" data-listing-word-count-sort="18">
+<a href="./pesquisadores/ana-tenorio/ana-tenorio.html" class="quarto-grid-link no-external-icon">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top"><img loading='lazy' src="pesquisadores/ana-tenorio/ana-tenorio.jpg" alt="Foto de Ana Tenório" style="height: 150px;"  class="thumbnail-image card-img"/></p>
 <div class="card-body post-contents">
@@ -450,7 +453,7 @@ Ana Luiza Tenório
 <div class="listing-category" onclick="window.quartoListingCategory('JUMzJTgxcmVhJTNBJTIwUmVkZXMlMjBOZXVyYWlzJTIwZW0lMjBHcmFmb3M='); return false;">Área: Redes Neurais em Grafos</div>
 
 </div>
-<div class="card-text listing-description delink">
+<div class="card-text listing-description">
 Escola de Matemática Aplicada da Fundação Getúlio Vargas (EMAp-FGV).
 </div>
 <div class="card-attribution card-text-small start">
@@ -461,8 +464,8 @@ Escola de Matemática Aplicada da Fundação Getúlio Vargas (EMAp-FGV).
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="1" data-categories="R3JhdSUzQSUyMERvdXRvcmFkbyUyQyVDMyU4MXJlYSUzQSUyMFRlb3JpYSUyMGRvcyUyMEZlaXhlcyUyQyVDMyU4MXJlYSUzQSUyMENvbXBsZXhpZGFkZSUyMENvbXB1dGFjaW9uYWwlMkMlQzMlODFyZWElM0ElMjBUb3BvbG9naWElMjBHZXJhbCUyQ0xvY2FsJTNBJTIwUyVDMyVBM28lMjBQYXVsbw==" data-listing-file-modified-sort="1792102543941" data-listing-reading-time-sort="1" data-listing-word-count-sort="126">
-<a href="./pesquisadores/anny-azevedo/anny-azevedo.html" class="quarto-grid-link">
+<div class="g-col-1" data-index="1" data-categories="R3JhdSUzQSUyMERvdXRvcmFkbyUyQyVDMyU4MXJlYSUzQSUyMFRlb3JpYSUyMGRvcyUyMEZlaXhlcyUyQyVDMyU4MXJlYSUzQSUyMENvbXBsZXhpZGFkZSUyMENvbXB1dGFjaW9uYWwlMkMlQzMlODFyZWElM0ElMjBUb3BvbG9naWElMjBHZXJhbCUyQ0xvY2FsJTNBJTIwUyVDMyVBM28lMjBQYXVsbw==" data-listing-file-modified-sort="1793983662642" data-listing-reading-time-sort="1" data-listing-word-count-sort="126">
+<a href="./pesquisadores/anny-azevedo/anny-azevedo.html" class="quarto-grid-link no-external-icon">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top"><img loading='lazy' src="pesquisadores/anny-azevedo/azevedo.webp" alt="Foto de Anny Beatriz Azevedo" style="height: 150px;"  class="thumbnail-image card-img"/></p>
 <div class="card-body post-contents">
@@ -482,7 +485,7 @@ Anny Beatriz Azevedo
 <div class="listing-category" onclick="window.quartoListingCategory('TG9jYWwlM0ElMjBTJUMzJUEzbyUyMFBhdWxv'); return false;">Local: São Paulo</div>
 
 </div>
-<div class="card-text listing-description delink">
+<div class="card-text listing-description">
 Faço doutorado no IME-USP, trabalhando sob a supervisão do Professor Benjamin Merlin Bumpus. Durante minha graduação, estudei Teoria dos Modelos e lógica interna de topos.…
 </div>
 <div class="card-attribution card-text-small start">
@@ -493,8 +496,8 @@ Faço doutorado no IME-USP, trabalhando sob a supervisão do Professor Benjamin 
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="2" data-categories="R3JhdSUzQSUyMFByb2Zlc3NvciUyMERvdXRvciUyQyVDMyU4MXJlYSUzQSUyMENvbXBsZXhpZGFkZSUyMENvbXB1dGFjaW9uYWwlMkMlQzMlODFyZWElM0ElMjBUZW9yaWElMjBkb3MlMjBGZWl4ZXMlMkNMb2NhbCUzQSUyMFMlQzMlQTNvJTIwUGF1bG8=" data-listing-file-modified-sort="1792102543941" data-listing-reading-time-sort="1" data-listing-word-count-sort="102">
-<a href="./pesquisadores/benjamin-bumpus/benjamin-bumpus.html" class="quarto-grid-link">
+<div class="g-col-1" data-index="2" data-categories="R3JhdSUzQSUyMFByb2Zlc3NvciUyMERvdXRvciUyQyVDMyU4MXJlYSUzQSUyMENvbXBsZXhpZGFkZSUyMENvbXB1dGFjaW9uYWwlMkMlQzMlODFyZWElM0ElMjBUZW9yaWElMjBkb3MlMjBGZWl4ZXMlMkNMb2NhbCUzQSUyMFMlQzMlQTNvJTIwUGF1bG8=" data-listing-file-modified-sort="1793983662642" data-listing-reading-time-sort="1" data-listing-word-count-sort="102">
+<a href="./pesquisadores/benjamin-bumpus/benjamin-bumpus.html" class="quarto-grid-link no-external-icon">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top"><img loading='lazy' src="pesquisadores/benjamin-bumpus/bumpus2.webp" alt="Foto de Benjamin Merlin Bumpus" style="height: 150px;"  class="thumbnail-image card-img"/></p>
 <div class="card-body post-contents">
@@ -512,7 +515,7 @@ Benjamin Merlin Bumpus
 <div class="listing-category" onclick="window.quartoListingCategory('TG9jYWwlM0ElMjBTJUMzJUEzbyUyMFBhdWxv'); return false;">Local: São Paulo</div>
 
 </div>
-<div class="card-text listing-description delink">
+<div class="card-text listing-description">
 Instituto de Matemática, Estatística e Ciência da Computação (IME) da Universidade de São Paulo (USP).
 </div>
 <div class="card-attribution card-text-small start">
@@ -523,8 +526,8 @@ Instituto de Matemática, Estatística e Ciência da Computação (IME) da Unive
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="3" data-categories="R3JhdSUzQSUyMFByb2Zlc3NvciUyMFRpdHVsYXIlMkMlQzMlODFyZWElM0ElMjBHZW9tZXRyaWElMjBEaWZlcmVuY2lhbCUyQyVDMyU4MXJlYSUzQSUyMEdlb21ldHJpYSUyMGRlJTIwUG9pc3NvbiUyQyVDMyU4MXJlYSUzQSUyMEVzdHJ1dHVyYXMlMjBHZW9tJUMzJUE5dHJpY2FzJTIwU3VwZXJpb3JlcyUyQ0xvY2FsJTNBJTIwUyVDMyVBM28lMjBQYXVsbw==" data-listing-file-modified-sort="1792102543942" data-listing-reading-time-sort="2" data-listing-word-count-sort="264">
-<a href="./pesquisadores/cristian-ortiz/cristian-ortiz.html" class="quarto-grid-link">
+<div class="g-col-1" data-index="3" data-categories="R3JhdSUzQSUyMFByb2Zlc3NvciUyMFRpdHVsYXIlMkMlQzMlODFyZWElM0ElMjBHZW9tZXRyaWElMjBEaWZlcmVuY2lhbCUyQyVDMyU4MXJlYSUzQSUyMEdlb21ldHJpYSUyMGRlJTIwUG9pc3NvbiUyQyVDMyU4MXJlYSUzQSUyMEVzdHJ1dHVyYXMlMjBHZW9tJUMzJUE5dHJpY2FzJTIwU3VwZXJpb3JlcyUyQ0xvY2FsJTNBJTIwUyVDMyVBM28lMjBQYXVsbw==" data-listing-file-modified-sort="1793983662642" data-listing-reading-time-sort="2" data-listing-word-count-sort="264">
+<a href="./pesquisadores/cristian-ortiz/cristian-ortiz.html" class="quarto-grid-link no-external-icon">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top"><img loading='lazy' src="pesquisadores/cristian-ortiz/cristian-ortiz.jpg" alt="Foto de Cristian Ortiz" style="height: 150px;"  class="thumbnail-image card-img"/></p>
 <div class="card-body post-contents">
@@ -544,7 +547,7 @@ Cristian Ortiz
 <div class="listing-category" onclick="window.quartoListingCategory('TG9jYWwlM0ElMjBTJUMzJUEzbyUyMFBhdWxv'); return false;">Local: São Paulo</div>
 
 </div>
-<div class="card-text listing-description delink">
+<div class="card-text listing-description">
 Matemático nascido em Santiago, Chile, e radicado em São Paulo, Brasil. É Professor Titular no Departamento de Matemática do Instituto de Matemática e Estatística (IME) da…
 </div>
 <div class="card-attribution card-text-small start">
@@ -555,8 +558,8 @@ Matemático nascido em Santiago, Chile, e radicado em São Paulo, Brasil. É Pro
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="4" data-categories="R3JhdSUzQSUyMFByb2Zlc3NvciUyQyVDMyU4MXJlYSUzQSUyMExpbmd1YWdlbnMlMjBEaWFncmFtJUMzJUExdGljYXMlMkNMb2NhbCUzQSUyMFJK" data-listing-file-modified-sort="1792102543942" data-listing-reading-time-sort="1" data-listing-word-count-sort="13">
-<a href="./pesquisadores/eduardo-ochs/eduardo-ochs.html" class="quarto-grid-link">
+<div class="g-col-1" data-index="4" data-categories="R3JhdSUzQSUyMFByb2Zlc3NvciUyQyVDMyU4MXJlYSUzQSUyMExpbmd1YWdlbnMlMjBEaWFncmFtJUMzJUExdGljYXMlMkNMb2NhbCUzQSUyMFJK" data-listing-file-modified-sort="1793983662642" data-listing-reading-time-sort="1" data-listing-word-count-sort="13">
+<a href="./pesquisadores/eduardo-ochs/eduardo-ochs.html" class="quarto-grid-link no-external-icon">
 <div class="quarto-grid-item card h-100 card-left">
 <div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
 <div class="card-body post-contents">
@@ -572,7 +575,7 @@ Eduardo Nahum Ochs
 <div class="listing-category" onclick="window.quartoListingCategory('TG9jYWwlM0ElMjBSSg=='); return false;">Local: RJ</div>
 
 </div>
-<div class="card-text listing-description delink">
+<div class="card-text listing-description">
 Universidade Federal Fluminense (UFF) - Rio das Ostras.
 </div>
 <div class="card-attribution card-text-small start">
@@ -583,8 +586,8 @@ Universidade Federal Fluminense (UFF) - Rio das Ostras.
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="5" data-categories="R3JhdSUzQSUyMFByb2Zlc3NvciUyMFRpdHVsYXIlMkMlQzMlODFyZWElM0ElMjBUZW9yaWElMjBkZSUyMFJlcHJlc2VudGElQzMlQTclQzMlQjVlcyUyMGRlJTIwJUMzJTgxbGdlYnJhcyUyQyVDMyU4MXJlYSUzQSUyME0lQzMlQjNkdWxvcyUyMHNvYnJlJTIwSy1DYXRlZ29yaWFzJTJDTG9jYWwlM0ElMjBTUA==" data-listing-file-modified-sort="1792102543942" data-listing-reading-time-sort="1" data-listing-word-count-sort="37">
-<a href="./pesquisadores/eduardo-marcos/eduardo-marcos.html" class="quarto-grid-link">
+<div class="g-col-1" data-index="5" data-categories="R3JhdSUzQSUyMFByb2Zlc3NvciUyMFRpdHVsYXIlMkMlQzMlODFyZWElM0ElMjBUZW9yaWElMjBkZSUyMFJlcHJlc2VudGElQzMlQTclQzMlQjVlcyUyMGRlJTIwJUMzJTgxbGdlYnJhcyUyQyVDMyU4MXJlYSUzQSUyME0lQzMlQjNkdWxvcyUyMHNvYnJlJTIwSy1DYXRlZ29yaWFzJTJDTG9jYWwlM0ElMjBTUA==" data-listing-file-modified-sort="1793983662642" data-listing-reading-time-sort="1" data-listing-word-count-sort="37">
+<a href="./pesquisadores/eduardo-marcos/eduardo-marcos.html" class="quarto-grid-link no-external-icon">
 <div class="quarto-grid-item card h-100 card-left">
 <div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
 <div class="card-body post-contents">
@@ -602,7 +605,7 @@ Eduardo do Nascimento Marcos
 <div class="listing-category" onclick="window.quartoListingCategory('TG9jYWwlM0ElMjBTUA=='); return false;">Local: SP</div>
 
 </div>
-<div class="card-text listing-description delink">
+<div class="card-text listing-description">
 A teoria das categorias surge no meu estudo como ferramenta, em particular estudo ideias particulares das categorias derivadas, subcategorias da categoria de módulos, etc…
 </div>
 <div class="card-attribution card-text-small start">
@@ -613,8 +616,8 @@ A teoria das categorias surge no meu estudo como ferramenta, em particular estud
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="6" data-categories="R3JhdSUzQSUyMERvdXRvcmFkbyUyQyVDMyU4MXJlYSUzQSUyMENhdGVnb3JpYXMlMjBBYmVsaWFuYXMlMkMlQzMlODFyZWElM0ElMjBDb21tYSUyMENhdGVnb3JpZXMlMkMlQzMlODFyZWElM0ElMjBHZW9tZXRyaWElMjBBbGclQzMlQTlicmljYSUyQ0xvY2FsJTNBJTIwU1A=" data-listing-file-modified-sort="1792102543942" data-listing-reading-time-sort="1" data-listing-word-count-sort="7">
-<a href="./pesquisadores/ellen-oliveira/ellen-oliveira.html" class="quarto-grid-link">
+<div class="g-col-1" data-index="6" data-categories="R3JhdSUzQSUyMERvdXRvcmFkbyUyQyVDMyU4MXJlYSUzQSUyMENhdGVnb3JpYXMlMjBBYmVsaWFuYXMlMkMlQzMlODFyZWElM0ElMjBDb21tYSUyMENhdGVnb3JpZXMlMkMlQzMlODFyZWElM0ElMjBHZW9tZXRyaWElMjBBbGclQzMlQTlicmljYSUyQ0xvY2FsJTNBJTIwU1A=" data-listing-file-modified-sort="1793983662642" data-listing-reading-time-sort="1" data-listing-word-count-sort="7">
+<a href="./pesquisadores/ellen-oliveira/ellen-oliveira.html" class="quarto-grid-link no-external-icon">
 <div class="quarto-grid-item card h-100 card-left">
 <div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
 <div class="card-body post-contents">
@@ -634,7 +637,7 @@ Ellen Peixoto de Oliveira
 <div class="listing-category" onclick="window.quartoListingCategory('TG9jYWwlM0ElMjBTUA=='); return false;">Local: SP</div>
 
 </div>
-<div class="card-text listing-description delink">
+<div class="card-text listing-description">
 Universidade Estadual de Campinas (Unicamp).
 </div>
 <div class="card-attribution card-text-small start">
@@ -645,8 +648,8 @@ Universidade Estadual de Campinas (Unicamp).
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="7" data-categories="R3JhdSUzQSUyMFByb2Zlc3NvciUyMFN1YnN0aXR1dG8lMkMlQzMlODFyZWElM0ElMjBDb21iaW5hdCVDMyVCM3JpYSUyMEluZmluaXRhJTJDTG9jYWwlM0ElMjBQUg==" data-listing-file-modified-sort="1792102543942" data-listing-reading-time-sort="1" data-listing-word-count-sort="43">
-<a href="./pesquisadores/gustavo-boska/gustavo-boska.html" class="quarto-grid-link">
+<div class="g-col-1" data-index="7" data-categories="R3JhdSUzQSUyMFByb2Zlc3NvciUyMFN1YnN0aXR1dG8lMkMlQzMlODFyZWElM0ElMjBDb21iaW5hdCVDMyVCM3JpYSUyMEluZmluaXRhJTJDTG9jYWwlM0ElMjBQUg==" data-listing-file-modified-sort="1793983662642" data-listing-reading-time-sort="1" data-listing-word-count-sort="43">
+<a href="./pesquisadores/gustavo-boska/gustavo-boska.html" class="quarto-grid-link no-external-icon">
 <div class="quarto-grid-item card h-100 card-left">
 <div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
 <div class="card-body post-contents">
@@ -662,7 +665,7 @@ Gustavo Henrique Labegalini Boska
 <div class="listing-category" onclick="window.quartoListingCategory('TG9jYWwlM0ElMjBQUg=='); return false;">Local: PR</div>
 
 </div>
-<div class="card-text listing-description delink">
+<div class="card-text listing-description">
 Use of the functorialization of end-spaces and edge end-spaces to extend results of finite combinatorics into an infinite setting. Study of combinatorial representation of…
 </div>
 <div class="card-attribution card-text-small start">
@@ -673,8 +676,8 @@ Use of the functorialization of end-spaces and edge end-spaces to extend results
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="8" data-categories="R3JhdSUzQSUyMFByb2Zlc3NvciUyMEFzc29jaWFkbyUyQyVDMyU4MXJlYSUzQSUyMEwlQzMlQjNnaWNhJTJDJUMzJTgxcmVhJTNBJTIwJUMzJTgxbGdlYnJhJTJDTG9jYWwlM0ElMjBTJUMzJUEzbyUyMFBhdWxv" data-listing-file-modified-sort="1792102543942" data-listing-reading-time-sort="1" data-listing-word-count-sort="156">
-<a href="./pesquisadores/hugo-mariano/hugo-mariano.html" class="quarto-grid-link">
+<div class="g-col-1" data-index="8" data-categories="R3JhdSUzQSUyMFByb2Zlc3NvciUyMEFzc29jaWFkbyUyQyVDMyU4MXJlYSUzQSUyMEwlQzMlQjNnaWNhJTJDJUMzJTgxcmVhJTNBJTIwJUMzJTgxbGdlYnJhJTJDTG9jYWwlM0ElMjBTJUMzJUEzbyUyMFBhdWxv" data-listing-file-modified-sort="1793983662642" data-listing-reading-time-sort="1" data-listing-word-count-sort="156">
+<a href="./pesquisadores/hugo-mariano/hugo-mariano.html" class="quarto-grid-link no-external-icon">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top"><img loading='lazy' src="pesquisadores/hugo-mariano/sua_imagem.jpg" alt="Foto de Hugo Mariano" style="height: 150px;"  class="thumbnail-image card-img"/></p>
 <div class="card-body post-contents">
@@ -692,7 +695,7 @@ Hugo Luiz Mariano
 <div class="listing-category" onclick="window.quartoListingCategory('TG9jYWwlM0ElMjBTJUMzJUEzbyUyMFBhdWxv'); return false;">Local: São Paulo</div>
 
 </div>
-<div class="card-text listing-description delink">
+<div class="card-text listing-description">
 Tem experiência na área de Matemática, com ênfase em teoria das categorias, lógica matemática, teoria algébrica de formas quadráticas e hermitianas e teoria dos aneis…
 </div>
 <div class="card-attribution card-text-small start">
@@ -703,8 +706,8 @@ Tem experiência na área de Matemática, com ênfase em teoria das categorias, 
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="9" data-categories="R3JhdSUzQSUyMFByb2Zlc3NvciUyQyVDMyU4MXJlYSUzQSUyME0lQzMlQTl0b2RvcyUyMEZvcm1haXMlMkMlQzMlODFyZWElM0ElMjBMaW5ndWFnZW5zJTIwRGlhZ3JhbSVDMyVBMXRpY2FzJTJDJUMzJTgxcmVhJTNBJTIwVGVvcmlhJTIwZGUlMjBDYXRlZ29yaWFzJTIwQXBsaWNhZGElMkMlQzMlODFyZWElM0ElMjAlQzMlODFsZ2VicmElMjBMaW5lYXIlMjBHciVDMyVBMWZpY2ElMkMlQzMlODFyZWElM0ElMjAlQzMlODFsZ2VicmElMjBkYSUyMFByb2dyYW1hJUMzJUE3JUMzJUEzbyUyQyVDMyU4MXJlYSUzQSUyMFN0cmluZyUyMERpYWdyYW1zJTJDJUMzJTgxcmVhJTNBJTIwJUMzJTgxbGdlYnJhJTIwTGluZWFyJTIwQ29tcHV0YWNpb25hbCUyQ0xvY2FsJTNBJTIwUmlvJTIwZGUlMjBKYW5laXJv" data-listing-file-modified-sort="1792102543943" data-listing-reading-time-sort="1" data-listing-word-count-sort="20">
-<a href="./pesquisadores/joao-paixao/joao-paixao.html" class="quarto-grid-link">
+<div class="g-col-1" data-index="9" data-categories="R3JhdSUzQSUyMFByb2Zlc3NvciUyQyVDMyU4MXJlYSUzQSUyME0lQzMlQTl0b2RvcyUyMEZvcm1haXMlMkMlQzMlODFyZWElM0ElMjBMaW5ndWFnZW5zJTIwRGlhZ3JhbSVDMyVBMXRpY2FzJTJDJUMzJTgxcmVhJTNBJTIwVGVvcmlhJTIwZGUlMjBDYXRlZ29yaWFzJTIwQXBsaWNhZGElMkMlQzMlODFyZWElM0ElMjAlQzMlODFsZ2VicmElMjBMaW5lYXIlMjBHciVDMyVBMWZpY2ElMkMlQzMlODFyZWElM0ElMjAlQzMlODFsZ2VicmElMjBkYSUyMFByb2dyYW1hJUMzJUE3JUMzJUEzbyUyQyVDMyU4MXJlYSUzQSUyMFN0cmluZyUyMERpYWdyYW1zJTJDJUMzJTgxcmVhJTNBJTIwJUMzJTgxbGdlYnJhJTIwTGluZWFyJTIwQ29tcHV0YWNpb25hbCUyQ0xvY2FsJTNBJTIwUmlvJTIwZGUlMjBKYW5laXJv" data-listing-file-modified-sort="1793983662643" data-listing-reading-time-sort="1" data-listing-word-count-sort="20">
+<a href="./pesquisadores/joao-paixao/joao-paixao.html" class="quarto-grid-link no-external-icon">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top"><img loading='lazy' src="pesquisadores/joao-paixao/foto-joao-paixao.jpg" alt="Foto do pesquisador(a)" style="height: 150px;"  class="thumbnail-image card-img"/></p>
 <div class="card-body post-contents">
@@ -732,7 +735,7 @@ João Antonio Recio da Paixão
 <div class="listing-category" onclick="window.quartoListingCategory('TG9jYWwlM0ElMjBSaW8lMjBkZSUyMEphbmVpcm8='); return false;">Local: Rio de Janeiro</div>
 
 </div>
-<div class="card-text listing-description delink">
+<div class="card-text listing-description">
 Instituto de Computação (IC) da Universidade Federal do Rio de Janeiro (UFRJ).
 </div>
 <div class="card-attribution card-text-small start">
@@ -743,8 +746,8 @@ Instituto de Computação (IC) da Universidade Federal do Rio de Janeiro (UFRJ).
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="10" data-categories="R3JhdSUzQSUyMFAlQzMlQjNzLURvYyUyQyVDMyU4MXJlYSUzQSUyMEwlQzMlQjNnaWNhJTIwQ2F0ZWdvcmlhbCUyQyVDMyU4MXJlYSUzQSUyMEwlQzMlQjNnaWNhJTIwQWxnJUMzJUE5YnJpY2ElMkMlQzMlODFyZWElM0ElMjBIeXBlciUyMCVDMyU4MWxnZWJyYXMlMkNMb2NhbCUzQSUyMFNQ" data-listing-file-modified-sort="1792102543943" data-listing-reading-time-sort="1" data-listing-word-count-sort="63">
-<a href="./pesquisadores/kaique-roberto/kaique-roberto.html" class="quarto-grid-link">
+<div class="g-col-1" data-index="10" data-categories="R3JhdSUzQSUyMFAlQzMlQjNzLURvYyUyQyVDMyU4MXJlYSUzQSUyMEwlQzMlQjNnaWNhJTIwQ2F0ZWdvcmlhbCUyQyVDMyU4MXJlYSUzQSUyMEwlQzMlQjNnaWNhJTIwQWxnJUMzJUE5YnJpY2ElMkMlQzMlODFyZWElM0ElMjBIeXBlciUyMCVDMyU4MWxnZWJyYXMlMkNMb2NhbCUzQSUyMFNQ" data-listing-file-modified-sort="1793983662643" data-listing-reading-time-sort="1" data-listing-word-count-sort="63">
+<a href="./pesquisadores/kaique-roberto/kaique-roberto.html" class="quarto-grid-link no-external-icon">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top"><img loading='lazy' src="pesquisadores/kaique-roberto/kaique-roberto.jpg" alt="Retrato de Kaique Roberto sorrindo com as mãos nos bolsos" style="height: 150px;"  class="thumbnail-image card-img"/></p>
 <div class="card-body post-contents">
@@ -764,7 +767,7 @@ Kaique Matias de Andrade Roberto
 <div class="listing-category" onclick="window.quartoListingCategory('TG9jYWwlM0ElMjBTUA=='); return false;">Local: SP</div>
 
 </div>
-<div class="card-text listing-description delink">
+<div class="card-text listing-description">
 Centro de Lógica, Epistemologia e História da Ciência (CLE) - Universidade Estadual de Campinas (Unicamp)
 </div>
 <div class="card-attribution card-text-small start">
@@ -775,8 +778,8 @@ Centro de Lógica, Epistemologia e História da Ciência (CLE) - Universidade Es
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="11" data-categories="R3JhdSUzQSUyMFByb2Zlc3NvciUyQyVDMyU4MXJlYSUzQSUyMEdlb21ldHJpYSUyMEFsZyVDMyVBOWJyaWNhJTJDTG9jYWwlM0ElMjBTUA==" data-listing-file-modified-sort="1792102543943" data-listing-reading-time-sort="1" data-listing-word-count-sort="58">
-<a href="./pesquisadores/marcos-jardim/marcos-jardim.html" class="quarto-grid-link">
+<div class="g-col-1" data-index="11" data-categories="R3JhdSUzQSUyMFByb2Zlc3NvciUyQyVDMyU4MXJlYSUzQSUyMEdlb21ldHJpYSUyMEFsZyVDMyVBOWJyaWNhJTJDTG9jYWwlM0ElMjBTUA==" data-listing-file-modified-sort="1793983662643" data-listing-reading-time-sort="1" data-listing-word-count-sort="58">
+<a href="./pesquisadores/marcos-jardim/marcos-jardim.html" class="quarto-grid-link no-external-icon">
 <div class="quarto-grid-item card h-100 card-left">
 <div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
 <div class="card-body post-contents">
@@ -792,7 +795,7 @@ Marcos Jardim
 <div class="listing-category" onclick="window.quartoListingCategory('TG9jYWwlM0ElMjBTUA=='); return false;">Local: SP</div>
 
 </div>
-<div class="card-text listing-description delink">
+<div class="card-text listing-description">
 A minha área principal de pesquisa é a Geometria Algébrica, e nesse contexto eu trabalho com categorias abelianas e trianguladas, especialmente a categoria de feixes…
 </div>
 <div class="card-attribution card-text-small start">
@@ -803,8 +806,8 @@ A minha área principal de pesquisa é a Geometria Algébrica, e nesse contexto 
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="12" data-categories="R3JhdSUzQSUyMERvdXRvcmFkbyUyQyVDMyU4MXJlYSUzQSUyMENhdGVnb3JpYXMlMjBUYW5uYWtpYW5hcyUyQyVDMyU4MXJlYSUzQSUyMEdlb21ldHJpYSUyMEFsZyVDMyVBOWJyaWNhJTJDJUMzJTgxcmVhJTNBJTIwVG9wb2xvZ2lhJTIwQWxnJUMzJUE5YnJpY2ElMkNMb2NhbCUzQSUyMFNQ" data-listing-file-modified-sort="1792102543949" data-listing-reading-time-sort="1" data-listing-word-count-sort="23">
-<a href="./pesquisadores/nelson-serrano/nelson-serrano.html" class="quarto-grid-link">
+<div class="g-col-1" data-index="12" data-categories="R3JhdSUzQSUyMERvdXRvcmFkbyUyQyVDMyU4MXJlYSUzQSUyMENhdGVnb3JpYXMlMjBUYW5uYWtpYW5hcyUyQyVDMyU4MXJlYSUzQSUyMEdlb21ldHJpYSUyMEFsZyVDMyVBOWJyaWNhJTJDJUMzJTgxcmVhJTNBJTIwVG9wb2xvZ2lhJTIwQWxnJUMzJUE5YnJpY2ElMkNMb2NhbCUzQSUyMFNQ" data-listing-file-modified-sort="1793983662646" data-listing-reading-time-sort="1" data-listing-word-count-sort="23">
+<a href="./pesquisadores/nelson-serrano/nelson-serrano.html" class="quarto-grid-link no-external-icon">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top"><img loading='lazy' src="pesquisadores/nelson-serrano/nelson-serrano.jpg" alt="Foto de Nelson Serrano" style="height: 150px;"  class="thumbnail-image card-img"/></p>
 <div class="card-body post-contents">
@@ -824,7 +827,7 @@ Nelson Prata Pravato Serrano
 <div class="listing-category" onclick="window.quartoListingCategory('TG9jYWwlM0ElMjBTUA=='); return false;">Local: SP</div>
 
 </div>
-<div class="card-text listing-description delink">
+<div class="card-text listing-description">
 Atualmente eu estudo categorias Tannakianas, com foco na categoria de fibrados unipotentes sobre k-esquemas.
 </div>
 <div class="card-attribution card-text-small start">
@@ -835,8 +838,8 @@ Atualmente eu estudo categorias Tannakianas, com foco na categoria de fibrados u
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="13" data-categories="R3JhdSUzQSUyMEluaWNpYSVDMyVBNyVDMyVBM28lMjBDaWVudCVDMyVBRGZpY2ElMkMlQzMlODFyZWElM0ElMjBDb21wbGV4aWRhZGUlMjBDb21wdXRhY2lvbmFsJTJDJUMzJTgxcmVhJTNBJTIwQWxnb3JpdG1vcyUyMGVtJTIwR3JhZm9zJTJDTG9jYWwlM0ElMjBTJUMzJUEzbyUyMFBhdWxv" data-listing-file-modified-sort="1792102543950" data-listing-reading-time-sort="1" data-listing-word-count-sort="67">
-<a href="./pesquisadores/paulo-dias/paulo-dias.html" class="quarto-grid-link">
+<div class="g-col-1" data-index="13" data-categories="R3JhdSUzQSUyMEluaWNpYSVDMyVBNyVDMyVBM28lMjBDaWVudCVDMyVBRGZpY2ElMkMlQzMlODFyZWElM0ElMjBDb21wbGV4aWRhZGUlMjBDb21wdXRhY2lvbmFsJTJDJUMzJTgxcmVhJTNBJTIwQWxnb3JpdG1vcyUyMGVtJTIwR3JhZm9zJTJDTG9jYWwlM0ElMjBTJUMzJUEzbyUyMFBhdWxv" data-listing-file-modified-sort="1793983662648" data-listing-reading-time-sort="1" data-listing-word-count-sort="67">
+<a href="./pesquisadores/paulo-dias/paulo-dias.html" class="quarto-grid-link no-external-icon">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top"><img loading='lazy' src="pesquisadores/paulo-dias/paulo-dias.jpg" alt="Foto de Paulo Dias" style="height: 150px;"  class="thumbnail-image card-img"/></p>
 <div class="card-body post-contents">
@@ -854,7 +857,7 @@ Paulo Dias
 <div class="listing-category" onclick="window.quartoListingCategory('TG9jYWwlM0ElMjBTJUMzJUEzbyUyMFBhdWxv'); return false;">Local: São Paulo</div>
 
 </div>
-<div class="card-text listing-description delink">
+<div class="card-text listing-description">
 Sou um estudante de graduação e faço iniciação científica em teoria das categorias aplicada.
 </div>
 <div class="card-attribution card-text-small start">
@@ -865,8 +868,8 @@ Sou um estudante de graduação e faço iniciação científica em teoria das ca
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="14" data-categories="R3JhdSUzQSUyMFByb2Zlc3NvciUyMEF1eGlsaWFyJTJDJUMzJTgxcmVhJTNBJTIwRnVuZGFtZW50b3MlMjBkYSUyMFRlb3JpYSUyMFF1JUMzJUEybnRpY2ElMkMlQzMlODFyZWElM0ElMjBUZW9yaWElMjBkYXMlMjBDYXRlZ29yaWFzJTIwQXBsaWNhZGElMkNMb2NhbCUzQSUyMFBhcmFuJUMzJUEx" data-listing-file-modified-sort="1792102543950" data-listing-reading-time-sort="1" data-listing-word-count-sort="16">
-<a href="./pesquisadores/sidiney-montanhano/sidiney-montanhano.html" class="quarto-grid-link">
+<div class="g-col-1" data-index="14" data-categories="R3JhdSUzQSUyMFByb2Zlc3NvciUyMEF1eGlsaWFyJTJDJUMzJTgxcmVhJTNBJTIwRnVuZGFtZW50b3MlMjBkYSUyMFRlb3JpYSUyMFF1JUMzJUEybnRpY2ElMkMlQzMlODFyZWElM0ElMjBUZW9yaWElMjBkYXMlMjBDYXRlZ29yaWFzJTIwQXBsaWNhZGElMkNMb2NhbCUzQSUyMFBhcmFuJUMzJUEx" data-listing-file-modified-sort="1793983662648" data-listing-reading-time-sort="1" data-listing-word-count-sort="16">
+<a href="./pesquisadores/sidiney-montanhano/sidiney-montanhano.html" class="quarto-grid-link no-external-icon">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top"><img loading='lazy' src="pesquisadores/sidiney-montanhano/foto-sidiney-montanhano.jpg" alt="Foto de Sidiney Bruno Montanhano" style="height: 150px;"  class="thumbnail-image card-img"/></p>
 <div class="card-body post-contents">
@@ -884,7 +887,7 @@ Sidiney Bruno Montanhano
 <div class="listing-category" onclick="window.quartoListingCategory('TG9jYWwlM0ElMjBQYXJhbiVDMyVBMQ=='); return false;">Local: Paraná</div>
 
 </div>
-<div class="card-text listing-description delink">
+<div class="card-text listing-description">
 Quantum Industrial Innovation (QuIIN), SENAI CIMATEC
 </div>
 <div class="card-attribution card-text-small start">
@@ -895,8 +898,8 @@ Quantum Industrial Innovation (QuIIN), SENAI CIMATEC
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="15" data-categories="R3JhdSUzQSUyMFBlc3F1aXNhZG9yYSUyQ0dyYXUlM0ElMjBQcm9mZXNzb3JhJTJDJUMzJTgxcmVhJTNBJTIwRGlhbGVjdGljYSUyMGNhdGVnb3JpZXMlMkMlQzMlODFyZWElM0ElMjBTZW0lQzMlQTJudGljYSUyMGNhdGVnJUMzJUIzcmljYSUyQyVDMyU4MXJlYSUzQSUyMFJlcHJlc2VudGElQzMlQTclQzMlQTNvJTIwZGUlMjBjb25oZWNpbWVudG8lMkNMb2NhbCUzQSUyMEVVQQ==" data-listing-file-modified-sort="1792102543950" data-listing-reading-time-sort="1" data-listing-word-count-sort="196">
-<a href="./pesquisadores/valeria-depaiva/valeria-depaiva.html" class="quarto-grid-link">
+<div class="g-col-1" data-index="15" data-categories="R3JhdSUzQSUyMFBlc3F1aXNhZG9yYSUyQ0dyYXUlM0ElMjBQcm9mZXNzb3JhJTJDJUMzJTgxcmVhJTNBJTIwRGlhbGVjdGljYSUyMGNhdGVnb3JpZXMlMkMlQzMlODFyZWElM0ElMjBTZW0lQzMlQTJudGljYSUyMGNhdGVnJUMzJUIzcmljYSUyQyVDMyU4MXJlYSUzQSUyMFJlcHJlc2VudGElQzMlQTclQzMlQTNvJTIwZGUlMjBjb25oZWNpbWVudG8lMkNMb2NhbCUzQSUyMEVVQQ==" data-listing-file-modified-sort="1793983662648" data-listing-reading-time-sort="1" data-listing-word-count-sort="196">
+<a href="./pesquisadores/valeria-depaiva/valeria-depaiva.html" class="quarto-grid-link no-external-icon">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top"><img loading='lazy' src="pesquisadores/valeria-depaiva/valeria-depaiva.jpg" alt="Retrato de Valeria de Paiva sorrindo e segurando um copo de café" style="height: 150px;"  class="thumbnail-image card-img"/></p>
 <div class="card-body post-contents">
@@ -918,7 +921,7 @@ Valeria de Paiva
 <div class="listing-category" onclick="window.quartoListingCategory('TG9jYWwlM0ElMjBFVUE='); return false;">Local: EUA</div>
 
 </div>
-<div class="card-text listing-description delink">
+<div class="card-text listing-description">
 Matemática que atua na interseção entre teoria das categorias, lógica e linguagem natural. Construo pontes entre a matemática abstrata e sistemas do mundo real…
 </div>
 <div class="card-attribution card-text-small start">
@@ -936,15 +939,50 @@ Matemática que atua na interseção entre teoria das categorias, lógica e ling
   window.document.addEventListener("DOMContentLoaded", function (event) {
     // Ensure there is a toggle, if there isn't float one in the top right
     if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
-      const a = window.document.createElement('a');
-      a.classList.add('top-right');
-      a.classList.add('quarto-color-scheme-toggle');
-      a.href = "";
-      a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+      const toggle = window.document.createElement('button');
+      toggle.type = "button";
+      toggle.setAttribute("role", "switch");
+      toggle.setAttribute("aria-checked", "false");
+      toggle.classList.add('top-right');
+      toggle.classList.add('quarto-color-scheme-toggle');
+      toggle.setAttribute("aria-label", "Alternar modo escuro");
+      toggle.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
       const i = window.document.createElement("i");
       i.classList.add('bi');
-      a.appendChild(i);
-      window.document.body.appendChild(a);
+      toggle.appendChild(i);
+      // Put the toggle in a landmark of its own, so that landmark navigation
+      // can reach it.
+      //
+      // The container is always a fresh direct child of body, and the toggle is
+      // never moved into page furniture that the theme or the author controls.
+      // The toggle is positioned against the page, so any ancestor that
+      // establishes a containing block captures it: a positioned element or a
+      // grid for position: absolute, and transform, filter, will-change or
+      // contain for position: fixed. A direct child of body has none of these
+      // to inherit, and the shift when one appears is silent and visual.
+      //
+      // ARIA says a document should have at most one banner, and axe reports a
+      // duplicate whether or not the banners carry distinct labels. So use a
+      // header when the page has no banner yet, and a named region otherwise.
+      //
+      // A header is a banner wherever it sits, unless it is inside sectioning
+      // content, so this cannot just look at the children of body: a custom
+      // page layout wraps the title block header in a plain div. An explicit
+      // role="banner" always counts.
+      const sectioning = 'article, aside, main, nav, section, [role="article"], [role="complementary"], [role="main"], [role="navigation"], [role="region"]';
+      const hasBanner = Array.from(
+        window.document.querySelectorAll('header:not([role]), [role="banner"]')
+      ).some(function(el) {
+        return el.hasAttribute("role") || el.closest(sectioning) === null;
+      });
+      const container = window.document.createElement(hasBanner ? "div" : "header");
+      if (hasBanner) {
+        container.setAttribute("role", "region");
+        container.setAttribute("aria-label", "Alternar modo escuro");
+      }
+      container.classList.add('quarto-color-scheme-toggle-container');
+      container.appendChild(toggle);
+      window.document.body.appendChild(container);
     }
     setColorSchemeToggle(hasAlternateSentinel())
     const icon = "";
@@ -1023,7 +1061,8 @@ Matemática que atua na interseção entre teoria das categorias, lógica e ling
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }
       // Inspect non-navigation links and adorn them if external
-     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      window.quartoDecorateExternalLinks = function (root) {
+     var links = (root || window.document).querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
       for (var i=0; i<links.length; i++) {
         const link = links[i];
         if (!isInternal(link.href)) {
@@ -1032,8 +1071,69 @@ Matemática que atua na interseção entre teoria das categorias, lógica e ling
           if (link.dataset.originalHref !== undefined) {
             link.href = link.dataset.originalHref;
           }
+          if (!link.classList.contains('no-external-icon')) {
+          }
         }
       }
+      };
+      window.quartoDecorateExternalLinks(window.document);
+    // Esc closes the popup (WCAG 1.4.13) and focus leaving both trigger and
+    // popup closes it (WCAG 2.4.11); tippy handles neither for interactive popups.
+    const hideOnEscAndFocusOut = {
+      name: 'hideOnEscAndFocusOut',
+      defaultValue: true,
+      fn(instance) {
+        const dismiss = () => {
+          // A show scheduled by the trigger delay would otherwise reopen it
+          instance.clearDelayTimeouts();
+          instance.hide();
+        };
+        const onKeyDown = (event) => {
+          if (event.key !== 'Escape') {
+            return;
+          }
+          // Keep Esc from also reaching page handlers (e.g. reveal.js overview),
+          // except an open reveal.js slide menu, which Esc should close too.
+          // The menu handles keys only when its keyboard option is on.
+          const menuHandlesEsc = window.Reveal?.getPlugin?.('menu')?.isOpen() &&
+            window.Reveal.getConfig().menu?.keyboard !== false;
+          if (!menuHandlesEsc) {
+            event.stopPropagation();
+          }
+          if (instance.popper.contains(window.document.activeElement)) {
+            // Disabled while refocusing so the focus trigger does not reopen it
+            instance.disable();
+            instance.reference.focus();
+            instance.enable();
+          }
+          dismiss();
+        };
+        const onFocusOut = (event) => {
+          const target = event.relatedTarget;
+          if (target && !instance.reference.contains(target) &&
+              !instance.popper.contains(target)) {
+            dismiss();
+          }
+        };
+        // On the trigger too: a click trigger (code-annotations: select) has no
+        // blur handling. Attached for the instance's lifetime so leaving the
+        // trigger also cancels a show still pending on the trigger delay.
+        instance.reference.addEventListener('focusout', onFocusOut);
+        return {
+          onShow() {
+            window.document.addEventListener('keydown', onKeyDown, true);
+            instance.popper.addEventListener('focusout', onFocusOut);
+          },
+          onHide() {
+            window.document.removeEventListener('keydown', onKeyDown, true);
+            instance.popper.removeEventListener('focusout', onFocusOut);
+          },
+          onDestroy() {
+            instance.reference.removeEventListener('focusout', onFocusOut);
+          },
+        };
+      },
+    };
     function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
       const config = {
         allowHTML: true,
@@ -1047,6 +1147,7 @@ Matemática que atua na interseção entre teoria das categorias, lógica e ling
         interactiveBorder: 10,
         theme: 'quarto',
         placement: 'bottom-start',
+        plugins: [hideOnEscAndFocusOut],
       };
       if (contentFn) {
         config.content = contentFn;
@@ -1209,44 +1310,54 @@ Matemática que atua na interseção entre teoria das categorias, lógica e ling
           const lineIds = lines.map((line) => {
             return targetCell + "-" + line;
           })
-          let top = null;
-          let height = null;
-          let parent = null;
+          // Each band is positioned against its own containing block, which is
+          // not the offsetParent of the lines, so place it from client rects.
+          const placeBand = (band, firstEl, lastEl, codeBlock) => {
+            const container = band.offsetParent;
+            if (container === null) {
+              return;
+            }
+            const containerRect = container.getBoundingClientRect();
+            // Reveal.js scales slides with a transform, so convert client
+            // pixels back to the CSS pixels of the container.
+            const scale = containerRect.height / container.offsetHeight || 1;
+            const firstRect = firstEl.getBoundingClientRect();
+            const lastRect = lastEl.getBoundingClientRect();
+            const top = (firstRect.top - containerRect.top) / scale - container.clientTop + container.scrollTop;
+            const height = (lastRect.bottom - firstRect.top) / scale;
+            band.style.top = top - 2 + "px";
+            band.style.height = height + 4 + "px";
+            if (codeBlock) {
+              // Without the copy button wrapper, the containing block is wider
+              // than the code block, so span the code block explicitly.
+              const blockRect = codeBlock.getBoundingClientRect();
+              band.style.left = (blockRect.left - containerRect.left) / scale - container.clientLeft + container.scrollLeft + "px";
+              band.style.width = blockRect.width / scale + "px";
+            }
+          };
           if (lineIds.length > 0) {
-              //compute the position of the single el (top and bottom and make a div)
-              const el = window.document.getElementById(lineIds[0]);
-              top = el.offsetTop;
-              height = el.offsetHeight;
-              parent = el.parentElement.parentElement;
-            if (lineIds.length > 1) {
-              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
-              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
-              height = bottom - top;
+            const el = window.document.getElementById(lineIds[0]);
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const parent = el.parentElement.parentElement;
+            // cook up a div (if necessary) and position it
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
             }
-            if (top !== null && height !== null && parent !== null) {
-              // cook up a div (if necessary) and position it 
-              let div = window.document.getElementById("code-annotation-line-highlight");
-              if (div === null) {
-                div = window.document.createElement("div");
-                div.setAttribute("id", "code-annotation-line-highlight");
-                div.style.position = 'absolute';
-                parent.appendChild(div);
-              }
-              div.style.top = top - 2 + "px";
-              div.style.height = height + 4 + "px";
-              div.style.left = 0;
-              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
-              if (gutterDiv === null) {
-                gutterDiv = window.document.createElement("div");
-                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
-                gutterDiv.style.position = 'absolute';
-                const codeCell = window.document.getElementById(targetCell);
-                const gutter = codeCell.querySelector('.code-annotation-gutter');
-                gutter.appendChild(gutterDiv);
-              }
-              gutterDiv.style.top = top - 2 + "px";
-              gutterDiv.style.height = height + 4 + "px";
+            placeBand(div, el, lastEl, parent.closest("div.sourceCode") || parent);
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
             }
+            placeBand(gutterDiv, el, lastEl);
             selectedAnnoteEl = annoteEl;
           }
         };
@@ -1344,6 +1455,9 @@ Matemática que atua na interseção entre teoria das categorias, lógica e ling
       }
     }
   });
+  </script>
+  <script type="application/javascript">
+  window.quartoScrollableRegionsLabels = {"code":"Código deslocável","output":"Saída deslocável"};
   </script>
 </div> <!-- /content -->
 <footer class="footer">

@@ -1,41 +1,5 @@
 [
   {
-    "listing": "/participe.html",
-    "items": [
-      "/participe/como-contribuir.html",
-      "/participe/como-catalogar.html"
-    ]
-  },
-  {
-    "listing": "/laboratorios.html",
-    "items": [
-      "/laboratorios/cuica/cuica.html",
-      "/laboratorios/higher-differential-geometry/higher-differential-geometry.html"
-    ]
-  },
-  {
-    "listing": "/acervo.html",
-    "items": []
-  },
-  {
-    "listing": "/index.html",
-    "items": [
-      "/acervo.html",
-      "/eventos.html",
-      "/laboratorios.html",
-      "/pesquisadores.html",
-      "/participe/como-contribuir.html",
-      "/participe/como-catalogar.html",
-      "/blog/intuicao-de-yoneda/index.html"
-    ]
-  },
-  {
-    "listing": "/blog.html",
-    "items": [
-      "/blog/intuicao-de-yoneda/index.html"
-    ]
-  },
-  {
     "listing": "/pesquisadores.html",
     "items": [
       "/pesquisadores/ana-tenorio/ana-tenorio.html",
@@ -57,10 +21,46 @@
     ]
   },
   {
+    "listing": "/laboratorios.html",
+    "items": [
+      "/laboratorios/cuica/cuica.html",
+      "/laboratorios/higher-differential-geometry/higher-differential-geometry.html"
+    ]
+  },
+  {
+    "listing": "/acervo.html",
+    "items": []
+  },
+  {
+    "listing": "/blog.html",
+    "items": [
+      "/blog/intuicao-de-yoneda/index.html"
+    ]
+  },
+  {
+    "listing": "/participe.html",
+    "items": [
+      "/participe/como-contribuir.html",
+      "/participe/como-catalogar.html"
+    ]
+  },
+  {
     "listing": "/eventos.html",
     "items": [
       "/eventos/coend-reading-group.html",
       "/eventos/ebct3.html"
+    ]
+  },
+  {
+    "listing": "/index.html",
+    "items": [
+      "/acervo.html",
+      "/eventos.html",
+      "/laboratorios.html",
+      "/pesquisadores.html",
+      "/participe/como-contribuir.html",
+      "/participe/como-catalogar.html",
+      "/blog/intuicao-de-yoneda/index.html"
     ]
   }
 ]
