@@ -32,7 +32,8 @@ brasileiras e estrangeiras.
 
 ### 09/11/2026 --- Híbrido {#wilmer-leal--2026-11-09}
 
-- **Palestrante**: [Wilmer Leal](https://wilmerleal.me/) (Universidade da Flórida)
+- **Palestrante**: [Wilmer Leal](https://wilmerleal.me/) (Universidade da
+  Flórida)
 
 - **Horário**: 16h (horário de Brasília)
 
@@ -41,9 +42,36 @@ brasileiras e estrangeiras.
 - **Acesso online**: Para ter acesso ao link da palestra, envie um e-mail para
   [Anny Beatriz Azevedo](pesquisadores/anny-azevedo/anny-azevedo.qmd)
 
-- **Título**: TBA
+- **Título**: Um convite a narrativas: modelos feixe-teóricos de sistemas
+  variantes no tempo
 
-- **Resumo**: TBA
+- **Resumo**: Muitos dos sistemas que procuramos entender, desde base de dados
+  evolutivas e redes dinâmicas até sistemas anônimos com multi agentes, são
+  inerentemente temporais. Ainda assim, as ferramentas matemáticas usadas para
+  estudar fenômenos temporais são por vezes desenvolvidas em isolamento com
+  disciplinas particulares, tornando difícil identificar princípios
+  compartilhados e transferir insights de um domínio para outro. Nessa palestra,
+  vou introduzir narrativas, um framework feixe-teórico para modelar objetos
+  variantes no tempo de tipos matemáticos arbitrários. Narrativas fornecem uma
+  linguagem unificada para organizar dados temporais, comparando diferentes
+  representações de sistemas evolutivos, e estudando como informações mudam ao
+  longo do tempo.
+
+  A palestra será guiada por três motivações. Primeiro, quais informações são
+  preservadas ou perdidas quando passamos de uma representação de dados
+  temporais para outra? Segundo, como objetos variantes no tempo podem ser
+  decompostos em componentes mais simples, e quais invariantes capturam sua
+  complexidade estrutural? Terceiro, como tais construções abstratas podem ser
+  usadas na prática, por exemplo, para modelar sistemas com multi agentes cuja
+  rede de comunicação muda ao longo do tempo? Através desses exemplos, veremos
+  como métodos feixe-teóricos e categoriais oferecem uma perspectiva unificada
+  para problemas que surgem na matemática, em ciências de dados e em teoria de
+  controle.
+
+  Essa palestra é baseada no artigo ["Time-Varying Data as Sheaves: an
+  Invitation to Narratives"](https://arxiv.org/abs/2609.09056) de Wilmer Leal,
+  Benjamin Merlin Bumpus, Jana K. Nickel, Johan García, James Fairbanks e Warren
+  Dixon.
 
 - **Observação**: A palestra será ministrada em inglês e faz parte das reuniões
   do [(Co)end Reading Group](eventos/coend-reading-group.qmd).
